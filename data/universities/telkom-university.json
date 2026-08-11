@@ -5,5 +5,30 @@
   "city": "Kabupaten Bandung",
   "province": "Jawa Barat",
   "website": "https://telkomuniversity.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Adi Bayu Mahadian, Ph.D.",
+      "department": "Program Studi S1 Ilmu Komunikasi",
+      "title": "Dosen",
+      "research_area": "Communication & Technology, Internet Memes, Political Humor, Political Communication",
+      "email": "adibayumahadian@telkomuniversity.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?hl=id&user=E6XPAXEAAAAJ",
+      "website": "https://bcomms.telkomuniversity.ac.id/adi-bayu-mahadian-ph-d/",
+      "notes": "Email confirmed on official program profile page bcomms.telkomuniversity.ac.id/adi-bayu-mahadian-ph-d/. NIDN 426038203, SINTA ID 28440."
+    },
+    {
+      "name": "Alila Pramiyanti",
+      "department": "Program Studi S1 Ilmu Komunikasi",
+      "title": "Dosen",
+      "research_area": "Gender-Based Violence and Feminist Media Studies",
+      "email": "alilapramiyanti@telkomuniversity.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://bcomms.telkomuniversity.ac.id/dosen-dan-staf/",
+      "notes": "Email confirmed on official program directory bcomms.telkomuniversity.ac.id/dosen-dan-staf/. NIDN 425078002, SINTA ID 6668158."
+    }
+  ]
 }

@@ -5,5 +5,42 @@
   "city": "Yogyakarta",
   "province": "DI Yogyakarta",
   "website": "https://www.uad.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Prof. Drs. Ir. Abdul Fadlil, M.T., Ph.D.",
+      "department": "Program Studi Teknik Elektro / Magister Teknik Informatika",
+      "title": "Guru Besar",
+      "research_area": "Elektronika & Instrumentasi, Pattern Recognition, Soft Computing",
+      "email": "abdul.fadlil@uad.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?user=mti.uad.ac.id",
+      "website": "https://mti.uad.ac.id/staff-pengajar/",
+      "notes": "Email verified via https://mti.uad.ac.id/staff-pengajar/ and https://s3difa.uad.ac.id (also listed as fadlil@ee.uad.ac.id / fadlil@mti.uad.ac.id on other UAD pages and a Wiley journal author bio)."
+    },
+    {
+      "name": "Prof. Sugiyarto, S.Si., M.Si., Ph.D.",
+      "department": "Program Studi Matematika, Fakultas Sains dan Teknologi Terapan",
+      "title": "Guru Besar",
+      "research_area": "Optimasi dan Kontrol, Teori Antrian, Matematika Fuzzy, Machine Learning",
+      "email": "sugiyarto@math.uad.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://math.uad.ac.id/dosen/",
+      "notes": "Email verified via https://math.uad.ac.id/dosen/ (Google-cached snippet: 'Email : sugiyarto[at]math.uad.ac.id')."
+    },
+    {
+      "name": "Prof. Dr. Suyadi, M.Pd.I.",
+      "department": "Magister Pendidikan Agama Islam",
+      "title": "Guru Besar",
+      "research_area": "Kependidikan Islam",
+      "email": "suyadi@fai.uad.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://mpai.uad.ac.id/staff-pengajar/",
+      "notes": "Email verified via https://mpai.uad.ac.id/staff-pengajar/ (Google-cached snippet: 'Email : suyadi[at]fai.uad.ac.id')."
+    }
+  ]
 }

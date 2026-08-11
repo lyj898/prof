@@ -5,5 +5,54 @@
   "city": "Serang",
   "province": "Banten",
   "website": "https://binabangsa.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Prof. Dr. Ir. H. Furtasan Ali Yusuf, S.E., S.Kom., M.M.",
+      "department": "Fakultas Ekonomi dan Bisnis / Rektorat",
+      "title": "Guru Besar",
+      "research_area": "Ilmu Manajemen",
+      "email": "fay@binabangsa.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://binabangsa.ac.id",
+      "notes": "Rektor Universitas Bina Bangsa, dikukuhkan sebagai Guru Besar/Profesor Ilmu Manajemen (biem.co, 14 Oct 2023; Wikipedia ID). Email verified as corresponding author in Jurnal Obsesi article 'Pengaruh Kepemimpinan Visioner dan Manajemen...' (fay@binabangsa.ac.id)."
+    },
+    {
+      "name": "Drs. Gatot Hartoko, M.Si.",
+      "department": "Fakultas Ilmu Sosial dan Ilmu Politik (FISIP)",
+      "title": "Dekan",
+      "research_area": "Ilmu Sosial dan Politik",
+      "email": "gatot.hartoko@binabangsa.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://binabangsa.ac.id",
+      "notes": "Plt. Dekan FISIP UNIBA and later Wakil Rektor II Bidang Keuangan (unibadaily.id, 17 Nov 2025). Email verified as corresponding author in ResearchGate article 'Pengembangan Wisata Religi Petilasan Nyai Mas...' (gatot.hartoko@binabangsa.ac.id)."
+    },
+    {
+      "name": "Ratu Yustika Rini, M.Pd.",
+      "department": "Program Studi Pendidikan Guru Pendidikan Anak Usia Dini (PG PAUD), FKIP",
+      "title": "Ketua Jurusan/Prodi",
+      "research_area": "Pendidikan Anak Usia Dini",
+      "email": "ratu.yustika.rini@binabangsa.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://binabangsa.ac.id",
+      "notes": "Listed as Ketua Program Studi PG PAUD (Scribd thesis acknowledgements). Email verified as corresponding author in ResearchGate 'Implementasi STEAM dalam Mengkonstruksi Kesetaraan...' article (ratu.yustika.rini@binabangsa.ac.id)."
+    },
+    {
+      "name": "Eli Apud Saepudin, S.IP., M.A.P.",
+      "department": "Program Studi Administrasi Publik",
+      "title": "Ketua Jurusan/Prodi",
+      "research_area": "Administrasi Publik, Ekonomi Politik",
+      "email": "eli.apud.saepudin@binabangsa.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://binabangsa.ac.id",
+      "notes": "Kepala Program Studi Administrasi Publik UNIBA (unibadaily.id). Email verified via ResearchGate article 'Sosialisasi Peduli Lingkungan: Dari Desa Tanam, Rawat...' corresponding author line (eli.apud.saepudin@binabangsa.ac.id)."
+    }
+  ]
 }

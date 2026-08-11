@@ -5,5 +5,66 @@
   "city": "Surabaya",
   "province": "Jawa Timur",
   "website": "https://uinsa.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Prof. Dr. H. Abd A'la, M.Ag.",
+      "department": "Fakultas Adab dan Humaniora",
+      "title": "Guru Besar",
+      "research_area": "Sejarah Pemikiran Islam",
+      "email": "abdalabs@uinsa.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://lecturer.uinsa.ac.id/index.php/example/detaildosen/1",
+      "notes": "Email verified from official UINSA lecturer profile page (lecturer.uinsa.ac.id). Also appears on the guru besar directory at https://lecturer.uinsa.ac.id/index.php/example/gurubesar"
+    },
+    {
+      "name": "Prof. Dr. H. M. Ridlwan Nasir, M.A.",
+      "department": "Fakultas Syariah dan Hukum",
+      "title": "Guru Besar",
+      "research_area": "Agama",
+      "email": "m.ridlwannasir@gmail.com",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://lecturer.uinsa.ac.id/index.php/example/detaildosen/20",
+      "notes": "Email verified from official UINSA lecturer profile page (lecturer.uinsa.ac.id); listed email is a personal Gmail address rather than institutional domain."
+    },
+    {
+      "name": "Prof. Dr. Achmad Muhibin Zuhri, M.Ag.",
+      "department": "Fakultas Tarbiyah dan Ilmu Keguruan",
+      "title": "Guru Besar",
+      "research_area": "Pemikiran Teologi Islam, Pendidikan Akidah",
+      "email": "amizuhri@uinsa.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://lecturer.uinsa.ac.id/index.php/example/detaildosen/243",
+      "notes": "Email verified from official UINSA lecturer profile page (lecturer.uinsa.ac.id)."
+    },
+    {
+      "name": "Prof. Dr. Umi Hanifah, M.Pd.I",
+      "department": "Fakultas Tarbiyah dan Ilmu Keguruan",
+      "title": "Guru Besar",
+      "research_area": "Pendidikan Bahasa Arab; Pembelajaran Bahasa Arab; Teknologi Pembelajaran Bahasa Arab",
+      "email": "umihanifah@uinsa.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://lecturer.uinsa.ac.id/index.php/example/detaildosen/382",
+      "notes": "Email verified from official UINSA lecturer profile page (lecturer.uinsa.ac.id); page also lists a secondary personal address (umihanifah78@yahoo.com), institutional email used here."
+    },
+    {
+      "name": "Prof. Dr. H. Syafiq A. Mughni, M.A.",
+      "department": "Fakultas Adab dan Humaniora (Jurusan Sejarah dan Kebudayaan Islam)",
+      "title": "Guru Besar",
+      "research_area": "Sejarah Islam",
+      "email": "mughni54@yahoo.com",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://lecturer.uinsa.ac.id/index.php/example/detaildosen/662",
+      "notes": "Email verified from official UINSA lecturer profile page (lecturer.uinsa.ac.id); listed email is a personal Yahoo address rather than institutional domain. Former Chair of Muhammadiyah (2010-2015; 2015-2022)."
+    }
+  ]
 }

@@ -5,5 +5,66 @@
   "city": "Malang",
   "province": "Jawa Timur",
   "website": "https://itn.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Prof. Dr. Eng. Aryuanto Soetedjo, ST., MT.",
+      "department": "Teknik Elektro / Program Doktor Manajemen Rekayasa",
+      "title": "Guru Besar",
+      "research_area": null,
+      "email": "aryuanto@lecturer.itn.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://dmr.itn.ac.id/dosen-dan-staff/",
+      "notes": "Source: https://dmr.itn.ac.id/dosen-dan-staff/ (Doktor Manajemen Rekayasa faculty page)."
+    },
+    {
+      "name": "Prof. Dr. Ir. Lalu Mulyadi, MT.",
+      "department": "Program Doktor Manajemen Rekayasa",
+      "title": "Guru Besar",
+      "research_area": null,
+      "email": "lalu.mulyadi@lecturer.itn.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://dmr.itn.ac.id/dosen-dan-staff/",
+      "notes": "Source: https://dmr.itn.ac.id/dosen-dan-staff/. Direktur Pascasarjana ITN Malang."
+    },
+    {
+      "name": "Prof. Dr. Ir. Sutanto Hidayat, MT.",
+      "department": "Program Doktor Manajemen Rekayasa",
+      "title": "Guru Besar",
+      "research_area": null,
+      "email": "sutantohidayat@lecturer.itn.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://dmr.itn.ac.id/dosen-dan-staff/",
+      "notes": "Source: https://dmr.itn.ac.id/dosen-dan-staff/. Ketua Program Studi DMR."
+    },
+    {
+      "name": "Ir. Fourry Handoko, ST., SS., MT., Ph.D., IPU., ASEAN.Eng",
+      "department": "Program Doktor Manajemen Rekayasa",
+      "title": "Lektor Kepala",
+      "research_area": null,
+      "email": "fourry@lecturer.itn.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://dmr.itn.ac.id/dosen-dan-staff/",
+      "notes": "Source: https://dmr.itn.ac.id/dosen-dan-staff/. Rank unclear beyond degree; classified as Lektor Kepala based on seniority."
+    },
+    {
+      "name": "Dr. Ir. Nusa Sebayang, MT.",
+      "department": "Teknik Sipil S1",
+      "title": "Lektor Kepala",
+      "research_area": "Transportasi",
+      "email": "nusasebayang@lecturer.itn.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://sipil.itn.ac.id/profil-dosen/",
+      "notes": "Source: https://sipil.itn.ac.id/profil-dosen/ (Teknik Sipil S1 lecturer profile page)."
+    }
+  ]
 }

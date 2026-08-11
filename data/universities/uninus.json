@@ -5,5 +5,54 @@
   "city": "Bandung",
   "province": "Jawa Barat",
   "website": "https://uninus.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Dr. H. Ahmad Sukandar, M.Pd.",
+      "department": "Program Studi Magister Pendidikan Agama Islam (S2 PAI), Sekolah Pascasarjana",
+      "title": "Ketua Jurusan/Prodi",
+      "research_area": "Pendidikan Agama Islam",
+      "email": "ahmadsukandar@uninus.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://sps.uninus.ac.id",
+      "notes": "Named as Ketua Prodi PAI S2 UNINUS (pascasarjana.ipeba.ac.id report). Email verified as corresponding author in journal.aripafi.or.id article 'Digitalizing Islamic Education Management' (ahmadsukandar@uninus.ac.id)."
+    },
+    {
+      "name": "Dr. Iksal Rachman, S.T., M.T.",
+      "department": "Program Studi Teknik Elektro, Fakultas Teknik",
+      "title": "Dosen",
+      "research_area": "Teknik Elektro",
+      "email": "iksal@uninus.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://repository.uninus.ac.id",
+      "notes": "Listed as Sekretaris Program Studi Teknik Elektro (UNINUS wisuda 2023 program, via Scribd). Email verified as corresponding author in ojs.uninus.ac.id ABDITEK NUSANTARA journal article (iksal@uninus.ac.id)."
+    },
+    {
+      "name": "Dr. Agus Ruswandi, M.Ag.",
+      "department": "Program Studi Pendidikan Guru PAUD, FKIP",
+      "title": "Dosen",
+      "research_area": "Pendidikan Islam Anak Usia Dini",
+      "email": "agus_ruswandi@uninus.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://fkip.uninus.ac.id",
+      "notes": "Listed as Sekretaris Program Studi PG PAUD FKIP UNINUS (Instagram @fkip_uninus). Email verified as corresponding author in Atlantis Press ICLIQE 2024 proceedings paper (agus_ruswandi@uninus.ac.id)."
+    },
+    {
+      "name": "Gunawan",
+      "department": "Fakultas Hukum",
+      "title": "Dosen",
+      "research_area": "Hukum Acara Pidana",
+      "email": "gunawan@uninus.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://uninus.ac.id",
+      "notes": "Email verified as corresponding author in historymedjournal.com article 'Reform of the Indonesian Criminal Procedure Law' (gunawan@uninus.ac.id); Google Scholar entry confirms 'Gunawan - Universitas Islam Nusantara - Verified email at uninus.ac.id'. Full given name/title not otherwise found; treat as uncertain beyond first name."
+    }
+  ]
 }

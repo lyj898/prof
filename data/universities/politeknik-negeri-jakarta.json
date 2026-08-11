@@ -5,5 +5,66 @@
   "city": "Depok",
   "province": "Jawa Barat",
   "website": "https://www.pnj.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Safri, S.T., M.T.",
+      "department": "Jurusan Teknik Sipil",
+      "title": "Dosen",
+      "research_area": "Manajemen Konstruksi / Quantity Surveying",
+      "email": "safri@sipil.pnj.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?user=LGvDlZIAAAAJ&hl=en",
+      "website": "https://sipil.pnj.ac.id/readmore/602f7213283a93647355fe7a/profil-safri-st-mt",
+      "notes": "Email verified directly on official department profile page."
+    },
+    {
+      "name": "Dr. Dyah Nurwidyaningrum, S.T., M.M., M.Ars.",
+      "department": "Jurusan Teknik Sipil",
+      "title": "Lektor Kepala",
+      "research_area": "Green Building / Arsitektur / Lingkungan (Indoor Air Quality)",
+      "email": "dyah.nurwidyaningrum@sipil.pnj.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?user=fRbHh5IAAAAJ&hl=en",
+      "website": "https://sipil.pnj.ac.id/readmore/5ff2d6fd9527d66675595962/profil-dyah-nurwidyaningrum-stmmmarc",
+      "notes": "Exact functional title not stated on page; 'Lektor Kepala' inferred from doctoral rank. NIP 197407061999032001 listed on page."
+    },
+    {
+      "name": "Anis Rosyidah, S.Pd., S.S.T., M.T.",
+      "department": "Jurusan Teknik Sipil",
+      "title": "Dosen",
+      "research_area": "Struktur / Struktur Bangunan Tahan Gempa",
+      "email": "anis.rosyidah@sipil.pnj.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.co.id/citations?user=f93TTVYAAAAJ&hl=en",
+      "website": "https://sipil.pnj.ac.id/readmore/5ff2d2b7080cd163b76814b4/profil-anis-rosyidah-spd-sst-mt",
+      "notes": "Email verified directly on official department profile page."
+    },
+    {
+      "name": "Amalia, S.Pd., S.S.T., M.T.",
+      "department": "Jurusan Teknik Sipil",
+      "title": "Dosen",
+      "research_area": "Struktur / Rekayasa Bahan (concrete materials)",
+      "email": "amalia@sipil.pnj.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.co.id/citations?user=3WkSneQAAAAJ&hl=id",
+      "website": "https://sipil.pnj.ac.id/readmore/5ff2a786f7beed793666dfb5/profil-amalia-spd-sst-mt",
+      "notes": "Email verified directly on official department profile page."
+    },
+    {
+      "name": "Yanuar Setiawan, S.T., M.T.",
+      "department": "Jurusan Teknik Sipil",
+      "title": "Dosen",
+      "research_area": "Struktur (beton, baja, gempa)",
+      "email": "yanuar.setiawan@sipil.pnj.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?user=EokLAJQAAAAJ&hl=en",
+      "website": "https://sipil.pnj.ac.id/readmore/5ff33b419527d66675595965/profil-yanuar-setiawan-st-mt",
+      "notes": "Email verified directly on official department profile page."
+    }
+  ]
 }

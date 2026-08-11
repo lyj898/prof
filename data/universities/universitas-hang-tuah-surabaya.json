@@ -5,5 +5,66 @@
   "city": "Surabaya",
   "province": "Jawa Timur",
   "website": "https://hangtuah.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Puguh Bayu Prabowo, drg., M.Kes.",
+      "department": "Fakultas Kedokteran Gigi",
+      "title": "Asisten Ahli",
+      "research_area": "Biomaterial dan Teknologi Kedokteran Gigi",
+      "email": "pbprabowo@hangtuah.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://fkg.hangtuah.ac.id/puguh-bayu-prabowo-drg-m-kes/",
+      "notes": "Email verified via official faculty profile page https://fkg.hangtuah.ac.id/puguh-bayu-prabowo-drg-m-kes/"
+    },
+    {
+      "name": "Dr. Weni Endahing Warni, M.Psi., Psikolog",
+      "department": "Fakultas Psikologi",
+      "title": "Wakil Dekan",
+      "research_area": "Psikologi Olahraga, Pengukuran Psikologi/Konstruksi Tes, Character Building",
+      "email": "weni.endahingwarni@hangtuah.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://fpsi.hangtuah.ac.id/dosen1/",
+      "notes": "Wakil Dekan I Fakultas Psikologi. Email verified via official faculty directory page https://fpsi.hangtuah.ac.id/dosen1/"
+    },
+    {
+      "name": "Dr. Rini Nurahaju, M.Si., Psikolog, CIQaR",
+      "department": "Fakultas Psikologi",
+      "title": "Lektor",
+      "research_area": "Psikologi Industri & Organisasi, Metode Penelitian, Statistik",
+      "email": "rini.nurahaju@hangtuah.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://fpsi.hangtuah.ac.id/dosen1/",
+      "notes": "Email verified via official faculty directory page https://fpsi.hangtuah.ac.id/dosen1/"
+    },
+    {
+      "name": "Dr. Dra. Dewi Mustami'ah, M.Si., Psikolog",
+      "department": "Fakultas Psikologi",
+      "title": "Lektor",
+      "research_area": "Psikologi Pendidikan, Statistika",
+      "email": "dewi.mustamiah@hangtuah.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://fpsi.hangtuah.ac.id/dosen1/",
+      "notes": "Email verified via official faculty directory page https://fpsi.hangtuah.ac.id/dosen1/"
+    },
+    {
+      "name": "Dr. Wiwik Sulistiani, M.Psi., Psikolog",
+      "department": "Fakultas Psikologi",
+      "title": "Lektor",
+      "research_area": "Psikologi Pendidikan dan Perkembangan, Career Development",
+      "email": "wiwik.sulistiani@hangtuah.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://fpsi.hangtuah.ac.id/dosen1/",
+      "notes": "Email verified via official faculty directory page https://fpsi.hangtuah.ac.id/dosen1/"
+    }
+  ]
 }

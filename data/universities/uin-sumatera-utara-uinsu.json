@@ -5,5 +5,90 @@
   "city": "Medan",
   "province": "Sumatera Utara",
   "website": "https://www.uinsu.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Prof. Dr. Tien Rafida, M.Hum.",
+      "department": "Fakultas Ilmu Tarbiyah dan Keguruan (FITK)",
+      "title": "Guru Besar",
+      "research_area": "Linguistik / Bahasa Indonesia",
+      "email": "tienrafida@uinsu.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://fitk.uinsu.ac.id/profil-dosen/",
+      "notes": "Source: https://fitk.uinsu.ac.id/profil-dosen/ (faculty lecturer profile directory, email verified via two independent page fetches)"
+    },
+    {
+      "name": "Prof. Dr. Candra Wijaya, M.Pd.",
+      "department": "Fakultas Ilmu Tarbiyah dan Keguruan (FITK)",
+      "title": "Guru Besar",
+      "research_area": "Manajemen Pendidikan",
+      "email": "candrawijaya@uinsu.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://fitk.uinsu.ac.id/profil-dosen/",
+      "notes": "Source: https://fitk.uinsu.ac.id/profil-dosen/ (faculty lecturer profile directory, email verified via two independent page fetches)"
+    },
+    {
+      "name": "Prof. Dr. Khadijah, M.Ag",
+      "department": "Fakultas Ilmu Tarbiyah dan Keguruan (FITK)",
+      "title": "Guru Besar",
+      "research_area": "Pendidikan Anak Usia Dini (PAUD)",
+      "email": "khadijah@uinsu.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://fitk.uinsu.ac.id/profil-dosen/",
+      "notes": "Source: https://fitk.uinsu.ac.id/profil-dosen/ (faculty lecturer profile directory, email verified via two independent page fetches)"
+    },
+    {
+      "name": "Prof. Dr. Achyar Zein, M.A.",
+      "department": "Fakultas Ilmu Tarbiyah dan Keguruan (FITK)",
+      "title": "Guru Besar",
+      "research_area": "Ilmu Al-Qur'an dan Tafsir",
+      "email": "Achyarzein@uinsu.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://fitk.uinsu.ac.id/profil-dosen/",
+      "notes": "Source: https://fitk.uinsu.ac.id/profil-dosen/ (faculty lecturer profile directory, email verified via two independent page fetches)"
+    },
+    {
+      "name": "Prof. Dr. Rusydi Ananda, M.Pd",
+      "department": "Fakultas Ilmu Tarbiyah dan Keguruan (FITK)",
+      "title": "Guru Besar",
+      "research_area": "Evaluasi Pembelajaran",
+      "email": "rusydiananda@uinsu.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://fitk.uinsu.ac.id/profil-dosen/",
+      "notes": "Source: https://fitk.uinsu.ac.id/profil-dosen/ (faculty lecturer profile directory, email verified via two independent page fetches)"
+    },
+    {
+      "name": "Prof. Dr. Nurussakinah Daulay, M.Psi",
+      "department": "Fakultas Ilmu Tarbiyah dan Keguruan (FITK)",
+      "title": "Guru Besar",
+      "research_area": "Psikologi Umum",
+      "email": "Nurussakinah@uinsu.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://fitk.uinsu.ac.id/profil-dosen/",
+      "notes": "Source: https://fitk.uinsu.ac.id/profil-dosen/ (faculty lecturer profile directory, email verified via two independent page fetches)"
+    },
+    {
+      "name": "Prof. Dr. Masganti Sit, M.Ag",
+      "department": "Fakultas Ilmu Tarbiyah dan Keguruan (FITK)",
+      "title": "Guru Besar",
+      "research_area": "Psikologi Perkembangan Anak Usia Dini",
+      "email": "Masganti@uinsu.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://fitk.uinsu.ac.id/profil-dosen/",
+      "notes": "Source: https://fitk.uinsu.ac.id/profil-dosen/ (faculty lecturer profile directory, email verified via two independent page fetches)"
+    }
+  ]
 }

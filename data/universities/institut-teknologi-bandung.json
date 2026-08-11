@@ -5,5 +5,42 @@
   "city": "Bandung",
   "province": "Jawa Barat",
   "website": "https://www.itb.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Prof. Suwarno, Dr. Ir., M.T.",
+      "department": "Teknik Elektro (Kelompok Keahlian Teknik Tenaga Listrik), Sekolah Teknik Elektro dan Informatika (STEI)",
+      "title": "Guru Besar",
+      "research_area": "High-voltage insulating materials and technology, electrical power engineering",
+      "email": "suwarno@itb.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://stei.itb.ac.id/en/dosen/suwarno/",
+      "notes": "Email verified directly on STEI ITB faculty profile page (https://stei.itb.ac.id/en/dosen/suwarno/)."
+    },
+    {
+      "name": "Prof. Dr. Ir. Umar Khayam, S.T., M.T.",
+      "department": "Teknik Elektro (Kelompok Keahlian Teknik Tenaga Listrik), Sekolah Teknik Elektro dan Informatika (STEI)",
+      "title": "Guru Besar",
+      "research_area": "Power engineering",
+      "email": "umar@itb.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://stei.itb.ac.id/en/dosen/umar-khayam/",
+      "notes": "Email verified directly on STEI ITB faculty profile page (https://stei.itb.ac.id/en/dosen/umar-khayam/)."
+    },
+    {
+      "name": "Prof. Andriyan Bayu Suksmono, M.T., Ph.D.",
+      "department": "Teknik Elektro (Kelompok Keahlian Teknik Biomedika), Sekolah Teknik Elektro dan Informatika (STEI)",
+      "title": "Guru Besar",
+      "research_area": "Imaging and signal processing",
+      "email": "suksmono@itb.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://stei.itb.ac.id/en/dosen/andriyan-bayu-suksmono/",
+      "notes": "Email verified directly on STEI ITB faculty profile page (https://stei.itb.ac.id/en/dosen/andriyan-bayu-suksmono/)."
+    }
+  ]
 }

@@ -5,5 +5,66 @@
   "city": "Makassar",
   "province": "Sulawesi Selatan",
   "website": "https://www.unhas.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Prof. Dr. Amir Kamal Amir, M.Sc.",
+      "department": "Program Studi Matematika, Fakultas MIPA (Sains)",
+      "title": "Guru Besar",
+      "research_area": "Ring Theory, Algebraic Graph Theory",
+      "email": "amirkamir@science.unhas.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://math.sci.unhas.ac.id/lectures/",
+      "notes": "Email verified via official teaching staff table at https://math.sci.unhas.ac.id/lectures/"
+    },
+    {
+      "name": "Prof. Dr. Moh. Ivan Azis, M.Sc.",
+      "department": "Program Studi Matematika, Fakultas MIPA (Sains)",
+      "title": "Guru Besar",
+      "research_area": "Numerical Simulation of Mathematical Models for Inhomogeneous Anisotropic Materials",
+      "email": "ivan@unhas.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://math.sci.unhas.ac.id/lectures/",
+      "notes": "Email verified via official teaching staff table at https://math.sci.unhas.ac.id/lectures/"
+    },
+    {
+      "name": "Prof. Dr. Jeffry Kusuma",
+      "department": "Program Studi Matematika, Fakultas MIPA (Sains)",
+      "title": "Guru Besar",
+      "research_area": "Modelling and Numerical Computation",
+      "email": "jeffry.kusuma@unhas.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://math.sci.unhas.ac.id/lectures/",
+      "notes": "Email verified via official teaching staff table at https://math.sci.unhas.ac.id/lectures/"
+    },
+    {
+      "name": "Prof. Dr. Kasbawati, S.Si., M.Si.",
+      "department": "Program Studi Matematika, Fakultas MIPA (Sains)",
+      "title": "Guru Besar",
+      "research_area": "Applied Mathematics (systems biology, mathematical epidemiology)",
+      "email": "kasbawati@unhas.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://math.sci.unhas.ac.id/lectures/",
+      "notes": "Email verified via official teaching staff table at https://math.sci.unhas.ac.id/lectures/"
+    },
+    {
+      "name": "Prof. Dr. Eng. Mawardi Bahri, S.Si., M.Si.",
+      "department": "Program Studi Matematika, Fakultas MIPA (Sains)",
+      "title": "Guru Besar",
+      "research_area": "Analysis (Quaternion Analysis)",
+      "email": "mawardi.bahri@unhas.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://math.sci.unhas.ac.id/lectures/",
+      "notes": "Email verified via official teaching staff table at https://math.sci.unhas.ac.id/lectures/"
+    }
+  ]
 }

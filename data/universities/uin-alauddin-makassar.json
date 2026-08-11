@@ -5,5 +5,18 @@
   "city": "Gowa",
   "province": "Sulawesi Selatan",
   "website": "https://uin-alauddin.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Prof. Dr. Mashuri Masri, S.Si., M.Kes.",
+      "department": "Biologi, Fakultas Sains dan Teknologi",
+      "title": "Guru Besar",
+      "research_area": "Biology (sericulture / silk moth immunology)",
+      "email": "mashuri.masri@uin-alauddin.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?user=lwdJzU4AAAAJ&hl=en",
+      "website": "https://adbpbptki.id/prof-dr-mashuri-masri-s-si-m-kes/",
+      "notes": "Email verified via Asosiasi Dosen Biologi dan Pendidikan Biologi PTKI profile (adbpbptki.id) cross-referenced with Google Scholar verified-domain listing. Other UIN Alauddin faculty directory pages checked (Akuntansi, Manajemen, Fakultas Ilmu Sosial dosen listings, Guru Besar Sejarah Peradaban Islam page) did not publicly display individual email addresses."
+    }
+  ]
 }

@@ -5,5 +5,66 @@
   "city": "Bandung",
   "province": "Jawa Barat",
   "website": "https://uinsgd.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Prof. Dr. Muhammad Ali Ramdhani, S.TP., MT",
+      "department": "Teknik Informatika, Fakultas Sains dan Teknologi",
+      "title": "Guru Besar",
+      "research_area": "Information System, Expert System, Decision Support System, Strategic Management and Research Methodology",
+      "email": "m_ali_ramdhani@uinsgd.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://if.uinsgd.ac.id/lecturer",
+      "notes": "Email and research interests verified directly on the Teknik Informatika faculty 'Dosen' directory page at https://if.uinsgd.ac.id/lecturer (rendered page text confirmed the address). Title prefix 'Prof. Dr.' on the same page indicates full professor rank."
+    },
+    {
+      "name": "Dian Sa'adillah Maylawati, S.Kom., MT., Ph.D",
+      "department": "Teknik Informatika, Fakultas Sains dan Teknologi",
+      "title": "Dosen",
+      "research_area": "Machine Learning, Natural Language Processing, Data Science",
+      "email": "diansm@uinsgd.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://if.uinsgd.ac.id/lecturer",
+      "notes": "Email and research interests verified directly on the Teknik Informatika faculty 'Dosen' directory page at https://if.uinsgd.ac.id/lecturer. Directory only labels rank as generic 'Dosen', so exact jenjang jabatan (Lektor/Lektor Kepala) could not be confirmed."
+    },
+    {
+      "name": "Cepy Slamet, Ph.D",
+      "department": "Teknik Informatika, Fakultas Sains dan Teknologi",
+      "title": "Dosen",
+      "research_area": "Enterprise Information Systems, Information Technology Strategic Management",
+      "email": "cepy_lucky@uinsgd.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://if.uinsgd.ac.id/lecturer",
+      "notes": "Email and research interests verified directly on the Teknik Informatika faculty 'Dosen' directory page at https://if.uinsgd.ac.id/lecturer. Directory only labels rank as generic 'Dosen'."
+    },
+    {
+      "name": "Wisnu Uriawan, Ph.D",
+      "department": "Teknik Informatika, Fakultas Sains dan Teknologi",
+      "title": "Dosen",
+      "research_area": "Decision Support Systems, Artificial Intelligence, Software Engineering, Information Systems, Blockchain",
+      "email": "wisnu_u@uinsgd.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://if.uinsgd.ac.id/lecturer",
+      "notes": "Email and research interests verified directly on the Teknik Informatika faculty 'Dosen' directory page at https://if.uinsgd.ac.id/lecturer. Directory only labels rank as generic 'Dosen'."
+    },
+    {
+      "name": "Mohamad Irfan, Ph.D",
+      "department": "Teknik Informatika, Fakultas Sains dan Teknologi",
+      "title": "Dosen",
+      "research_area": "Artificial Intelligence, Information Systems",
+      "email": "irfan.bahaf@uinsgd.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://if.uinsgd.ac.id/lecturer",
+      "notes": "Email and research interests verified directly on the Teknik Informatika faculty 'Dosen' directory page at https://if.uinsgd.ac.id/lecturer. Directory only labels rank as generic 'Dosen'."
+    }
+  ]
 }

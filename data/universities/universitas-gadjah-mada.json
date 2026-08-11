@@ -5,5 +5,66 @@
   "city": "Sleman",
   "province": "DI Yogyakarta",
   "website": "https://ugm.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Prof. Dra. Sri Hartati, M.Sc., Ph.D.",
+      "department": "Departemen Ilmu Komputer dan Elektronika, Fakultas MIPA",
+      "title": "Guru Besar",
+      "research_area": "Kecerdasan Buatan (Artificial Intelligence), Sistem Cerdas",
+      "email": "shartati@ugm.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://dcse.fmipa.ugm.ac.id/en/lecturers/en-sri-hartati/",
+      "notes": "Email verified via https://dcse.fmipa.ugm.ac.id/en/lecturers/en-sri-hartati/ and https://acadstaff.ugm.ac.id/srihartati (official UGM academic staff directory)."
+    },
+    {
+      "name": "Prof. Jazi Eko Istiyanto, M.Sc., Ph.D.",
+      "department": "Departemen Ilmu Komputer dan Elektronika, Fakultas MIPA",
+      "title": "Guru Besar",
+      "research_area": "Embedded Systems, Robotics, Cyber-Physical Systems",
+      "email": "jazi@ugm.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?hl=en&user=X_MO-5AAAAAJ",
+      "website": "https://acadstaff.ugm.ac.id/jazi",
+      "notes": "Email verified via https://acadstaff.ugm.ac.id/jazi and DCSE UGM lecturer directory (https://dcse.fmipa.ugm.ac.id/en/lecturers/)."
+    },
+    {
+      "name": "Prof. Dr. Tri Kuntoro Priyambodo, M.Sc.",
+      "department": "Departemen Ilmu Komputer dan Elektronika, Fakultas MIPA",
+      "title": "Guru Besar",
+      "research_area": "Computer Networks, Satellite Systems, e-Government",
+      "email": "mastri@ugm.ac.id",
+      "phone": null,
+      "linkedin": "https://www.linkedin.com/in/tri-kuntoro-priyambodo-2b3994b1/",
+      "google_scholar": "https://scholar.google.com/citations?user=3rq22JgAAAAJ&hl=en",
+      "website": "https://acadstaff.ugm.ac.id/mastri",
+      "notes": "Email verified via https://acadstaff.ugm.ac.id/mastri and DCSE UGM lecturer directory."
+    },
+    {
+      "name": "Aina Musdholifah, S.Kom., M.Kom., Ph.D.",
+      "department": "Departemen Ilmu Komputer dan Elektronika, Fakultas MIPA",
+      "title": "Ketua Jurusan/Prodi",
+      "research_area": "Genetic Algorithm, Fuzzy Logic, Spatio-temporal Data Mining",
+      "email": "aina_m@ugm.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?user=YKq7Q2QAAAAJ&hl=en",
+      "website": "https://dcse.fmipa.ugm.ac.id/en/lecturers/en-aina-musdholifah/",
+      "notes": "Head of Department (Ketua Departemen DIKE UGM). Email verified via https://acadstaff.ugm.ac.id/ainamusdholifah and DCSE lecturer directory."
+    },
+    {
+      "name": "Dr. Sri Mulyana, M.Kom.",
+      "department": "Departemen Ilmu Komputer dan Elektronika, Fakultas MIPA",
+      "title": "Lektor",
+      "research_area": "Artificial Intelligence",
+      "email": "smulyana@ugm.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://dcse.fmipa.ugm.ac.id/en/lecturers/en-sri-mulyana/",
+      "notes": "Email verified via DCSE UGM lecturer directory: https://dcse.fmipa.ugm.ac.id/en/lecturers/en-sri-mulyana/"
+    }
+  ]
 }

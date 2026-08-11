@@ -5,5 +5,42 @@
   "city": "Malang",
   "province": "Jawa Timur",
   "website": "https://www.polinema.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Dr. Ari Kamayanti, S.E., MSA.",
+      "department": "Jurusan Akuntansi",
+      "title": "Dosen",
+      "research_area": null,
+      "email": "ari.kamayanti@polinema.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?hl=en&user=DkHJyY8AAAAJ",
+      "website": "https://akuntansi.polinema.ac.id/team/dr-ari-kamayanti-s-e-msa/",
+      "notes": "Profile page does not state an explicit jenjang jabatan; also Chief Editor of Jurnal Riset dan Aplikasi: Akuntansi dan Manajemen (JRAAM editorial board)."
+    },
+    {
+      "name": "Dr. Novrida Qudsi Lutfillah, S.E.Ak., MSA., CA.",
+      "department": "Jurusan Akuntansi",
+      "title": "Dosen",
+      "research_area": null,
+      "email": "novrida@polinema.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://akuntansi.polinema.ac.id/team/dr-novrida-qudsi-lutfillah-s-e-ak-msa-ca/",
+      "notes": "Email corroborated as corresponding-author contact in a published journal article; also listed on the JRAAM editorial board."
+    },
+    {
+      "name": "Drs. Fadloli, M.Pd.I.",
+      "department": "D4 Akuntansi Manajemen, Jurusan Akuntansi",
+      "title": "Dosen",
+      "research_area": null,
+      "email": "fadloli@polinema.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://akuntansi.polinema.ac.id/team/drs-fadloli-m-pdi/",
+      "notes": "Email appears on official department profile page; no independent secondary source found, so confidence is slightly lower than the other two entries."
+    }
+  ]
 }

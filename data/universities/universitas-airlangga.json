@@ -5,5 +5,66 @@
   "city": "Surabaya",
   "province": "Jawa Timur",
   "website": "https://www.unair.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Prof. Dr. Muhammad Madyan, S.E., M.Si., M.Fin.",
+      "department": "Departemen Manajemen, Fakultas Ekonomi dan Bisnis",
+      "title": "Guru Besar",
+      "research_area": "Manajemen Keuangan",
+      "email": "muhammad_madyan@feb.unair.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://feb.unair.ac.id/staff-pengajar/",
+      "notes": "Email verified via Google-cached snippet of https://feb.unair.ac.id/staff-pengajar/ (Departemen Manajemen listing)."
+    },
+    {
+      "name": "Prof. Dr. Bambang Tjahjadi, S.E., MBA., Ak.",
+      "department": "Departemen Akuntansi, Fakultas Ekonomi dan Bisnis",
+      "title": "Guru Besar",
+      "research_area": "Akuntansi Manajemen",
+      "email": "bambang.tjahjadi@feb.unair.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://feb.unair.ac.id/profil-dosen/",
+      "notes": "Email verified via Google-cached snippet of https://feb.unair.ac.id/profil-dosen/ (Dosen Akuntansi listing)."
+    },
+    {
+      "name": "Rahmat Heru Setianto, S.E., M.Sc., Ph.D.",
+      "department": "Departemen Manajemen, Fakultas Ekonomi dan Bisnis",
+      "title": "Lektor Kepala",
+      "research_area": "Manajemen Keuangan",
+      "email": "rahmat.heru@feb.unair.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://feb.unair.ac.id/staff-pengajar/",
+      "notes": "Email verified via Google-cached snippet of https://feb.unair.ac.id/staff-pengajar/ (Departemen Manajemen listing)."
+    },
+    {
+      "name": "Dian Ekowati, S.E., M.Si., M.App.Com.(OrgChg)., Ph.D.",
+      "department": "Departemen Manajemen, Fakultas Ekonomi dan Bisnis",
+      "title": "Lektor",
+      "research_area": "Perilaku Organisasi",
+      "email": "d.ekowati@feb.unair.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://feb.unair.ac.id/profil-dosen/",
+      "notes": "Email verified via Google-cached snippet of https://feb.unair.ac.id/profil-dosen/ (Dosen Manajemen listing)."
+    },
+    {
+      "name": "Dr. Dien Mardhiyah, S.E., M.Si.",
+      "department": "Departemen Manajemen, Fakultas Ekonomi dan Bisnis",
+      "title": "Lektor",
+      "research_area": "Manajemen",
+      "email": "dienmardhiyah@feb.unair.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://feb.unair.ac.id/profil-dosen/",
+      "notes": "Email verified via Google-cached snippet of https://feb.unair.ac.id/profil-dosen/ (Dosen Manajemen listing)."
+    }
+  ]
 }

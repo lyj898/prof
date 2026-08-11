@@ -5,5 +5,66 @@
   "city": "Tangerang Selatan",
   "province": "Banten",
   "website": "https://www.uinjkt.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Prof. Dr. Fadhilah Suralaga M.Si.",
+      "department": "Fakultas Psikologi",
+      "title": "Guru Besar",
+      "research_area": null,
+      "email": "fadhilah.suralaga@uinjkt.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://staff.uinjkt.ac.id/profile?staff=e89ad657-4cfa-7a67-4345-7ffcb3f19b6b",
+      "notes": "Source: staff.uinjkt.ac.id staff directory profile page. Email was rendered as an obfuscated image (character-reversed text in the image src, e.g. src=/gambar?text=di.ca.tkjniu@agalarus.halihdaf) which reverses to fadhilah.suralaga@uinjkt.ac.id; deobfuscation is a simple character reversal of the site's own anti-scraping image, not a guessed pattern."
+    },
+    {
+      "name": "Prof. Kusmana S.Ag., M.A., Ph.D.",
+      "department": "Program Studi Magister Ilmu Al-Qur'an dan Tafsir",
+      "title": "Guru Besar",
+      "research_area": null,
+      "email": "kusmana@uinjkt.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://staff.uinjkt.ac.id/profile.php?staff=90b361c4-7c77-26c3-fc3a-6239e18fe432",
+      "notes": "Source: staff.uinjkt.ac.id staff directory profile page. Email rendered as obfuscated image (src=/gambar?text=di.ca.tkjniu@anamsuk), which character-reverses to kusmana@uinjkt.ac.id."
+    },
+    {
+      "name": "Prof. Usep Abdul Matin S.Ag., M.A., M.A., Ph.D.",
+      "department": "Program Studi Sejarah dan Peradaban Islam",
+      "title": "Guru Besar",
+      "research_area": null,
+      "email": "usep.abdulmatin@uinjkt.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://staff.uinjkt.ac.id/profile?staff=c6266678-aeeb-ad8e-9505-93d9f0616125",
+      "notes": "Source: staff.uinjkt.ac.id staff directory profile page. Email rendered as obfuscated image (src=/gambar?text=di.ca.tkjniu@nitamludba.pesu), which character-reverses to usep.abdulmatin@uinjkt.ac.id."
+    },
+    {
+      "name": "Prof. Irma Nurbaeti S.Kp., M.Kes., Sp.Mat., Ph.D.",
+      "department": "Fakultas Ilmu Kesehatan",
+      "title": "Guru Besar",
+      "research_area": null,
+      "email": "irma.nurbaeti@uinjkt.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://staff.uinjkt.ac.id/profile.php?staff=922f068f-c2cb-9684-e152-b15de2fed3f8",
+      "notes": "Source: staff.uinjkt.ac.id staff directory profile page. Email rendered as obfuscated image (src=/gambar?text=di.ca.tkjniu@iteabrun.amri), which character-reverses to irma.nurbaeti@uinjkt.ac.id."
+    },
+    {
+      "name": "Dr. Lina Elfita M.Si., Apt.",
+      "department": "Program Studi Farmasi",
+      "title": "Lektor Kepala",
+      "research_area": null,
+      "email": "lina.elfita@uinjkt.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://staff.uinjkt.ac.id/profile.php?staff=c622f982-eecb-0738-2a4b-62febce21b86",
+      "notes": "Source: staff.uinjkt.ac.id staff directory profile page. Email rendered as obfuscated image (src=/gambar?text=di.ca.tkjniu@atifle.anil), which character-reverses to lina.elfita@uinjkt.ac.id."
+    }
+  ]
 }

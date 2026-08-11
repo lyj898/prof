@@ -5,5 +5,18 @@
   "city": "Palembang",
   "province": "Sumatera Selatan",
   "website": "https://www.polsri.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Meilinda Dwi Anugrah, S.E., M.Sc",
+      "department": "D4 Akuntansi Sektor Publik, Jurusan Akuntansi",
+      "title": "Asisten Ahli",
+      "research_area": "Environmental/public sector accounting",
+      "email": "meilinda.dwi.anugrah@polsri.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?user=HgOkRjwAAAAJ&hl=en",
+      "website": "https://akuntansi.polsri.ac.id/?team=meilinda-dwi-anugrah-s-e-m-sc",
+      "notes": "Email confirmed independently via the official Akuntansi department profile page snippet and as corresponding-author address in two published journal articles."
+    }
+  ]
 }

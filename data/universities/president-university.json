@@ -5,5 +5,42 @@
   "city": "Cikarang, Bekasi",
   "province": "Jawa Barat",
   "website": "https://president.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Prof. Dr. Purwanto, S.T., M.M.",
+      "department": "School of Business (Manajemen)",
+      "title": "Guru Besar",
+      "research_area": "Islamic Microfinance, Banking and Finance",
+      "email": "purwanto@president.ac.id",
+      "phone": null,
+      "linkedin": "https://id.linkedin.com/in/prof-dr-purwanto-s-t-m-m-83b677180",
+      "google_scholar": "https://scholar.google.com/citations?user=-dpbEEcAAAAJ&hl=en",
+      "website": "https://president.ac.id",
+      "notes": "Email verified via web search of President University staff records and LinkedIn profile (id.linkedin.com/in/prof-dr-purwanto-s-t-m-m-83b677180). Also BKD Assessor at LLDIKTI Region 4."
+    },
+    {
+      "name": "Dr. Dra. Genoveva, M.M.",
+      "department": "School of Business (Manajemen / Pemasaran)",
+      "title": "Lektor Kepala",
+      "research_area": "Marketing",
+      "email": "genoveva@president.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?user=Sqgc1G8AAAAJ&hl=en",
+      "website": "https://president.ac.id/dr-dra-genoveva-m-m/",
+      "notes": "Email verified via President University profile page (president.ac.id/dr-dra-genoveva-m-m/) and cross-referenced web search. Former Vice Rector."
+    },
+    {
+      "name": "Dr. Dedi Rianto Rahadi, M.M.",
+      "department": "School of Business (Manajemen)",
+      "title": "Lektor Kepala",
+      "research_area": "Management Information Systems",
+      "email": "dedi1968@president.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.co.id/citations?user=CvMbp6AAAAAJ&hl=en",
+      "website": "https://president.ac.id/dr-dedi-rianto-rahadi-m-m/",
+      "notes": "Email verified via President University profile page (president.ac.id/dr-dedi-rianto-rahadi-m-m/)."
+    }
+  ]
 }

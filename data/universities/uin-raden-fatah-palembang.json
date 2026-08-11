@@ -5,5 +5,30 @@
   "city": "Palembang",
   "province": "Sumatera Selatan",
   "website": "https://radenfatah.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Rusmala Santi, M.Kom.",
+      "department": "Sistem Informasi",
+      "title": "Dosen",
+      "research_area": "Network Design, Information Systems, Network Security, Computer Forensics",
+      "email": "rusmalasanti_uin@radenfatah.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?hl=en&user=Kfaik8wAAAAJ",
+      "website": "https://radenfatah.ac.id",
+      "notes": "Email verified via academic publication author records and Google Scholar verified-domain listing at radenfatah.ac.id."
+    },
+    {
+      "name": "Dalinur M Nur",
+      "department": "Fakultas Dakwah dan Komunikasi",
+      "title": "Dosen",
+      "research_area": "Islamic Management, Islamic Counseling",
+      "email": "dalinurmnur_uin@radenfatah.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?hl=en&user=NQyQWu4AAAAJ",
+      "website": "https://radenfatah.ac.id",
+      "notes": "Email verified via journal author record (jurnal.radenfatah.ac.id) listing Fakultas Dakwah dan Komunikasi affiliation, cross-referenced with Google Scholar verified-domain listing."
+    }
+  ]
 }

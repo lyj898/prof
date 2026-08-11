@@ -5,5 +5,18 @@
   "city": "Serang",
   "province": "Banten",
   "website": "https://uinbanten.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Dr. Ayatullah Humaeni, M.A.",
+      "department": "Fakultas Ushuluddin dan Adab",
+      "title": "Dosen",
+      "research_area": "Anthropology of Religion, Local Culture Studies",
+      "email": "ayatullah.humaeni@uinbanten.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.co.id/citations?user=zdgIob8AAAAJ&hl=en",
+      "website": "https://uinbanten.ac.id",
+      "notes": "Email verified via institutional repository (repository.uinbanten.ac.id) author records. Editorial team member of Kawalu: Journal of Local Culture (jurnal.uinbanten.ac.id). Faculty-wide dosen directory page (fuda.uinbanten.ac.id/dosen/) did not publicly list individual emails for other lecturers checked."
+    }
+  ]
 }

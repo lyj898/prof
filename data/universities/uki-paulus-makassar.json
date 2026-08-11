@@ -5,5 +5,66 @@
   "city": "Makassar",
   "province": "Sulawesi Selatan",
   "website": "https://www.ukipaulus.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Dr. Manuel A. Todingbua, S.E., M.Si",
+      "department": "Fakultas Ekonomi",
+      "title": "Dekan",
+      "research_area": null,
+      "email": "manuel@ukipaulus.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://economy.ukipaulus.ac.id/pimpinan.php",
+      "notes": "Listed as Dekan (Dean) of Fakultas Ekonomi on the faculty leadership page; institutional email displayed directly on page. Source: https://economy.ukipaulus.ac.id/pimpinan.php"
+    },
+    {
+      "name": "Kordiana Sambara', S.E., M.M.",
+      "department": "Fakultas Ekonomi",
+      "title": "Wakil Dekan",
+      "research_area": null,
+      "email": "kordiana@ukipaulus.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://economy.ukipaulus.ac.id/pimpinan.php",
+      "notes": "Listed as Wakil Dekan III (Vice Dean III) of Fakultas Ekonomi; institutional email displayed directly on page. Source: https://economy.ukipaulus.ac.id/pimpinan.php"
+    },
+    {
+      "name": "Dr. Ir. Alpius, S.T., M.T.",
+      "department": "Fakultas Teknik",
+      "title": "Dekan",
+      "research_area": null,
+      "email": "alpiusnini@gmail.com",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://engineering.ukipaulus.ac.id/pimpinan.php",
+      "notes": "Listed as Dekan (Dean) of Fakultas Teknik on the faculty leadership page; personal Gmail address is the one publicly displayed on the official page (no institutional email shown for this person). Source: https://engineering.ukipaulus.ac.id/pimpinan.php"
+    },
+    {
+      "name": "Dr. Lydia Melawaty, M.Si",
+      "department": "Fakultas Teknik",
+      "title": "Wakil Dekan",
+      "research_area": null,
+      "email": "lydia.sarungallo@ukipaulus.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://engineering.ukipaulus.ac.id/pimpinan.php",
+      "notes": "Listed as Wakil Dekan I (Vice Dean I) of Fakultas Teknik; institutional email displayed directly on page. Source: https://engineering.ukipaulus.ac.id/pimpinan.php"
+    },
+    {
+      "name": "Dr. Lisma Lumentut, S.H., M.H",
+      "department": "Fakultas Hukum",
+      "title": "Dekan",
+      "research_area": null,
+      "email": "lumentutlisma@gmail.com",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://law.ukipaulus.ac.id/pimpinan.php",
+      "notes": "Listed as Dekan (Dean) of Fakultas Hukum on the faculty leadership page; personal Gmail address is the one publicly displayed on the official page (no institutional email shown for this person). Source: https://law.ukipaulus.ac.id/pimpinan.php"
+    }
+  ]
 }

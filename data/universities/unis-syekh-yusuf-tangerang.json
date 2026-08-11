@@ -5,5 +5,42 @@
   "city": "Tangerang",
   "province": "Banten",
   "website": "https://unis.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Dr. Sutarman, S.T., S.Kom., M.M., M.Pd.",
+      "department": "Program Studi Ilmu Administrasi Pendidikan",
+      "title": "Dosen",
+      "research_area": "Administrasi Pendidikan, Manajemen Kurikulum",
+      "email": "sutarman@unis.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?user=sutarman-unis",
+      "website": "https://unis.ac.id",
+      "notes": "Email verified as corresponding author in Linguistics and Culture Review article 'Strategic Improving of Teachers Competence' and ScienceScholar IJHS article (sutarman@unis.ac.id); Google Scholar profile confirms affiliation and verified email at unis.ac.id."
+    },
+    {
+      "name": "Djamaludin, S.Kom., M.Kom.",
+      "department": "Program Studi Sistem Informasi, Fakultas Teknik",
+      "title": "Dosen",
+      "research_area": "Sistem Informasi, Cloud Database",
+      "email": "djamaludin@unis.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://ft.unis.ac.id",
+      "notes": "Kepala Pusat Penelitian dan Publikasi, LPPM UNIS. Email verified via FT UNIS dosen listing and confirmed as co-author email in an AI-Digital Information paper (djamaludin@unis.ac.id)."
+    },
+    {
+      "name": "Imam Halim Mursyidin, S.Kom., M.Kom.",
+      "department": "Program Studi Sistem Informasi, Fakultas Teknik",
+      "title": "Dosen",
+      "research_area": "Sistem Pendukung Keputusan, Rekayasa Perangkat Lunak",
+      "email": "imamhalim@unis.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://ft.unis.ac.id",
+      "notes": "Email verified as co-author in jurnal.kdi.or.id 'An IoT-ML Based Flood Early Warning Prototype' (imamhalim@unis.ac.id); Google Scholar profile confirms 'Verified email at unis.ac.id'."
+    }
+  ]
 }

@@ -5,5 +5,78 @@
   "city": "Bogor",
   "province": "Jawa Barat",
   "website": "https://www.ipb.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Prof. Dr. Ir. Suryo Wiyono, M.Sc.Agr",
+      "department": "Fakultas Pertanian",
+      "title": "Dekan",
+      "research_area": null,
+      "email": "suryowi@apps.ipb.ac.id",
+      "phone": "0251 8629350",
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://faperta.ipb.ac.id/profil-pejabat/",
+      "notes": "Source: https://faperta.ipb.ac.id/profil-pejabat/ (official Faculty of Agriculture officials page). Dean of Faculty of Agriculture."
+    },
+    {
+      "name": "Prof. Dr. Ir. Syarifah Iis Aisyah, M.Sc.Agr.",
+      "department": "Fakultas Pertanian",
+      "title": "Wakil Dekan",
+      "research_area": null,
+      "email": "syarifah@apps.ipb.ac.id",
+      "phone": "0251 8629353",
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://faperta.ipb.ac.id/profil-pejabat/",
+      "notes": "Source: https://faperta.ipb.ac.id/profil-pejabat/. Vice Dean for Resources, Cooperation and Development, Faculty of Agriculture."
+    },
+    {
+      "name": "Prof. Dr. Ir. Akhmad Fauzi, M.Sc.",
+      "department": "Ilmu Ekonomi",
+      "title": "Guru Besar",
+      "research_area": "Ekonomi Sumberdaya",
+      "email": "akhmadfauzi@apps.ipb.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://pwd.ipb.ac.id/pages/staf-pengajar",
+      "notes": "Source: https://pwd.ipb.ac.id/pages/staf-pengajar (PS Perencanaan Wilayah dan Pedesaan staff page)."
+    },
+    {
+      "name": "Prof. Dr. Ir. Arya Hadi Dharmawan, M.Sc.Agr.",
+      "department": "Ilmu Ekonomi / Sains Komunikasi dan Pengembangan Masyarakat",
+      "title": "Guru Besar",
+      "research_area": null,
+      "email": "adharma@apps.ipb.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://pwd.ipb.ac.id/pages/staf-pengajar",
+      "notes": "Source: https://pwd.ipb.ac.id/pages/staf-pengajar."
+    },
+    {
+      "name": "Prof. Dr. Ir. Eka Intan Kumala Putri, M.Si.",
+      "department": "Ilmu Ekonomi",
+      "title": "Guru Besar",
+      "research_area": "Ekonomi Sumberdaya dan Lingkungan",
+      "email": "ekaintan@apps.ipb.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://pwd.ipb.ac.id/pages/staf-pengajar",
+      "notes": "Source: https://pwd.ipb.ac.id/pages/staf-pengajar."
+    },
+    {
+      "name": "Dr. Andrea Emma Pravitasari, S.P., M.Si.",
+      "department": "Ilmu Ekonomi",
+      "title": "Lektor Kepala",
+      "research_area": null,
+      "email": "andreaemma@apps.ipb.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://pwd.ipb.ac.id/pages/staf-pengajar",
+      "notes": "Source: https://pwd.ipb.ac.id/pages/staf-pengajar."
+    }
+  ]
 }

@@ -5,5 +5,54 @@
   "city": "Yogyakarta",
   "province": "DI Yogyakarta",
   "website": "https://uin-suka.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Prof. Dr. Hj. Marhumah, M.Pd.",
+      "department": "Fakultas Ilmu Tarbiyah dan Keguruan",
+      "title": "Guru Besar",
+      "research_area": "Pendidikan Islam, Studi Al-Qur'an dan Hadis, Gender dalam Pemikiran Islam, Living Hadith",
+      "email": "marhumah@uin-suka.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://uin-suka.ac.id/id/page/detil_dosen/196203121990012001",
+      "notes": "Email verified directly on official faculty profile page at https://uin-suka.ac.id/id/page/detil_dosen/196203121990012001 (S3 Pendidikan Agama Islam program)."
+    },
+    {
+      "name": "Siti Nur Hidayah, S.Th.I., M.Sc., Ph.D.",
+      "department": "Fakultas Ilmu Tarbiyah dan Keguruan",
+      "title": "Lektor",
+      "research_area": "Manajemen Pendidikan Islam, perempuan dalam kepemimpinan pendidikan Islam, learning organization",
+      "email": "siti.hidayah@uin-suka.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://uin-suka.ac.id/en/page/detil_dosen/198010012015032003",
+      "notes": "Email verified directly on official faculty profile page at https://uin-suka.ac.id/en/page/detil_dosen/198010012015032003 (S1 Manajemen Pendidikan Islam)."
+    },
+    {
+      "name": "Dr. Lailatu Rohmah, S.Pd.I., M.S.I.",
+      "department": "Fakultas Ilmu Tarbiyah dan Keguruan",
+      "title": "Lektor",
+      "research_area": "Pendidikan Islam Anak Usia Dini, pengembangan kognitif anak, manajemen kurikulum PAUD",
+      "email": "lailatu.rohmah@uin-suka.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://uin-suka.ac.id/en/page/detil_dosen/198405192009122003",
+      "notes": "Email verified directly on official faculty profile page at https://uin-suka.ac.id/en/page/detil_dosen/198405192009122003 (S1 Pendidikan Islam Anak Usia Dini)."
+    },
+    {
+      "name": "Nafisatul Mu'awwanah, M.A.",
+      "department": "Fakultas Ushuluddin dan Pemikiran Islam",
+      "title": "Asisten Ahli",
+      "research_area": "Analisis gender dalam ayat-ayat Al-Qur'an, hermeneutika hadis, studi Al-Qur'an kontemporer",
+      "email": "nafisatulmuawwanah24395@gmail.com",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://uin-suka.ac.id/id/page/detil_dosen/199503242020122014",
+      "notes": "Email verified directly on official faculty profile page at https://uin-suka.ac.id/id/page/detil_dosen/199503242020122014 (S1 Ilmu Al-Qur'an dan Tafsir). Listed email is a personal Gmail address as displayed on the official page, not an institutional address."
+    }
+  ]
 }

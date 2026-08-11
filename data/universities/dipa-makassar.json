@@ -5,5 +5,42 @@
   "city": "Makassar",
   "province": "Sulawesi Selatan",
   "website": "https://undipa.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Imran Djafar, S.Kom., M.T.",
+      "department": "Teknik Informatika",
+      "title": "Lektor",
+      "research_area": "Information systems, programming algorithms",
+      "email": "imran.djafar@dipanegara.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://site.undipa.ac.id/team/imrandjafar/",
+      "notes": "Email extracted from Cloudflare-obfuscated mailto link on official UNDIPA faculty profile page (https://site.undipa.ac.id/team/imrandjafar/). Note: uses legacy 'dipanegara.ac.id' domain (UNDIPA was formerly STMIK Dipanegara)."
+    },
+    {
+      "name": "Nurlina, S.Kom., M.T.",
+      "department": "Teknik Informatika / Manajemen Informatika",
+      "title": "Lektor",
+      "research_area": "Data mining, mobile programming",
+      "email": "linanoer888@dipanegara.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://site.undipa.ac.id/team/nurlina-s-kom-m-t/",
+      "notes": "Email extracted from Cloudflare-obfuscated mailto link on official UNDIPA faculty profile page (https://site.undipa.ac.id/team/nurlina-s-kom-m-t/). Note: uses legacy 'dipanegara.ac.id' domain."
+    },
+    {
+      "name": "Dr. Asri Kunda, S.E., M.M.",
+      "department": "Akuntansi / Manajemen",
+      "title": "Lektor",
+      "research_area": "Ekonomi Akuntansi, Manajemen Keuangan",
+      "email": "kundaasri@yahoo.com",
+      "phone": "082189148799",
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://site.undipa.ac.id/en/team/dr-asri-kundase-mm/",
+      "notes": "Email extracted from Cloudflare-obfuscated mailto link on official UNDIPA faculty profile page (https://site.undipa.ac.id/en/team/dr-asri-kundase-mm/). Personal (Yahoo) address, not institutional domain, but is the publicly listed contact on the official faculty page."
+    }
+  ]
 }

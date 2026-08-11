@@ -5,5 +5,78 @@
   "city": "Medan",
   "province": "Sumatera Utara",
   "website": "https://www.polmed.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Dr. Abdi Hanra Sebayang, S.T., M.T.",
+      "department": "Jurusan Teknik Mesin",
+      "title": "Ketua Jurusan/Prodi",
+      "research_area": null,
+      "email": "abdisebayang@polmed.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://me.polmed.ac.id/?p=3751",
+      "notes": "Confirmed role (Ketua Jurusan Teknik Mesin) and email on department's official functionary-structure page."
+    },
+    {
+      "name": "Ir. Nelson Manurung, M.T.",
+      "department": "Jurusan Teknik Mesin",
+      "title": "Ketua Jurusan/Prodi",
+      "research_area": "Mechanical Engineering",
+      "email": "nelsonmanurung@polmed.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://sinta.kemdikbud.go.id/authors/detail?id=6011505&view=overview",
+      "website": "https://me.polmed.ac.id/?p=3933",
+      "notes": "Listed as Kepala Program Studi Teknik Mesin on the department's functionary-structure page. Google Scholar field holds a SINTA profile link."
+    },
+    {
+      "name": "Alexander Sebayang, S.T., M.T.",
+      "department": "Jurusan Teknik Mesin",
+      "title": "Dosen",
+      "research_area": "Mechanical Engineering, Welding, Material",
+      "email": "alexandersebayang@polmed.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://sinta.kemdikbud.go.id/authors/detail?id=6753437&view=overview",
+      "website": "https://me.polmed.ac.id/blog/2022/04/11/3822/",
+      "notes": "Email verified on official department profile page."
+    },
+    {
+      "name": "Joni Indra, S.T., M.T.",
+      "department": "Jurusan Teknik Mesin",
+      "title": "Dosen",
+      "research_area": "Mechanical Engineering, Mesin-Mesin Pertanian",
+      "email": "joniindra@polmed.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://sinta.kemdikbud.go.id/authors/detail?id=6189887&view=overview",
+      "website": "https://me.polmed.ac.id/blog/2022/04/12/3893/",
+      "notes": "Email verified on official department profile page."
+    },
+    {
+      "name": "Silmi, S.T., M.T.",
+      "department": "Jurusan Teknik Konversi Energi",
+      "title": "Dosen",
+      "research_area": "Konversi Energi Listrik",
+      "email": "silmi@polmed.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.co.id/citations?hl=id&user=YiJqG18AAAAJ",
+      "website": "https://en.polmed.ac.id/blog/2022/04/14/3804/",
+      "notes": "Email verified on official department profile page. SINTA: https://sinta.kemdikbud.go.id/authors/detail?id=6006793&view=overview"
+    },
+    {
+      "name": "Jandri Fan HT Saragi, S.T., M.T.",
+      "department": "Jurusan Teknik Mesin",
+      "title": "Dosen",
+      "research_area": "Mechanical Engineering / Energy Conversion",
+      "email": "jandrisaragi@polmed.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?hl=id&user=DsG1gJEAAAAJ",
+      "website": "https://me.polmed.ac.id/?p=4517",
+      "notes": "Email verified on official department profile page. SINTA: https://sinta.kemdikbud.go.id/authors/detail?id=6715757&view=overview"
+    }
+  ]
 }

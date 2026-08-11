@@ -5,5 +5,54 @@
   "city": "Makassar",
   "province": "Sulawesi Selatan",
   "website": "https://www.poliupg.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Ir. Sirmayanti, S.T., M.Eng., Ph.D., IPM",
+      "department": "D4 Teknologi Rekayasa Jaringan Telekomunikasi, Jurusan Teknik Elektro",
+      "title": "Ketua Jurusan/Prodi",
+      "research_area": "Digital Wireless Communication / Telecommunications Network Technology",
+      "email": "sirmayanti.sirmayanti@poliupg.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://d4trjt.poliupg.ac.id/dosen-pengajar/",
+      "notes": "Source: https://d4trjt.poliupg.ac.id/dosen-pengajar/, NIDN 0030037902."
+    },
+    {
+      "name": "Arni Litha, S.T., M.T.",
+      "department": "D4 Teknologi Rekayasa Jaringan Telekomunikasi, Jurusan Teknik Elektro",
+      "title": "Dosen",
+      "research_area": "Telecommunications Electronics (Elektronika Telekomunikasi)",
+      "email": "arni@poliupg.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?user=Fy42EdYAAAAJ&hl=id",
+      "website": "https://d4trjt.poliupg.ac.id/dosen-pengajar/",
+      "notes": "Source: https://d4trjt.poliupg.ac.id/dosen-pengajar/, NIDN 0001047304."
+    },
+    {
+      "name": "Zaini, S.ST., M.T.",
+      "department": "Jurusan Teknik Elektro",
+      "title": "Dosen",
+      "research_area": "Analog Electronics / Digital Systems (Elektronika Analog, Sistem Digital)",
+      "email": "zaini@poliupg.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?user=Syn_2TMAAAAJ&hl=en",
+      "website": "https://d4trjt.poliupg.ac.id/dosen-pengajar/",
+      "notes": "Source: https://d4trjt.poliupg.ac.id/dosen-pengajar/, NIDN 0002027406."
+    },
+    {
+      "name": "Imasita",
+      "department": "Jurusan Administrasi Niaga",
+      "title": "Dosen",
+      "research_area": null,
+      "email": "imasita@poliupg.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://an.poliupg.ac.id/dosen-dan-tendik/",
+      "notes": "Full academic titles could not be confirmed. Email confirmed via search-engine index snippet of an.poliupg.ac.id/dosen-dan-tendik/ (page itself blocked by WAF on direct fetch) plus PNUP repository co-authorship records."
+    }
+  ]
 }

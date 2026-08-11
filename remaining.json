@@ -1,0 +1,657 @@
+[
+  {
+    "slug": "atma-jaya-makassar",
+    "name": "Universitas Atma Jaya Makassar (UAJM)",
+    "city": "Makassar"
+  },
+  {
+    "slug": "dipa-makassar",
+    "name": "Universitas Dipa Makassar (UNDIPA)",
+    "city": "Makassar"
+  },
+  {
+    "slug": "institut-seni-indonesia-yogyakarta",
+    "name": "Institut Seni Indonesia Yogyakarta",
+    "city": "Bantul"
+  },
+  {
+    "slug": "institut-teknologi-bandung",
+    "name": "Institut Teknologi Bandung",
+    "city": "Bandung"
+  },
+  {
+    "slug": "institut-teknologi-harapan-bangsa",
+    "name": "Institut Teknologi Harapan Bangsa",
+    "city": "Bandung"
+  },
+  {
+    "slug": "institut-teknologi-indonesia",
+    "name": "Institut Teknologi Indonesia (ITI)",
+    "city": "Tangerang Selatan"
+  },
+  {
+    "slug": "institut-teknologi-nasional-itenas",
+    "name": "Institut Teknologi Nasional (Itenas)",
+    "city": "Bandung"
+  },
+  {
+    "slug": "institut-teknologi-nasional-malang",
+    "name": "Institut Teknologi Nasional Malang (ITN)",
+    "city": "Malang"
+  },
+  {
+    "slug": "institut-teknologi-sepuluh-nopember",
+    "name": "Institut Teknologi Sepuluh Nopember (ITS)",
+    "city": "Surabaya"
+  },
+  {
+    "slug": "ipb-university",
+    "name": "IPB University (Institut Pertanian Bogor)",
+    "city": "Bogor"
+  },
+  {
+    "slug": "ipdn",
+    "name": "Institut Pemerintahan Dalam Negeri (IPDN)",
+    "city": "Jatinangor"
+  },
+  {
+    "slug": "pancasakti-makassar",
+    "name": "Universitas Pancasakti Makassar",
+    "city": "Makassar"
+  },
+  {
+    "slug": "politeknik-negeri-bandung",
+    "name": "Politeknik Negeri Bandung",
+    "city": "Bandung"
+  },
+  {
+    "slug": "politeknik-negeri-jakarta",
+    "name": "Politeknik Negeri Jakarta",
+    "city": "Depok"
+  },
+  {
+    "slug": "politeknik-negeri-malang",
+    "name": "Politeknik Negeri Malang (Polinema)",
+    "city": "Malang"
+  },
+  {
+    "slug": "politeknik-negeri-medan-polmed",
+    "name": "Politeknik Negeri Medan (Polmed)",
+    "city": "Medan"
+  },
+  {
+    "slug": "politeknik-negeri-sriwijaya",
+    "name": "Politeknik Negeri Sriwijaya (Polsri)",
+    "city": "Palembang"
+  },
+  {
+    "slug": "politeknik-negeri-ujung-pandang",
+    "name": "Politeknik Negeri Ujung Pandang",
+    "city": "Makassar"
+  },
+  {
+    "slug": "president-university",
+    "name": "President University",
+    "city": "Cikarang, Bekasi"
+  },
+  {
+    "slug": "telkom-university",
+    "name": "Telkom University",
+    "city": "Kabupaten Bandung"
+  },
+  {
+    "slug": "uin-alauddin-makassar",
+    "name": "UIN Alauddin Makassar",
+    "city": "Gowa"
+  },
+  {
+    "slug": "uin-maulana-malik-ibrahim-malang",
+    "name": "UIN Maulana Malik Ibrahim Malang (UIN Maliki)",
+    "city": "Malang"
+  },
+  {
+    "slug": "uin-raden-fatah-palembang",
+    "name": "UIN Raden Fatah Palembang (UIN RF)",
+    "city": "Palembang"
+  },
+  {
+    "slug": "uin-smh-banten-serang",
+    "name": "UIN Sultan Maulana Hasanuddin Banten (UIN SMH Banten)",
+    "city": "Serang"
+  },
+  {
+    "slug": "uin-sumatera-utara-uinsu",
+    "name": "Universitas Islam Negeri Sumatera Utara (UINSU)",
+    "city": "Medan"
+  },
+  {
+    "slug": "uin-sunan-ampel-surabaya",
+    "name": "UIN Sunan Ampel Surabaya (UINSA)",
+    "city": "Surabaya"
+  },
+  {
+    "slug": "uin-sunan-gunung-djati-bandung",
+    "name": "UIN Sunan Gunung Djati Bandung",
+    "city": "Bandung"
+  },
+  {
+    "slug": "uin-sunan-kalijaga-yogyakarta",
+    "name": "UIN Sunan Kalijaga Yogyakarta",
+    "city": "Yogyakarta"
+  },
+  {
+    "slug": "uin-syarif-hidayatullah-jakarta",
+    "name": "Universitas Islam Negeri Syarif Hidayatullah Jakarta",
+    "city": "Tangerang Selatan"
+  },
+  {
+    "slug": "uki-paulus-makassar",
+    "name": "Universitas Kristen Indonesia Paulus (UKI Paulus) Makassar",
+    "city": "Makassar"
+  },
+  {
+    "slug": "unai",
+    "name": "Universitas Advent Indonesia (UNAI)",
+    "city": "Bandung Barat"
+  },
+  {
+    "slug": "uniba-bina-bangsa-serang",
+    "name": "Universitas Bina Bangsa (Uniba)",
+    "city": "Serang"
+  },
+  {
+    "slug": "uninus",
+    "name": "Universitas Islam Nusantara (Uninus)",
+    "city": "Bandung"
+  },
+  {
+    "slug": "unis-syekh-yusuf-tangerang",
+    "name": "Universitas Islam Syekh-Yusuf (Unis)",
+    "city": "Tangerang"
+  },
+  {
+    "slug": "universitas-ahmad-dahlan",
+    "name": "Universitas Ahmad Dahlan",
+    "city": "Yogyakarta"
+  },
+  {
+    "slug": "universitas-airlangga",
+    "name": "Universitas Airlangga (Unair)",
+    "city": "Surabaya"
+  },
+  {
+    "slug": "universitas-aisyiyah-yogyakarta",
+    "name": "Universitas 'Aisyiyah Yogyakarta",
+    "city": "Sleman"
+  },
+  {
+    "slug": "universitas-alma-ata",
+    "name": "Universitas Alma Ata",
+    "city": "Bantul"
+  },
+  {
+    "slug": "universitas-amikom-yogyakarta",
+    "name": "Universitas Amikom Yogyakarta",
+    "city": "Sleman"
+  },
+  {
+    "slug": "universitas-atma-jaya-yogyakarta",
+    "name": "Universitas Atma Jaya Yogyakarta",
+    "city": "Yogyakarta"
+  },
+  {
+    "slug": "universitas-bale-bandung",
+    "name": "Universitas Bale Bandung (Unibba)",
+    "city": "Baleendah"
+  },
+  {
+    "slug": "universitas-bhayangkara-jakarta-raya",
+    "name": "Universitas Bhayangkara Jakarta Raya (Ubhara Jaya)",
+    "city": "Bekasi"
+  },
+  {
+    "slug": "universitas-bina-darma",
+    "name": "Universitas Bina Darma (UBD)",
+    "city": "Palembang"
+  },
+  {
+    "slug": "universitas-bosowa",
+    "name": "Universitas Bosowa Makassar",
+    "city": "Makassar"
+  },
+  {
+    "slug": "universitas-brawijaya",
+    "name": "Universitas Brawijaya (UB)",
+    "city": "Malang"
+  },
+  {
+    "slug": "universitas-ciputra-surabaya",
+    "name": "Universitas Ciputra Surabaya",
+    "city": "Surabaya"
+  },
+  {
+    "slug": "universitas-djuanda",
+    "name": "Universitas Djuanda (UNIDA Bogor)",
+    "city": "Bogor"
+  },
+  {
+    "slug": "universitas-dr-soetomo-surabaya",
+    "name": "Universitas Dr. Soetomo Surabaya",
+    "city": "Surabaya"
+  },
+  {
+    "slug": "universitas-fajar",
+    "name": "Universitas Fajar (Unifa) Makassar",
+    "city": "Makassar"
+  },
+  {
+    "slug": "universitas-gadjah-mada",
+    "name": "Universitas Gadjah Mada",
+    "city": "Sleman"
+  },
+  {
+    "slug": "universitas-gunadarma",
+    "name": "Universitas Gunadarma",
+    "city": "Depok"
+  },
+  {
+    "slug": "universitas-hang-tuah-surabaya",
+    "name": "Universitas Hang Tuah Surabaya",
+    "city": "Surabaya"
+  },
+  {
+    "slug": "universitas-hasanuddin",
+    "name": "Universitas Hasanuddin",
+    "city": "Makassar"
+  },
+  {
+    "slug": "universitas-hkbp-nommensen-medan-uhn",
+    "name": "Universitas HKBP Nommensen Medan (UHN)",
+    "city": "Medan"
+  },
+  {
+    "slug": "universitas-iba-palembang",
+    "name": "Universitas IBA Palembang (IBA)",
+    "city": "Palembang"
+  },
+  {
+    "slug": "universitas-ibn-khaldun-bogor",
+    "name": "Universitas Ibn Khaldun Bogor (UIKA)",
+    "city": "Bogor"
+  },
+  {
+    "slug": "universitas-indonesia-timur-uit",
+    "name": "Universitas Indonesia Timur (UIT)",
+    "city": "Makassar"
+  },
+  {
+    "slug": "universitas-internasional-semen-indonesia",
+    "name": "Universitas Internasional Semen Indonesia (UISI)",
+    "city": "Gresik"
+  },
+  {
+    "slug": "universitas-islam-bandung",
+    "name": "Universitas Islam Bandung (Unisba)",
+    "city": "Bandung"
+  },
+  {
+    "slug": "universitas-islam-indonesia",
+    "name": "Universitas Islam Indonesia",
+    "city": "Sleman"
+  },
+  {
+    "slug": "universitas-islam-majapahit",
+    "name": "Universitas Islam Majapahit (UNIM)",
+    "city": "Mojokerto"
+  },
+  {
+    "slug": "universitas-islam-makassar-uim-algazali",
+    "name": "Universitas Islam Makassar (UIM Al-Gazali)",
+    "city": "Makassar"
+  },
+  {
+    "slug": "universitas-islam-malang",
+    "name": "Universitas Islam Malang (UNISMA)",
+    "city": "Malang"
+  },
+  {
+    "slug": "universitas-islam-sumatera-utara-uisu",
+    "name": "Universitas Islam Sumatera Utara (UISU)",
+    "city": "Medan"
+  },
+  {
+    "slug": "universitas-janabadra",
+    "name": "Universitas Janabadra",
+    "city": "Yogyakarta"
+  },
+  {
+    "slug": "universitas-jenderal-achmad-yani-cimahi",
+    "name": "Universitas Jenderal Achmad Yani (Unjani)",
+    "city": "Cimahi"
+  },
+  {
+    "slug": "universitas-jenderal-achmad-yani-yogyakarta",
+    "name": "Universitas Jenderal Achmad Yani Yogyakarta",
+    "city": "Sleman"
+  },
+  {
+    "slug": "universitas-jenderal-achmad-yani",
+    "name": "Universitas Jenderal Achmad Yani",
+    "city": "Cimahi"
+  },
+  {
+    "slug": "universitas-katolik-musi-charitas",
+    "name": "Universitas Katolik Musi Charitas (UKMC)",
+    "city": "Palembang"
+  },
+  {
+    "slug": "universitas-katolik-parahyangan",
+    "name": "Universitas Katolik Parahyangan (Unpar)",
+    "city": "Bandung"
+  },
+  {
+    "slug": "universitas-katolik-widya-mandala-surabaya",
+    "name": "Universitas Katolik Widya Mandala Surabaya",
+    "city": "Surabaya"
+  },
+  {
+    "slug": "universitas-komputer-indonesia-unikom",
+    "name": "Universitas Komputer Indonesia (Unikom)",
+    "city": "Bandung"
+  },
+  {
+    "slug": "universitas-koperasi-indonesia-ikopin",
+    "name": "Universitas Koperasi Indonesia (IKOPIN)",
+    "city": "Jatinangor"
+  },
+  {
+    "slug": "universitas-kristen-duta-wacana",
+    "name": "Universitas Kristen Duta Wacana",
+    "city": "Yogyakarta"
+  },
+  {
+    "slug": "universitas-kristen-maranatha",
+    "name": "Universitas Kristen Maranatha",
+    "city": "Bandung"
+  },
+  {
+    "slug": "universitas-kristen-petra",
+    "name": "Universitas Kristen Petra (Petra Christian University)",
+    "city": "Surabaya"
+  },
+  {
+    "slug": "universitas-logistik-dan-bisnis-internasional",
+    "name": "Universitas Logistik dan Bisnis Internasional",
+    "city": "Bandung"
+  },
+  {
+    "slug": "universitas-ma-chung",
+    "name": "Universitas Ma Chung",
+    "city": "Malang"
+  },
+  {
+    "slug": "universitas-medan-area-uma",
+    "name": "Universitas Medan Area (UMA)",
+    "city": "Medan"
+  },
+  {
+    "slug": "universitas-mercu-buana-yogyakarta",
+    "name": "Universitas Mercu Buana Yogyakarta",
+    "city": "Bantul"
+  },
+  {
+    "slug": "universitas-merdeka-malang",
+    "name": "Universitas Merdeka Malang (Unmer)",
+    "city": "Malang"
+  },
+  {
+    "slug": "universitas-muhammadiyah-ahmad-dahlan-palembang",
+    "name": "Universitas Muhammadiyah Ahmad Dahlan Palembang (UM-AD)",
+    "city": "Palembang"
+  },
+  {
+    "slug": "universitas-muhammadiyah-gresik",
+    "name": "Universitas Muhammadiyah Gresik (UMG)",
+    "city": "Gresik"
+  },
+  {
+    "slug": "universitas-muhammadiyah-jakarta",
+    "name": "Universitas Muhammadiyah Jakarta",
+    "city": "Tangerang Selatan"
+  },
+  {
+    "slug": "universitas-muhammadiyah-makassar",
+    "name": "Universitas Muhammadiyah Makassar (Unismuh Makassar)",
+    "city": "Makassar"
+  },
+  {
+    "slug": "universitas-muhammadiyah-malang",
+    "name": "Universitas Muhammadiyah Malang (UMM)",
+    "city": "Malang"
+  },
+  {
+    "slug": "universitas-muhammadiyah-palembang",
+    "name": "Universitas Muhammadiyah Palembang (UMP)",
+    "city": "Palembang"
+  },
+  {
+    "slug": "universitas-muhammadiyah-sidoarjo",
+    "name": "Universitas Muhammadiyah Sidoarjo (Umsida)",
+    "city": "Sidoarjo"
+  },
+  {
+    "slug": "universitas-muhammadiyah-sumatera-utara-umsu",
+    "name": "Universitas Muhammadiyah Sumatera Utara (UMSU)",
+    "city": "Medan"
+  },
+  {
+    "slug": "universitas-muhammadiyah-surabaya",
+    "name": "Universitas Muhammadiyah Surabaya (UM Surabaya)",
+    "city": "Surabaya"
+  },
+  {
+    "slug": "universitas-muhammadiyah-tangerang",
+    "name": "Universitas Muhammadiyah Tangerang (UMT)",
+    "city": "Tangerang"
+  },
+  {
+    "slug": "universitas-muhammadiyah-yogyakarta",
+    "name": "Universitas Muhammadiyah Yogyakarta",
+    "city": "Bantul"
+  },
+  {
+    "slug": "universitas-multimedia-nusantara",
+    "name": "Universitas Multimedia Nusantara",
+    "city": "Tangerang"
+  },
+  {
+    "slug": "universitas-muslim-indonesia",
+    "name": "Universitas Muslim Indonesia (UMI) Makassar",
+    "city": "Makassar"
+  },
+  {
+    "slug": "universitas-nahdlatul-ulama-surabaya",
+    "name": "Universitas Nahdlatul Ulama Surabaya (Unusa)",
+    "city": "Surabaya"
+  },
+  {
+    "slug": "universitas-negeri-makassar",
+    "name": "Universitas Negeri Makassar",
+    "city": "Makassar"
+  },
+  {
+    "slug": "universitas-negeri-malang",
+    "name": "Universitas Negeri Malang (UM)",
+    "city": "Malang"
+  },
+  {
+    "slug": "universitas-negeri-medan-unimed",
+    "name": "Universitas Negeri Medan (UNIMED)",
+    "city": "Medan"
+  },
+  {
+    "slug": "universitas-negeri-surabaya",
+    "name": "Universitas Negeri Surabaya (Unesa)",
+    "city": "Surabaya"
+  },
+  {
+    "slug": "universitas-negeri-yogyakarta",
+    "name": "Universitas Negeri Yogyakarta",
+    "city": "Sleman"
+  },
+  {
+    "slug": "universitas-nurtanio-bandung",
+    "name": "Universitas Nurtanio Bandung (Unnur)",
+    "city": "Bandung"
+  },
+  {
+    "slug": "universitas-padjadjaran",
+    "name": "Universitas Padjadjaran",
+    "city": "Jatinangor"
+  },
+  {
+    "slug": "universitas-pakuan",
+    "name": "Universitas Pakuan",
+    "city": "Bogor"
+  },
+  {
+    "slug": "universitas-pamulang",
+    "name": "Universitas Pamulang (Unpam)",
+    "city": "Tangerang Selatan"
+  },
+  {
+    "slug": "universitas-pasundan-unpas",
+    "name": "Universitas Pasundan (Unpas)",
+    "city": "Bandung"
+  },
+  {
+    "slug": "universitas-patria-artha",
+    "name": "Universitas Patria Artha (UPA)",
+    "city": "Gowa"
+  },
+  {
+    "slug": "universitas-pelita-harapan",
+    "name": "Universitas Pelita Harapan (UPH)",
+    "city": "Tangerang"
+  },
+  {
+    "slug": "universitas-pembangunan-jaya",
+    "name": "Universitas Pembangunan Jaya (UPJ)",
+    "city": "Tangerang Selatan"
+  },
+  {
+    "slug": "universitas-pembangunan-panca-budi-unpab",
+    "name": "Universitas Pembangunan Panca Budi (UNPAB)",
+    "city": "Medan"
+  },
+  {
+    "slug": "universitas-pendidikan-indonesia",
+    "name": "Universitas Pendidikan Indonesia",
+    "city": "Bandung"
+  },
+  {
+    "slug": "universitas-pgri-adi-buana-surabaya",
+    "name": "Universitas PGRI Adi Buana Surabaya (Unipa Surabaya)",
+    "city": "Surabaya"
+  },
+  {
+    "slug": "universitas-pgri-palembang",
+    "name": "Universitas PGRI Palembang (UPGRIP)",
+    "city": "Palembang"
+  },
+  {
+    "slug": "universitas-pgri-yogyakarta",
+    "name": "Universitas PGRI Yogyakarta",
+    "city": "Yogyakarta"
+  },
+  {
+    "slug": "universitas-respati-yogyakarta",
+    "name": "Universitas Respati Yogyakarta",
+    "city": "Sleman"
+  },
+  {
+    "slug": "universitas-sanata-dharma",
+    "name": "Universitas Sanata Dharma",
+    "city": "Sleman"
+  },
+  {
+    "slug": "universitas-sawerigading-unsa-makassar",
+    "name": "Universitas Sawerigading Makassar (UNSA)",
+    "city": "Makassar"
+  },
+  {
+    "slug": "universitas-sriwijaya",
+    "name": "Universitas Sriwijaya (Unsri)",
+    "city": "Indralaya"
+  },
+  {
+    "slug": "universitas-sumatera-utara-usu",
+    "name": "Universitas Sumatera Utara (USU)",
+    "city": "Medan"
+  },
+  {
+    "slug": "universitas-surabaya-ubaya",
+    "name": "Universitas Surabaya (Ubaya)",
+    "city": "Surabaya"
+  },
+  {
+    "slug": "universitas-teknologi-yogyakarta",
+    "name": "Universitas Teknologi Yogyakarta",
+    "city": "Sleman"
+  },
+  {
+    "slug": "universitas-tridinanti-palembang",
+    "name": "Universitas Tridinanti Palembang (UNANTI)",
+    "city": "Palembang"
+  },
+  {
+    "slug": "universitas-trunojoyo-madura",
+    "name": "Universitas Trunojoyo Madura (UTM)",
+    "city": "Bangkalan"
+  },
+  {
+    "slug": "universitas-widyagama-malang",
+    "name": "Universitas Widyagama Malang (UWG)",
+    "city": "Malang"
+  },
+  {
+    "slug": "universitas-widyatama",
+    "name": "Universitas Widyatama",
+    "city": "Bandung"
+  },
+  {
+    "slug": "universitas-wijaya-kusuma-surabaya",
+    "name": "Universitas Wijaya Kusuma Surabaya",
+    "city": "Surabaya"
+  },
+  {
+    "slug": "unsera-serang",
+    "name": "Universitas Serang Raya (Unsera)",
+    "city": "Serang"
+  },
+  {
+    "slug": "untag-surabaya",
+    "name": "Universitas 17 Agustus 1945 Surabaya",
+    "city": "Surabaya"
+  },
+  {
+    "slug": "untirta-serang",
+    "name": "Universitas Sultan Ageng Tirtayasa (Untirta)",
+    "city": "Serang"
+  },
+  {
+    "slug": "upn-veteran-jawa-timur",
+    "name": "UPN Veteran Jawa Timur (UPN Jatim)",
+    "city": "Surabaya"
+  },
+  {
+    "slug": "upn-veteran-yogyakarta",
+    "name": "UPN Veteran Yogyakarta",
+    "city": "Sleman"
+  },
+  {
+    "slug": "usb-ypkp",
+    "name": "Universitas Sangga Buana (USB YPKP)",
+    "city": "Bandung"
+  }
+]

@@ -5,5 +5,54 @@
   "city": "Bandung",
   "province": "Jawa Barat",
   "website": "https://www.polban.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Prof. Ir. Herawati Budiastuti, M.Eng.Sc., Ph.D.",
+      "department": "Jurusan Teknik Kimia",
+      "title": "Guru Besar",
+      "research_area": "Pengolahan Limbah dan Energi Terbarukan (Wastewater Treatment and Bioenergy / Biodiesel)",
+      "email": "herabudi@polban.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?hl=en&user=GxOJuX0AAAAJ",
+      "website": "https://www.polban.ac.id/perkuat-posisi-sebagai-politeknik-dengan-jumlah-guru-besar-terbanyak-di-indonesia-polban-kukuhkan-3-guru-besar-baru/",
+      "notes": "Named as one of 3 new Guru Besar in official POLBAN news article. Email confirmed via a ResearchGate publication listing her as corresponding author, cross-checked with Google Scholar domain match."
+    },
+    {
+      "name": "Dr. Ir. Haryadi, M.T.",
+      "department": "Jurusan Teknik Mesin",
+      "title": "Dosen",
+      "research_area": null,
+      "email": "haryadi.mesin@polban.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://www.me.polban.ac.id/haryadi/",
+      "notes": "Email and biographical details retrieved from POLBAN Mechanical Engineering department's individual faculty profile page."
+    },
+    {
+      "name": "Mochammad Luthfi, M.T., M.Sc.",
+      "department": "Jurusan Teknik Mesin",
+      "title": "Lektor Kepala",
+      "research_area": null,
+      "email": "mluthfi@polban.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://www.me.polban.ac.id/category/dosen/",
+      "notes": "NIDN 0028096304 and title 'Lektor Kepala' explicitly stated on department faculty directory page."
+    },
+    {
+      "name": "Citra Asti Rosalia",
+      "department": "Jurusan Teknik Mesin",
+      "title": "Dosen",
+      "research_area": null,
+      "email": "citra.asti@polban.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://jurnal.polban.ac.id/proceeding/article/view/6676",
+      "notes": "LOWER CONFIDENCE: email extracted from a mailto link in a 2025 conference paper PDF; name matched as last-listed author. Could not independently confirm faculty rank/position — recommend manual verification before outreach."
+    }
+  ]
 }

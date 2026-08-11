@@ -5,5 +5,54 @@
   "city": "Bandung Barat",
   "province": "Jawa Barat",
   "website": "https://unai.edu",
-  "professors": []
+  "professors": [
+    {
+      "name": "Dr. Judith Tagal Gallena Sinaga, MBA",
+      "department": "Fakultas Ekonomi",
+      "title": "Dosen",
+      "research_area": "Manajemen / Ekonomi",
+      "email": "judith.sinaga@unai.edu",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://fe.unai.edu/en/profil-dosen/judith-tagal-gallena-sinaga/",
+      "notes": "Listed on https://fe.unai.edu/en/profil-dosen/ faculty directory. Email verified as corresponding author in International Journal Of Humanities Education and Social Sciences (IJHESS) article 'Service Quality Dimension and Its Importance for...' (Judith.sinaga@unai.edu)."
+    },
+    {
+      "name": "Valentine Siagian, S.E., Ak., CA., M.Ak., Ph.D.",
+      "department": "Fakultas Ekonomi",
+      "title": "Dosen",
+      "research_area": "Akuntansi",
+      "email": "valentine@unai.edu",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://fe.unai.edu/en/profil-dosen/valentine-siagian/",
+      "notes": "Listed on https://fe.unai.edu/en/profil-dosen/ faculty directory. Email verified as corresponding author in IJHESS article 'Service Quality Dimension and Its Importance for...' (valentine@unai.edu)."
+    },
+    {
+      "name": "Ernawati Siagian, MSN",
+      "department": "Fakultas Ilmu Keperawatan",
+      "title": "Dosen",
+      "research_area": "Keperawatan (Ilmu Keperawatan Sistem Imun dan Hematologi)",
+      "email": "ernawatisiagian@unai.edu",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://fik.unai.edu",
+      "notes": "Confirmed dosen FIK UNAI since 2015 (fik.unai.edu profile page, 20 Feb 2018). Email verified there directly and again as corresponding author in a repository.unar.ac.id study on COVID-19 isolated nurses (ernawatisiagian@unai.edu)."
+    },
+    {
+      "name": "Evelyn Hemme Tambunan",
+      "department": "Fakultas Ilmu Keperawatan",
+      "title": "Dosen",
+      "research_area": "Keperawatan Gerontik (caregiving, Alzheimer's/dementia)",
+      "email": "evelyntambunan@unai.edu",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://fik.unai.edu",
+      "notes": "Email verified as corresponding author in Journal of Caring Sciences article 'Experiences of Family Caregivers Caring for Patient with...' (evelyntambunan@unai.edu), affiliated with Universitas Advent Indonesia."
+    }
+  ]
 }

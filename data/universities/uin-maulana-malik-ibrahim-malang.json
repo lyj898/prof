@@ -5,5 +5,30 @@
   "city": "Malang",
   "province": "Jawa Timur",
   "website": "https://uin-malang.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Prof. Dr. H. Ahmad Barizi, M.A.",
+      "department": "Program Studi Matematika / Ilmu Tasawuf",
+      "title": "Guru Besar",
+      "research_area": "Ilmu Tasawuf, Pendidikan Pesantren",
+      "email": "abarizi_mdr@mat.uin-malang.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?user=6fKivIEAAAAJ&hl=en",
+      "website": "https://matematika.uin-malang.ac.id/en/prof-dr-ahmad-barizi-m-a/",
+      "notes": "Email verified on official Program Studi Matematika profile page (matematika.uin-malang.ac.id/en/prof-dr-ahmad-barizi-m-a/). Member of Dewan Pendidikan Kota Malang."
+    },
+    {
+      "name": "Dr. Indah Yuliana, S.E., M.M.",
+      "department": "Manajemen, Fakultas Ekonomi",
+      "title": "Lektor Kepala",
+      "research_area": "Management, Business, Finance",
+      "email": "indahoty@manajemen.uin-malang.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.co.id/citations?user=zIlcYE8AAAAJ&hl=en",
+      "website": "https://pasca.uin-malang.ac.id/indah-yuliana/",
+      "notes": "Email verified on Pascasarjana UIN Malang profile page (pasca.uin-malang.ac.id/indah-yuliana/). NIP 197409182003122004, NIDN 2018097401."
+    }
+  ]
 }

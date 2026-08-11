@@ -5,5 +5,66 @@
   "city": "Surabaya",
   "province": "Jawa Timur",
   "website": "https://www.its.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Prof. Daniel O. Siahaan, S.Kom., M.Sc., PD.Eng.",
+      "department": "Teknik Informatika",
+      "title": "Guru Besar",
+      "research_area": "Software Engineering",
+      "email": "daniel@if.its.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.co.id/citations?user=cqAHkJ4AAAAJ&hl=en&oi=sra",
+      "website": "https://www.its.ac.id/informatika/profil-daniel-oranova/",
+      "notes": "Source: https://www.its.ac.id/informatika/profil-daniel-oranova/ (individual profile page, email verified directly)."
+    },
+    {
+      "name": "Prof. Drs. Ec. Ir. Riyanarto Sarno, M.Sc., Ph.D.",
+      "department": "Teknik Informatika",
+      "title": "Guru Besar",
+      "research_area": "Intelligent Information Management",
+      "email": "riyanarto@if.its.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.co.id/citations?user=QOMOtp0AAAAJ&hl=en",
+      "website": "https://www.its.ac.id/informatika/profil-riyanarto-sarno/",
+      "notes": "Source: https://www.its.ac.id/informatika/profil-riyanarto-sarno/ (individual profile page, email verified directly). Former Dean of Faculty of Information Technology (2006-2010)."
+    },
+    {
+      "name": "Prof. Dr. Eng. Nanik Suciati, S.Kom., M.Kom.",
+      "department": "Teknik Informatika",
+      "title": "Guru Besar",
+      "research_area": "Intelligent Computing and Vision",
+      "email": "nanik@if.its.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.co.id/citations?user=DvVoH5AAAAAJ&hl=en",
+      "website": "https://www.its.ac.id/informatika/profil-nanik-suciati/",
+      "notes": "Source: https://www.its.ac.id/informatika/profil-nanik-suciati/ (individual profile page, email verified directly)."
+    },
+    {
+      "name": "Prof. Ir. Tohari Ahmad, S.Kom., M.IT., Ph.D.",
+      "department": "Teknik Informatika",
+      "title": "Guru Besar",
+      "research_area": "Network-Based Computing",
+      "email": "tohari@if.its.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.its.ac.id/en/persons/tohari-ahmad/",
+      "website": "https://www.its.ac.id/informatika/profil-tohari-ahmad/",
+      "notes": "Source: https://www.its.ac.id/informatika/profil-tohari-ahmad/ (individual profile page, email verified directly)."
+    },
+    {
+      "name": "Ir. Siti Rochimah, MT., Ph.D.",
+      "department": "Teknik Informatika",
+      "title": "Lektor Kepala",
+      "research_area": "Software Engineering, Software Quality, Software Evolution",
+      "email": "siti@if.its.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://www.its.ac.id/informatika/id/dosen-staff/daftar-dosen/profil-siti-rochimah/",
+      "notes": "Source: https://www.its.ac.id/informatika/id/dosen-staff/daftar-dosen/profil-siti-rochimah/ (individual profile page, email verified directly). Head of Software Engineering Laboratory; rank inferred as Lektor Kepala from role, not explicitly stated."
+    }
+  ]
 }
