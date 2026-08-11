@@ -1,0 +1,130 @@
+{
+  "slug": "universitas-indonesia",
+  "name": "Universitas Indonesia",
+  "type": "Universitas",
+  "city": "Depok",
+  "province": "Jawa Barat",
+  "website": "https://www.ui.ac.id",
+  "professors": [
+    {
+      "name": "Prof. Dr. Ir. Aniati Murni Arymurthy, M.Sc.",
+      "department": "Fakultas Ilmu Komputer",
+      "title": "Guru Besar",
+      "research_area": "Pattern Recognition, Image Processing, Spatial Data",
+      "email": "aniati@cs.ui.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://cs.ui.ac.id/personnel/aniati-murni-arymurthy/",
+      "notes": "Verified via official Fasilkom UI profile page. Has Scopus (authorId 36815724000) and SINTA profiles, but no Google Scholar or LinkedIn link found on the official page."
+    },
+    {
+      "name": "Prof. Harry Budi Santoso, S.Kom., M.Kom., Ph.D.",
+      "department": "Fakultas Ilmu Komputer",
+      "title": "Guru Besar",
+      "research_area": "Human-Computer Interaction, Online Learning, Computer-Assisted Instruction",
+      "email": "harrybs@cs.ui.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://cs.ui.ac.id/personnel/harry-budi-santoso/",
+      "notes": "Verified via official Fasilkom UI profile page. Also serves as Research Manager for Innovation, Research, Community Service & Academic Partnerships per same page."
+    },
+    {
+      "name": "Prof. Dr. Achmad Nizar Hidayanto, S.Kom., M.Kom.",
+      "department": "Fakultas Ilmu Komputer",
+      "title": "Guru Besar",
+      "research_area": "Information Systems, IT Adoption, Digital Economy, Fintech",
+      "email": "nizar@cs.ui.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://cs.ui.ac.id/personnel/achmad-nizar-hidayanto/",
+      "notes": "Verified via official Fasilkom UI profile page. Also listed as Vice Dean for Education, Research & Student Affairs on the same page as of 2026-08-11 — reconfirm current role at outreach."
+    },
+    {
+      "name": "Prof. Drs. T. Basaruddin, M.Sc., Ph.D.",
+      "department": "Fakultas Ilmu Komputer",
+      "title": "Guru Besar",
+      "research_area": "Numerical Computation, Modeling & Simulation, Artificial Intelligence",
+      "email": "chan@cs.ui.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://cs.ui.ac.id/personnel/t-basaruddin/",
+      "notes": "Verified via official Fasilkom UI profile page. Former Dean of Fasilkom UI (2004-2013). Email format (chan@) differs from name — directly sourced but worth double-checking."
+    },
+    {
+      "name": "Prof. Sidharta Utama, Ph.D.",
+      "department": "Fakultas Ekonomi dan Bisnis (Departemen Akuntansi)",
+      "title": "Guru Besar",
+      "research_area": "Corporate Governance, Financial Accounting",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://feb.ui.ac.id/senat-akademik/prof-sidharta-utama-ph-d/",
+      "notes": "Verified via FEB UI Senat Akademik profile page and FEB UI Dewan Guru Besar list (https://feb.ui.ac.id/dewan-guru-besar/). No email/scholar/LinkedIn publicly listed."
+    },
+    {
+      "name": "Prof. Rhenald Kasali, Ph.D.",
+      "department": "Fakultas Ekonomi dan Bisnis (Manajemen)",
+      "title": "Guru Besar",
+      "research_area": "Management, Organizational Change, Business Strategy/Disruption",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": null,
+      "notes": "Confirmed as Guru Besar via FEB UI Dewan Guru Besar list (https://feb.ui.ac.id/dewan-guru-besar/). staff.ui.ac.id profile page referenced but not directly fetched — moderate confidence on that source only. No personal email publicly listed."
+    },
+    {
+      "name": "Prof. Dr. Ir. Yusuf Latief, M.T.",
+      "department": "Fakultas Teknik (Teknik Sipil dan Lingkungan)",
+      "title": "Guru Besar",
+      "research_area": "Manajemen Konstruksi (Construction Management)",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://civil.ui.ac.id/guru-besar/",
+      "notes": "Verified via official Department of Civil & Environmental Engineering UI professors page. No email listed on the page."
+    },
+    {
+      "name": "Prof. Ir. Firdaus Ali, M.Sc., Ph.D.",
+      "department": "Fakultas Teknik (Teknik Sipil dan Lingkungan)",
+      "title": "Guru Besar",
+      "research_area": "Teknik Lingkungan (Environmental Engineering)",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://civil.ui.ac.id/guru-besar/",
+      "notes": "Verified via official Department of Civil & Environmental Engineering UI professors page. No email listed on the page."
+    },
+    {
+      "name": "Prof. Heru Susetyo, S.H., LL.M., M.Si., M.Ag., Ph.D.",
+      "department": "Fakultas Hukum",
+      "title": "Guru Besar",
+      "research_area": "Hukum dan Kesejahteraan Sosial (Law and Social Welfare), Victimology",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?user=SdmjgXYAAAAJ&hl=en",
+      "website": "https://law.ui.ac.id/personnel/heru-susetyo/",
+      "notes": "Faculty profile confirmed via law.ui.ac.id and dpis.ui.ac.id. Guru Besar appointment per hukumonline.com (inauguration window Jan-Mar 2025). Google Scholar link found via search but author-identity match not independently cross-checked — verify before outreach. No personal email found publicly."
+    },
+    {
+      "name": "Prof. Dr. dr. Dita Aditianingsih, Sp.An.(K)",
+      "department": "Fakultas Kedokteran (Anestesiologi dan Terapi Intensif)",
+      "title": "Guru Besar",
+      "research_area": "Anesthesiology and Intensive Care",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://fk.ui.ac.id/daftar-guru-besar-fkui.html",
+      "notes": "Name, department, and title verified via the official FKUI Guru Besar roster page (a long list; no individual profile page was located in this pass, so email/scholar/LinkedIn are unconfirmed)."
+    }
+  ]
+}

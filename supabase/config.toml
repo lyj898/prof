@@ -1,0 +1,4 @@
+# Minimal Supabase CLI config so `supabase link` / `supabase db push` work against
+# your hosted project. Redirect URLs and the email allow-list for the HOSTED project
+# are managed in the Supabase dashboard, not here.
+project_id = "prof"
