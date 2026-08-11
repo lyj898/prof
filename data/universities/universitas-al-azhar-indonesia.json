@@ -5,5 +5,42 @@
   "city": "Jakarta Selatan",
   "province": "DKI Jakarta",
   "website": "https://uai.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Dr. Iin Suryaningsih, S.S., M.A.",
+      "department": "Fakultas Ilmu Pengetahuan Budaya",
+      "title": "Dekan",
+      "research_area": "Linguistik / Sastra",
+      "email": "iin.suryaningsih@uai.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://fib.uai.ac.id/",
+      "notes": "Verified via jurnal.uai.ac.id/index.php/al-lisan/about/contact (Principal Contact) and sevima.com news of her inauguration as Dean of Fakultas Ilmu Pengetahuan Budaya (2025-2029). High confidence."
+    },
+    {
+      "name": "Nur Hizbullah, M.Hum., Ph.D.",
+      "department": "Program Studi Sastra Arab, Fakultas Ilmu Pengetahuan Budaya",
+      "title": "Lektor",
+      "research_area": "Applied Linguistics, Arabic Corpus Linguistics, Translation Studies",
+      "email": "nurhz@uai.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://uai.ac.id/fib/mlit/profil-dosen-nur-hizbullah/",
+      "notes": "Verified via jurnal.uai.ac.id/index.php/al-lisan/about/contact (Support Contact) and UAI faculty profile page uai.ac.id/fib/mlit/profil-dosen-nur-hizbullah/. High confidence."
+    },
+    {
+      "name": "Nadya Mara Adelina, S.T.P., M.Agr.",
+      "department": "Program Studi Teknologi Pangan, Fakultas Sains dan Teknologi",
+      "title": "Dosen",
+      "research_area": "Food Technology",
+      "email": "nadya.adelina@uai.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://jurnal.uai.ac.id/index.php/EXC/about/contact",
+      "notes": "Verified via jurnal.uai.ac.id/index.php/EXC/about/contact, listed as Principal/Support Contact with affiliation 'Department of Food Technology, Faculty of Science and Technology, University of Al Azhar Indonesia'. High confidence."
+    }
+  ]
 }

@@ -5,5 +5,66 @@
   "city": "Jakarta Selatan",
   "province": "DKI Jakarta",
   "website": "https://universitaspertamina.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Arif Murti Rozamuri, B.B.A., M.Sc., Ph.D.",
+      "department": "Program Studi Manajemen",
+      "title": "Ketua Jurusan/Prodi",
+      "research_area": "Management",
+      "email": "arifmurti.r@universitaspertamina.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://universitaspertamina.ac.id/prodi/manajemen/dosen",
+      "notes": "Ketua Program Studi Manajemen. Email verified from official Universitas Pertamina Manajemen program faculty page. High confidence."
+    },
+    {
+      "name": "Dr. Ir. Dedy Dewanto, MM., ACII.",
+      "department": "Program Studi Manajemen",
+      "title": "Dosen",
+      "research_area": "Management, Insurance",
+      "email": "dedy.dewanto@universitaspertamina.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://universitaspertamina.ac.id/prodi/manajemen/dosen",
+      "notes": "Email verified from official Universitas Pertamina Manajemen program faculty page. High confidence."
+    },
+    {
+      "name": "Dr. Ir. Erwin Susanto Sadirsan, MM., MBA.",
+      "department": "Program Studi Manajemen",
+      "title": "Dosen",
+      "research_area": "Management",
+      "email": "erwin.susanto@universitaspertamina.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://universitaspertamina.ac.id/prodi/manajemen/dosen",
+      "notes": "Email verified from official Universitas Pertamina Manajemen program faculty page. High confidence."
+    },
+    {
+      "name": "Muhammad Arham, Ph.D.",
+      "department": "Program Studi Manajemen",
+      "title": "Dosen",
+      "research_area": "Management",
+      "email": "m.arham@universitaspertamina.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://universitaspertamina.ac.id/prodi/manajemen/dosen",
+      "notes": "Email verified from official Universitas Pertamina Manajemen program faculty page. High confidence."
+    },
+    {
+      "name": "Dr. Evi Sofia, S.E., MBA.",
+      "department": "Program Studi Manajemen",
+      "title": "Dosen",
+      "research_area": "Management",
+      "email": "evi.sofia@universitaspertamina.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://universitaspertamina.ac.id/prodi/manajemen/dosen",
+      "notes": "Email verified from official Universitas Pertamina Manajemen program faculty page. High confidence."
+    }
+  ]
 }

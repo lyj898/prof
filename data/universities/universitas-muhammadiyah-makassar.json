@@ -5,5 +5,42 @@
   "city": "Makassar",
   "province": "Sulawesi Selatan",
   "website": "https://unismuh.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Prof. Dr. Ir. Syafiuddin Saleh, M.P.",
+      "department": "Fakultas Pertanian",
+      "title": "Guru Besar",
+      "research_area": "Agribisnis, Pertanian, Penyuluhan Pertanian",
+      "email": "syafiuddin.saleh@unismuh.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.co.id/citations?hl=en&user=BxbQjHYAAAAJ",
+      "website": "https://faperta.unismuh.ac.id/dosen/",
+      "notes": "Email verified via Fakultas Pertanian Unismuh Makassar faculty directory (faperta.unismuh.ac.id/dosen/). High confidence."
+    },
+    {
+      "name": "Prof. Dr. Ir. Hj. Kasifah, M.P.",
+      "department": "Fakultas Pertanian",
+      "title": "Guru Besar",
+      "research_area": "Kesuburan Tanah, Ilmu Tanah, Kompos dan Fosfor",
+      "email": "kasifah@unismuh.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://faperta.unismuh.ac.id/dosen/",
+      "notes": "Email verified via Fakultas Pertanian Unismuh Makassar faculty directory (faperta.unismuh.ac.id/dosen/); inaugurated Guru Besar Sept 2025 per news.unismuh.ac.id coverage. High confidence."
+    },
+    {
+      "name": "Prof. Dr. Syamsia, M.Si.",
+      "department": "Fakultas Pertanian, Agroteknologi",
+      "title": "Guru Besar",
+      "research_area": "Bioteknologi Pertanian, Cendawan Endofit, Ketahanan Pangan",
+      "email": "syamsiatayibe@unismuh.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://faperta.unismuh.ac.id/dosen/",
+      "notes": "Email verified via Fakultas Pertanian Unismuh Makassar faculty directory (faperta.unismuh.ac.id/dosen/); inaugurated Guru Besar Bioteknologi Pertanian Dec 2024 per news.unismuh.ac.id. High confidence."
+    }
+  ]
 }

@@ -5,5 +5,66 @@
   "city": "Makassar",
   "province": "Sulawesi Selatan",
   "website": "https://www.uim-makassar.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Dr. Nahdiana, S.Sos., M.Si.",
+      "department": "Ilmu Komunikasi, FISIP",
+      "title": "Dosen",
+      "research_area": "Communication studies",
+      "email": "nahdiana.dty@uim-makassar.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://fisip.uim-makassar.ac.id/tenaga-pengajar-dosen/",
+      "notes": "Email listed on official FISIP UIM faculty directory (fisip.uim-makassar.ac.id/tenaga-pengajar-dosen). High confidence."
+    },
+    {
+      "name": "Andriansyah, S.Sos., M.I.Kom.",
+      "department": "Ilmu Komunikasi, FISIP",
+      "title": "Dosen",
+      "research_area": "Communication studies",
+      "email": "andriansyah.fisip@uim-makassar.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://fisip.uim-makassar.ac.id/tenaga-pengajar-dosen/",
+      "notes": "Email listed on official FISIP UIM faculty directory (fisip.uim-makassar.ac.id/tenaga-pengajar-dosen). High confidence."
+    },
+    {
+      "name": "Karmilah, S.Sos., MM.",
+      "department": "Administrasi Fiskal, FISIP",
+      "title": "Dosen",
+      "research_area": "Fiscal administration",
+      "email": "karmilah.dty@uim-makassar.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://fisip.uim-makassar.ac.id/tenaga-pengajar-dosen/",
+      "notes": "Email listed on official FISIP UIM faculty directory (fisip.uim-makassar.ac.id/tenaga-pengajar-dosen). High confidence."
+    },
+    {
+      "name": "Nisma Ariskha Masdar, SE., M.Ak.",
+      "department": "Administrasi Fiskal, FISIP",
+      "title": "Dosen",
+      "research_area": "Fiscal administration, accounting",
+      "email": "nismahariskhamasdar.dty@uim-makassar.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://fisip.uim-makassar.ac.id/tenaga-pengajar-dosen/",
+      "notes": "Email listed on official FISIP UIM faculty directory (fisip.uim-makassar.ac.id/tenaga-pengajar-dosen). High confidence."
+    },
+    {
+      "name": "La Ode Rusadi, S.I.P., M.Hum.",
+      "department": "Perpustakaan dan Sains Informasi, FISIP",
+      "title": "Dosen",
+      "research_area": "Library and information science",
+      "email": "rusadilaode61@uim-makassar.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://fisip.uim-makassar.ac.id/tenaga-pengajar-dosen/",
+      "notes": "Email listed on official FISIP UIM faculty directory (fisip.uim-makassar.ac.id/tenaga-pengajar-dosen). High confidence."
+    }
+  ]
 }

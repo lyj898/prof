@@ -5,5 +5,66 @@
   "city": "Bandung",
   "province": "Jawa Barat",
   "website": "https://www.upi.edu",
-  "professors": []
+  "professors": [
+    {
+      "name": "Prof. Dr. H. Wahyudin, M.Pd.",
+      "department": "Departemen Pendidikan Matematika, FPMIPA",
+      "title": "Guru Besar",
+      "research_area": "Pendidikan Matematika",
+      "email": "wahyudin.mat@upi.edu",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "http://gurubesar.upi.edu/wahyudin",
+      "notes": "Email verified via official Departemen Pendidikan Matematika UPI lecturer directory (math.upi.edu). Guru Besar status confirmed via gurubesar.upi.edu/wahyudin (appointed Guru Besar 2004). High confidence."
+    },
+    {
+      "name": "Prof. Dr. H. Yaya Sukjaya Kusumah, M.Sc.",
+      "department": "Departemen Pendidikan Matematika, FPMIPA",
+      "title": "Guru Besar",
+      "research_area": "Computer-Based Learning, Mathematical Thinking",
+      "email": "yskusumah@upi.edu",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "http://gurubesar.upi.edu/yaya-sukjaya-kusumah",
+      "notes": "Email verified via official Departemen Pendidikan Matematika UPI lecturer directory (math.upi.edu). Guru Besar status confirmed via gurubesar.upi.edu (appointed 2007). High confidence."
+    },
+    {
+      "name": "Prof. Dr. H. Didi Suryadi, M.Ed.",
+      "department": "Departemen Pendidikan Matematika, FPMIPA",
+      "title": "Guru Besar",
+      "research_area": "Didactical Design Research, Metapedadidaktik",
+      "email": "didisuryadi@upi.edu",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "http://gurubesar.upi.edu/didi-suryadi",
+      "notes": "Email verified via official Departemen Pendidikan Matematika UPI lecturer directory (math.upi.edu). Guru Besar since 2007; Chair of Dewan Guru Besar UPI per berita.upi.edu. High confidence."
+    },
+    {
+      "name": "Prof. Turmudi, M.Ed., M.Sc., Ph.D.",
+      "department": "Departemen Pendidikan Matematika, FPMIPA",
+      "title": "Guru Besar",
+      "research_area": "Realistic Mathematics Education, Ethnomathematics",
+      "email": "turmudi@upi.edu",
+      "phone": null,
+      "linkedin": "https://www.linkedin.com/in/prof-turmudi-turmudi-phd-38b963122/",
+      "google_scholar": "https://scholar.google.com/citations?user=9TggvK8AAAAJ",
+      "website": "https://fpmipa.upi.edu/news/pengukuhan-guru-besar-bidang-pendidikan-matematika",
+      "notes": "Email verified via official Departemen Pendidikan Matematika UPI lecturer directory (math.upi.edu). Guru Besar appointed 2018; Director of UPI Kampus Purwakarta. High confidence."
+    },
+    {
+      "name": "Prof. Dr. Jarnawi Afgani Dahlan, M.Kes.",
+      "department": "Departemen Pendidikan Matematika, FPMIPA",
+      "title": "Guru Besar",
+      "research_area": "Model, Strategi, Metode dan Pendekatan Pembelajaran Matematika",
+      "email": "jarnawi@upi.edu",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?user=TBbpIxAAAAAJ&hl=en",
+      "website": "https://fpmipa.upi.edu/program/detil_dosen/62/doctor_math_edu",
+      "notes": "Email verified via official Departemen Pendidikan Matematika UPI lecturer directory (math.upi.edu). Guru Besar appointment confirmed via berita.upi.edu (2026 appointment cohort reported May 2026). High confidence."
+    }
+  ]
 }

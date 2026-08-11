@@ -5,5 +5,54 @@
   "city": "Yogyakarta",
   "province": "DI Yogyakarta",
   "website": "https://www.uajy.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Prof. Dr. Gregoria Arum Yudarwati, S.I.P., M.Mktg.Comm., Ph.D.",
+      "department": "Program Studi Ilmu Komunikasi, Fakultas Ilmu Sosial dan Ilmu Politik",
+      "title": "Guru Besar",
+      "research_area": "Public Relations, Corporate Social Responsibility, Sustainability Communication",
+      "email": "arum.yudarwati@uajy.ac.id",
+      "phone": "0274-487711 ext. 4126",
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?user=ADu_UzQAAAAJ&hl=en",
+      "website": "https://fisip.uajy.ac.id/profil/profil-dosen/",
+      "notes": "Verified via fisip.uajy.ac.id/profil/profil-dosen/ faculty listing and lspr.ac.id guest-lecturer bio confirming Guru Besar title and email. High confidence."
+    },
+    {
+      "name": "Bonaventura Satya Bharata, S.I.P., M.Si.",
+      "department": "Program Studi Ilmu Komunikasi, Fakultas Ilmu Sosial dan Ilmu Politik",
+      "title": "Dosen",
+      "research_area": "Media Studies, Communication",
+      "email": "satya.bharata@uajy.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://fisip.uajy.ac.id/profil/profil-dosen/",
+      "notes": "Verified via fisip.uajy.ac.id/profil/profil-dosen/ faculty listing. High confidence."
+    },
+    {
+      "name": "Yohanes Widodo, S.Sos., M.Sc.",
+      "department": "Program Studi Ilmu Komunikasi, Fakultas Ilmu Sosial dan Ilmu Politik",
+      "title": "Dosen",
+      "research_area": "Digital Media, Journalism",
+      "email": "yohanes.widodo@uajy.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://fisip.uajy.ac.id/profil/profil-dosen/",
+      "notes": "Verified via fisip.uajy.ac.id/profil/profil-dosen/ faculty listing. High confidence."
+    },
+    {
+      "name": "Mario Antonius Birowo, Drs., M.A., Ph.D.",
+      "department": "Program Studi Ilmu Komunikasi, Fakultas Ilmu Sosial dan Ilmu Politik",
+      "title": "Dosen",
+      "research_area": "Community Media, Communication for Development",
+      "email": "mario.birowo@uajy.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://fisip.uajy.ac.id/profil/profil-dosen/",
+      "notes": "Verified via fisip.uajy.ac.id/profil/profil-dosen/ faculty listing. High confidence."
+    }
+  ]
 }

@@ -5,5 +5,54 @@
   "city": "Malang",
   "province": "Jawa Timur",
   "website": "https://www.umm.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Prof. Dr. Sidik Sunaryo, S.H., M.Si., M.Hum.",
+      "department": "Fakultas Hukum",
+      "title": "Guru Besar",
+      "research_area": "Sistem Peradilan, Sosiologi Hukum, Metode Penelitian, Kriminologi",
+      "email": "sidik@umm.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.co.id/citations?user=RG8odggAAAAJ&hl=en",
+      "website": "https://hukum.umm.ac.id/en/pages/sidik-sunaryo-sh-msimhum.html",
+      "notes": "Email verified via UMM Staffsite profile (staff-site.umm.ac.id/pejabat/detail/473.html) and Fakultas Hukum UMM profile page. Also serves as Sekretaris Universitas. High confidence."
+    },
+    {
+      "name": "Dr. Ir. Achmad Fauzan Hery Soegiharto, M.T.",
+      "department": "Teknik Mesin, Fakultas Teknik",
+      "title": "Lektor Kepala",
+      "research_area": "Konversi Energi",
+      "email": "achmadfauzan@umm.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?user=4NmEPGkAAAAJ&hl=en",
+      "website": "https://staff-site.umm.ac.id/dosen/detail/1.html",
+      "notes": "Email verified via UMM Staffsite profile (staff-site.umm.ac.id/dosen/detail/1.html) listing Scopus, Sinta, Scholar and ORCID IDs. High confidence."
+    },
+    {
+      "name": "Prof. Dr. Ir. Maftuchah, M.P.",
+      "department": "Agroteknologi, Fakultas Pertanian-Peternakan",
+      "title": "Guru Besar",
+      "research_area": "Biologi Molekuler Tanaman, Bioteknologi Pertanian",
+      "email": "maftuchah@umm.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.co.id/citations?user=_pHrvFsAAAAJ&hl=en",
+      "website": "https://pertanian-peternakan.umm.ac.id/id/pages/detail/agroteknologi-2-10353/dr-ir-maftuchah-mp.html",
+      "notes": "Email verified via UMM Staffsite profile (staff-site.umm.ac.id/dosen/detail/316.html) and Fakultas Pertanian-Peternakan UMM profile page; Google Scholar shows verified email at umm.ac.id domain. Head of Pusat Pengembangan Bioteknologi. High confidence."
+    },
+    {
+      "name": "Zulfatman, M.Eng., Ph.D.",
+      "department": "Teknik Elektro, Fakultas Teknik",
+      "title": "Lektor Kepala",
+      "research_area": "Nonlinear Robust Control, Nonlinear Disturbance Observer, Systems Identification",
+      "email": "zulfatman@umm.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?hl=en&user=qBVdv1kAAAAJ",
+      "website": "https://staff-site.umm.ac.id/dosen/detail/644.html",
+      "notes": "Email verified via UMM Staffsite profile (staff-site.umm.ac.id/dosen/detail/644.html). Serves as Wakil Dekan I, Fakultas Teknik. High confidence."
+    }
+  ]
 }

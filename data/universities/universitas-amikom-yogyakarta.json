@@ -5,5 +5,42 @@
   "city": "Sleman",
   "province": "DI Yogyakarta",
   "website": "https://www.amikom.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Prof. Dr. Kusrini, S.Kom., M.Kom.",
+      "department": "Fakultas Ilmu Komputer",
+      "title": "Guru Besar",
+      "research_area": "Artificial Intelligence, Computer Vision, Decision Support Systems, Data Mining",
+      "email": "kusrini@amikom.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://s3informatika.amikom.ac.id/dosen/kusrini/",
+      "notes": "Verified via s3informatika.amikom.ac.id/dosen/kusrini/ and s2informatika.amikom.ac.id/dosen/kusrini/ (same email on both profile pages); Dean of Fakultas Ilmu Komputer, appointed Guru Besar 2021. High confidence."
+    },
+    {
+      "name": "Prof. Dr. Ema Utami, S.Si., M.Kom.",
+      "department": "Program Studi Informatika / LPPM",
+      "title": "Guru Besar",
+      "research_area": "Artificial Intelligence, Database, Natural Language Processing, Data Science",
+      "email": "ema.u@amikom.ac.id",
+      "phone": "0274 884201",
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://s2informatika.amikom.ac.id/dosen/ema-utami/",
+      "notes": "Verified via s2informatika.amikom.ac.id/dosen/ema-utami/ profile page; Direktur LPPM Universitas AMIKOM Yogyakarta. High confidence."
+    },
+    {
+      "name": "Prof. Dr. M. Suyanto, M.M.",
+      "department": "Rektorat / Program Pascasarjana Informatika",
+      "title": "Guru Besar",
+      "research_area": "Marketing, E-commerce, Strategic Management, Entrepreneurship, Multimedia",
+      "email": "msuyanto@amikom.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://s2informatika.amikom.ac.id/dosen/m-suyanto/",
+      "notes": "Verified via s2informatika.amikom.ac.id/dosen/m-suyanto/ profile page; Rektor Universitas AMIKOM Yogyakarta 2025-2029, founder of AMIKOM. High confidence."
+    }
+  ]
 }

@@ -5,5 +5,66 @@
   "city": "Malang",
   "province": "Jawa Timur",
   "website": "https://unisma.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Prof. Drs. H. Junaidi Mistar, Ph.D",
+      "department": "Pendidikan Bahasa Inggris, FKIP",
+      "title": "Guru Besar",
+      "research_area": "English language teaching, applied linguistics",
+      "email": "j.mistar@unisma.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://pbi.unisma.ac.id/daftar-staff/",
+      "notes": "Email listed on official department staff directory (pbi.unisma.ac.id/daftar-staff). High confidence."
+    },
+    {
+      "name": "Dr. Hj. Mutmainnah Mustofa, M.Pd",
+      "department": "Pendidikan Bahasa Inggris, FKIP",
+      "title": "Lektor Kepala",
+      "research_area": "English education",
+      "email": "inamustofa@unisma.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://pbi.unisma.ac.id/daftar-staff/",
+      "notes": "Email listed on official department staff directory (pbi.unisma.ac.id/daftar-staff). High confidence."
+    },
+    {
+      "name": "Dr. H. Alfan Zuhairi, M.Pd",
+      "department": "Pendidikan Bahasa Inggris, FKIP",
+      "title": "Lektor Kepala",
+      "research_area": "English language teaching",
+      "email": "alfan.zuhairi@unisma.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://pbi.unisma.ac.id/daftar-staff/",
+      "notes": "Email listed on official department staff directory (pbi.unisma.ac.id/daftar-staff). High confidence."
+    },
+    {
+      "name": "Dr. H. Muhammad Yunus, M.Pd",
+      "department": "Pendidikan Bahasa Inggris, FKIP",
+      "title": "Lektor Kepala",
+      "research_area": "English education, curriculum",
+      "email": "m.yunus@unisma.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://pbi.unisma.ac.id/daftar-staff/",
+      "notes": "Email listed on official department staff directory (pbi.unisma.ac.id/daftar-staff). High confidence."
+    },
+    {
+      "name": "Dr. Dwi Fita Heriyawati, M.Pd",
+      "department": "Pendidikan Bahasa Inggris, FKIP",
+      "title": "Lektor Kepala",
+      "research_area": "English education",
+      "email": "dwifitaheriyawati@unisma.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://pbi.unisma.ac.id/daftar-staff/",
+      "notes": "Email listed on official department staff directory (pbi.unisma.ac.id/daftar-staff). High confidence."
+    }
+  ]
 }

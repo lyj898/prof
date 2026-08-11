@@ -5,5 +5,54 @@
   "city": "Bantul",
   "province": "DI Yogyakarta",
   "website": "https://almaata.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Dr. Rino Richardo, S.Pd., M.Pd.",
+      "department": "Program Studi Pendidikan Matematika, Fakultas Ilmu Tarbiyah dan Keguruan",
+      "title": "Ketua Jurusan/Prodi",
+      "research_area": "Pendidikan Matematika",
+      "email": "rinorichardo@almaata.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://fitk.almaata.ac.id/s1-pendidikan-metematika/dosen-pmat/",
+      "notes": "Verified via fitk.almaata.ac.id faculty leadership page and program lecturer listing page (both list same email). High confidence."
+    },
+    {
+      "name": "Dr. Aida Hayani, M.Pd.",
+      "department": "Program Studi Pendidikan Agama Islam, Fakultas Ilmu Tarbiyah dan Keguruan",
+      "title": "Ketua Jurusan/Prodi",
+      "research_area": "Pendidikan Agama Islam",
+      "email": "aidahayani@almaata.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://fitk.almaata.ac.id/profil/pimpinan-fakultas-dan-program-studi-2/",
+      "notes": "Verified via fitk.almaata.ac.id/profil/pimpinan-fakultas-dan-program-studi-2/. High confidence."
+    },
+    {
+      "name": "Dr. Martalia Ardiyaningrum, S.Si., M.Pd.",
+      "department": "Program Studi Pendidikan Matematika, Fakultas Ilmu Tarbiyah dan Keguruan",
+      "title": "Dosen",
+      "research_area": "Pendidikan Matematika",
+      "email": "martalia.ardiyaningrum@almaata.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://fitk.almaata.ac.id/s1-pendidikan-metematika/dosen-pmat/",
+      "notes": "Verified via fitk.almaata.ac.id/s1-pendidikan-metematika/dosen-pmat/. High confidence."
+    },
+    {
+      "name": "Dr. Sri Wulandari Danoebroto, M.Pd.",
+      "department": "Program Studi Pendidikan Matematika, Fakultas Ilmu Tarbiyah dan Keguruan",
+      "title": "Dosen",
+      "research_area": "Pendidikan Matematika",
+      "email": "sri.wulandari@almaata.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://fitk.almaata.ac.id/s1-pendidikan-metematika/dosen-pmat/",
+      "notes": "Verified via fitk.almaata.ac.id/s1-pendidikan-metematika/dosen-pmat/. High confidence."
+    }
+  ]
 }

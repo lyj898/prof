@@ -5,5 +5,66 @@
   "city": "Palembang",
   "province": "Sumatera Selatan",
   "website": "https://www.binadarma.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Muhammad Izman Herdiansyah",
+      "department": "Teknik Informatika",
+      "title": "Lektor",
+      "research_area": null,
+      "email": "m.herdiansyah@binadarma.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://if.binadarma.ac.id/stafpengajar",
+      "notes": "Source: https://if.binadarma.ac.id/stafpengajar (faculty staff directory table listing name, email, position). Confidence: high."
+    },
+    {
+      "name": "Leon Andretti Abdillah",
+      "department": "Sistem Informasi",
+      "title": "Lektor Kepala",
+      "research_area": null,
+      "email": "leon.abdillah@binadarma.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://si.binadarma.ac.id/stafpengajar",
+      "notes": "Source: https://si.binadarma.ac.id/stafpengajar (faculty staff directory table listing name, email, position). Confidence: high."
+    },
+    {
+      "name": "A Haidar Mirza",
+      "department": "Teknik Informatika",
+      "title": "Lektor",
+      "research_area": null,
+      "email": "haidarmirza@binadarma.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://if.binadarma.ac.id/stafpengajar",
+      "notes": "Source: https://if.binadarma.ac.id/stafpengajar (faculty staff directory table listing name, email, position). Confidence: high."
+    },
+    {
+      "name": "Ari Muzakir",
+      "department": "Teknik Informatika",
+      "title": "Lektor",
+      "research_area": null,
+      "email": "arimuzakir@binadarma.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://if.binadarma.ac.id/stafpengajar",
+      "notes": "Source: https://if.binadarma.ac.id/stafpengajar (faculty staff directory table listing name, email, position). Confidence: high."
+    },
+    {
+      "name": "Ilman Zuhri Yadi",
+      "department": "Sistem Informasi",
+      "title": "Asisten Ahli",
+      "research_area": null,
+      "email": "ilmanzuhriyadi@binadarma.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://si.binadarma.ac.id/stafpengajar",
+      "notes": "Source: https://si.binadarma.ac.id/stafpengajar (faculty staff directory table listing name, email, position). Confidence: high."
+    }
+  ]
 }

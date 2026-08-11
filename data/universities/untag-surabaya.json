@@ -5,5 +5,66 @@
   "city": "Surabaya",
   "province": "Jawa Timur",
   "website": "https://untag-sby.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Prof.Dr. Tri Ratnawati, SE., MS., Ak., CA., CPA",
+      "department": "Akuntansi",
+      "title": "Dekan",
+      "research_area": null,
+      "email": "triratnawati@untag-sby.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://feb.untag-sby.ac.id/staffuser.html",
+      "notes": "Dekan Fakultas Ekonomi dan Bisnis. Source: https://feb.untag-sby.ac.id/staffuser.html (institutional faculty directory, high confidence)."
+    },
+    {
+      "name": "Prof. Dr. Siti Mujanah, MBA., Ph.D.",
+      "department": "Manajemen",
+      "title": "Guru Besar",
+      "research_area": "Manajemen Sumber Daya Manusia",
+      "email": "sitimujanah@untag-sby.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://feb.untag-sby.ac.id/staffuser.html",
+      "notes": "Dosen Manajemen dan Kepala Program Studi Magister Manajemen. Source: https://feb.untag-sby.ac.id/staffuser.html (institutional faculty directory, high confidence)."
+    },
+    {
+      "name": "Prof.Dr. Amiartuti Kusmaningtyas, MM",
+      "department": "Manajemen",
+      "title": "Guru Besar",
+      "research_area": null,
+      "email": "amiartuti@untag-sby.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://feb.untag-sby.ac.id/staffuser.html",
+      "notes": "Guru Besar FEB Untag Surabaya. Source: https://feb.untag-sby.ac.id/staffuser.html (institutional faculty directory, high confidence)."
+    },
+    {
+      "name": "Prof. Dr. H. Mulyanto Nugroho, MM., CMA, CPA",
+      "department": "Akuntansi",
+      "title": "Guru Besar",
+      "research_area": null,
+      "email": "nugroho@untag-sby.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://feb.untag-sby.ac.id/staffuser.html",
+      "notes": "Dosen Akuntansi dan Guru Besar Fakultas Ekonomi dan Bisnis. Source: https://feb.untag-sby.ac.id/staffuser.html (institutional faculty directory, high confidence)."
+    },
+    {
+      "name": "Dr. Ulfi Pristiana, MS",
+      "department": "Manajemen",
+      "title": "Wakil Dekan",
+      "research_area": null,
+      "email": "ulfi@untag-sby.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://feb.untag-sby.ac.id/staffuser.html",
+      "notes": "Wakil Dekan Fakultas Ekonomi dan Bisnis. Source: https://feb.untag-sby.ac.id/staffuser.html (institutional faculty directory, high confidence)."
+    }
+  ]
 }

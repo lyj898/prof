@@ -5,5 +5,66 @@
   "city": "Malang",
   "province": "Jawa Timur",
   "website": "https://ub.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Achmad Basuki",
+      "department": "Teknik Informatika / Magister Ilmu Komputer",
+      "title": "Lektor Kepala",
+      "research_area": "AI Networking, Software-Defined Networking, Cloud Architecture & Engineering, Cyber Security",
+      "email": "abazh@ub.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://filkom.ub.ac.id/profile/dosen?p=1",
+      "notes": "Source: https://filkom.ub.ac.id/profile/dosen (FILKOM UB lecturer directory listing name, rank, department, research area, email). Confidence: high."
+    },
+    {
+      "name": "Agus Wahyu Widodo",
+      "department": "Teknik Informatika",
+      "title": "Lektor Kepala",
+      "research_area": "Pengenalan Pola, Pemrosesan Citra Digital, Algoritma Evolusi, dan Knowledge Discovery",
+      "email": "a_wahyu_w@ub.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://filkom.ub.ac.id/profile/dosen?p=1",
+      "notes": "Source: https://filkom.ub.ac.id/profile/dosen (FILKOM UB lecturer directory listing name, rank, department, research area, email). Confidence: high."
+    },
+    {
+      "name": "Achmad Arwan",
+      "department": "Teknik Informatika",
+      "title": "Lektor",
+      "research_area": "Mining Repositori Software, Software Testing",
+      "email": "arwan@ub.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://filkom.ub.ac.id/profile/dosen?p=1",
+      "notes": "Source: https://filkom.ub.ac.id/profile/dosen (FILKOM UB lecturer directory listing name, rank, department, research area, email). Confidence: high."
+    },
+    {
+      "name": "Widhi Yahya",
+      "department": "Teknik Informatika",
+      "title": "Lektor",
+      "research_area": "Internet of Things, Software Defined Networking, Sistem terdistribusi",
+      "email": "widhi.yahya@ub.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://filkom.ub.ac.id/profile/dosen/widhi.yahya",
+      "notes": "Source: https://filkom.ub.ac.id/profile/dosen/widhi.yahya (individual FILKOM UB profile page showing email as widhi.yahya[at]ub.ac.id; page also links to LinkedIn/Google Scholar/Scopus/SINTA profiles but exact URLs were not captured). Confidence: high."
+    },
+    {
+      "name": "Admaja Dwi Herlambang",
+      "department": "Pendidikan Teknologi Informasi / Sistem Informasi",
+      "title": "Ketua Jurusan/Prodi",
+      "research_area": "Computing Education, Technology-Enhanced Learning, Information Technology Governance",
+      "email": "herlambang@ub.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://filkom.ub.ac.id/profile/dosen?p=1",
+      "notes": "Listed as Ketua Program Studi Pendidikan Teknologi Informasi. Source: https://filkom.ub.ac.id/profile/dosen (FILKOM UB lecturer directory). Confidence: high."
+    }
+  ]
 }
