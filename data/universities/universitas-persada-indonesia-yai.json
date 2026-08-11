@@ -5,5 +5,18 @@
   "city": "Jakarta Pusat",
   "province": "DKI Jakarta",
   "website": "https://upi-yai.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Dr. I Nyoman Surna",
+      "department": "Fakultas Psikologi",
+      "title": "Dekan",
+      "research_area": null,
+      "email": "humas@yai.ac.id",
+      "phone": "+62 878 5333 1972",
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://www.upi-yai.ac.id/page/pimpinan-fakultas-psikologi",
+      "notes": "Source: upi-yai.ac.id/page/pimpinan-fakultas-psikologi (official leadership page). Email/phone listed are general faculty contacts, not personal. High confidence on role/name."
+    }
+  ]
 }

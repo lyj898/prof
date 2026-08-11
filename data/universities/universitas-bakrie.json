@@ -5,5 +5,18 @@
   "city": "Jakarta Selatan",
   "province": "DKI Jakarta",
   "website": "https://www.bakrie.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Arief Bimantoro Suharko, Ph.D.",
+      "department": "Fakultas Teknik dan Ilmu Komputer",
+      "title": "Dekan",
+      "research_area": "Optimization, simulation, supply chain management, financial risk management, transportation",
+      "email": "arief.suharko@bakrie.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?user=C4BvpVMAAAAJ&hl=en",
+      "website": "https://bakrie.ac.id/pimpinan/",
+      "notes": "Source: bakrie.ac.id/pimpinan (via search snippet), SINTA profile (sinta.kemdikbud.go.id/authors/profile/6774908), Google Scholar. Listed as Dean of Fakultas Teknik dan Ilmu Komputer (FTIK) and Ketua Program Magister Manajemen. Email surfaced via ZoomInfo/search snippet, not directly confirmed on-page due to site fetch issues; verify at outreach."
+    }
+  ]
 }

@@ -5,5 +5,18 @@
   "city": "Jakarta Selatan",
   "province": "DKI Jakarta",
   "website": "https://atmajaya.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Prof. Rosdiana Sijabat, S.E., M.Si., Ph.D.",
+      "department": "Fakultas Ilmu Administrasi Bisnis dan Ilmu Komunikasi (FIABIKOM)",
+      "title": "Wakil Dekan",
+      "research_area": "Ekonomi Bisnis, Makroekonomi, Digitalisasi Bisnis, UMKM",
+      "email": "rosdiana.sijabat@atmajaya.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?hl=en&user=h2HTtU4AAAAJ",
+      "website": "https://www.atmajaya.ac.id/id/pages/120061168/",
+      "notes": "Vice Dean of FIABIKOM; inaugurated as Guru Besar (Professor) in Business Economics, Feb 2025. Email publicly listed on atmajaya.ac.id / ZoomInfo aggregation of official contact. High confidence."
+    }
+  ]
 }

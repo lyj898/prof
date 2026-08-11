@@ -5,5 +5,66 @@
   "city": "Jakarta Selatan",
   "province": "DKI Jakarta",
   "website": "https://paramadina.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Dr. Iin Mayasari",
+      "department": "Fakultas Ekonomi dan Bisnis",
+      "title": "Dekan",
+      "research_area": "Management",
+      "email": "iin.mayasari@paramadina.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://sites.google.com/paramadina.ac.id/info-magister-manajemen/profil-dosen",
+      "notes": "Source: sites.google.com/paramadina.ac.id (Magister Manajemen program page, official Paramadina Google Sites domain), lists her as Dean. Note: another web source described Dr. Iyus Wiadi as Dean of FEB, so dean title should be verified at outreach. High confidence on identity/email."
+    },
+    {
+      "name": "Dr. Iyus Wiadi",
+      "department": "Fakultas Ekonomi dan Bisnis",
+      "title": "Ketua Jurusan/Prodi",
+      "research_area": "Management",
+      "email": "iyus.wiadi@paramadina.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://sites.google.com/paramadina.ac.id/info-magister-manajemen/profil-dosen",
+      "notes": "Source: sites.google.com/paramadina.ac.id, listed as Magister Manajemen Program Chair. Other sources suggest he may also hold/have held the Dean of FEB title - verify at outreach. High confidence on identity/email."
+    },
+    {
+      "name": "Dr. Dra. Prima Naomi",
+      "department": "Fakultas Ekonomi dan Bisnis",
+      "title": "Dosen",
+      "research_area": null,
+      "email": "prima.naomi@paramadina.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://sites.google.com/paramadina.ac.id/info-magister-manajemen/profil-dosen",
+      "notes": "Source: sites.google.com/paramadina.ac.id. High confidence."
+    },
+    {
+      "name": "Dr. Ahmad Azmy",
+      "department": "Fakultas Ekonomi dan Bisnis",
+      "title": "Dosen",
+      "research_area": null,
+      "email": "ahmad.azmy@paramadina.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://sites.google.com/paramadina.ac.id/info-magister-manajemen/profil-dosen",
+      "notes": "Source: sites.google.com/paramadina.ac.id. High confidence."
+    },
+    {
+      "name": "Dr. Nicko Albart",
+      "department": "Fakultas Ekonomi dan Bisnis",
+      "title": "Dosen",
+      "research_area": null,
+      "email": "nicko.albart@paramadina.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://sites.google.com/paramadina.ac.id/info-magister-manajemen/profil-dosen",
+      "notes": "Source: sites.google.com/paramadina.ac.id. High confidence."
+    }
+  ]
 }

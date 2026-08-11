@@ -23,6 +23,24 @@ export const PROFESSOR_TITLES = [
 ] as const;
 export type ProfessorTitle = (typeof PROFESSOR_TITLES)[number];
 
+// English glosses for display only — the enum itself stays Indonesian (canonical,
+// matches the DB and what's written on actual faculty pages).
+export const PROFESSOR_TITLE_EN: Record<ProfessorTitle, string> = {
+  'Guru Besar': 'Professor',
+  'Lektor Kepala': 'Associate Professor',
+  Lektor: 'Assistant Professor',
+  'Asisten Ahli': 'Instructor',
+  Dosen: 'Lecturer',
+  Dekan: 'Dean',
+  'Wakil Dekan': 'Vice Dean',
+  'Ketua Jurusan/Prodi': 'Head of Department/Program',
+  'Guru Besar Emeritus': 'Professor Emeritus',
+};
+
+export function titleLabel(title: ProfessorTitle): string {
+  return `${title} (${PROFESSOR_TITLE_EN[title]})`;
+}
+
 export interface University {
   id: string;
   slug: string;

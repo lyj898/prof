@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from 'react';
 import type { Session } from '@supabase/supabase-js';
 import { supabase, isSupabaseConfigured } from '../lib/supabase';
-import { PROFESSOR_TITLES, type UniversityWithCount, type ProfessorTitle } from '../lib/types';
+import { PROFESSOR_TITLES, titleLabel, type UniversityWithCount, type ProfessorTitle } from '../lib/types';
 import { exportToExcel, type ProfessorExportRow } from '../lib/exportExcel';
 import Login from './Login';
 import UniversityForm from './UniversityForm';
@@ -308,7 +308,7 @@ function Directory({ session }: { session: Session }) {
                 className={`pill ${titleFilter === t ? 'active' : ''}`}
                 onClick={() => setTitleFilter(t)}
               >
-                {t}
+                {titleLabel(t)}
               </button>
             ))}
           </div>

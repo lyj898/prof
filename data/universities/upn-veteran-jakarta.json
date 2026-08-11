@@ -5,5 +5,30 @@
   "city": "Jakarta Selatan",
   "province": "DKI Jakarta",
   "website": "https://www.upnvj.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Dr. Widya Cholil, S.Kom., M.I.T",
+      "department": "Fakultas Ilmu Komputer - Informatika",
+      "title": "Lektor",
+      "research_area": "IT Audit, IT Governance, Data Mining, Information Security, IT Service Management",
+      "email": "widyacholil@upnvj.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://new-fik.upnvj.ac.id/dosen-tetap-s1-informatika/",
+      "notes": "Source: https://new-fik.upnvj.ac.id/dosen-tetap-s1-informatika/. Also serves as Plt. Ketua Jurusan per faculty org chart."
+    },
+    {
+      "name": "Dr. Ridwan Raafi'udin, S.Kom., M.Kom",
+      "department": "Fakultas Ilmu Komputer - Sistem Informasi",
+      "title": "Ketua Jurusan/Prodi",
+      "research_area": "Machine Learning; Deep Learning; Internet of Things",
+      "email": "raafiudin@upnvj.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://new-fik.upnvj.ac.id/dosen-tetap-s1-informatika/",
+      "notes": "Coordinator of Sistem Informasi undergraduate program per https://new-fik.upnvj.ac.id/struktur-organisasi/; email/expertise per dosen-tetap-s1-informatika page."
+    }
+  ]
 }

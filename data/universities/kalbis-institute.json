@@ -5,5 +5,18 @@
   "city": "Jakarta Timur",
   "province": "DKI Jakarta",
   "website": "https://kalbis.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Mira Ziveria",
+      "department": "Fakultas Industri Kreatif - Sistem Informasi",
+      "title": "Dosen",
+      "research_area": "Information Systems; social media usage; UI/UX; Learning Management Systems",
+      "email": "mira.ziveria@kalbis.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.co.id/citations?user=cIEQwyAAAAAJ&hl=id",
+      "website": "https://sinta.kemdiktisaintek.go.id/authors/profile/5984834/?view=googlescholar",
+      "notes": "Source: SINTA profile and Google Scholar; email confirmed via SINTA (mira.ziveria@kalbis.ac.id). Academic rank not confirmed, defaulted to Dosen."
+    }
+  ]
 }

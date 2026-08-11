@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { supabase } from '../lib/supabase';
-import { PROFESSOR_TITLES, type Professor, type ProfessorFormValues } from '../lib/types';
+import { PROFESSOR_TITLES, titleLabel, type Professor, type ProfessorFormValues } from '../lib/types';
 import { PlusIcon, EditIcon, TrashIcon } from './icons';
 
 const EMPTY_FORM: ProfessorFormValues = {
@@ -89,7 +89,7 @@ function ProfessorForm({
           >
             {PROFESSOR_TITLES.map((t) => (
               <option key={t} value={t}>
-                {t}
+                {titleLabel(t)}
               </option>
             ))}
           </select>
@@ -333,7 +333,7 @@ export default function ProfessorSection({
                 <div className="prof-main">
                   <span className="prof-name">{p.name}</span>
                   <span className="prof-meta">
-                    <span className="prof-title-tag">{p.title}</span>
+                    <span className="prof-title-tag">{titleLabel(p.title)}</span>
                     {p.department && <span>{p.department}</span>}
                     {p.research_area && <span>· {p.research_area}</span>}
                     {p.email && (

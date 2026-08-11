@@ -5,5 +5,18 @@
   "city": "Jakarta Selatan",
   "province": "DKI Jakarta",
   "website": "https://budiluhur.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Dr. Ir. Achmad Solichin, S.Kom., M.T.I.",
+      "department": "Fakultas Teknologi Informasi",
+      "title": "Dekan",
+      "research_area": "Kecerdasan Tiruan (Artificial Intelligence)",
+      "email": "achmad.solichin@budiluhur.ac.id",
+      "phone": null,
+      "linkedin": "https://id.linkedin.com/in/achmatim",
+      "google_scholar": "https://scholar.google.com/citations?user=HRAntyMAAAAJ&hl=en",
+      "website": "https://staff.budiluhur.ac.id/achmad-solichin/",
+      "notes": "Source: staff.budiluhur.ac.id profile, LinkedIn, Google Scholar. Dean of Fakultas Teknologi Informasi. Email found via search index (ZoomInfo/site snippets); verify directly at outreach. High confidence on identity/role."
+    }
+  ]
 }

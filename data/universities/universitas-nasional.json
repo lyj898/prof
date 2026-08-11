@@ -5,5 +5,42 @@
   "city": "Jakarta Selatan",
   "province": "DKI Jakarta",
   "website": "https://www.unas.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Prof. Agung Triayudi, S.Kom., M.Kom., Ph.D.",
+      "department": "Fakultas Teknologi Komunikasi dan Informatika",
+      "title": "Guru Besar",
+      "research_area": "Machine Learning / Educational Data Mining",
+      "email": "agungtriayudi@civitas.unas.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://ftki.unas.ac.id/dosen-informatika/",
+      "notes": "Source: ftki.unas.ac.id/dosen-informatika/ and unas.ac.id news on his professorship confirmation. High confidence."
+    },
+    {
+      "name": "Dr. Arie Gunawan, S.Kom., MMSI.",
+      "department": "Fakultas Teknologi Komunikasi dan Informatika",
+      "title": "Dosen",
+      "research_area": "Database, Business Intelligence, ASP.Net",
+      "email": "arigunawan@civitas.unas.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://ftki.unas.ac.id/dosen-informatika/",
+      "notes": "Source: ftki.unas.ac.id/dosen-informatika/. Academic rank not explicitly stated on page; defaulted to Dosen. Moderate confidence."
+    },
+    {
+      "name": "Djarot Hindarto, S.Kom., M.Kom.",
+      "department": "Fakultas Teknologi Komunikasi dan Informatika",
+      "title": "Dosen",
+      "research_area": "Computer Science",
+      "email": "djarot.hindarto@civitas.unas.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://ftki.unas.ac.id/dosen-informatika/",
+      "notes": "Source: ftki.unas.ac.id/dosen-informatika/. Moderate confidence, verify at outreach."
+    }
+  ]
 }

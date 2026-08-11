@@ -5,5 +5,18 @@
   "city": "Jakarta Barat",
   "province": "DKI Jakarta",
   "website": "https://binus.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Prof. Dr. Juneman Abraham, S.Psi., M.Si.",
+      "department": "Psychology, Faculty of Humanities",
+      "title": "Guru Besar",
+      "research_area": "Social psychology, psychology of corruption/integrity, consumer psychology, psychoinformatics",
+      "email": "juneman@binus.ac.id",
+      "phone": "+62-21-5327630 ext. 2632",
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?hl=en&user=QHRk4KYAAAAJ",
+      "website": "https://psychology.binus.ac.id/people/prof-dr-juneman-abraham-s-psi-m-si/",
+      "notes": "Source: psychology.binus.ac.id profile page and binus.ac.id/guru-besar/juneman. Also Vice Rector for Research and Technology Transfer I. High confidence, email/phone found on official psychology.binus.ac.id profile."
+    }
+  ]
 }

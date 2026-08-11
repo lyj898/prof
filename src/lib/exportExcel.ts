@@ -1,5 +1,5 @@
 import * as XLSX from 'xlsx';
-import type { UniversityWithCount, Professor } from './types';
+import { titleLabel, type UniversityWithCount, type Professor } from './types';
 
 // A professor plus their university's display fields, for the export sheet.
 export type ProfessorExportRow = Professor & {
@@ -33,7 +33,7 @@ export function exportToExcel(
     City: p.university_city,
     Name: p.name,
     Department: p.department ?? '',
-    Title: p.title,
+    Title: titleLabel(p.title),
     'Research Area': p.research_area ?? '',
     Email: p.email ?? '',
     Phone: p.phone ?? '',
