@@ -44,9 +44,9 @@ export default function Login() {
         <div className="login-mark">
           <CompassIcon />
         </div>
-        <h1>Professor Directory</h1>
+        <h1>Faculty Directory</h1>
         <p>
-          Indonesia university faculty directory for YOUR Venture outreach. Internal team
+          Indonesia university faculty outreach. Internal team
           only — enter your work email to continue.
         </p>
 

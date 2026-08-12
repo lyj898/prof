@@ -234,8 +234,8 @@ function Directory({ session }: { session: Session }) {
       {/* Top bar */}
       <header className="topbar">
         <div className="brand">
-          <h1>Professor Directory</h1>
-          <div className="sub">Indonesia university faculty reference for YOUR Venture outreach</div>
+          <h1>Faculty Directory</h1>
+          <div className="sub">Indonesia university faculty outreach</div>
         </div>
         <div className="topbar-actions">
           <div className="search">
