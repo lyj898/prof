@@ -5,5 +5,18 @@
   "city": "Semarang",
   "province": "Jawa Tengah",
   "website": "https://www.polines.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Dr. Eko Saputra, S.T., M.T.",
+      "department": "Teknik Mesin",
+      "title": "Dosen",
+      "research_area": "Engineering design, tribology, CAD, CAE, mechanical engineering",
+      "email": "eko.saputra@polines.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?user=IyCdMbIAAAAJ&hl=en",
+      "website": "https://web.polines.ac.id/en_us/sdm/eko-saputra-s-t-m-t/",
+      "notes": "Editor-in-Chief of Jurnal Rekayasa Mesin (Polines). Email verified via WebSearch cross-referencing official POLINES staff profile and ResearchGate. High confidence."
+    }
+  ]
 }

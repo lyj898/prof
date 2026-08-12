@@ -5,5 +5,42 @@
   "city": "Semarang",
   "province": "Jawa Tengah",
   "website": "https://unnes.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Karsinah, S.E., M.Si.",
+      "department": "Ekonomi Pembangunan, Fakultas Ekonomi dan Bisnis",
+      "title": "Lektor Kepala",
+      "research_area": "UMKM economics, financial institutions, capital markets",
+      "email": "iinkarsinah@mail.unnes.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://staff.unnes.ac.id/dosen/karsinah.html/",
+      "notes": "Email verified via WebSearch citing UNNES staff profile (staff.unnes.ac.id) and FE UNNES department page. High confidence."
+    },
+    {
+      "name": "Deky Aji Suseno, S.E., M.Si.",
+      "department": "Ekonomi Pembangunan, Fakultas Ekonomi dan Bisnis",
+      "title": "Lektor",
+      "research_area": "Ekonomi regional, ekonomi publik, perencanaan dan pembangunan daerah",
+      "email": "dekyajisuseno@mail.unnes.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.co.id/citations?user=-yHsTVMAAAAJ&hl=id",
+      "website": "https://staff.unnes.ac.id/dosen/deky-aji-suseno.html/",
+      "notes": "Email verified via WebSearch citing UNNES staff profile (staff.unnes.ac.id). High confidence."
+    },
+    {
+      "name": "Fafurida, S.E., M.Sc.",
+      "department": "Ekonomi Pembangunan, Fakultas Ekonomi dan Bisnis",
+      "title": "Lektor Kepala",
+      "research_area": "Regional economics, tourism economics",
+      "email": "fafurida@mail.unnes.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://staff.unnes.ac.id/dosen/fafurida.html/",
+      "notes": "Email confirmed appearing repeatedly as corresponding author on multiple journal articles (ResearchGate/IIETA/Rigeo indexed papers). High confidence."
+    }
+  ]
 }

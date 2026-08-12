@@ -5,5 +5,30 @@
   "city": "Semarang",
   "province": "Jawa Tengah",
   "website": "https://unika.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Dr. Sansaloni Butar Butar, SE., M.Si., Akt.",
+      "department": "Akuntansi, Fakultas Ekonomi dan Bisnis",
+      "title": "Lektor Kepala",
+      "research_area": "Market response to financial and non-financial information of public companies in Indonesia",
+      "email": "sansaloni@unika.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://akuntansiunika.info/en/lecturer/sansaloni-butar-butar/",
+      "notes": "Email verified via official department lecturer profile page akuntansiunika.info and corroborating WebSearch results. High confidence."
+    },
+    {
+      "name": "Robertus Setiawan Aji Nugroho, S.T., M.Com.IT., Ph.D.",
+      "department": "Informatika / Rektorat",
+      "title": "Dosen",
+      "research_area": "Artificial intelligence, social media analysis, computational linguistics, natural language processing",
+      "email": "nugroho@unika.ac.id",
+      "phone": null,
+      "linkedin": "https://www.linkedin.com/in/robertusnugroho/",
+      "google_scholar": null,
+      "website": "https://blog.unika.ac.id/aji",
+      "notes": "Rektor Universitas Katolik Soegijapranata (2025-2029), former Dean of Faculty of Computer Science. Email verified via WebSearch corroborated by university news page and personal blog. High confidence."
+    }
+  ]
 }

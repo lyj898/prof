@@ -5,5 +5,18 @@
   "city": "Semarang",
   "province": "Jawa Tengah",
   "website": "https://walisongo.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Fajar Adhitya, S.Pd., M.M.",
+      "department": "Manajemen, Fakultas Ekonomi dan Bisnis Islam (FEBI)",
+      "title": "Asisten Ahli",
+      "research_area": "Management",
+      "email": "fajar.adhitya@walisongo.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://febi.walisongo.ac.id/dosen/fajar-adhitya/",
+      "notes": "Ketua Program Studi S1 Manajemen, FEBI UIN Walisongo. Email verified directly from official lecturer profile page https://febi.walisongo.ac.id/dosen/fajar-adhitya/. High confidence."
+    }
+  ]
 }

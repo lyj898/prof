@@ -5,5 +5,18 @@
   "city": "Semarang",
   "province": "Jawa Tengah",
   "website": "https://poltekkes-smg.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Melyana Nurul Widyawati",
+      "department": "Jurusan Kebidanan",
+      "title": "Lektor Kepala",
+      "research_area": "Kebidanan, Kesehatan Ibu dan Anak, Status Gizi Balita",
+      "email": "melyana_nurul@poltekkes-smg.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://myjurnal.poltekkes-kdi.ac.id/index.php/hijp/article/view/1487",
+      "notes": "Full email address and title/department (Lektor Kepala, Kebidanan, PNS, Dosen Tetap) found via search engine indexing of Poltekkes Kemenkes Semarang staff records; co-author affiliation confirmed on Jurnal Penelitian (Health Information) article listing her as Poltekkes Kemenkes Semarang, Kebidanan. Medium-high confidence."
+    }
+  ]
 }

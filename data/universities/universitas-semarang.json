@@ -5,5 +5,18 @@
   "city": "Semarang",
   "province": "Jawa Tengah",
   "website": "https://usm.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Prof. Dr. Hardani Widhiastuti, M.M., Psikolog",
+      "department": "Psikologi / Fakultas Psikologi",
+      "title": "Guru Besar",
+      "research_area": "Industrial & Organizational Psychology, Resilience",
+      "email": "dhani_fpsi@usm.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?user=IbX9TsoAAAAJ&hl=en",
+      "website": "https://psikologi.usm.ac.id/our_team/prof-dr-hardani-widhiastuti-m-m-psikolog/",
+      "notes": "Vice Rector for Academic Affairs, Universitas Semarang; Chair of USM Senate. Email address corroborated by multiple independent indexed sources quoting the exact string (ZoomInfo listing and journal publications on journals.usm.ac.id); institutional profile page returned 403 so not directly page-verified. Medium-high confidence."
+    }
+  ]
 }

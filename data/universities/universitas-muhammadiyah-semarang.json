@@ -5,5 +5,42 @@
   "city": "Semarang",
   "province": "Jawa Tengah",
   "website": "https://unimus.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Prof. Dr. Dodi Mulyadi, S.Pd., M.Pd.",
+      "department": "Pendidikan Bahasa Inggris / Fakultas Ilmu Pendidikan dan Humaniora",
+      "title": "Guru Besar",
+      "research_area": "Technology-Enhanced Language Learning (TELL), English Listening Skills, ELT",
+      "email": "dodi@unimus.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?hl=en&user=_srZV-wAAAAJ",
+      "website": "https://fiph.unimus.ac.id/",
+      "notes": "Dean of FIPH Unimus; email verified as corresponding author on Atlantis Press proceedings page https://www.atlantis-press.com/proceedings/lewis-22/125988095 (accessed 2026-08-12). High confidence."
+    },
+    {
+      "name": "Dr. Testiana Deni Wijayatiningsih, S.Pd., M.Pd.",
+      "department": "Pendidikan Bahasa Inggris / Fakultas Ilmu Pendidikan dan Humaniora",
+      "title": "Lektor Kepala",
+      "research_area": "English Mastery & Assessment, Genre-Based Writing, EFL Learning",
+      "email": "testiana@unimus.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?user=9JuU2eQAAAAJ&hl=en",
+      "website": "https://pbing.unimus.ac.id/",
+      "notes": "Head of S1 English Education Study Program; email verified as corresponding author on Atlantis Press page https://www.atlantis-press.com/proceedings/iset-20/125964413 (accessed 2026-08-12). High confidence."
+    },
+    {
+      "name": "Dr. Siti Aimah, S.Pd., M.Pd.",
+      "department": "Pendidikan Bahasa Inggris / Fakultas Ilmu Pendidikan dan Humaniora",
+      "title": "Lektor Kepala",
+      "research_area": "English Mastery & Assessment, Affective Learning Strategies",
+      "email": "siti.aimah@unimus.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://sastrainggris.unimus.ac.id/dosen/",
+      "notes": "Head of Teacher Professional Program (PPG); email verified as corresponding author on Atlantis Press page https://www.atlantis-press.com/proceedings/lewis-22/125988104 (accessed 2026-08-12). High confidence."
+    }
+  ]
 }

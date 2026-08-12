@@ -5,5 +5,30 @@
   "city": "Semarang",
   "province": "Jawa Tengah",
   "website": "https://untagsmg.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Dr. Ir. M. Afif Salim, S.T., M.T., M.M., IPM",
+      "department": "Teknik Sipil, Fakultas Teknik",
+      "title": "Dosen",
+      "research_area": "Teknik Sipil, Struktur Bangunan, Konstruksi",
+      "email": "afifsalim@untagsmg.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://jurnal2.untagsmg.ac.id/index.php/jcets/article/view/325",
+      "notes": "Email extracted via web-search snippet corroborated across multiple sources (search result summary referencing article by M. Afif Salim, Universitas 17 Agustus 1945 Semarang, Civil Engineering). Author confirmed as UNTAG Semarang Civil Engineering lecturer via Journal of Civil Engineering and Technology Sciences article page. Medium-high confidence (email not visible directly on article page but corroborated by secondary indexing sources)."
+    },
+    {
+      "name": "Ir. Agus Bambang Siswanto, M.T.",
+      "department": "Teknik Sipil, Fakultas Teknik",
+      "title": "Dosen",
+      "research_area": "Teknik Sipil, Manajemen Konstruksi",
+      "email": "agus_bambang_iswanto@untagsmg.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?user=hfCg68YAAAAJ&hl=en",
+      "website": "https://jurnal2.untagsmg.ac.id/index.php/jcets/article/view/325",
+      "notes": "Email extracted via web-search snippet corroborated across multiple sources referencing the same civil engineering journal article by Agus Bambang Siswanto, confirmed as Universitas 17 Agustus 1945 Semarang Civil Engineering lecturer (Journal of Civil Engineering and Technology Sciences). Medium-high confidence."
+    }
+  ]
 }

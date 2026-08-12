@@ -5,5 +5,66 @@
   "city": "Semarang",
   "province": "Jawa Tengah",
   "website": "https://www.undip.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Prof. Anis Chariri, S.E., M.Com., Ph.D., Akt.",
+      "department": "Akuntansi, Fakultas Ekonomika dan Bisnis",
+      "title": "Guru Besar",
+      "research_area": "Environmental accounting, forensic accounting, sociology of accounting",
+      "email": "anischariri@lecturer.undip.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?user=IuNrYJwAAAAJ&hl=id",
+      "website": "https://akuntansi.feb.undip.ac.id/dosen/anis-chariri/",
+      "notes": "Vice Dean-Academic & Student Affairs, FEB Undip. Email verified via https://akuntansi.feb.undip.ac.id/profil-dosen/ (official department lecturer directory). High confidence."
+    },
+    {
+      "name": "Prof. Dr. Suharnomo, S.E., M.Si.",
+      "department": "Manajemen, Fakultas Ekonomika dan Bisnis",
+      "title": "Guru Besar",
+      "research_area": "Human resource management, strategic management, organizational behavior",
+      "email": "suharnomo@lecturer.undip.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://manajemen.feb.undip.ac.id/profil-dosen/",
+      "notes": "Rektor Universitas Diponegoro periode 2024-2029; former Dean of FEB Undip. Email verified via https://manajemen.feb.undip.ac.id/profil-dosen/ (official department lecturer directory). High confidence."
+    },
+    {
+      "name": "Prof. Dr. Abdul Rohman, S.E., M.Si.",
+      "department": "Akuntansi, Fakultas Ekonomika dan Bisnis",
+      "title": "Guru Besar",
+      "research_area": "Accounting",
+      "email": "abdulrohman@lecturer.undip.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://akuntansi.feb.undip.ac.id/profil-dosen/",
+      "notes": "Email verified via https://akuntansi.feb.undip.ac.id/profil-dosen/ (official department lecturer directory). High confidence."
+    },
+    {
+      "name": "Prof. Dr. Indira Januarti, S.E., M.Si.",
+      "department": "Akuntansi, Fakultas Ekonomika dan Bisnis",
+      "title": "Guru Besar",
+      "research_area": "Accounting, auditing",
+      "email": "indirajanuarti@lecturer.undip.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://akuntansi.feb.undip.ac.id/profil-dosen/",
+      "notes": "Email verified via https://akuntansi.feb.undip.ac.id/profil-dosen/ (official department lecturer directory). High confidence."
+    },
+    {
+      "name": "Prof. Dr. Harjum Muharam, S.E., M.E.",
+      "department": "Manajemen, Fakultas Ekonomika dan Bisnis",
+      "title": "Guru Besar",
+      "research_area": "Finance, management",
+      "email": "harjummuharam@lecturer.undip.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://manajemen.feb.undip.ac.id/profil-dosen/",
+      "notes": "Email verified via https://manajemen.feb.undip.ac.id/profil-dosen/ (official department lecturer directory). High confidence."
+    }
+  ]
 }

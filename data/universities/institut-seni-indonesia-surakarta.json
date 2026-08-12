@@ -5,5 +5,138 @@
   "city": "Surakarta",
   "province": "Jawa Tengah",
   "website": "https://isi-ska.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Prof. Dr. Soetarno, D.E.A.",
+      "department": "Pedalangan",
+      "title": "Guru Besar",
+      "research_area": "Pedalangan, Wayang",
+      "email": "soetarno21@isi-ska.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://pps.isi-ska.ac.id/about/struktur-organisasi-2/guru-besar/",
+      "notes": "Email confirmed on official ISI Surakarta Graduate Program (Pascasarjana) 'Guru Besar' listing page. High confidence."
+    },
+    {
+      "name": "Prof. Dr. Rahayu Supanggah, S.Kar.",
+      "department": "Karawitan",
+      "title": "Guru Besar",
+      "research_area": "Karawitan, Musik Tradisi Jawa",
+      "email": "panggah@isi-ska.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://pps.isi-ska.ac.id/about/struktur-organisasi-2/guru-besar/",
+      "notes": "Email confirmed on official ISI Surakarta Graduate Program (Pascasarjana) 'Guru Besar' listing page. High confidence."
+    },
+    {
+      "name": "Prof. Dr. Pande Made Sukerta, S.Kar., M.Si.",
+      "department": "Karawitan",
+      "title": "Guru Besar",
+      "research_area": "Karawitan, Komposisi Musik Tradisi",
+      "email": "made_sukerta@isi-ska.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://pps.isi-ska.ac.id/about/struktur-organisasi-2/guru-besar/",
+      "notes": "Email confirmed on official ISI Surakarta Graduate Program (Pascasarjana) 'Guru Besar' listing page. High confidence."
+    },
+    {
+      "name": "Prof. Dr. Sri Hastanto, S.Kar.",
+      "department": "Etnomusikologi",
+      "title": "Guru Besar",
+      "research_area": "Etnomusikologi, Karawitan",
+      "email": "tanto47@isi-ska.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://pps.isi-ska.ac.id/about/struktur-organisasi-2/guru-besar/",
+      "notes": "Email confirmed on official ISI Surakarta Graduate Program (Pascasarjana) 'Guru Besar' listing page. High confidence."
+    },
+    {
+      "name": "Prof. Dr. T. Slamet Suparno, S.Kar., M.S.",
+      "department": "Karawitan",
+      "title": "Guru Besar",
+      "research_area": "Karawitan",
+      "email": "slamet_suparno@isi-ska.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://pps.isi-ska.ac.id/about/struktur-organisasi-2/guru-besar/",
+      "notes": "Email confirmed on official ISI Surakarta Graduate Program (Pascasarjana) 'Guru Besar' listing page. High confidence."
+    },
+    {
+      "name": "Prof. Dr. Rustopo, S.Kar., M.S.",
+      "department": "Karawitan",
+      "title": "Guru Besar",
+      "research_area": "Karawitan, Sejarah Seni Pertunjukan",
+      "email": "rustopo@isi-ska.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://pps.isi-ska.ac.id/about/struktur-organisasi-2/guru-besar/",
+      "notes": "Email confirmed on official ISI Surakarta Graduate Program (Pascasarjana) 'Guru Besar' listing page. High confidence."
+    },
+    {
+      "name": "Prof. Dr. Hj. Sri Rochana Widyastutieningrum, S.Kar., M.Hum.",
+      "department": "Seni Tari",
+      "title": "Guru Besar",
+      "research_area": "Seni Tari, Tari Tradisi Jawa",
+      "email": "rochana@isi-ska.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://pps.isi-ska.ac.id/about/struktur-organisasi-2/guru-besar/",
+      "notes": "Former Rector of ISI Surakarta. Email confirmed on official ISI Surakarta Graduate Program (Pascasarjana) 'Guru Besar' listing page. High confidence."
+    },
+    {
+      "name": "Prof. Dr. Santosa, M.Mus., M.A., Ph.D.",
+      "department": "Etnomusikologi",
+      "title": "Guru Besar",
+      "research_area": "Etnomusikologi",
+      "email": "santosa@isi-ska.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://pps.isi-ska.ac.id/about/struktur-organisasi-2/guru-besar/",
+      "notes": "Email confirmed on official ISI Surakarta Graduate Program (Pascasarjana) 'Guru Besar' listing page. High confidence."
+    },
+    {
+      "name": "Prof. Dr. Dharsono, M.Sn.",
+      "department": "Seni Rupa (Fine Arts)",
+      "title": "Guru Besar",
+      "research_area": "Seni Rupa, Estetika",
+      "email": "dharsono@isi-ska.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://pps.isi-ska.ac.id/about/struktur-organisasi-2/guru-besar/",
+      "notes": "Email confirmed on official ISI Surakarta Graduate Program (Pascasarjana) 'Guru Besar' listing page. High confidence."
+    },
+    {
+      "name": "Prof. Dr. Sarwanto, S.Kar., M.Hum.",
+      "department": "Pedalangan",
+      "title": "Guru Besar",
+      "research_area": "Pedalangan, Wayang",
+      "email": "sarwanto@isi-ska.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://pps.isi-ska.ac.id/about/struktur-organisasi-2/guru-besar/",
+      "notes": "Email confirmed on official ISI Surakarta Graduate Program (Pascasarjana) 'Guru Besar' listing page. High confidence."
+    },
+    {
+      "name": "Prof. Dr. Nanik Sri Prihatini, S.Kar., M.Si.",
+      "department": "Seni Tari",
+      "title": "Guru Besar",
+      "research_area": "Seni Tari, Tari Tradisi",
+      "email": "nanik@isi-ska.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://pps.isi-ska.ac.id/about/struktur-organisasi-2/guru-besar/",
+      "notes": "Email confirmed on official ISI Surakarta Graduate Program (Pascasarjana) 'Guru Besar' listing page. High confidence."
+    }
+  ]
 }

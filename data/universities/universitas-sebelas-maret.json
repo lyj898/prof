@@ -5,5 +5,66 @@
   "city": "Surakarta",
   "province": "Jawa Tengah",
   "website": "https://uns.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Prof. Dr. Adi Sulistiyono, S.H., M.H.",
+      "department": "Fakultas Hukum",
+      "title": "Guru Besar",
+      "research_area": "Hukum Ekonomi, Penyelesaian Sengketa Bisnis",
+      "email": "adisulistiyono@staff.uns.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://iris1103.uns.ac.id/profil-0009026304.asm",
+      "notes": "Email confirmed on official UNS lecturer information system (IRIS) profile page (https://iris1103.uns.ac.id/profil-0009026304.asm) and corroborated by MWA UNS profile page. High confidence."
+    },
+    {
+      "name": "Prof. Dr. Bani Sudardi, M.Hum.",
+      "department": "Fakultas Ilmu Budaya / Sastra Indonesia",
+      "title": "Guru Besar",
+      "research_area": "Filologi, Kajian Budaya, Sastra Jawa",
+      "email": "banisudardi_fssr@staff.uns.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://iris1103.uns.ac.id/profil-0018096404.asm",
+      "notes": "Email confirmed on official UNS IRIS lecturer profile page (https://iris1103.uns.ac.id/profil-0018096404.asm). High confidence."
+    },
+    {
+      "name": "Prof. Dr. Djatmika, M.A.",
+      "department": "Fakultas Ilmu Budaya / Sastra Inggris (Linguistik)",
+      "title": "Guru Besar",
+      "research_area": "Discourse Analysis, Systemic Functional Linguistics, Appraisal Theory",
+      "email": "djatmika@staff.uns.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://inggris.fib.uns.ac.id/user/djatmika/",
+      "notes": "Email confirmed on official Fakultas Ilmu Budaya UNS English Department profile page (https://inggris.fib.uns.ac.id/user/djatmika/). High confidence."
+    },
+    {
+      "name": "Prof. Dr. Tri Wiratno, M.A.",
+      "department": "Fakultas Ilmu Budaya / Sastra Inggris (Linguistik)",
+      "title": "Guru Besar",
+      "research_area": "Systemic Functional Linguistics, Discourse Analysis, Genre-based Pedagogy",
+      "email": "tri_wiratno@staff.uns.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://iris1103.uns.ac.id/profil-0014096107.asm",
+      "notes": "Email confirmed on official UNS IRIS lecturer profile page (https://iris1103.uns.ac.id/profil-0014096107.asm). High confidence."
+    },
+    {
+      "name": "Prof. Drs. Mangatur Nababan, M.Ed., M.A., Ph.D.",
+      "department": "Fakultas Ilmu Budaya / Sastra Inggris (Linguistik Penerjemahan)",
+      "title": "Guru Besar",
+      "research_area": "Translation Studies, Linguistik Penerjemahan",
+      "email": "amantaradja.nababan_2017@staff.uns.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.co.id/citations?user=xchq1-8AAAAJ&hl=id",
+      "website": "https://iris1103.uns.ac.id/profil-0028036311.asm",
+      "notes": "Email confirmed on official UNS IRIS lecturer profile page (https://iris1103.uns.ac.id/profil-0028036311.asm). High confidence."
+    }
+  ]
 }

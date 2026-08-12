@@ -5,5 +5,54 @@
   "city": "Kepanjen, Kabupaten Malang",
   "province": "Jawa Timur",
   "website": "https://uniramalang.ac.id/",
-  "professors": []
+  "professors": [
+    {
+      "name": "Adita Nafisa, S.E., M.M.",
+      "department": "Manajemen, Fakultas Ekonomi dan Bisnis",
+      "title": "Asisten Ahli",
+      "research_area": "Financial management, finance, entrepreneurship, tourism",
+      "email": "adita.nafisa@uniramalang.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?hl=en&user=OjgBvYwAAAAJ",
+      "website": "https://manajemen.uniramalang.ac.id/staff/academics-staff/",
+      "notes": "Ketua Program Studi S1 Manajemen, UNIRA Malang. Email verified via official staff directory page and corroborating WebSearch results. High confidence."
+    },
+    {
+      "name": "Dr. M. Yusuf Azwar Anas, S.E., M.M.",
+      "department": "Manajemen, Fakultas Ekonomi dan Bisnis",
+      "title": "Dekan",
+      "research_area": "Consumer behavior, purchase decisions, price and food quality",
+      "email": "yusufazwar9@uniramalang.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.co.id/citations?user=-a_X46kAAAAJ&hl=en",
+      "website": "https://manajemen.uniramalang.ac.id/staff/academics-staff/",
+      "notes": "Dekan Fakultas Ekonomi dan Bisnis, UNIRA Malang (academic rank Lektor, current administrative role Dekan). Email verified via official staff directory page. High confidence."
+    },
+    {
+      "name": "Sinollah, S.Sos., M.AB",
+      "department": "Manajemen, Fakultas Ekonomi dan Bisnis",
+      "title": "Lektor",
+      "research_area": "Management",
+      "email": "sinollah@uniramalang.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://manajemen.uniramalang.ac.id/staff/academics-staff/",
+      "notes": "Wakil Rektor I, UNIRA Malang. Email verified via official staff directory page. High confidence."
+    },
+    {
+      "name": "Wuli Oktiningrum",
+      "department": "Pendidikan Guru Sekolah Dasar / Pendidikan Matematika",
+      "title": "Dosen",
+      "research_area": "Mathematics education, critical thinking, numeracy literacy assessment",
+      "email": "wulie.okti@uniramalang.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": null,
+      "notes": "Email verified as corresponding author on journal articles (AKSIOMA, PRIMED) and via WebSearch. High confidence."
+    }
+  ]
 }

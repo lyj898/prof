@@ -5,5 +5,66 @@
   "city": "Semarang",
   "province": "Jawa Tengah",
   "website": "https://dinus.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Prof. Dr. Ir. Edi Noersasongko, M.Kom.",
+      "department": "Magister Manajemen / Fakultas Ekonomi & Bisnis",
+      "title": "Guru Besar",
+      "research_area": "Management, Information Systems",
+      "email": "edi.noersasongko@dsn.dinus.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://portal.dinus.ac.id/show_dsn/NWZmZTU1MTE3OTk4MjRiZjBlY2VjZTdjODM2MWE1ZDMtMS0xNTg5NTc4MjYwODYxMDI5MTM2",
+      "notes": "Former Rector of Udinus (2025 successor inaugurated). Email directly confirmed on official Udinus faculty portal profile page (accessed 2026-08-12). High confidence."
+    },
+    {
+      "name": "Prof. Dr. Pulung Nurtantio Andono, S.T., M.Kom.",
+      "department": "Program Doktor Ilmu Komputer (S3 Ilmu Komputer)",
+      "title": "Guru Besar",
+      "research_area": "Computer Vision, Stereo Vision, Underwater 3D Reconstruction",
+      "email": "pulung@dsn.dinus.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.co.id/citations?user=rbP2e1oAAAAJ&hl=en",
+      "website": "https://portal.dinus.ac.id/show_dsn/ZjkxZmE4NWY5OWI4NzI4NDIzOGE2ZjUyNGEwZjI2MTItMTI4LTEzOTAxOTMyODk5MTgwNTY4NTA~",
+      "notes": "Rector of Udinus (inaugurated 2025-2029). Email directly confirmed on official Udinus faculty portal profile page (accessed 2026-08-12). High confidence."
+    },
+    {
+      "name": "Prof. Dr. Ahmad Zainul Fanani, S.Si., M.Kom.",
+      "department": "Magister Teknik Informatika (S2 Ilmu Komputer)",
+      "title": "Guru Besar",
+      "research_area": "Computer Vision, Data Mining, Software Engineering",
+      "email": "a.zainul.fanani@dsn.dinus.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.co.id/citations?user=W1AmXaYAAAAJ&hl=id",
+      "website": "https://portal.dinus.ac.id/show_dsn/ZGNmOTQyOTc1MDdhN2RlMmQyMDkzMmFlMGY1MWZmNmQtNDQtMjk5MTc5NzkyOTI5ODYyNzA3Mg~~",
+      "notes": "Email directly confirmed on official Udinus faculty portal profile page (accessed 2026-08-12). High confidence."
+    },
+    {
+      "name": "Prof. Ir. Heru Agus Santoso, Ph.D., IPM., ASEAN Eng.",
+      "department": "Magister Teknik Informatika (S2 Ilmu Komputer)",
+      "title": "Guru Besar",
+      "research_area": "Multimodal Deep Learning, Explainable AI, Responsible AI",
+      "email": "heru.agus.santoso@dsn.dinus.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?user=4wVZOuQAAAAJ&hl=en",
+      "website": "https://portal.dinus.ac.id/show_dsn/MDNiM2JjZWVjZGIxN2FmYzQ0MmMxMTMyMzRhNTg1ODAtNzUtMTM0MDA4OTI1NDI5NTgwNDg0MA~~",
+      "notes": "Email directly confirmed on official Udinus faculty portal profile page (accessed 2026-08-12). High confidence."
+    },
+    {
+      "name": "Chaerul Umam, M.Kom.",
+      "department": "Teknik Informatika (S1 Ilmu Komputer)",
+      "title": "Lektor Kepala",
+      "research_area": "Cryptography, Image Encryption, Digital Forensics, Blockchain",
+      "email": "chaerul@dsn.dinus.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://portal.dinus.ac.id/show_dsn/ODIwZmJhNWI1NWNmODc4Nzc2ZGUzNDc5M2IzNTQ0NmUtMTUyOS0yNTI3MzIwMDE2NDY3NDMwODA5",
+      "notes": "Email directly confirmed on official Udinus faculty portal profile page (accessed 2026-08-12). High confidence."
+    }
+  ]
 }

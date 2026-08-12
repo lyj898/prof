@@ -5,5 +5,42 @@
   "city": "Surakarta",
   "province": "Jawa Tengah",
   "website": "https://uinsaid.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Masjupri, S.Ag., M.Hum.",
+      "department": "Fakultas Syariah / Hukum Ekonomi Syariah",
+      "title": "Lektor Kepala",
+      "research_area": "Hukum Ekonomi Syariah",
+      "email": "masjupri@staff.uinsaid.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://syariah.uinsaid.ac.id/berita/profil-dosen-masjupri-s-ag-m-hum",
+      "notes": "Email confirmed directly on official Fakultas Syariah UIN Raden Mas Said Surakarta faculty profile page (https://syariah.uinsaid.ac.id/berita/profil-dosen-masjupri-s-ag-m-hum). He is Chair (Ketua Program Studi) of the Islamic Economic Law program. High confidence."
+    },
+    {
+      "name": "Dr. Muh. Nashirudin, S.Ag., M.Ag., M.A.",
+      "department": "Fakultas Syariah / Hukum Ekonomi Syariah (Muamalah)",
+      "title": "Dekan",
+      "research_area": "Hukum Ekonomi Syariah, Zakat, Hukum Islam",
+      "email": "muh.nashirudin@gmail.com",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.co.id/citations?user=gUNZVnoAAAAJ&hl=en",
+      "website": "https://syariah.uinsaid.ac.id/hukum-ekonomi-syariah-muamalah-2/profil-dr-muh-nashirudin-s-ag-m-ag-m-a/",
+      "notes": "Dean of Fakultas Syariah, UIN Raden Mas Said Surakarta. Email is publicly listed as his contact on the editorial team bio page of Al-Maslahah journal (https://jurnaliainpontianak.or.id/index.php/Almaslahah/about/editorialTeamBio/189), listing his affiliation as Fakultas Syari'ah, IAIN Surakarta. Personal (Gmail) address rather than institutional domain, but is the publicly listed academic contact. Medium-high confidence."
+    },
+    {
+      "name": "Prof. Dr. Toto Suharto, S.Ag., M.Ag.",
+      "department": "Fakultas Ilmu Tarbiyah dan Keguruan / Pendidikan Bahasa Arab",
+      "title": "Guru Besar",
+      "research_area": "Filsafat Pendidikan Islam, Islamic Studies",
+      "email": "tosuh71@gmail.com",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?hl=id&user=2GV51msAAAAJ",
+      "website": "https://fit.uinsaid.ac.id/jurusan-pendidikan-bahasa-arab/toto-suharto/",
+      "notes": "Rector of UIN Raden Mas Said Surakarta and Guru Besar Ilmu Filsafat Pendidikan Islam. Email is publicly listed as his author contact in journal articles (e.g., Walisongo journal, https://journal.walisongo.ac.id/index.php/walisongo/article/download/308/281) and academic profile pages; affiliation confirmed on official Fakultas Ilmu Tarbiyah UIN Raden Mas Said Surakarta faculty page. Personal (Gmail) address rather than institutional domain, but is the publicly listed academic contact. Medium-high confidence."
+    }
+  ]
 }

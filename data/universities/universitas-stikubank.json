@@ -5,5 +5,66 @@
   "city": "Semarang",
   "province": "Jawa Tengah",
   "website": "https://www.unisbank.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Prof. Dr. Jacobus Widiatmoko, M.M., Ak.",
+      "department": "Akuntansi / Fakultas Ekonomika dan Bisnis",
+      "title": "Guru Besar",
+      "research_area": "Financial Accounting, Intellectual Capital Disclosure",
+      "email": "jwidiatmoko@edu.unisbank.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.co.id/citations?hl=id&user=ZFAdQhMAAAAJ",
+      "website": "https://www.researchgate.net/profile/Jacobus-Widiatmoko",
+      "notes": "Email directly confirmed as corresponding author in journal PDF (Journal of Accounting and Investment, via pdfs.semanticscholar.org, accessed 2026-08-12). High confidence."
+    },
+    {
+      "name": "Prof. Dr. Suhana, S.S., M.M.",
+      "department": "Manajemen / Fakultas Ekonomika dan Bisnis",
+      "title": "Guru Besar",
+      "research_area": "Knowledge Management, Human Resource Management",
+      "email": "suhana@edu.unisbank.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.co.id/citations?hl=en&user=4hHm-3IAAAAJ",
+      "website": "https://www.unisbank.ac.id/v3/",
+      "notes": "Email directly confirmed as corresponding author in JEMSI journal PDF (dinastirev.org, accessed 2026-08-12). High confidence."
+    },
+    {
+      "name": "Prof. Dr. Aji Supriyanto, S.T., M.Kom.",
+      "department": "Magister Teknologi Informasi / Fakultas Teknologi Informasi dan Industri",
+      "title": "Guru Besar",
+      "research_area": "E-Government, Decision Support Systems, Information Security",
+      "email": "ajisup@edu.unisbank.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.co.id/citations?user=HoXJFgUAAAAJ&hl=id",
+      "website": "https://www.researchgate.net/profile/Aji-Supriyanto",
+      "notes": "Email directly confirmed as corresponding author in journal PDF (beei.org, accessed 2026-08-12). High confidence."
+    },
+    {
+      "name": "Prof. Dr. Pancawati Hardiningsih, S.E., M.Si., Akt.",
+      "department": "Akuntansi / Fakultas Ekonomika dan Bisnis",
+      "title": "Guru Besar",
+      "research_area": "Financial Accounting, Sustainability Accounting, ESG Disclosure",
+      "email": "pancawati@edu.unisbank.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.co.id/citations?hl=id&user=R24z8P8AAAAJ",
+      "website": "https://www.unisbank.ac.id/v3/",
+      "notes": "Email address corroborated by multiple independent indexed sources quoting the exact string (ResearchGate, journal citations) as corresponding author; not directly page-verified due to PDF/site access restrictions. Medium-high confidence."
+    },
+    {
+      "name": "Prof. Dr. Katharina Rustipa, M.Pd.",
+      "department": "Sastra Inggris / Fakultas Hukum dan Bahasa",
+      "title": "Guru Besar",
+      "research_area": "Linguistics, EFL Academic Writing",
+      "email": "katrin@edu.unisbank.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://www.unisbank.ac.id/v3/",
+      "notes": "Email address corroborated by multiple independent indexed sources quoting the exact string (ResearchGate, journal citations) as corresponding author; not directly page-verified due to site access restrictions. Medium-high confidence."
+    }
+  ]
 }

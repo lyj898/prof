@@ -5,5 +5,18 @@
   "city": "Semarang",
   "province": "Jawa Tengah",
   "website": "https://unissula.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Prof. Olivia Fachrunnisa, S.E., M.Si., Ph.D.",
+      "department": "Manajemen / Fakultas Ekonomi dan Bisnis",
+      "title": "Guru Besar",
+      "research_area": "Human Resource Management, Knowledge Management, Organizational Behaviour, Business Intelligence",
+      "email": "olivia.fachrunnisa@unissula.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com.au/citations?hl=en&user=lCWg7yQAAAAJ",
+      "website": "https://feb.unissula.ac.id/personnel/prof-olivia-fachrunnisa-se-m-si-ph-d/",
+      "notes": "Email directly confirmed on official FEB Unissula personnel profile page (accessed 2026-08-12). High confidence."
+    }
+  ]
 }

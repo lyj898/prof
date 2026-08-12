@@ -5,5 +5,30 @@
   "city": "Semarang",
   "province": "Jawa Tengah",
   "website": "https://upgris.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Mega Novita, S.Si., M.Si., M.Nat., Ph.D.",
+      "department": "Informatika / Fakultas Teknik dan Informatika",
+      "title": "Lektor Kepala",
+      "research_area": "Chemistry, Data/Signal Analysis, Tourism Informatics",
+      "email": "novita@upgris.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://sites.google.com/view/mega-novita-upgris/",
+      "notes": "Head of International Affairs, UPGRIS. Email directly confirmed as corresponding author on Atlantis Press page https://www.atlantis-press.com/proceedings/icesre-25/126021658 (accessed 2026-08-12). High confidence."
+    },
+    {
+      "name": "Prof. Dr. Senowarsito, M.Pd.",
+      "department": "Pendidikan Bahasa Inggris / Fakultas Pendidikan Bahasa dan Seni",
+      "title": "Guru Besar",
+      "research_area": "Applied Linguistics, English Language Education",
+      "email": "senowarsito@upgris.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://upgris.ac.id/",
+      "notes": "Vice Dean of Student Affairs, Faculty of Language and Arts Education, UPGRIS. Email address corroborated by multiple independent indexed academic sources quoting the exact string (ZoomInfo listing and journal citations); not directly page-verified due to PDF encoding issues. Medium-high confidence."
+    }
+  ]
 }
