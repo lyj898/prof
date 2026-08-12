@@ -5,5 +5,42 @@
   "city": "Denpasar",
   "province": "Bali",
   "website": "https://isidps.ac.id/",
-  "professors": []
+  "professors": [
+    {
+      "name": "I Putu Udiyana Wasista",
+      "department": "Program Studi Desain Interior, Fakultas Seni Rupa dan Desain",
+      "title": "Dosen",
+      "research_area": "Desain Interior, Arsitektur Tradisional Bali",
+      "email": "udiyanawasista@isi-dps.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?user=yb532RYAAAAJ&hl=en",
+      "website": "https://jurnal.isi-dps.ac.id/index.php/mudra/UdiyanaWasista",
+      "notes": "Verified via official journal author profile (jurnal.isi-dps.ac.id/index.php/mudra/UdiyanaWasista), confirmed by web search cross-reference. Coordinates the LP2MPP publishing center. High confidence."
+    },
+    {
+      "name": "Ni Luh Desi In Diana Sari",
+      "department": "Program Studi Desain Komunikasi Visual, Fakultas Seni Rupa dan Desain (FSRD)",
+      "title": "Wakil Dekan",
+      "research_area": "Desain Komunikasi Visual, Kajian Budaya",
+      "email": "desiindianasari@yahoo.com",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.co.id/citations?user=ckRHCyUAAAAJ&hl=id",
+      "website": "https://jurnal.isi-dps.ac.id/index.php/mudra/desi",
+      "notes": "Wakil Dekan Bidang Kemahasiswaan dan Kerja Sama FSRD 2025-2029 (per SEVIMA news release). Email verified via official journal author profile page. Also lists Mudra journal as Section Editor. High confidence."
+    },
+    {
+      "name": "Toddy Hendrawan Yupardhi",
+      "department": "Program Studi Desain Interior, Fakultas Seni Rupa dan Desain",
+      "title": "Dosen",
+      "research_area": "Desain Interior, Desain Ritel",
+      "email": "hendrawanyupardhi@isi-dps.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?user=z1E3MHwAAAAJ&hl=en",
+      "website": "http://repo.isi-dps.ac.id/4680/1/RETAIL%20DESIGN.pdf",
+      "notes": "Email confirmed as corresponding author address across multiple publications (e.g. 'Ghost Kitchen Concept' paper, institutional repository). Medium-high confidence."
+    }
+  ]
 }

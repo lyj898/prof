@@ -5,5 +5,66 @@
   "city": "Buleleng",
   "province": "Bali",
   "website": "https://undiksha.ac.id/",
-  "professors": []
+  "professors": [
+    {
+      "name": "Putu Kerti Nitiasih",
+      "department": "Fakultas Bahasa dan Seni - Pendidikan Bahasa Inggris",
+      "title": "Guru Besar",
+      "research_area": "Applied Linguistics, English Language Teaching, Materials Development",
+      "email": "kertinitiasih@undiksha.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://dosen.undiksha.ac.id/profile/196206261986032002",
+      "notes": "Email listed on official faculty page pasca.undiksha.ac.id/en/prodi/pendidikan-bahasa-inggris-s2/dosen-pengajar/ and confirmed on individual profile dosen.undiksha.ac.id/profile/196206261986032002 (title: Guru Besar / Professor, Ketua Prodi S3 Ilmu Pendidikan). High confidence."
+    },
+    {
+      "name": "I Nyoman Adi Jaya Putra",
+      "department": "Fakultas Bahasa dan Seni - Pendidikan Bahasa Inggris",
+      "title": "Guru Besar",
+      "research_area": "English Language Education, Applied Linguistics",
+      "email": "adijayaputra@undiksha.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://pasca.undiksha.ac.id/en/prodi/pendidikan-bahasa-inggris-s2/dosen-pengajar/",
+      "notes": "Email listed on official faculty page pasca.undiksha.ac.id/en/prodi/pendidikan-bahasa-inggris-s2/dosen-pengajar/ (listed as Prof. Dr. I Nyoman Adi Jaya Putra, M.A.). High confidence."
+    },
+    {
+      "name": "Ni Nyoman Padmadewi",
+      "department": "Fakultas Bahasa dan Seni - Pendidikan Bahasa Inggris",
+      "title": "Guru Besar",
+      "research_area": "English Language Teaching, Literacy Education",
+      "email": "nym.padmadewi@undiksha.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://pasca.undiksha.ac.id/en/prodi/pendidikan-bahasa-inggris-s2/dosen-pengajar/",
+      "notes": "Email listed on official faculty page pasca.undiksha.ac.id/en/prodi/pendidikan-bahasa-inggris-s2/dosen-pengajar/ (listed as Prof. Dr. Ni Nyoman Padmadewi, M.A.). High confidence."
+    },
+    {
+      "name": "Luh Putu Artini",
+      "department": "Fakultas Bahasa dan Seni - Pendidikan Bahasa Inggris",
+      "title": "Guru Besar",
+      "research_area": "English Language Teaching, Teacher Education",
+      "email": "putu.artini@undiksha.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://pasca.undiksha.ac.id/en/prodi/pendidikan-bahasa-inggris-s2/dosen-pengajar/",
+      "notes": "Email listed on official faculty page pasca.undiksha.ac.id/en/prodi/pendidikan-bahasa-inggris-s2/dosen-pengajar/ (listed as Prof. Luh Putu Artini, M.A., Ph.D.). High confidence."
+    },
+    {
+      "name": "Dewa Putu Ramendra",
+      "department": "Fakultas Bahasa dan Seni - Pendidikan Bahasa Inggris",
+      "title": "Dosen",
+      "research_area": "English Language Education",
+      "email": "putu.ramendra@undiksha.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://pasca.undiksha.ac.id/en/prodi/pendidikan-bahasa-inggris-s2/dosen-pengajar/",
+      "notes": "Email listed on official faculty page pasca.undiksha.ac.id/en/prodi/pendidikan-bahasa-inggris-s2/dosen-pengajar/ (listed as Dr. Dewa Putu Ramendra, M.Pd.; exact jabatan fungsional not confirmed so defaulted to Dosen). High confidence on email."
+    }
+  ]
 }

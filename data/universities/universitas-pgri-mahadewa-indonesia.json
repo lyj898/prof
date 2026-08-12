@@ -5,5 +5,42 @@
   "city": "Denpasar",
   "province": "Bali",
   "website": "https://mahadewa.ac.id/",
-  "professors": []
+  "professors": [
+    {
+      "name": "I Wayan Widana",
+      "department": "Fakultas Sains dan Teknologi / LPPM",
+      "title": "Guru Besar",
+      "research_area": "Penelitian dan Evaluasi Pendidikan",
+      "email": "iwayanwidana@mahadewa.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://ojs.mahadewa.ac.id/index.php/ijed/about/editorialTeam",
+      "notes": "Professor of Educational Research and Evaluation; Editor-in-Chief of Indonesian Journal of Educational Development (IJED), published by LPPM Universitas PGRI Mahadewa Indonesia. Email confirmed via web search cross-reference. High confidence."
+    },
+    {
+      "name": "I Wayan Sumandya",
+      "department": "Program Studi Pendidikan Matematika",
+      "title": "Lektor",
+      "research_area": "Pendidikan Matematika, Evaluasi Pembelajaran",
+      "email": "iwayansumandya@mahadewa.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "http://repo.mahadewa.ac.id/profile/94",
+      "notes": "Dr., S.Pd., M.Pd; NIDN 0827048701; editorial board member of IJED journal. Email confirmed via web search cross-reference. High confidence."
+    },
+    {
+      "name": "I Komang Sukendra",
+      "department": "Program Studi Pendidikan Matematika",
+      "title": "Lektor",
+      "research_area": "Pendidikan Matematika, Asesmen Digital",
+      "email": "kmgsukendra70@gmail.com",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.co.id/citations?hl=en&user=D7HZBMsAAAAJ",
+      "website": "https://ojs.mahadewa.ac.id/index.php/santimas/kepanitiaan",
+      "notes": "S.Pd., M.Si., M.Pd; listed as Sekretaris in SANTIMAS proceedings committee, Universitas PGRI Mahadewa Indonesia. Personal email confirmed via multiple academic publications. Medium-high confidence."
+    }
+  ]
 }

@@ -5,5 +5,66 @@
   "city": "Badung",
   "province": "Bali",
   "website": "https://undhirabali.ac.id/",
-  "professors": []
+  "professors": [
+    {
+      "name": "Prof. Dr. I Gusti Bagus Rai Utama, S.E., M.MA., M.A.",
+      "department": "Rektorat / Manajemen Bisnis Pariwisata",
+      "title": "Guru Besar",
+      "research_area": "Manajemen bisnis pariwisata, pariwisata berkelanjutan",
+      "email": "raiutama@undhirabali.ac.id",
+      "phone": null,
+      "linkedin": "https://www.linkedin.com/in/raiutama/",
+      "google_scholar": "https://scholar.google.com/citations?user=VjebKtgAAAAJ&hl=en",
+      "website": "https://undhirabali.ac.id/prof-dr-i-gusti-bagus-rai-utama-dikukuhkan-menjadi-guru-besar-undhira/",
+      "notes": "Rector of Undhira and Guru Besar (Professor) in tourism business management; email confirmed via web search. High confidence."
+    },
+    {
+      "name": "Gerson Feoh, S.Kom., M.T.",
+      "department": "Teknik Informatika",
+      "title": "Dosen",
+      "research_area": null,
+      "email": "gerson.feoh@undhirabali.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://informatika.undhirabali.ac.id/dosen/",
+      "notes": "Program Director / Permanent Lecturer, Teknik Informatika. Verified via program faculty directory page. High confidence."
+    },
+    {
+      "name": "Prastyadi Wibawa Rahayu, S.Kom., M.Kom.",
+      "department": "Teknik Informatika",
+      "title": "Dosen",
+      "research_area": null,
+      "email": "prastyadiwibawa@undhirabali.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://informatika.undhirabali.ac.id/dosen/",
+      "notes": "Permanent Lecturer, Teknik Informatika. Verified via program faculty directory page. High confidence."
+    },
+    {
+      "name": "I Made Dwi Ardiada, S.Kom., M.T.",
+      "department": "Teknik Informatika",
+      "title": "Dosen",
+      "research_area": null,
+      "email": "dwiardiada@undhirabali.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://informatika.undhirabali.ac.id/dosen/",
+      "notes": "Permanent Lecturer, Teknik Informatika. Verified via program faculty directory page. High confidence."
+    },
+    {
+      "name": "I Nyoman Bernadus, S.Kom., M.T.",
+      "department": "Teknik Informatika",
+      "title": "Dosen",
+      "research_area": null,
+      "email": "bernadus@undhirabali.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://informatika.undhirabali.ac.id/dosen/",
+      "notes": "Permanent Lecturer, Teknik Informatika. Verified via program faculty directory page. High confidence."
+    }
+  ]
 }

@@ -5,5 +5,54 @@
   "city": "Denpasar",
   "province": "Bali",
   "website": "https://unr.ac.id/",
-  "professors": []
+  "professors": [
+    {
+      "name": "Dr. I Wayan Putu Sucana Aryana, S.E., S.H., M.H.",
+      "department": "Fakultas Hukum",
+      "title": "Dekan",
+      "research_area": "Ilmu Hukum",
+      "email": "sucana.aryana@unr.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://ojs.unr.ac.id/index.php/akses/ED_Sucana_Aryana",
+      "notes": "Verified via official OJS UNR editorial profile page (also listed as Dean of Faculty of Law on fh.unr.ac.id). High confidence."
+    },
+    {
+      "name": "I Gede Mahatma Yogiswara Winatha, S.H., M.H.",
+      "department": "Fakultas Hukum",
+      "title": "Dosen",
+      "research_area": "Hukum Kekayaan Intelektual, Hukum Perdata",
+      "email": "yogiswara.winatha@unr.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?hl=en&user=QFMjlxgAAAAJ",
+      "website": "https://www.researchgate.net/profile/I-Gede-Winatha",
+      "notes": "Individual @unr.ac.id email verified as corresponding-author address across multiple journal articles (e.g. community service program on mangrove preservation). High confidence."
+    },
+    {
+      "name": "Putu Eka Trisna Dewi, S.H., M.H., CLA., CBLC.",
+      "department": "Fakultas Hukum",
+      "title": "Dosen",
+      "research_area": "Hukum Investasi, Keimigrasian",
+      "email": "escampur_ubie@yahoo.com",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.co.id/citations?user=bo27FHAAAAAJ&hl=id",
+      "website": "https://www.ojs.unr.ac.id/index.php/aktualjustice/article/view/557",
+      "notes": "Individually distinct email verified as listed author contact on OJS Jurnal Aktual Justice article page (Universitas Ngurah Rai affiliation confirmed). High confidence."
+    },
+    {
+      "name": "Dr. I Made Artana",
+      "department": "Fakultas Hukum",
+      "title": "Dosen",
+      "research_area": "Hukum Pertanahan",
+      "email": "imadeartana.fh@gmail.com",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://www.ojs.unr.ac.id/index.php/yustitia/article/download/500/460",
+      "notes": "Individually distinct email verified as author contact hyperlink in Jurnal Yustitia (UNR) article PDF. Medium confidence (title/department inferred from Faculty of Law authorship and doctoral listing on fh.unr.ac.id)."
+    }
+  ]
 }

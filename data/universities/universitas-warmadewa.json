@@ -5,5 +5,66 @@
   "city": "Denpasar",
   "province": "Bali",
   "website": "https://www.warmadewa.ac.id/",
-  "professors": []
+  "professors": [
+    {
+      "name": "Dr. Ida Bagus Agung Dharmanegara, S.E., M.Si",
+      "department": "Manajemen, Fakultas Ekonomi dan Bisnis",
+      "title": "Dekan",
+      "research_area": "Manajemen",
+      "email": "dharmanegara@warmadewa.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://feb.warmadewa.ac.id/dosen-karyawan/",
+      "notes": "Verified via official FEB Warmadewa lecturer/staff directory https://feb.warmadewa.ac.id/dosen-karyawan/ (listed as Lecturer & Dean). High confidence (institutional directory listing)."
+    },
+    {
+      "name": "Prof. Dr. I Made Sara, S.E., M.P., CPOD",
+      "department": "Ekonomi Pembangunan, Fakultas Ekonomi dan Bisnis",
+      "title": "Guru Besar",
+      "research_area": "Ekonomi Pembangunan",
+      "email": "madesara@warmadewa.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://feb.warmadewa.ac.id/dosen-karyawan/",
+      "notes": "Verified via official FEB Warmadewa lecturer/staff directory https://feb.warmadewa.ac.id/dosen-karyawan/. High confidence (institutional directory listing)."
+    },
+    {
+      "name": "Dr. I Wayan Kartana, S.E., M.Sc.",
+      "department": "Akuntansi, Fakultas Ekonomi dan Bisnis",
+      "title": "Lektor",
+      "research_area": "Akuntansi",
+      "email": "kartana@warmadewa.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://feb.warmadewa.ac.id/dosen-karyawan/",
+      "notes": "Verified via official FEB Warmadewa lecturer/staff directory https://feb.warmadewa.ac.id/dosen-karyawan/. High confidence (institutional directory listing)."
+    },
+    {
+      "name": "Dr. A.A. Bagus Amlayasa, S.E., M.Si.",
+      "department": "Akuntansi, Fakultas Ekonomi dan Bisnis",
+      "title": "Lektor",
+      "research_area": "Akuntansi",
+      "email": "amlayasa@warmadewa.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://feb.warmadewa.ac.id/dosen-karyawan/",
+      "notes": "Verified via official FEB Warmadewa lecturer/staff directory https://feb.warmadewa.ac.id/dosen-karyawan/. High confidence (institutional directory listing)."
+    },
+    {
+      "name": "Dr. Komang Adi Kurniawan Saputra, S.E., M.SA., Ak., CA",
+      "department": "Akuntansi, Fakultas Ekonomi dan Bisnis",
+      "title": "Lektor",
+      "research_area": "Akuntansi",
+      "email": "adikurniawan@warmadewa.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://feb.warmadewa.ac.id/dosen-karyawan/",
+      "notes": "Verified via official FEB Warmadewa lecturer/staff directory https://feb.warmadewa.ac.id/dosen-karyawan/. High confidence (institutional directory listing)."
+    }
+  ]
 }

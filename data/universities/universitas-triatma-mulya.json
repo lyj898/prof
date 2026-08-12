@@ -5,5 +5,30 @@
   "city": "Badung",
   "province": "Bali",
   "website": "https://www.triatmamulya.ac.id/",
-  "professors": []
+  "professors": [
+    {
+      "name": "I Nengah Subadra",
+      "department": "Fakultas Bisnis, Pariwisata dan Pendidikan",
+      "title": "Guru Besar",
+      "research_area": "Pariwisata Budaya, Sustainable & Cultural Tourism",
+      "email": "inengah.subadra@triatmamulya.ac.id",
+      "phone": null,
+      "linkedin": "https://id.linkedin.com/in/i-nengah-subadra-phd-109547108",
+      "google_scholar": "https://scholar.google.com/citations?user=yl6SX2AAAAAJ&hl=en",
+      "website": "https://www.researchgate.net/profile/I-Nengah-Subadra",
+      "notes": "First Guru Besar (Professor) at Universitas Triatma Mulya, PhD Cultural Tourism (Univ. of Lincoln). Email confirmed as corresponding author address across multiple journal publications. High confidence."
+    },
+    {
+      "name": "Komang Krishna Yogantara",
+      "department": "Program Studi Akuntansi, Fakultas Bisnis, Pariwisata dan Pendidikan",
+      "title": "Dosen",
+      "research_area": "Akuntansi, Manajemen Keuangan",
+      "email": "krishna.yogantara@triatmamulya.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.co.id/citations?hl=id&user=jo2q8SEAAAAJ",
+      "website": "https://save.triatmamulya.ac.id/index.php/save/EDITORIAL-TEAMS",
+      "notes": "Editorial Board Secretary for Synergy and Society Service (SAVE) journal; email listed on official journal editorial team page. High confidence."
+    }
+  ]
 }

@@ -5,5 +5,54 @@
   "city": "Denpasar",
   "province": "Bali",
   "website": "https://instiki.ac.id/",
-  "professors": []
+  "professors": [
+    {
+      "name": "I Made Marthana Yusa",
+      "department": "Desain Komunikasi Visual",
+      "title": "Dosen",
+      "research_area": "Desain Komunikasi Visual, Kajian Budaya Digital, Animasi",
+      "email": "made.marthana@instiki.ac.id",
+      "phone": null,
+      "linkedin": "https://www.linkedin.com/in/mademarthana/",
+      "google_scholar": null,
+      "website": "https://www.researchgate.net/profile/I-Made-Marthana-Yusa",
+      "notes": "Email individually verified as corresponding-author address in two journal articles: eduvest.greenvest.co.id/index.php/edv/article/download/720/1429 (Eduvest, 2023) and ejournal.pancawidya.or.id/index.php/komet/article/download/66/57/829. Also confirmed as one of INSTIKI's 14 doctoral faculty (instiki.ac.id, Jan 2025 post). High confidence."
+    },
+    {
+      "name": "I Nyoman Jayanegara",
+      "department": "Desain Komunikasi Visual",
+      "title": "Dosen",
+      "research_area": "Desain Komunikasi Visual, Branding, Semiotika",
+      "email": "jayanegara@instiki.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.co.id/citations?hl=id&user=wsGKhrAAAAAJ",
+      "website": null,
+      "notes": "Email individually verified as corresponding-author address in ejournal.pancawidya.or.id/index.php/komet/article/download/66/57/829. Listed among INSTIKI's 14 doctoral faculty holders (instiki.ac.id, Jan 2025 post, Dr. I Nyoman Jayanegara, S.Sn., M.Sn.). High confidence."
+    },
+    {
+      "name": "I Nyoman Anom Fajaraditya Setiawan",
+      "department": "Desain Komunikasi Visual",
+      "title": "Dosen",
+      "research_area": "Desain Komunikasi Visual, Kajian Budaya, Tato Bali",
+      "email": "anomkojar@instiki.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?hl=en&user=ANF4ByQAAAAJ",
+      "website": "https://s3kajianbudaya.unud.ac.id/posts/kabar-alumni-dr-i-nyoman-anom-fajaraditya-setiawan-ssn-msn-komodifikasi-tato-genre-bali-pada-ranah-turistik-di-kota-denpasar",
+      "notes": "Email individually verified as co-author address in ejournal.pancawidya.or.id/index.php/komet/article/download/66/57/829. Doctoral graduate of Universitas Udayana Kajian Budaya program, listed among INSTIKI's 14 doctoral faculty (instiki.ac.id, Jan 2025 post). High confidence."
+    },
+    {
+      "name": "Kadek Gemilang Santiyuda",
+      "department": "Program Magister Informatika (Teknik Informatika)",
+      "title": "Dosen",
+      "research_area": "Artificial Intelligence, Machine Learning, Deep Learning",
+      "email": "gemilang.santiyuda@instiki.ac.id",
+      "phone": null,
+      "linkedin": "https://www.linkedin.com/in/gemilangsantiyuda/",
+      "google_scholar": "https://scholar.google.com/citations?user=H4w5mvkAAAAJ&hl=en",
+      "website": "https://www.researchgate.net/profile/Kadek-Santiyuda-2",
+      "notes": "Email individually verified as corresponding-author address in arxiv.org/html/2502.20348v2 (co-affiliated with National Taiwan University of Science and Technology) and as sole-author email in infoteks.org/journals/index.php/jsikti/article/download/270/298/ (JSIKTI, Dec 2025). Ph.D. from Universitas Gadjah Mada; listed among INSTIKI's 14 doctoral faculty. High confidence."
+    }
+  ]
 }

@@ -5,5 +5,66 @@
   "city": "Denpasar",
   "province": "Bali",
   "website": "https://undiknas.ac.id/",
-  "professors": []
+  "professors": [
+    {
+      "name": "Dr. I Gusti Ngurah Oka Ariwangsa, S.E., M.M.",
+      "department": "Manajemen Keuangan",
+      "title": "Asisten Ahli",
+      "research_area": "Manajemen Keuangan",
+      "email": "okaariwangsa@undiknas.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?hl=id&user=aLhUTSoAAAAJ",
+      "website": "https://undiknas.ac.id/profil_dosen/i-gusti-ngurah-oka-ariwangsa-s-e-m-m/",
+      "notes": "Verified via official Undiknas dosen profile page. High confidence (institutional profile listing)."
+    },
+    {
+      "name": "Dr. I Made Wirya Darma, S.H., M.H., CCL., CMLE., CAIC.",
+      "department": "Fakultas Hukum (Ketua Program Studi Ilmu Hukum)",
+      "title": "Lektor Kepala",
+      "research_area": "Ilmu Hukum",
+      "email": "wiryadarma@undiknas.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://undiknas.ac.id/profil_dosen/dr-i-made-wirya-darma-s-h-m-h-ccd/",
+      "notes": "Verified via official Undiknas dosen profile page. High confidence (institutional profile listing)."
+    },
+    {
+      "name": "Dr. Kadek Adyatna Wedananta, S.Pd., M.Pd.",
+      "department": "Fakultas Ilmu Sosial dan Humaniora",
+      "title": "Lektor",
+      "research_area": "Pendidikan Bahasa dan Linguistik Interdisipliner",
+      "email": "adyatnawedananta@undiknas.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://undiknas.ac.id/profil_dosen/dr-kadek-adyatna-wedananta-s-pd-m-pd/",
+      "notes": "Verified via official Undiknas dosen profile page. High confidence (institutional profile listing)."
+    },
+    {
+      "name": "Kadek Devi Kalfika Anggria Wardani, S.Pd., M.Pd.",
+      "department": "Fakultas Ilmu Sosial dan Humaniora",
+      "title": "Asisten Ahli",
+      "research_area": "Pendidikan Bahasa dan Sastra Indonesia",
+      "email": "devikalfika@undiknas.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://undiknas.ac.id/profil_dosen/kadek-devi-kalfika-anggria-wardani-s-pd-m-pd/",
+      "notes": "Verified via official Undiknas dosen profile page. High confidence (institutional profile listing)."
+    },
+    {
+      "name": "Putu Putri Prawitasari, S.E., M.Si., Ak",
+      "department": "Akuntansi",
+      "title": "Lektor",
+      "research_area": "Akuntansi (Cloud-based accounting adoption in SMEs)",
+      "email": "putriprawitasari@undiknas.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://undiknas.ac.id/profil_dosen/putu-putri-prawitasari-s-e-m-si-ak/",
+      "notes": "Verified via official Undiknas dosen profile page. High confidence (institutional profile listing)."
+    }
+  ]
 }

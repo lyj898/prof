@@ -5,5 +5,30 @@
   "city": "Denpasar",
   "province": "Bali",
   "website": "https://unbi.ac.id/",
-  "professors": []
+  "professors": [
+    {
+      "name": "Ni Made Sintya Noviana Utami",
+      "department": "Program Studi Psikologi, Fakultas Bisnis, Sosial, Teknologi dan Humaniora (FBSTH)",
+      "title": "Dekan",
+      "research_area": "Psikologi Klinis",
+      "email": "sintya.noviana11@gmail.com",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.co.id/citations?user=trUNui0AAAAJ&hl=id",
+      "website": "https://sinta.kemdiktisaintek.go.id/authors/profile/6201271/?view=researches",
+      "notes": "Dean of Faculty of Business, Technology, Social Sciences and Humanities (FBSTH), Universitas Bali Internasional; Psychologist, Clinical Psychology specialist. Personal email confirmed via web search cross-reference. Medium-high confidence."
+    },
+    {
+      "name": "Made Adhyatma Prawira Natha Kusuma",
+      "department": "Program Studi Kesehatan Masyarakat / Keselamatan dan Kesehatan Kerja",
+      "title": "Dosen",
+      "research_area": "Kesehatan dan Keselamatan Kerja (K3), Kesehatan Masyarakat",
+      "email": "adhyatmaprawira@unbi.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?user=wgUlVX0AAAAJ&hl=id",
+      "website": "https://ejournal.unbi.ac.id/bisf/index.php/bisf/about/editorialTeam",
+      "notes": "SKM., M.KKK.; Associate Editor for Bali International Scientific Forum (BISF) journal; publishes in occupational health/safety journals. Email confirmed via web search cross-reference. High confidence."
+    }
+  ]
 }

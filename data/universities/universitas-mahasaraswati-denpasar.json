@@ -5,5 +5,30 @@
   "city": "Denpasar",
   "province": "Bali",
   "website": "https://unmas.ac.id/",
-  "professors": []
+  "professors": [
+    {
+      "name": "Prof. Dr. Ir. Ketut Arnawa, M.P.",
+      "department": "Agribisnis, Fakultas Pertanian dan Bisnis",
+      "title": "Guru Besar",
+      "research_area": "Ekonomi pertanian, evaluasi proyek agribisnis, pemasaran pertanian, perencanaan tata guna lahan, pertanian berkelanjutan",
+      "email": "arnawa_62@unmas.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://fpb.unmas.ac.id/agribisnis/tenaga-pendidik/11",
+      "notes": "Verified via fpb.unmas.ac.id faculty profile and web search confirming email arnawa_62@unmas.ac.id (SINTA NIDN 0006066209). High confidence."
+    },
+    {
+      "name": "Drs. I Made Diarta, M.Si.",
+      "department": "Pendidikan Biologi, Fakultas Keguruan dan Ilmu Pendidikan (FKIP)",
+      "title": "Dosen",
+      "research_area": "Literasi lingkungan, pembelajaran berbasis masalah (PBL), pendidikan biologi",
+      "email": "madediarta@unmas.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://unmas.ac.id/tentang-unmas/dosen/Drs.+I+Made+Diarta,+M.Si",
+      "notes": "Verified via unmas.ac.id faculty profile page and journal article (Jurnal Santiaji Pendidikan) confirming email madediarta@unmas.ac.id (NIDN 0002086603). High confidence."
+    }
+  ]
 }

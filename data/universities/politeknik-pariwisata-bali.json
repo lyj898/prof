@@ -5,5 +5,42 @@
   "city": "Badung",
   "province": "Bali",
   "website": "https://ppb.ac.id/",
-  "professors": []
+  "professors": [
+    {
+      "name": "Putu Diah Sastri Pitanatri",
+      "department": "Pusat Penelitian dan Pengabdian Masyarakat (P3M)",
+      "title": "Lektor Kepala",
+      "research_area": "Smart Tourism, Sustainability Studies, Tourist Mobility",
+      "email": "diahsastri@ppb.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?user=9GHeVtkAAAAJ&hl=en",
+      "website": "https://institutetourism.com/pitanatri/",
+      "notes": "Head of Research and Community Service Center (Ka. P3M), Poltekpar Bali; PhD Tourism Studies (UGM). Email confirmed via web search cross-reference of institutional contact info. High confidence."
+    },
+    {
+      "name": "I Gusti Agung Gede Witarsana",
+      "department": "Manajemen Bisnis Perhotelan",
+      "title": "Wakil Dekan",
+      "research_area": "Manajemen Bisnis Pariwisata, Revenue Management",
+      "email": "agung.witarsana@ppb.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.co.id/citations?hl=en&user=oypPWN0AAAAJ",
+      "website": "https://www.researchgate.net/profile/I-Gusti-Agung-Witarsana",
+      "notes": "Wakil Direktur (Vice Director) for Penjaminan Mutu, Akademik, dan Penelitian, Poltekpar Bali (per official 'Profil Manajemen' page) — mapped to the closest schema title 'Wakil Dekan' since polytechnics use 'Direktur' rather than 'Dekan'. Doctorate in Tourism Business Management, Universitas Udayana. Email confirmed via web search cross-reference. High confidence."
+    },
+    {
+      "name": "I Gusti Ngurah Agung Suprastayasa",
+      "department": "Program Studi Manajemen Bisnis Perjalanan",
+      "title": "Dosen",
+      "research_area": "Manajemen Bisnis Perjalanan, Pariwisata",
+      "email": "agung.suprastayasa@ppb.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?hl=en&user=3LcsqisAAAAJ",
+      "website": "https://ejournal.ppb.ac.id/index.php/jastd/reviewers",
+      "notes": "Drs., M.Ed.; serves as reviewer for Journal of Applied Science in Tourism Destination, Poltekpar Bali. Email confirmed via web search cross-reference. High confidence."
+    }
+  ]
 }

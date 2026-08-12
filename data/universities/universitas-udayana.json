@@ -5,5 +5,66 @@
   "city": "Badung",
   "province": "Bali",
   "website": "https://www.unud.ac.id/",
-  "professors": []
+  "professors": [
+    {
+      "name": "Prof. Dr. Ir. I Nyoman Sutarja, S.T., M.S., IPM., ASEAN.Eng",
+      "department": "Magister Teknik Sipil, Fakultas Teknik",
+      "title": "Guru Besar",
+      "research_area": "Teknik Sipil",
+      "email": "nsutarja@unud.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://ft.unud.ac.id/dosen",
+      "notes": "Verified via official Faculty of Engineering lecturer directory https://ft.unud.ac.id/dosen. High confidence (institutional directory listing)."
+    },
+    {
+      "name": "Prof. Ir. Ngakan Putu Gede Suardana, M.T., Ph.D., IPU., ASEAN Eng.",
+      "department": "Teknik Mesin, Fakultas Teknik",
+      "title": "Guru Besar",
+      "research_area": "Teknik Mesin",
+      "email": "npgsuardana@unud.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://ft.unud.ac.id/dosen",
+      "notes": "Verified via official Faculty of Engineering lecturer directory https://ft.unud.ac.id/dosen. High confidence (institutional directory listing)."
+    },
+    {
+      "name": "Prof. Dr. Ir. I Wayan Redana, M.A.Sc",
+      "department": "Teknik Sipil, Fakultas Teknik",
+      "title": "Guru Besar",
+      "research_area": "Teknik Sipil",
+      "email": "iwayanredana@unud.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://ft.unud.ac.id/dosen",
+      "notes": "Verified via official Faculty of Engineering lecturer directory https://ft.unud.ac.id/dosen. High confidence (institutional directory listing)."
+    },
+    {
+      "name": "Prof. Ir. I Nyoman Arya Thanaya, M.E., Ph.D",
+      "department": "Ilmu Teknik, Fakultas Teknik",
+      "title": "Guru Besar",
+      "research_area": "Ilmu Teknik",
+      "email": "aryathanaya@unud.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://ft.unud.ac.id/dosen",
+      "notes": "Verified via official Faculty of Engineering lecturer directory https://ft.unud.ac.id/dosen. High confidence (institutional directory listing)."
+    },
+    {
+      "name": "Prof. Dr. Ir. Anak Agung Ayu Oka Saraswati, M.T",
+      "department": "Teknik Arsitektur, Fakultas Teknik",
+      "title": "Guru Besar",
+      "research_area": "Arsitektur",
+      "email": "saraswati@unud.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://ft.unud.ac.id/dosen",
+      "notes": "Verified via official Faculty of Engineering lecturer directory https://ft.unud.ac.id/dosen. High confidence (institutional directory listing)."
+    }
+  ]
 }

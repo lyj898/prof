@@ -5,5 +5,42 @@
   "city": "Badung",
   "province": "Bali",
   "website": "https://pnb.ac.id/",
-  "professors": []
+  "professors": [
+    {
+      "name": "Prof. Dr. Ir. Lilik Sudiajeng, M.Erg.",
+      "department": "Teknik Sipil",
+      "title": "Guru Besar",
+      "research_area": "Ergonomi / Kesehatan Kerja",
+      "email": "sudiajeng@pnb.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.co.id/citations?hl=en&user=r4XId1cAAAAJ",
+      "website": "https://sipil.pnb.ac.id/member/prof-dr-ir-lilik-sudiajeng-m-erg/",
+      "notes": "Verified via official Jurusan Teknik Sipil PNB member profile page and independent web confirmation of individual email. High confidence."
+    },
+    {
+      "name": "Dr. I Ketut Swardika, S.T., M.Si.",
+      "department": "Teknik Elektro (Otomasi)",
+      "title": "Lektor Kepala",
+      "research_area": "Teknik Elektro",
+      "email": "swardika@pnb.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://otomasi.pnb.ac.id/staff",
+      "notes": "Individual email verified via repository.pnb.ac.id correspondence PDF and independent web search cross-checks (Ph.D. Yamagata University, listed on otomasi.pnb.ac.id staff page). Medium-high confidence."
+    },
+    {
+      "name": "Ida Bagus Irawan Purnama, S.T., M.Sc., Ph.D.",
+      "department": "Teknik Elektro (Otomasi)",
+      "title": "Lektor Kepala",
+      "research_area": "Teknik Elektro",
+      "email": "ida.purnama@pnb.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?user=2fIsnG8AAAAJ&hl=en",
+      "website": "https://otomasi.pnb.ac.id/staff",
+      "notes": "Individual email verified via cross-referenced web search of Google Scholar/SINTA profile and otomasi.pnb.ac.id staff listing. Medium-high confidence."
+    }
+  ]
 }

@@ -5,5 +5,42 @@
   "city": "Denpasar",
   "province": "Bali",
   "website": "https://www.stikom-bali.ac.id/",
-  "professors": []
+  "professors": [
+    {
+      "name": "Dr. Dadang Hermawan, S.E., M.M., Ak.",
+      "department": "Rektorat",
+      "title": "Lektor Kepala",
+      "research_area": "Digital marketing, e-commerce, pariwisata, supply chain management, IoT, teknologi pendidikan",
+      "email": "dadang@stikom-bali.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://dadang.stikom-bali.ac.id/",
+      "notes": "Rektor ITB STIKOM Bali. Email confirmed via personal faculty subdomain page (dadang.stikom-bali.ac.id). High confidence."
+    },
+    {
+      "name": "Ricky Aurelius Nurtanto Diaz, S.Kom., M.T.",
+      "department": "Sistem Informasi",
+      "title": "Ketua Jurusan/Prodi",
+      "research_area": "Data mining, machine learning, networking",
+      "email": "ricky@stikom-bali.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?user=yaNYmiEAAAAJ&hl=en",
+      "website": "https://garuda.kemdiktisaintek.go.id/author/view/2100004",
+      "notes": "Ketua Program Studi Sistem Informasi, ITB STIKOM Bali. Email confirmed via journal contact page (JOSINFO) and web search. High confidence."
+    },
+    {
+      "name": "I Made Budi Adnyana, S.Kom., M.Kom.",
+      "department": "Sistem Informasi",
+      "title": "Dosen",
+      "research_area": "Artificial Intelligence, information systems, business intelligence, data mining, image processing",
+      "email": "budi.adnyana@stikom-bali.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?user=v0yD4LUAAAAJ&hl=en",
+      "website": "https://budi.stikom-bali.ac.id/",
+      "notes": "Dosen Prodi Sistem Informasi, ITB STIKOM Bali; SINTA ID 6649153. Email confirmed via web search referencing personal faculty subdomain. High confidence."
+    }
+  ]
 }
