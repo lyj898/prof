@@ -5,5 +5,30 @@
   "city": "Medan",
   "province": "Sumatera Utara",
   "website": "https://www.pancabudi.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Dr. Mhd. Azhali Siregar, S.H., M.H.",
+      "department": "Ilmu Hukum",
+      "title": "Lektor",
+      "research_area": "Criminal law, restorative justice, medical law, customary dispute resolution",
+      "email": "azhalisiregar@dosen.pancabudi.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://fasosa.pancabudi.ac.id/dosen/detail/NG9IcEtEdVdIek9QU0dGY1V2d1dzZz09",
+      "notes": "Head of the Legal Science (Ilmu Hukum) Study Program, Faculty of Social Sciences, UNPAB. Email and rank (Lektor) verified directly on the official UNPAB Fasosa lecturer profile page. High confidence."
+    },
+    {
+      "name": "Dr. Oktarini Khamilah Siregar, S.E., M.Si.",
+      "department": "Akuntansi",
+      "title": "Ketua Jurusan/Prodi",
+      "research_area": "Accounting",
+      "email": "oktarinikhamilah@dosen.pancabudi.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?user=rqN1_QwAAAAJ&hl=id",
+      "website": "https://fasosa.pancabudi.ac.id/dosen/detail/QTBvcEllRzlpQUlwcTQ5d3ZzTy9nZz09",
+      "notes": "Head of the Accounting Study Program, Faculty of Social Sciences, UNPAB. Email verified via search aggregation citing her official dosen.pancabudi.ac.id address. High confidence."
+    }
+  ]
 }

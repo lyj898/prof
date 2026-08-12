@@ -5,5 +5,30 @@
   "city": "Medan",
   "province": "Sumatera Utara",
   "website": "https://www.unimed.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Manihar Situmorang",
+      "department": "Departemen Kimia, FMIPA",
+      "title": "Guru Besar",
+      "research_area": "Kimia Analitik / Pendidikan Kimia",
+      "email": "msitumorang@unimed.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?user=7j8jguIAAAAJ&hl=en",
+      "website": "https://www.researchgate.net/profile/Manihar-Situmorang",
+      "notes": "Prof., Wakil Rektor IV Unimed. Email cross-verified via ResearchGate profile and multiple corresponding-author citations in published chemistry education papers. High confidence."
+    },
+    {
+      "name": "Efendi Napitupulu",
+      "department": "Fakultas Teknik",
+      "title": "Guru Besar",
+      "research_area": "Teknologi Pendidikan / Pendidikan Teknik Bangunan",
+      "email": "napitupuluefendi@unimed.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?user=z_bWmEIAAAAJ&hl=id",
+      "website": "https://independent.academia.edu/EfendiNapitupulu",
+      "notes": "Prof. Dr. Efendi Napitupulu, M.Pd, Fakultas Teknik Unimed. Email appears consistently across search-indexed academic sources; not confirmed on a live corresponding-author PDF, so medium confidence."
+    }
+  ]
 }

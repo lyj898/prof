@@ -5,5 +5,54 @@
   "city": "Tangerang Selatan",
   "province": "Banten",
   "website": "https://upj.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Aries Yulianto, S.Psi., M.Si.",
+      "department": "Psikologi",
+      "title": "Dosen",
+      "research_area": "Psychological measurement, psychometrics",
+      "email": "aries.yulianto@upj.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.co.id/citations?user=RVtPgvEAAAAJ&hl=id",
+      "website": "https://www.psikologi.upj.ac.id/lecturer-profile",
+      "notes": "Psychology Study Program, UPJ. SINTA author profile (ID 6719125) explicitly lists contact email aries.yulianto@upj.ac.id. High confidence."
+    },
+    {
+      "name": "Dr. Edi Purwanto, S.E., M.M.",
+      "department": "Manajemen / LP2M",
+      "title": "Dosen",
+      "research_area": "Management, multidisciplinary research",
+      "email": "edi.purwanto@upj.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://www.mgt.upj.ac.id/lecturer-profile",
+      "notes": "Head of the Research and Community Service Institute (LP2M) and lecturer in the Management Study Program, UPJ; recipient of Best Lecturer and Highest SINTA Score awards at UPJ. Email cited consistently across UPJ contact aggregators. Moderate-high confidence."
+    },
+    {
+      "name": "Denny Ganjar Purnama, S.Si., M.T.I.",
+      "department": "Sistem Informasi",
+      "title": "Dosen",
+      "research_area": "IS/IT strategic planning, IS/IT governance, IT project management",
+      "email": "denny.ganjar@upj.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.co.id/citations?user=Gfws4c4AAAAJ&hl=id",
+      "website": "https://www.staff.upj.ac.id/dennyganjarpurnama",
+      "notes": "Lecturer, Information Systems Department, UPJ. Email listed on UPJ Information Systems lecturer profile page and staff site. High confidence."
+    },
+    {
+      "name": "Dr. Chajar Matari Fath Mala, S.E., M.M.",
+      "department": "Manajemen",
+      "title": "Dosen",
+      "research_area": "Islamic banking, finance, entrepreneurship",
+      "email": "chajar.matari@upj.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?hl=en&user=2AM_uhgAAAAJ",
+      "website": "https://www.mgt.upj.ac.id/lecturer-profile",
+      "notes": "Secretary and lecturer, Management Study Program, UPJ. Email confirmed as author affiliation address on multiple co-authored journal articles (e.g. dinastipub.org DIJEFA issues). High confidence."
+    }
+  ]
 }

@@ -5,5 +5,54 @@
   "city": "Bogor",
   "province": "Jawa Barat",
   "website": "https://www.unpak.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Prof. Dr. Leny Heliawati, M.Si.",
+      "department": "Pendidikan IPA, Sekolah Pascasarjana",
+      "title": "Guru Besar",
+      "research_area": "Kimia Organik / Natural Science Product",
+      "email": "leny_heliawati@unpak.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://ipa-pasca.unpak.ac.id/dosen/profil-dosen-prodi/dr-leny-heliawai-m-si",
+      "notes": "Source: ipa-pasca.unpak.ac.id official profile page (fetched via proxy), corroborated by pasca.unpak.ac.id news of her Guru Besar inauguration in Ilmu Kimia. High confidence."
+    },
+    {
+      "name": "Dr. Ir. Sufrin Hannan, MM.",
+      "department": "Manajemen, Sekolah Pascasarjana",
+      "title": "Lektor Kepala",
+      "research_area": "Consumer Behavior dan Marketing",
+      "email": "sufrinhannan@unpak.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://pasca.unpak.ac.id/profil/dosen/dr-ir-sufrin-hannan-mm",
+      "notes": "Source: pasca.unpak.ac.id official profile page (fetched via proxy); also has personal site sufrinhannan.unpak.ac.id. High confidence."
+    },
+    {
+      "name": "Dr. Elly Sukmanasa, M.Pd.",
+      "department": "Pendidikan Guru Sekolah Dasar (PGSD), FKIP",
+      "title": "Dosen",
+      "research_area": "Evaluasi Pembelajaran, Strategi Pembelajaran, Pendidikan Anak Usia Dini",
+      "email": "ellysukmanasa@unpak.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://pgsd-fkip.unpak.ac.id/profil/dosen-pengajar/elly-sukmanasa-m-pd",
+      "notes": "Source: email confirmed as corresponding author across multiple published journal articles (e.g. researchgate.net/publication/392468405). Medium-high confidence."
+    },
+    {
+      "name": "Annisa Nurramadhani, M.Pd.",
+      "department": "Pendidikan IPA",
+      "title": "Dosen",
+      "research_area": "Pendidikan Sains, STEM Education",
+      "email": "annisanurramadhani@unpak.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?hl=id&user=MvGG0mUAAAAJ",
+      "website": "https://jsep-pasca.unpak.ac.id/index.php/jsep/about/editorialTeam",
+      "notes": "Managing Editor, Journal of Science Education and Practice (Unpak). Email corroborated via ZoomInfo listing and ResearchGate publications. Medium-high confidence."
+    }
+  ]
 }

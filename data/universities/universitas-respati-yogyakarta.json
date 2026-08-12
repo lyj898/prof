@@ -5,5 +5,18 @@
   "city": "Sleman",
   "province": "DI Yogyakarta",
   "website": "https://respati.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Mohammad Diqi",
+      "department": "Informatika, Fakultas Sains dan Teknologi",
+      "title": "Dosen",
+      "research_area": "Data Science, Machine Learning, Anomaly Detection",
+      "email": "diqi@respati.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?user=zhlpxCEAAAAJ&hl=en",
+      "website": "https://informatika.respati.ac.id/detail-mohammad-diqi/",
+      "notes": "Email verified as corresponding author (marked with asterisk) on multiple published papers (e.g. Javanese Script Classification paper, semanticscholar.org) and consistent with Google Scholar verified email at respati.ac.id. High confidence."
+    }
+  ]
 }

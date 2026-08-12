@@ -5,5 +5,54 @@
   "city": "Malang",
   "province": "Jawa Timur",
   "website": "https://um.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Cholis Sa'dijah",
+      "department": "Departemen Matematika, FMIPA",
+      "title": "Guru Besar",
+      "research_area": "Pendidikan Matematika",
+      "email": "cholis.sadijah.fmipa@um.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://matematika.um.ac.id/dosen/",
+      "notes": "Verified via official department faculty directory https://matematika.um.ac.id/dosen/ (title: Prof., Dr., Dra., M.Pd., M.A.). High confidence."
+    },
+    {
+      "name": "Abd. Qohar",
+      "department": "Departemen Matematika, FMIPA",
+      "title": "Guru Besar",
+      "research_area": "Pendidikan Matematika",
+      "email": "abd.qohar.fmipa@um.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://matematika.um.ac.id/dosen/",
+      "notes": "Verified via official department faculty directory https://matematika.um.ac.id/dosen/ (title: Prof., Dr., M.T). High confidence."
+    },
+    {
+      "name": "Purwanto",
+      "department": "Departemen Matematika, FMIPA",
+      "title": "Guru Besar",
+      "research_area": "Matematika",
+      "email": "purwanto.fmipa@um.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://matematika.um.ac.id/dosen/",
+      "notes": "Verified via official department faculty directory https://matematika.um.ac.id/dosen/ (title: Prof., Drs., Ph.D.). High confidence."
+    },
+    {
+      "name": "Toto Nusantara",
+      "department": "Departemen Matematika, FMIPA",
+      "title": "Guru Besar",
+      "research_area": "Matematika / Pendidikan Matematika",
+      "email": "toto.nusantara.fmipa@um.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://matematika.um.ac.id/dosen/",
+      "notes": "Verified via official department faculty directory https://matematika.um.ac.id/dosen/ (title: Prof., Dr., M.Si.). High confidence."
+    }
+  ]
 }

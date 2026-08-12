@@ -5,5 +5,66 @@
   "city": "Jatinangor",
   "province": "Jawa Barat",
   "website": "https://www.unpad.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Prof. Dr. Atje Setiawan Abdullah, MS., M.Kom.",
+      "department": "Departemen Ilmu Komputer, FMIPA",
+      "title": "Guru Besar",
+      "research_area": "Ilmu Komputer",
+      "email": "atje.setiawan@unpad.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://fmipa.unpad.ac.id/staff-dosen-departemen-ilmu-komputer-fmipa-unpad/",
+      "notes": "Source: fmipa.unpad.ac.id official department staff directory (fetched directly). High confidence."
+    },
+    {
+      "name": "Prof. Dr. Asep Kuswandi Supriatna, MS.",
+      "department": "Departemen Matematika, FMIPA",
+      "title": "Guru Besar",
+      "research_area": "Matematika Terapan",
+      "email": "a.k.supriatna@unpad.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://fmipa.unpad.ac.id/staff-dosen-departemen-matematika/",
+      "notes": "Source: fmipa.unpad.ac.id official department staff directory (fetched directly). High confidence."
+    },
+    {
+      "name": "Prof. Dr. Sukono, MM., M.Si.",
+      "department": "Departemen Matematika, FMIPA",
+      "title": "Guru Besar",
+      "research_area": "Matematika (Aktuaria/Manajemen Risiko)",
+      "email": "sukono@unpad.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://fmipa.unpad.ac.id/staff-dosen-departemen-matematika/",
+      "notes": "Source: fmipa.unpad.ac.id official department staff directory (fetched directly). High confidence."
+    },
+    {
+      "name": "Prof. Dr. Budi Nurani Ruchjana, MS.",
+      "department": "Departemen Matematika, FMIPA",
+      "title": "Guru Besar",
+      "research_area": "Matematika (Statistika/Model Spasial)",
+      "email": "budi.nurani@unpad.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://fmipa.unpad.ac.id/staff-dosen-departemen-matematika/",
+      "notes": "Source: fmipa.unpad.ac.id official department staff directory (fetched directly). High confidence."
+    },
+    {
+      "name": "Prof. Dr. Diah Chaerani, M.Si.",
+      "department": "Departemen Matematika, FMIPA",
+      "title": "Guru Besar",
+      "research_area": "Matematika (Optimisasi)",
+      "email": "d.chaerani@unpad.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://fmipa.unpad.ac.id/staff-dosen-departemen-matematika/",
+      "notes": "Source: fmipa.unpad.ac.id official department staff directory (fetched directly). High confidence."
+    }
+  ]
 }

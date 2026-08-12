@@ -5,5 +5,18 @@
   "city": "Jakarta Pusat",
   "province": "DKI Jakarta",
   "website": "https://moestopo.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Ryantori",
+      "department": "Hubungan Internasional, FISIP",
+      "title": "Dekan",
+      "research_area": "Hubungan Internasional, Kajian Islam dan Timur Tengah, Pendidikan",
+      "email": "ryantori4@dsn.moestopo.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?user=QTesX44AAAAJ&hl=id",
+      "website": "https://sinta.kemdiktisaintek.go.id/authors/profile/6035517",
+      "notes": "Dean of FISIP, Universitas Prof. Dr. Moestopo (Beragama). Full email confirmed via web search results referencing his SINTA/researcher profile; SINTA ID 6035517. Moderate-high confidence."
+    }
+  ]
 }

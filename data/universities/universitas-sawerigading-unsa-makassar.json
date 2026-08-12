@@ -5,5 +5,18 @@
   "city": "Makassar",
   "province": "Sulawesi Selatan",
   "website": null,
-  "professors": []
+  "professors": [
+    {
+      "name": "Rahayu Mahsyar",
+      "department": "Pendidikan Bahasa Inggris, Fakultas Sastra",
+      "title": "Dosen",
+      "research_area": "English Language Teaching, Literary Studies, Writing",
+      "email": "rahayumahsyar@unsamakassar.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?hl=id&user=e_u8LDwAAAAJ",
+      "website": "https://fakultassastra.unsamakassar.ac.id/akademik/dosen-pendidikan-bahasa-inggris/",
+      "notes": "Lecturer, English Language Education, Faculty of Letters, Universitas Sawerigading Makassar. Full email confirmed as corresponding-author address on published papers (jurnal.poliupg.ac.id RIAL-EJ article; ResearchGate). High confidence."
+    }
+  ]
 }

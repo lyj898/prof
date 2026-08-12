@@ -5,5 +5,78 @@
   "city": "Sleman",
   "province": "DI Yogyakarta",
   "website": "https://www.usd.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Arina Isti'anah",
+      "department": "Sastra Inggris, Fakultas Sastra",
+      "title": "Dosen",
+      "research_area": "Critical Discourse Analysis, Stylistics, Ecolinguistics, Corpus Linguistics",
+      "email": "arina@usd.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.co.id/citations?user=KlObwysAAAAJ&hl=id",
+      "website": "https://www.usd.ac.id/detail_dosen.php?id=01734",
+      "notes": "Email listed directly on the official Sastra Inggris department faculty page (web.usd.ac.id/fakultas/sastra/sasing/dosen.php). High confidence, primary source."
+    },
+    {
+      "name": "Adventina Putranti",
+      "department": "Sastra Inggris, Fakultas Sastra",
+      "title": "Dosen",
+      "research_area": "Translation Studies, Language and Literature",
+      "email": "putranti@usd.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://www.usd.ac.id/detail_dosen.php?id=00028",
+      "notes": "Email listed directly on the official Sastra Inggris department faculty page (web.usd.ac.id/fakultas/sastra/sasing/dosen.php). High confidence, primary source."
+    },
+    {
+      "name": "Elisa Dwi Wardani",
+      "department": "Sastra Inggris, Fakultas Sastra",
+      "title": "Dosen",
+      "research_area": "Literature, Language and Cultural Studies",
+      "email": "elisa@usd.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://www.usd.ac.id/detail_dosen.php?id=00353",
+      "notes": "Email listed directly on the official Sastra Inggris department faculty page (web.usd.ac.id/fakultas/sastra/sasing/dosen.php); also corroborated in web search results. High confidence, primary source."
+    },
+    {
+      "name": "Harris Hermansyah Setiajid",
+      "department": "Sastra Inggris, Fakultas Sastra",
+      "title": "Dosen",
+      "research_area": "Translation Studies, Linguistics",
+      "email": "harris@usd.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?user=9BAdoRoAAAAJ&hl=en",
+      "website": "https://www.usd.ac.id/detail_dosen.php?id=00499",
+      "notes": "Email listed directly on the official Sastra Inggris department faculty page (web.usd.ac.id/fakultas/sastra/sasing/dosen.php). SINTA ID 6013284. High confidence, primary source."
+    },
+    {
+      "name": "Hirmawan Wijanarka",
+      "department": "Sastra Inggris, Fakultas Sastra",
+      "title": "Lektor Kepala",
+      "research_area": "American Literature, Ecocriticism, Popular Literature",
+      "email": "hir101@usd.ac.id",
+      "phone": null,
+      "linkedin": "https://id.linkedin.com/in/hirmawan-wijanarka-4319585b",
+      "google_scholar": "https://scholar.google.co.id/citations?user=G356iBYAAAAJ&hl=en",
+      "website": "https://www.usd.ac.id/detail_dosen.php?id=00536",
+      "notes": "Email listed directly on the official Sastra Inggris department faculty page (web.usd.ac.id/fakultas/sastra/sasing/dosen.php). Academic rank Lektor Kepala per web search / SINTA profile 6015161. High confidence, primary source."
+    },
+    {
+      "name": "FX. Risang Baskara",
+      "department": "Sastra Inggris, Fakultas Sastra",
+      "title": "Ketua Jurusan/Prodi",
+      "research_area": "TESOL, Blended and Flipped Learning, CALL/TELL/MALL",
+      "email": "risangbaskara@usd.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?user=zjO7_JQAAAAJ&hl=en",
+      "website": "https://sinta.kemdikbud.go.id/authors/profile/6005060",
+      "notes": "Head (Ketua) of the English Literature Study Program, Faculty of Letters, USD. Email listed directly on the official Sastra Inggris department faculty page (web.usd.ac.id/fakultas/sastra/sasing/dosen.php). High confidence, primary source."
+    }
+  ]
 }

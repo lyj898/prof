@@ -5,5 +5,18 @@
   "city": "Yogyakarta",
   "province": "DI Yogyakarta",
   "website": "https://upy.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Fahruddin",
+      "department": "Pendidikan Sejarah, FKIP",
+      "title": "Dosen",
+      "research_area": "Pendidikan Sejarah, Evaluasi Pembelajaran, Teknologi Pembelajaran Sejarah",
+      "email": "fahruddin@upy.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?hl=en&user=EiTaw9EAAAAJ",
+      "website": "https://sejarah.upy.ac.id/dosen/",
+      "notes": "Email verified as corresponding author on multiple journal articles (e.g. Santhet: Jurnal Sejarah, Pendidikan Dan Humaniora; researchgate.net publication list) and Google Scholar verified email at upy.ac.id. High confidence."
+    }
+  ]
 }

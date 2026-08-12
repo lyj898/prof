@@ -5,5 +5,42 @@
   "city": "Palembang",
   "province": "Sumatera Selatan",
   "website": "https://www.univpgri-palembang.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Dr. Syaiful Eddy, M.Si.",
+      "department": "Biologi",
+      "title": "Dekan",
+      "research_area": "Environmental science, biology, mangrove ecosystems",
+      "email": "syaifuleddy@univpgri-palembang.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?user=AvhcFAIAAAAJ&hl=id",
+      "website": "https://univpgri-palembang.ac.id/",
+      "notes": "Dean, Faculty of Science and Technology (Fakultas Sains dan Teknologi), and Acting Director of Graduate Programs, UPGRIP. Email verified via aggregated search citing his corresponding-author address on co-authored journal articles. High confidence."
+    },
+    {
+      "name": "Maharani Oktavia, M.Sc.",
+      "department": "Pendidikan Geografi",
+      "title": "Ketua Jurusan/Prodi",
+      "research_area": "Geography education, tourism geography",
+      "email": "maharanioktavia@univpgri-palembang.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?hl=en&user=iNBLWPwAAAAJ",
+      "website": "https://geografi.univpgri-palembang.ac.id/",
+      "notes": "Head of the Geography Education Study Program, UPGRIP. Email verified as her corresponding-author address in academic publications indexed via search aggregation. High confidence."
+    },
+    {
+      "name": "Eni Heldayani, M.Pd.",
+      "department": "Pendidikan IPS / Geografi",
+      "title": "Lektor",
+      "research_area": "Social studies education, geography education",
+      "email": "eniheldayani@univpgri-palembang.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.co.id/citations?hl=id&user=Nw1i8CMAAAAJ",
+      "website": "https://univpgri-palembang.ac.id/",
+      "notes": "Lecturer (rank Lektor) in Social Studies/Geography Education, UPGRIP. Email verified via search aggregation of academic publication records. High confidence."
+    }
+  ]
 }

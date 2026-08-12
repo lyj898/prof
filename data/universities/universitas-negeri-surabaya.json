@@ -5,5 +5,54 @@
   "city": "Surabaya",
   "province": "Jawa Timur",
   "website": "https://www.unesa.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Tatag Yuli Eko Siswono",
+      "department": "Departemen Matematika, FMIPA",
+      "title": "Guru Besar",
+      "research_area": "Pendidikan Matematika",
+      "email": "tatagsiswono@unesa.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?user=ioIq8cQAAAAJ&hl=en",
+      "website": "https://cv.unesa.ac.id/detail/197107082000031001",
+      "notes": "Verified via personal staff page (tatag-yuli-eko-siswono.staff.unesa.ac.id) and Unesa CV system cv.unesa.ac.id/detail/197107082000031001. High confidence."
+    },
+    {
+      "name": "Dwi Juniati",
+      "department": "Departemen Matematika, FMIPA",
+      "title": "Guru Besar",
+      "research_area": "Matematika (Topologi) / Pendidikan Matematika",
+      "email": "dwijuniati@unesa.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://cv.unesa.ac.id/detail/196706151994032002",
+      "notes": "Verified via Unesa CV system cv.unesa.ac.id/detail/196706151994032002 and sindig.unesa.ac.id dosen profile; email confirmed in published journal PDF (ejournal.unesa.ac.id/mathedunesa). High confidence."
+    },
+    {
+      "name": "Manuharawati",
+      "department": "Departemen Matematika, FMIPA",
+      "title": "Guru Besar",
+      "research_area": "Matematika",
+      "email": "manuharawati@unesa.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://siakadu.unesa.ac.id/dosen/0018016103/manuharawati",
+      "notes": "Verified via siakadu.unesa.ac.id staff profile (Prof. Dr. Manuharawati, M.Si.) and corresponding-author email in Atlantis Press conference paper (IJCSE 2021). High confidence."
+    },
+    {
+      "name": "Masriyah",
+      "department": "Departemen Matematika, FMIPA",
+      "title": "Lektor Kepala",
+      "research_area": "Pendidikan Matematika",
+      "email": "masriyah@unesa.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://sindig.unesa.ac.id/dosen/0011026010/masriyah",
+      "notes": "Email verified via corresponding-author line in MATHEdunesa journal PDF (ejournal.unesa.ac.id/index.php/mathedunesa/article/download/68963/52598) and sindig.unesa.ac.id profile. Exact functional rank not fully confirmed; listed conservatively as Lektor Kepala. Medium-high confidence on email."
+    }
+  ]
 }

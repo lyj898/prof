@@ -5,5 +5,18 @@
   "city": "Jakarta Selatan",
   "province": "DKI Jakarta",
   "website": "https://usahid.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Saiful Anam",
+      "department": "Fakultas Hukum",
+      "title": "Dosen",
+      "research_area": "Hukum Tata Negara",
+      "email": "saiful_anam@usahid.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?hl=en&user=6uskyRwAAAAJ",
+      "website": "https://usahid.ac.id/profile-dosen/dr-saiful-anam-sh-mh/",
+      "notes": "Dr. Saiful Anam, SH., MH. Email confirmed via SINTA/web search referencing usahid.ac.id verified email address (saiful_anam@usahid.ac.id) and official USD dosen profile page. High confidence."
+    }
+  ]
 }

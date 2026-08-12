@@ -5,5 +5,42 @@
   "city": "Jakarta Selatan",
   "province": "DKI Jakarta",
   "website": "https://univpancasila.ac.id/",
-  "professors": []
+  "professors": [
+    {
+      "name": "Prof. Devi Roza K. Kausar, Ph.D., CHE.",
+      "department": "Fakultas Pariwisata",
+      "title": "Guru Besar",
+      "research_area": "Sustainable Tourism, Disaster Management in Tourism, Heritage Tourism",
+      "email": "devikausar@univpancasila.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?user=iXp3yhIAAAAJ&hl=en",
+      "website": "https://pariwisata.univpancasila.ac.id/index.php/devi-roza-k-kausar-ph-d-che/",
+      "notes": "Dekan Fakultas Pariwisata Universitas Pancasila. Source: official faculty profile page pariwisata.univpancasila.ac.id (fetched directly). High confidence."
+    },
+    {
+      "name": "Prof. Dr. Mashadi Said, M.Pd.",
+      "department": "Ilmu Komunikasi",
+      "title": "Guru Besar",
+      "research_area": "English Language Education, English for Academic Purposes, Public Speaking",
+      "email": "mashadisaid99@univpancasila.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://komunikasi.univpancasila.ac.id/mashadi-said-ph-d-2/",
+      "notes": "Source: faculty profile pages komunikasi.univpancasila.ac.id and teknik.univpancasila.ac.id; email corroborated by web search results. Medium-high confidence."
+    },
+    {
+      "name": "Suluh Gembyeng Ciptadi, M.Si.",
+      "department": "Ilmu Komunikasi",
+      "title": "Lektor",
+      "research_area": null,
+      "email": "suluhgembyeng@univpancasila.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://komunikasi.univpancasila.ac.id/dosen-s1/",
+      "notes": "Source: komunikasi.univpancasila.ac.id S1 Ilmu Komunikasi lecturer directory (fetched directly, email explicitly listed). High confidence."
+    }
+  ]
 }

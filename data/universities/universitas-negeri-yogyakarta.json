@@ -5,5 +5,54 @@
   "city": "Sleman",
   "province": "DI Yogyakarta",
   "website": "https://uny.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Marsigit",
+      "department": "Program Studi Pendidikan Matematika, FMIPA",
+      "title": "Guru Besar",
+      "research_area": "Pendidikan Matematika",
+      "email": "marsigit@uny.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://pmat.fmipa.uny.ac.id/id/dosen2",
+      "notes": "Verified via official program faculty directory https://pmat.fmipa.uny.ac.id/id/dosen2 (title listed: Prof., Dr., M.A. / Guru Besar). High confidence."
+    },
+    {
+      "name": "Jailani",
+      "department": "Program Studi Pendidikan Matematika, FMIPA",
+      "title": "Guru Besar",
+      "research_area": "Pendidikan Matematika",
+      "email": "jailani@uny.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://pmat.fmipa.uny.ac.id/id/dosen2",
+      "notes": "Verified via official program faculty directory https://pmat.fmipa.uny.ac.id/id/dosen2 (title listed: Prof., Dr., M.Pd. / Guru Besar). High confidence."
+    },
+    {
+      "name": "Sugiman",
+      "department": "Program Studi Pendidikan Matematika, FMIPA",
+      "title": "Guru Besar",
+      "research_area": "Pendidikan Matematika",
+      "email": "sugiman@uny.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://pmat.fmipa.uny.ac.id/id/dosen2",
+      "notes": "Verified via official program faculty directory https://pmat.fmipa.uny.ac.id/id/dosen2 (title listed: Prof., Dr., M.Si. / Guru Besar). High confidence."
+    },
+    {
+      "name": "Heri Retnawati",
+      "department": "Program Studi Pendidikan Matematika, FMIPA",
+      "title": "Guru Besar",
+      "research_area": "Pendidikan Matematika / Evaluasi Pendidikan",
+      "email": "heri_retnawati@uny.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://pmat.fmipa.uny.ac.id/id/dosen2",
+      "notes": "Verified via official program faculty directory https://pmat.fmipa.uny.ac.id/id/dosen2 (title listed: Prof., Dr., M.Pd. / Guru Besar). High confidence."
+    }
+  ]
 }

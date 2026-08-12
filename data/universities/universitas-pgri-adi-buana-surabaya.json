@@ -5,5 +5,18 @@
   "city": "Surabaya",
   "province": "Jawa Timur",
   "website": "https://unipasby.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Dimas Ardika Miftah Farid",
+      "department": "Bimbingan dan Konseling",
+      "title": "Dosen",
+      "research_area": "Guidance and counseling, group counseling, assertiveness training",
+      "email": "dimas.ardika@unipasby.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?hl=id&user=ITOW8HsAAAAJ",
+      "website": "http://jurnal.unipasby.ac.id/index.php/helper/contact",
+      "notes": "Lecturer, Guidance and Counseling Study Program, Unipa Surabaya. Listed as Principal Contact with this email on the HELPER: Jurnal Bimbingan dan Konseling official contact page. High confidence."
+    }
+  ]
 }

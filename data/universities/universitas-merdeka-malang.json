@@ -5,5 +5,54 @@
   "city": "Malang",
   "province": "Jawa Timur",
   "website": "https://unmer.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Fajar Supanto",
+      "department": "Fakultas Ekonomi dan Bisnis",
+      "title": "Guru Besar",
+      "research_area": "Ekonomi Pembangunan / Manajemen",
+      "email": "fajar.supanto@unmer.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?hl=id&user=9lcFoCMAAAAJ",
+      "website": "https://unmer.ac.id/our_team/fajar/",
+      "notes": "Prof. Dr. H. Fajar Supanto, M.Si. - Dekan FEB Unmer Malang / Wakil Rektor. Email verified via LPPM Unmer publication PDF listing him as corresponding author and official profile page unmer.ac.id/our_team/fajar/. High confidence."
+    },
+    {
+      "name": "Boge Triatmanto",
+      "department": "Fakultas Ekonomi dan Bisnis",
+      "title": "Guru Besar",
+      "research_area": "Manajemen Sumber Daya Manusia / Pariwisata",
+      "email": "boge.triatmanto@unmer.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?user=5k96rXoAAAAJ&hl=id",
+      "website": "https://feb.unmer.ac.id/wp-content/uploads/2020/07/Dr-BOGE-TRIATMANTO-SE.-MM.pdf",
+      "notes": "Prof. Dr. Boge Triatmanto, SE, MM - Direktur LPPM Unmer Malang. Email verified as corresponding author on multiple published journal articles (e.g., Cogent Business & Management, Tandfonline). High confidence."
+    },
+    {
+      "name": "Harianto Respati",
+      "department": "Fakultas Ekonomi dan Bisnis",
+      "title": "Guru Besar",
+      "research_area": "Manajemen",
+      "email": "harianto.respati@unmer.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://archive.conscientiabeam.com/index.php/73/article/download/4312/8647",
+      "notes": "Prof. Dr. Harianto Respati, SE., M.M. - Wakil Direktur Pascasarjana Unmer Malang. Two email variants found in sources (harianto@lecturer.unmer.ac.id and harianto.respati@unmer.ac.id, consistent with the university's firstname.lastname@unmer.ac.id convention); medium-high confidence."
+    },
+    {
+      "name": "Mardiana Andarwati",
+      "department": "Fakultas Teknologi Informasi",
+      "title": "Dekan",
+      "research_area": "Sistem Informasi Manajemen / Sistem Informasi Akuntansi",
+      "email": "mardiana.andarwati@unmer.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.co.id/citations?hl=en&user=kSrX-FEAAAAJ",
+      "website": "https://fti.unmer.ac.id/our_team/mardiana-andarwati/",
+      "notes": "Dr. Mardiana Andarwati, S.E., M.Si. - Dekan Fakultas Teknologi Informasi, Unmer Malang. Email verified via official FTI Unmer team page and search-indexed profile. High confidence."
+    }
+  ]
 }

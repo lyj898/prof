@@ -5,5 +5,30 @@
   "city": "Tangerang",
   "province": "Banten",
   "website": "https://www.uph.edu",
-  "professors": []
+  "professors": [
+    {
+      "name": "Dr. Velliana Tanaya, S.H., M.H.",
+      "department": "Hukum",
+      "title": "Dekan",
+      "research_area": "Contract law, civil law, tort law",
+      "email": "velliana_tanaya@uph.edu",
+      "phone": null,
+      "linkedin": "https://www.linkedin.com/in/velliana-tanaya-b6b53b136/",
+      "google_scholar": "https://scholar.google.co.id/citations?user=4-dXhu4AAAAJ&hl=en",
+      "website": "https://www.uph.edu/faculty/faculty-of-law/",
+      "notes": "Dean, Faculty of Law, UPH. Email verified via UPH global faculty directory listing (global.uph.edu faculty-directory-school-of-law) and corroborated by search aggregators. High confidence."
+    },
+    {
+      "name": "Hady Soenarjo, S.Sn., M.Ds.",
+      "department": "Desain Komunikasi Visual",
+      "title": "Dosen",
+      "research_area": "Illustration, printmaking, social design",
+      "email": "hady.soenarjo@uph.edu",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://www.uph.edu/people/hady-soenarjo",
+      "notes": "Lecturer, Visual Communication Design Study Program, Faculty of Design, UPH. Email verified as corresponding author address on a UPH-hosted OJS journal article (ojs.uph.edu) and matches UPH people profile page. High confidence."
+    }
+  ]
 }

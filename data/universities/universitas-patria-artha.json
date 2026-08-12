@@ -5,5 +5,42 @@
   "city": "Gowa",
   "province": "Sulawesi Selatan",
   "website": "https://patria-artha.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Irmawati",
+      "department": "Keperawatan",
+      "title": "Dosen",
+      "research_area": null,
+      "email": "irmawati@patria-artha.ac.id",
+      "phone": "085255432104",
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://ejournal.patria-artha.ac.id/index.php/jns",
+      "notes": "Email verified as Support Contact on the Patria Artha Journal of Nursing Science (Department of Nursing) official contact/about page, https://ejournal.patria-artha.ac.id/index.php/jns/index. High confidence on email; department inferred from journal affiliation."
+    },
+    {
+      "name": "Tantri Indrabulan",
+      "department": "Akuntansi",
+      "title": "Dosen",
+      "research_area": null,
+      "email": "tantri.indrabulan@patria-artha.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://ejournal.patria-artha.ac.id/index.php/jafr/about/contact",
+      "notes": "Email verified as Support Contact, Department of Accounting, Faculty of Economic, on Patria Artha Journal of Accounting and Financial Reporting contact page. High confidence."
+    },
+    {
+      "name": "Murbayani",
+      "department": "Manajemen",
+      "title": "Dosen",
+      "research_area": null,
+      "email": "murbayani@patria-artha.ac.id",
+      "phone": "0411-8225111",
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://ejournal.patria-artha.ac.id/index.php/pamj",
+      "notes": "Email verified as Principal Contact, Department of Management, Faculty of Economic, on Patria Artha Management Journal editorial team/contact page. High confidence."
+    }
+  ]
 }
