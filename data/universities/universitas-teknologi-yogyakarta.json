@@ -5,5 +5,30 @@
   "city": "Sleman",
   "province": "DI Yogyakarta",
   "website": "https://uty.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Dr. Mustaqim Pabbajah, M.A.",
+      "department": "Research & Publication Unit",
+      "title": "Lektor Kepala",
+      "research_area": "Religion and Technology, Islamic Studies, Cultural Studies",
+      "email": "mustaqim_pabbajah@uty.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?hl=en&user=pMyCeeIAAAAJ",
+      "website": "https://journal.uty.ac.id/index.php/IJETS/about/contact",
+      "notes": "Head of Research & Publication Unit, UTY. Email confirmed via direct web search result (mustaqim_pabbajah@uty.ac.id); Google Scholar verified email at uty.ac.id. High confidence."
+    },
+    {
+      "name": "Dr. Enny Itje Sela, S.Si., M.Kom.",
+      "department": "Informatika, Fakultas Teknologi Informasi dan Elektro",
+      "title": "Lektor Kepala",
+      "research_area": "Pattern Recognition, Data Mining, Neural Networks, Image Processing",
+      "email": "ennysela@uty.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?hl=en&user=xspSq4MAAAAJ",
+      "website": "https://journal.uty.ac.id/index.php/IJETS/about/editorialTeam",
+      "notes": "Editorial team member, International Journal of Engineering Technology and Natural Sciences, UTY. Email confirmed via web search result; Google Scholar verified email at uty.ac.id. High confidence."
+    }
+  ]
 }

@@ -5,5 +5,42 @@
   "city": "Jakarta Barat",
   "province": "DKI Jakarta",
   "website": "https://trisakti.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Dr. Drs. Trubus Rahardiansah, M.S., S.H., M.H.",
+      "department": "Ilmu Hukum, Fakultas Hukum",
+      "title": "Lektor Kepala",
+      "research_area": "Sociology of Law, Political Science, Public Policy, Human Rights",
+      "email": "trubus@trisakti.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?user=jSY3ptIAAAAJ&hl=en",
+      "website": "https://s2hukum.trisakti.ac.id/gurubesar/trubus-rahardiansah/",
+      "notes": "Faculty of Law, Universitas Trisakti. Email confirmed via web search result and matches Google Scholar verified email domain (trisakti.ac.id). High confidence."
+    },
+    {
+      "name": "Cicely Delfina Harahap",
+      "department": "Akuntansi, Fakultas Ekonomi dan Bisnis",
+      "title": "Lektor",
+      "research_area": "Accounting, Audit, Finance",
+      "email": "cicely@trisakti.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?hl=en&user=4Xgu9AQAAAAJ",
+      "website": "https://sinta.kemdiktisaintek.go.id/authors/profile/6727739",
+      "notes": "Faculty of Economics and Business, Universitas Trisakti. Email confirmed via web search result and matches Google Scholar verified email domain (trisakti.ac.id). High confidence."
+    },
+    {
+      "name": "Dr. Tech. Muhammad Zaki, S.T., M.T., ISGE",
+      "department": "Teknik Sipil, Fakultas Teknik Sipil dan Perencanaan",
+      "title": "Lektor Kepala",
+      "research_area": "Civil Engineering, Geotechnical Engineering",
+      "email": "m.zaki@trisakti.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://ftsp.trisakti.ac.id/stafakademik/dr-tech-m-zaki-st-mt-isge/",
+      "notes": "Faculty of Civil Engineering and Planning, Universitas Trisakti. Email confirmed via web search result. High confidence."
+    }
+  ]
 }

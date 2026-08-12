@@ -5,5 +5,30 @@
   "city": "Palembang",
   "province": "Sumatera Selatan",
   "website": "https://www.univ-tridinanti.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Dr. Msy. Mikial, S.E., M.Si., Ak., CA., CSRS",
+      "department": "Fakultas Ekonomi",
+      "title": "Dekan",
+      "research_area": "Financial Performance, Accounting",
+      "email": "masayu_mikial@univ-tridinanti.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.co.id/citations?user=BS6qdC4AAAAJ",
+      "website": "https://www.univ-tridinanti.ac.id/fe/?hal=struktur",
+      "notes": "Dean, Faculty of Economics, Universitas Tridinanti Palembang. Email confirmed via web search result. High confidence."
+    },
+    {
+      "name": "Andy Budiarto, S.T., M.T.",
+      "department": "Arsitektur, Fakultas Teknik",
+      "title": "Lektor",
+      "research_area": "Architecture, Malay/Palembang Traditional Architecture",
+      "email": "andybudiarto@univ-tridinanti.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.co.id/citations?hl=id&user=tT-p56MAAAAJ",
+      "website": "https://www.univ-tridinanti.ac.id/ft/",
+      "notes": "Faculty of Engineering, Architecture study program. Email confirmed via web search result (andybudiarto@univ-tridinanti.ac.id) and matches Google Scholar verified domain. High confidence."
+    }
+  ]
 }

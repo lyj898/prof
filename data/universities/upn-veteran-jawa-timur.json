@@ -5,5 +5,66 @@
   "city": "Surabaya",
   "province": "Jawa Timur",
   "website": "https://www.upnjatim.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Prof. Dr. Sri Trisnaningsih, M.Si., CFrA",
+      "department": "Akuntansi, Fakultas Ekonomi dan Bisnis",
+      "title": "Guru Besar",
+      "research_area": "Accounting / Auditing",
+      "email": "trisna.ak@upnjatim.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://akuntansi.upnjatim.ac.id/profil-dosen/",
+      "notes": "Listed with individual email on official Prodi Akuntansi UPN Jatim faculty profile page (akuntansi.upnjatim.ac.id/profil-dosen/). High confidence."
+    },
+    {
+      "name": "Prof. Dr. Indrawati Yuhertiana, MM., Ak., CMA",
+      "department": "Akuntansi, Fakultas Ekonomi dan Bisnis",
+      "title": "Guru Besar",
+      "research_area": "Accounting Management",
+      "email": "yuhertiana@upnjatim.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://akuntansi.upnjatim.ac.id/profil-dosen/",
+      "notes": "Listed with individual email on official Prodi Akuntansi UPN Jatim faculty profile page. High confidence."
+    },
+    {
+      "name": "Dr. Hero Priono, S.E., M.Si., Ak., C.A., CMA",
+      "department": "Akuntansi, Fakultas Ekonomi dan Bisnis",
+      "title": "Lektor Kepala",
+      "research_area": "Accounting",
+      "email": "hero.priono.ak@upnjatim.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://akuntansi.upnjatim.ac.id/profil-dosen/",
+      "notes": "Listed with individual email on official Prodi Akuntansi UPN Jatim faculty profile page. High confidence."
+    },
+    {
+      "name": "Dr. T.Ir. Luluk Edahwati, M.T.",
+      "department": "Teknik Mesin, Fakultas Teknik dan Sains",
+      "title": "Lektor Kepala",
+      "research_area": "Chemical / Mechanical Engineering",
+      "email": "luluk.tm@upnjatim.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://tekmesin.upnjatim.ac.id/dosen/",
+      "notes": "Program coordinator, Teknik Mesin UPN Jatim; email listed on official department faculty profile page. High confidence."
+    },
+    {
+      "name": "Dr. Eng. Ir. Anggraini Puspita Sari, S.T., M.T.",
+      "department": "Informatika, Fakultas Ilmu Komputer",
+      "title": "Lektor",
+      "research_area": "Informatics",
+      "email": "anggraini.puspita.if@upnjatim.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://fasilkom.upnjatim.ac.id/project_category/dosen-informatika/",
+      "notes": "Listed with rank (Lektor) and individual email on official Fasilkom UPN Jatim faculty listing page. High confidence."
+    }
+  ]
 }

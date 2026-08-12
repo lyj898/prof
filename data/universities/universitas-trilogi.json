@@ -5,5 +5,30 @@
   "city": "Jakarta Selatan",
   "province": "DKI Jakarta",
   "website": "https://trilogi.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Ir. Yodfiatfinda, Ph.D.",
+      "department": "Agribisnis, Fakultas Sains, Teknologi dan Desain",
+      "title": "Dekan",
+      "research_area": "Agribusiness, Agricultural Economics",
+      "email": "yodfi@trilogi.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "http://info.trilogi.ac.id/repository/assets/uploads/AGB/f37d8-survei-pasar-2022.pdf",
+      "notes": "Dean, Faculty of Science, Technology and Design (FSTD), Universitas Trilogi. Email confirmed via web search result (yodfi@trilogi.ac.id), appears on university document. High confidence."
+    },
+    {
+      "name": "Budi Arifitama, Ph.D.",
+      "department": "Teknik Informatika",
+      "title": "Lektor Kepala",
+      "research_area": "Augmented Reality, Technology Adoption, Decision Support Systems",
+      "email": "budiarif@trilogi.ac.id",
+      "phone": null,
+      "linkedin": "https://id.linkedin.com/in/budi-arifitama-478aab8a",
+      "google_scholar": "https://scholar.google.co.za/citations?hl=en&user=9ampSjAAAAAJ",
+      "website": "https://ojs.trilogi.ac.id/index.php/JISA/pages/view/editor-reviewer",
+      "notes": "Editor-in-Chief, Jurnal JISA, Universitas Trilogi. Email confirmed as corresponding-author address in a ResearchGate-indexed publication (Decision Support System for Rewarding Courier Employees...). High confidence."
+    }
+  ]
 }

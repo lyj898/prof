@@ -5,5 +5,30 @@
   "city": "Malang",
   "province": "Jawa Timur",
   "website": "https://widyagama.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Syahroni Wahyu Iriananda",
+      "department": "Program Studi Informatika, Fakultas Teknik",
+      "title": "Dosen",
+      "research_area": "Text Mining, Sentiment Analysis, Machine Learning",
+      "email": "syahroni@widyagama.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://widyagama.academia.edu/SyahroniWahyu",
+      "notes": "Email extracted as the penulis korespondensi (corresponding author) address on a Universitas Widyagama-affiliated journal article on mobile game review sentiment classification; cross-referenced with his Academia.edu faculty profile (IT, Universitas Widyagama Malang). Confidence: medium (email confirmed from article correspondence field, not independently re-verified on a live faculty directory page since several UWG subdomains are currently under maintenance/inaccessible)."
+    },
+    {
+      "name": "Arief Rizki Fadhillah",
+      "department": "Program Studi Teknik Mesin, Fakultas Teknik",
+      "title": "Dosen",
+      "research_area": "Manufacturing, Production Process Engineering, Community Service (UKM Technology)",
+      "email": "arief.rizki.f@widyagama.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://publishing-widyagama.ac.id/ejournal-v2/index.php/ciastech/",
+      "notes": "Email extracted as the penulis korespondensi (corresponding author) address on a Universitas Widyagama CIASTECH proceedings article on tempeh cutting machine production capacity; name confirmed via search cross-reference to S1 Teknik Mesin, Fakultas Teknik, Universitas Widyagama Malang. Confidence: medium (email confirmed from article correspondence field; PDF text could not be independently re-rendered to directly quote the surrounding author block)."
+    }
+  ]
 }

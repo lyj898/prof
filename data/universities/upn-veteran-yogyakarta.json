@@ -5,5 +5,66 @@
   "city": "Sleman",
   "province": "DI Yogyakarta",
   "website": "https://upnyk.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Prof. Ali Munawar, Ph.D., M.Sc., Ir.",
+      "department": "Agroteknologi, Fakultas Pertanian",
+      "title": "Guru Besar",
+      "research_area": "Kesuburan Tanah dan Reklamasi Lahan (Soil Fertility and Land Reclamation)",
+      "email": "ali.munawar@upnyk.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://agriculture.upnyk.ac.id/id/pages/dosen",
+      "notes": "Listed with individual email and title Prof. on official Fakultas Pertanian UPN Veteran Yogyakarta lecturer directory page. High confidence."
+    },
+    {
+      "name": "Dr. Antik Suprihanti, M.Si., S.P.",
+      "department": "Agribisnis, Fakultas Pertanian",
+      "title": "Dosen",
+      "research_area": "Agricultural Economics",
+      "email": "antik.s@upnyk.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://agriculture.upnyk.ac.id/id/pages/dosen",
+      "notes": "Listed with individual email on official Fakultas Pertanian UPN Veteran Yogyakarta lecturer directory page. High confidence."
+    },
+    {
+      "name": "Anjar Cahyaningtyas, S.Hut., M.Agr., Ph.D.",
+      "department": "Agroteknologi, Fakultas Pertanian",
+      "title": "Dosen",
+      "research_area": "Agriculture / Forestry",
+      "email": "anjarcahyaningtyas@upnyk.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://agriculture.upnyk.ac.id/id/pages/dosen",
+      "notes": "Listed with individual email on official Fakultas Pertanian UPN Veteran Yogyakarta lecturer directory page. High confidence."
+    },
+    {
+      "name": "Ahmad Rif'an Khoirul, S.Si., M.S.",
+      "department": "Agroteknologi, Fakultas Pertanian",
+      "title": "Dosen",
+      "research_area": "Water, Society and Policy",
+      "email": "ahmad.rifan@upnyk.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://agriculture.upnyk.ac.id/id/pages/dosen",
+      "notes": "Listed with individual email on official Fakultas Pertanian UPN Veteran Yogyakarta lecturer directory page. High confidence."
+    },
+    {
+      "name": "Ali Hasyim Al Rosyid, M.Sc., S.P.",
+      "department": "Agribisnis, Fakultas Pertanian",
+      "title": "Dosen",
+      "research_area": "Agricultural Economics",
+      "email": "alihasyimal@upnyk.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://agriculture.upnyk.ac.id/id/pages/dosen",
+      "notes": "Listed with individual email on official Fakultas Pertanian UPN Veteran Yogyakarta lecturer directory page. High confidence."
+    }
+  ]
 }

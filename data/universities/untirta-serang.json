@@ -5,5 +5,54 @@
   "city": "Serang",
   "province": "Banten",
   "website": "https://untirta.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Prof. Dr. Aceng Hasani, M.Pd.",
+      "department": "Pendidikan Bahasa dan Sastra Indonesia / Pendidikan Profesi Guru, FKIP",
+      "title": "Guru Besar",
+      "research_area": "Writing Skill / Pendidikan Bahasa Indonesia",
+      "email": "aceng.hasani@untirta.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.co.id/citations?user=DHZqoYMAAAAJ&hl=id",
+      "website": "https://sinta.kemdiktisaintek.go.id/authors/profile/5985652/",
+      "notes": "Guru Besar FKIP Untirta (inaugurated 2024). Email cross-confirmed via multiple sources (search aggregation citing SINTA/journal editorial listing at jurnal.pbs.fkip.unila.ac.id). SINTA ID 5985652. Moderate-high confidence."
+    },
+    {
+      "name": "Prof. Maman Fathurrohman, S.Pd.Si., M.Si., Ph.D.",
+      "department": "Pendidikan Matematika, FKIP",
+      "title": "Guru Besar",
+      "research_area": "Mathematics Education / Applied Mathematics",
+      "email": "mamanf@untirta.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?hl=en&user=zuZRPSQAAAAJ",
+      "website": "https://sinta.kemdiktisaintek.go.id/authors/profile/76137/",
+      "notes": "Guru Besar Pendidikan Matematika, FKIP Untirta; former Head of Center for Curriculum and Books, Kemendikbud. Email cross-confirmed in multiple journal article PDFs referencing his authorship (e.g. ERIC/ResearchGate publications). Moderate-high confidence."
+    },
+    {
+      "name": "Prof. Dr. H. Agus Ismaya Hasanudin, S.E., S.H., M.Si.",
+      "department": "Akuntansi, Fakultas Ekonomi dan Bisnis (FEB)",
+      "title": "Guru Besar",
+      "research_area": "Accounting / Internal Control Systems / Tax",
+      "email": "ismayaagus@untirta.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?hl=en&user=PJw9PzgAAAAJ",
+      "website": "https://feb.untirta.ac.id/dosen/",
+      "notes": "Guru Besar Akuntansi, FEB Untirta. Email confirmed appearing as corresponding-author contact across multiple journal article PDFs (eprints.untirta.ac.id, ResearchGate, international journal labs). Moderate-high confidence."
+    },
+    {
+      "name": "Assoc. Prof. Mustofa Abi Hamid, S.Pd., M.Pd.T.",
+      "department": "Pendidikan Teknik Elektro (TVET), FKIP",
+      "title": "Lektor Kepala",
+      "research_area": "Technical and Vocational Education and Training (TVET) / Learning Strategies",
+      "email": "abi.mustofa@untirta.ac.id",
+      "phone": null,
+      "linkedin": "https://www.linkedin.com/in/mustofaabihamid/",
+      "google_scholar": null,
+      "website": "https://hamid.dosen.untirta.ac.id/",
+      "notes": "Associate Professor of TVET, Dept. of Electrical Engineering Vocational Education, FKIP Untirta. Email confirmed via ZoomInfo profile and cited consistently across ResearchGate/journal publications and his own dosen.untirta.ac.id profile page. Moderate-high confidence."
+    }
+  ]
 }

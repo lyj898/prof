@@ -5,5 +5,54 @@
   "city": "Jakarta Pusat",
   "province": "DKI Jakarta",
   "website": "https://www.yarsi.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Harry Budiantoro, S.E., M.Ak., CA., QWP.",
+      "department": "Program Studi Akuntansi, Fakultas Ekonomi dan Bisnis",
+      "title": "Asisten Ahli",
+      "research_area": "Auditing and audit quality, Accounting Information Systems, Internal auditing, Fraud detection in financial reporting",
+      "email": "harry.budiantoro@yarsi.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://www.yarsi.ac.id/dosenyarsi/harry-budiantoro",
+      "notes": "Verified via https://www.yarsi.ac.id/dosenyarsi/harry-budiantoro (individual faculty profile page directly listing email). Confidence: high."
+    },
+    {
+      "name": "Dr. Ummi Azizah Rachmawati, S.Kom., M.Kom.",
+      "department": "Fakultas Teknologi Informasi",
+      "title": "Dekan",
+      "research_area": "e-Health, Artificial Intelligence and Visualization",
+      "email": "ummi.azizah@yarsi.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://www.yarsi.ac.id/dosenyarsi/ummi-azizah-rachmawati",
+      "notes": "Verified via https://www.yarsi.ac.id/dosenyarsi/ummi-azizah-rachmawati (individual faculty profile page directly listing email); she serves as Dekan (Dean) of Fakultas Teknologi Informasi. Confidence: high."
+    },
+    {
+      "name": "Prof. Dr. Ir. Perdana Wahyu Santosa, M.M., CRP",
+      "department": "Fakultas Ekonomi dan Bisnis",
+      "title": "Lektor Kepala",
+      "research_area": "Financial management, capital markets, investment analysis, banking stability, Islamic banking efficiency",
+      "email": "perdana.wahyu@yarsi.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://www.yarsi.ac.id/dosenyarsi/perdana-wahyu-santosa",
+      "notes": "Verified via https://www.yarsi.ac.id/dosenyarsi/perdana-wahyu-santosa (individual faculty profile page directly listing email and jabatan 'Associate Professor (Kum 754)/IIId'). Confidence: high."
+    },
+    {
+      "name": "Prof. Dra. Endang Purwaningsih, M.S., PA",
+      "department": "Fakultas Kedokteran",
+      "title": "Guru Besar",
+      "research_area": "Reproduction and growth development, Cell and genetics, Cell biology, Molecular biology",
+      "email": "endang.purwaningsih@yarsi.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://www.yarsi.ac.id/en/dosenyarsi/Prof.-Endang-2",
+      "notes": "Verified via https://www.yarsi.ac.id/en/dosenyarsi/Prof.-Endang-2 (individual faculty profile page listing both a personal Gmail and the institutional address endang.purwaningsih@yarsi.ac.id). Note: there are two YARSI professors named Endang Purwaningsih (this one in Faculty of Medicine/Biology; a separate Prof. Dr. Endang Purwaningsih, S.H. is a law professor) - profile matched to the Fakultas Kedokteran page fetched. Confidence: high."
+    }
+  ]
 }

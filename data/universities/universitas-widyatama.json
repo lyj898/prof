@@ -5,5 +5,18 @@
   "city": "Bandung",
   "province": "Jawa Barat",
   "website": "https://www.widyatama.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Dr. Debbie Christine, S.E., M.Si., Ak., C.A.",
+      "department": "Program Studi Akuntansi S1, Fakultas Ekonomi dan Bisnis",
+      "title": "Lektor",
+      "research_area": "Akuntansi (Business Combination Accounting, Financial Accounting)",
+      "email": "debbie.christine@widyatama.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://owner.polgan.ac.id/index.php/owner/article/download/1096/573/5767",
+      "notes": "Email address appears as a live mailto/corresponding-author hyperlink embedded in a PDF article published in Owner: Riset & Jurnal Akuntansi, associated with Universitas Widyatama; cross-referenced with her role teaching Akuntansi Kombinasi Bisnis at Universitas Widyatama. Confidence: medium-high (email confirmed directly from the document's embedded hyperlink; full author/affiliation block in the PDF could not be rendered as plain text to double-confirm surrounding context)."
+    }
+  ]
 }

@@ -5,5 +5,66 @@
   "city": "Surabaya",
   "province": "Jawa Timur",
   "website": "https://www.ubaya.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Prof. Ir. Joniarto Parung, Ph.D., IPU",
+      "department": "Teknik Industri",
+      "title": "Guru Besar",
+      "research_area": "Manajemen Rekayasa / Industrial Engineering",
+      "email": "jparung@staff.ubaya.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://ti.ubaya.ac.id/dosen/index.html",
+      "notes": "Verified via Teknik Industri Ubaya faculty directory (https://ti.ubaya.ac.id/dosen/index.html). High confidence."
+    },
+    {
+      "name": "Ir. Eric Wibisono, Ph.D., IPU",
+      "department": "Teknik Industri",
+      "title": "Dekan",
+      "research_area": "Industrial Engineering, Supply Chain",
+      "email": "ewibisono@staff.ubaya.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://ti.ubaya.ac.id/dosen/index.html",
+      "notes": "Dean of Faculty of Engineering (2023-2027). Verified via Teknik Industri Ubaya faculty directory. High confidence."
+    },
+    {
+      "name": "Prof. Ir. Markus Hartono, Ph.D., IPM",
+      "department": "Teknik Industri",
+      "title": "Guru Besar",
+      "research_area": "Industrial Engineering, Dean of Creative Industries",
+      "email": "markus@staff.ubaya.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://ti.ubaya.ac.id/dosen/index.html",
+      "notes": "Dean of Creative Industries (2023-2027). Verified via Teknik Industri Ubaya faculty directory. High confidence."
+    },
+    {
+      "name": "Prof. Elieser Tarigan, Ph.D.",
+      "department": "Teknik Elektro",
+      "title": "Guru Besar",
+      "research_area": "Renewable Energy / Electrical Engineering",
+      "email": "elieser@staff.ubaya.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://te.ubaya.ac.id/dosenelektroubaya/",
+      "notes": "Verified via Teknik Elektro Ubaya faculty directory (https://te.ubaya.ac.id/dosenelektroubaya/). High confidence."
+    },
+    {
+      "name": "Dr. Ir. Amelia Santoso, IPU",
+      "department": "Teknik Industri",
+      "title": "Lektor Kepala",
+      "research_area": "Industrial Engineering",
+      "email": "amelia@staff.ubaya.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://ti.ubaya.ac.id/dosen/index.html",
+      "notes": "Master's Program Director (2023-2027). Verified via Teknik Industri Ubaya faculty directory. High confidence."
+    }
+  ]
 }

@@ -5,5 +5,18 @@
   "city": "Serang",
   "province": "Banten",
   "website": "https://unsera.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Aldi Kurniawan",
+      "department": "Program Studi Manajemen, Fakultas Ekonomi dan Bisnis",
+      "title": "Dosen",
+      "research_area": "Manajemen",
+      "email": "aldikurniawan@unsera.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://e-jurnal.lppmunsera.org/index.php/SM/about/contact",
+      "notes": "Verified via https://e-jurnal.lppmunsera.org/index.php/SM/about/contact (Sains Manajemen: Jurnal Manajemen Unsera journal contact page), where he is listed as both Principal Contact and Support Contact with this institutional email. Confidence: medium (role at Unsera confirmed as journal contact for the Faculty of Economics and Business's management journal; exact academic rank/title not independently confirmed, listed as Dosen by default per policy)."
+    }
+  ]
 }

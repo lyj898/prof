@@ -1,9 +1,22 @@
 {
   "slug": "universitas-wijaya-kusuma-surabaya",
-  "name": "Universitas Wijaya Kusuma Surabaya",
+  "name": "Universitas Wijaya Kusuma Surabaya (UWKS)",
   "type": "Universitas",
   "city": "Surabaya",
   "province": "Jawa Timur",
   "website": "https://uwks.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Prof. Dr. Ir. Fungki Sri Rejeki, M.P.",
+      "department": "Program Studi Teknologi Industri Pertanian, Fakultas Pertanian",
+      "title": "Guru Besar",
+      "research_area": "Teknologi Industri Pertanian, Food Science",
+      "email": "fungki_tip@uwks.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://pmb.uwks.ac.id/2025/03/uwks-kukuhkan-3-guru-besar-bukti-kampus-berkualitas-dan-unggul/",
+      "notes": "Inaugurated as Guru Besar (Professor) at UWKS Faculty of Agriculture in February 2025 per UWKS news release. Email confirmed directly as the corresponding-author mailto link in a Semantic Scholar-hosted PDF article (Food Science and Technology journal) listing her as corresponding author. Confidence: high."
+    }
+  ]
 }

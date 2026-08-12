@@ -5,5 +5,30 @@
   "city": "Tangerang Selatan",
   "province": "Banten",
   "website": "https://www.unpam.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Annisa Khoiruni Hidaya",
+      "department": "Manajemen S1",
+      "title": "Lektor Kepala",
+      "research_area": "Political communication, media framing",
+      "email": "dosen03314@unpam.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://manajemen.unpam.ac.id/profil/dosen/",
+      "notes": "Lektor Kepala, Program Studi Manajemen S1, Universitas Pamulang (per PDDIKTI/university directory). Source: corresponding-author email dosen03314@unpam.ac.id on a published article on media framing (Universitas Pamulang uses standardized dosenNNNNN@unpam.ac.id faculty email addresses). Confidence: medium-high."
+    },
+    {
+      "name": "Rossy Halimatun Rosyidah",
+      "department": "Sastra Inggris",
+      "title": "Dosen",
+      "research_area": "Linguistics, discourse analysis, communication studies",
+      "email": "dosen02145@unpam.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://sasing.unpam.ac.id/",
+      "notes": "Rossy Halimatun Rosyidah, S.S., M.Hum., English Literature Study Program, Universitas Pamulang. Source: SINTA author profile and corresponding-author email dosen02145@unpam.ac.id on published articles. Confidence: medium-high."
+    }
+  ]
 }

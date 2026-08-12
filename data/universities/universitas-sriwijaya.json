@@ -5,5 +5,54 @@
   "city": "Indralaya",
   "province": "Sumatera Selatan",
   "website": "https://www.unsri.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Siti Nurmaini",
+      "department": "Ilmu Komputer / Intelligent System Research Group",
+      "title": "Guru Besar",
+      "research_area": "Machine Learning, Deep Learning, Robotics, Control Systems",
+      "email": "siti_nurmaini@unsri.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?user=Amg5F0kAAAAJ&hl=en",
+      "website": "http://isysrg.com/",
+      "notes": "Source: journal corresponding-author listings (e.g. IJECE/IIETA papers) confirming siti_nurmaini@unsri.ac.id; Google Scholar profile shows verified email at unsri.ac.id. Professor, Faculty of Computer Science, Universitas Sriwijaya. Confidence: high."
+    },
+    {
+      "name": "Rossi Passarella",
+      "department": "Teknik Komputer, Fakultas Ilmu Komputer",
+      "title": "Lektor Kepala",
+      "research_area": "Transportation safety analytics, machine learning, marine/aviation accident classification",
+      "email": "passarella.rossi@unsri.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://unsri.ac.id/detail-cv-dosen/6bad6293-6fbb-4ae3-a92c-8830e6d28b91",
+      "notes": "Associate Professor / Wakil Dekan Bidang Umum dan Keuangan, Fakultas Ilmu Komputer Unsri. Source: corresponding-author email on IIETA/Silesian Univ. of Technology journal articles (passarella.rossi@unsri.ac.id), ORCID 0000-0002-7243-0451. Confidence: high."
+    },
+    {
+      "name": "Samsuryadi",
+      "department": "Informatika, Fakultas Ilmu Komputer",
+      "title": "Lektor Kepala",
+      "research_area": "Image processing, machine learning, pattern recognition",
+      "email": "samsuryadi@unsri.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?user=yCo8gMUAAAAJ&hl=en",
+      "website": null,
+      "notes": "Associate Professor, Dept. of Informatics Engineering, Universitas Sriwijaya. Source: corresponding-author email on IIETA/journal articles (samsuryadi@unsri.ac.id); Google Scholar verified email at unsri.ac.id. Confidence: high."
+    },
+    {
+      "name": "Idha Royani",
+      "department": "Fisika, Fakultas MIPA",
+      "title": "Dosen",
+      "research_area": "Materials physics, ion-imprinted polymers",
+      "email": "idharoyani@unsri.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?hl=en&user=6VkqjBsAAAAJ",
+      "website": "https://fisika.mipa.unsri.ac.id/?page_id=933",
+      "notes": "Dr., Physics Dept, Faculty of Mathematics and Natural Sciences, Universitas Sriwijaya. Source: Sriwijaya University Repository corresponding-author listing and departmental faculty page (idharoyani@unsri.ac.id). Confidence: high."
+    }
+  ]
 }

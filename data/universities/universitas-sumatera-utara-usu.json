@@ -5,5 +5,42 @@
   "city": "Medan",
   "province": "Sumatera Utara",
   "website": "https://www.usu.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Mazdalifah",
+      "department": "Ilmu Komunikasi, Fakultas Ilmu Sosial dan Ilmu Politik",
+      "title": "Guru Besar",
+      "research_area": "Digital communication, local content broadcasting, media ecology",
+      "email": "mazdalifah@usu.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://fisip.usu.ac.id/id/dosen/mazdalifah",
+      "notes": "Dra. Mazdalifah, M.Si., Ph.D., Professor, Faculty of Social and Political Sciences, Universitas Sumatera Utara. Source: official FISIP USU faculty profile page listing email mazdalifah@usu.ac.id, NIP and NIDN. Confidence: high."
+    },
+    {
+      "name": "Esther Sorta Mauli Nababan",
+      "department": "Matematika, Fakultas Matematika dan Ilmu Pengetahuan Alam (FMIPA)",
+      "title": "Guru Besar",
+      "research_area": "Optimization, mathematical modeling, operations research, dynamic systems",
+      "email": "esther@usu.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?user=6_ez1ZoAAAAJ&hl=en",
+      "website": "https://fmipa.usu.ac.id/id/dosen/esther-sorta-mauli-nababan",
+      "notes": "Prof. Dr. Esther Sorta Mauli Nababan, M.Sc., awarded professorship decree Oct 2025 (per usu.ac.id news). Source: official FMIPA USU faculty profile page listing email esther@usu.ac.id. Confidence: high."
+    },
+    {
+      "name": "Ridahati Rambey",
+      "department": "Kehutanan, Fakultas Kehutanan",
+      "title": "Dosen",
+      "research_area": "Forest resource conservation, ethnobotany, rare plant conservation",
+      "email": "ridahati.rambey@usu.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://fhut.usu.ac.id/id/dosen/ridahati-rambey",
+      "notes": "Dr. Ridahati Rambey, S.Hut., M.Si., Head of Laboratory, Faculty of Forestry, Universitas Sumatera Utara. Source: official FHUT USU faculty profile and corresponding-author email (ridahati.rambey@usu.ac.id) found via web search of USU journal publications. Confidence: high."
+    }
+  ]
 }

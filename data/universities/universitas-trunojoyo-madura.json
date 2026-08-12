@@ -4,6 +4,55 @@
   "type": "Universitas",
   "city": "Bangkalan",
   "province": "Jawa Timur",
-  "website": "https://trunojoyo.ac.id",
-  "professors": []
+  "website": "https://www.trunojoyo.ac.id",
+  "professors": [
+    {
+      "name": "Prof. Dr. Mohammad Nizarul Alim, S.E., M.Si., Ak., CA",
+      "department": "Jurusan Akuntansi, Fakultas Ekonomi dan Bisnis",
+      "title": "Guru Besar",
+      "research_area": "Metodologi Penelitian, Akuntansi Syariah, Keuangan Syariah",
+      "email": "nizarul@trunojoyo.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://akuntansi.trunojoyo.ac.id/dosen/nizarul/",
+      "notes": "Source: https://akuntansi.trunojoyo.ac.id/dosen/nizarul/ (individual lecturer profile page on Jurusan Akuntansi UTM site; email decoded from Cloudflare-obfuscated data-cfemail attribute in page HTML, confirmed as nizarul@trunojoyo.ac.id). Confidence: high."
+    },
+    {
+      "name": "Dr. Tarjo, S.E., M.Si., CPAI., CFE",
+      "department": "Jurusan Akuntansi, Fakultas Ekonomi dan Bisnis",
+      "title": "Lektor Kepala",
+      "research_area": "Fraud, Corporate Governance, Financial Accounting",
+      "email": "tarjo@trunojoyo.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://akuntansi.trunojoyo.ac.id/dosen/tarjo/",
+      "notes": "Source: https://akuntansi.trunojoyo.ac.id/dosen/tarjo/ (individual lecturer profile page; email decoded from Cloudflare-obfuscated data-cfemail attribute; page also lists an alternate personal address tarjo.trunojoyo@gmail.com). Confidence: high. Note: since promoted to Guru Besar per later news reports (2023), but profile page still shows Lektor Kepala rank at time of verification."
+    },
+    {
+      "name": "Emi Rahmawati, S.E., M.Si.",
+      "department": "Jurusan Akuntansi, Fakultas Ekonomi dan Bisnis",
+      "title": "Lektor",
+      "research_area": "Financial Accounting, Taxation",
+      "email": "emi.rahmawati@trunojoyo.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://akuntansi.trunojoyo.ac.id/dosen/emi/",
+      "notes": "Source: https://akuntansi.trunojoyo.ac.id/dosen/emi/ (individual lecturer profile page listing jabatan 'Penata Tingkat I / Lektor / III-D'; email decoded from Cloudflare-obfuscated data-cfemail attribute). Confidence: high."
+    },
+    {
+      "name": "Prof. Dr. Bambang Haryadi, S.E., M.Si., Ak., CA",
+      "department": "Jurusan Akuntansi, Fakultas Ekonomi dan Bisnis",
+      "title": "Guru Besar",
+      "research_area": "Akuntansi Keuangan",
+      "email": "bambang.haryadi@trunojoyo.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://akuntansi.trunojoyo.ac.id/dosen/haryadi/",
+      "notes": "Source: https://akuntansi.trunojoyo.ac.id/dosen/haryadi/ (individual lecturer profile page listing him as Prof. Dr.; email decoded from Cloudflare-obfuscated data-cfemail attribute). Also listed as 'Prof. Dr. Bambang Haryadi' in the department's public dosen directory. Confidence: high."
+    }
+  ]
 }

@@ -5,5 +5,42 @@
   "city": "Jakarta Barat",
   "province": "DKI Jakarta",
   "website": "https://untar.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Prof. Dr. Ir. Dyah Erny Herwindiati, M.Si.",
+      "department": "Fakultas Teknologi Informasi",
+      "title": "Dekan",
+      "research_area": "Statistika, Data Mining, Robust Statistics",
+      "email": "dyahh@fti.untar.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?user=9w1rY-AAAAAJ&hl=en",
+      "website": "https://untar.ac.id/en/leaders/deans/prof-dr-dyah-erny-herwindiati/",
+      "notes": "Dean, Faculty of Information Technology, UNTAR. Email confirmed via web search snippet and Google Scholar verified-email domain (fti.untar.ac.id). High confidence."
+    },
+    {
+      "name": "Viny Christanti Mawardi, S.Kom., M.Kom.",
+      "department": "Teknik Informatika, Fakultas Teknologi Informasi",
+      "title": "Ketua Jurusan/Prodi",
+      "research_area": "Information Retrieval, Natural Language Processing, Social Media Analytics",
+      "email": "viny@untar.ac.id",
+      "phone": null,
+      "linkedin": "https://id.linkedin.com/in/viny-christanti-mawardi-b5296052",
+      "google_scholar": "https://scholar.google.com/citations?user=hayqUI0AAAAJ&hl=en",
+      "website": "https://untar.ac.id/en/leaders/study-programs/viny-christanti/",
+      "notes": "Ketua Program Studi Teknik Informatika, UNTAR. Email found in a ResearchGate-indexed publication snippet; Google Scholar shows verified email at fti.untar.ac.id domain family. Medium-high confidence."
+    },
+    {
+      "name": "Nuryasman MN",
+      "department": "Manajemen, Fakultas Ekonomi dan Bisnis",
+      "title": "Lektor Kepala",
+      "research_area": "Management, Tourism, Sustainable Development",
+      "email": "nuryasman@fe.untar.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?hl=en&user=RPdvwZEAAAAJ",
+      "website": "https://www.ecojoin.org/index.php/EJM/about/contact",
+      "notes": "Principal contact for Jurnal Manajemen / Jurnal Akuntansi (Faculty of Economics and Business, UNTAR). Google Scholar shows verified email at fe.untar.ac.id. High confidence."
+    }
+  ]
 }

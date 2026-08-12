@@ -5,5 +5,30 @@
   "city": "Bandung",
   "province": "Jawa Barat",
   "website": "https://www.unpas.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Ayi Purbasari",
+      "department": "Teknik Informatika, Fakultas Teknik",
+      "title": "Ketua Jurusan/Prodi",
+      "research_area": "Software engineering, information systems, tourism technology / local SEO",
+      "email": "pbasari@unpas.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?user=TzjiopAAAAAJ&hl=en",
+      "website": "https://if.unpas.ac.id/dosen/113/",
+      "notes": "Dr. Ayi Purbasari, ST., MT., Head of Department, Informatics, Universitas Pasundan. Source: IF-UNPAS faculty profile and web search confirming corresponding-author email pbasari@unpas.ac.id. Confidence: high."
+    },
+    {
+      "name": "Rita Rijayanti",
+      "department": "Teknik Informatika, Fakultas Teknik",
+      "title": "Dosen",
+      "research_area": "Information systems, network security",
+      "email": "rita.rijayanti@unpas.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "http://if.unpas.ac.id/dosen/rita-rijayanti-st/",
+      "notes": "Rita Rijayanti, ST., MT., Informatics Dept, Faculty of Engineering, Universitas Pasundan. Source: IF-UNPAS faculty page and journal corresponding-author email rita.rijayanti@unpas.ac.id. Confidence: high."
+    }
+  ]
 }

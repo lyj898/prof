@@ -5,5 +5,18 @@
   "city": "Bandung",
   "province": "Jawa Barat",
   "website": "https://unnur.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Samsul Budiarto",
+      "department": "Teknik Informatika, Fakultas Ilmu Komputer dan Informatika (FIKI)",
+      "title": "Dosen",
+      "research_area": "Information systems, web-based application development (Laravel framework)",
+      "email": "samsulb@unnur.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": null,
+      "notes": "Corresponding author, Universitas Nurtanio Bandung, on 'Sistem Informasi Penerimaan Mahasiswa Baru Dengan Framework Laravel', Bulletin of Information Technology (BIT) Vol 3 No 2, 2022, and co-author on a 2024 stunting-education AR paper in the same journal. Source: journal.fkpt.org article metadata listing samsulb@unnur.ac.id as corresponding author. Confidence: high."
+    }
+  ]
 }
