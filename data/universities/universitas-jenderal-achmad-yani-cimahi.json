@@ -5,5 +5,54 @@
   "city": "Cimahi",
   "province": "Jawa Barat",
   "website": "https://www.unjani.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Prof. Dr. Heni Nurani Hartikayanti, SE., M.Si., Ak",
+      "department": "Informatika / Akuntansi",
+      "title": "Guru Besar",
+      "research_area": "Akuntansi",
+      "email": "heni.nurani@ak.unjani.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://if.unjani.ac.id/dosen",
+      "notes": "Email verified on official Informatika UNJANI faculty directory page (if.unjani.ac.id/dosen), accessed August 2026. High confidence."
+    },
+    {
+      "name": "Asep Id Hadiana, S.Si., M.Kom., Ph.D",
+      "department": "Informatika",
+      "title": "Ketua Jurusan/Prodi",
+      "research_area": null,
+      "email": "ahadiana@gmail.com",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://if.unjani.ac.id/dosen",
+      "notes": "Listed as Ketua Jurusan (Lektor) on official Informatika UNJANI faculty directory page (if.unjani.ac.id/dosen), accessed August 2026. High confidence."
+    },
+    {
+      "name": "Dr. Esmeralda Contessa Djamal, S.T., MT",
+      "department": "Informatika",
+      "title": "Lektor Kepala",
+      "research_area": null,
+      "email": "esmeraldacd@yahoo.com",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://if.unjani.ac.id/dosen",
+      "notes": "Email verified on official Informatika UNJANI faculty directory page (if.unjani.ac.id/dosen), accessed August 2026. High confidence."
+    },
+    {
+      "name": "Dr. Asep Najmurrokhman, S.T., M.T.",
+      "department": "Informatika",
+      "title": "Lektor Kepala",
+      "research_area": null,
+      "email": "asepnajmu@gmail.com",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://if.unjani.ac.id/dosen",
+      "notes": "Email verified on official Informatika UNJANI faculty directory page (if.unjani.ac.id/dosen), accessed August 2026. High confidence."
+    }
+  ]
 }

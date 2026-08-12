@@ -5,5 +5,54 @@
   "city": "Gresik",
   "province": "Jawa Timur",
   "website": "https://uisi.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Ahmad Dahlan Malik",
+      "department": "Ekonomi Syariah, Fakultas Ekonomi dan Bisnis",
+      "title": "Dosen",
+      "research_area": "Islamic Economics, Islamic Banking, Islamic Microfinance, MSME",
+      "email": "ahmad.malik@uisi.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.co.id/citations?user=b_jxl8oAAAAJ&hl=en",
+      "website": "https://journal.uisi.ac.id/ssi",
+      "notes": "Editor-in-chief of Sustainability and Social Impact journal (UISI). Email verified from journal editorial page (journal.uisi.ac.id/ssi) and corroborated by SINTA/Google Scholar. High confidence."
+    },
+    {
+      "name": "Prita Meilanitasari",
+      "department": "Teknik Logistik",
+      "title": "Dosen",
+      "research_area": "Supply Chain Analytics, Smart Logistics, Air Transportation, Inventory Planning",
+      "email": "prita.meilanitasari@uisi.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?user=PDtrFzgAAAAJ&hl=en",
+      "website": "https://tekniklogistik.uisi.ac.id/profil/dosen",
+      "notes": "Email verified via corresponding-author listing on published articles (Jurnal Teknik Industri, Petra) and program faculty page. Medium-high confidence."
+    },
+    {
+      "name": "Maulin Masyito Putri",
+      "department": "Teknik Logistik",
+      "title": "Dosen",
+      "research_area": "Container Port Operation, Transportation and Distribution Systems",
+      "email": "maulin.putri@uisi.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://tekniklogistik.uisi.ac.id/profil/dosen",
+      "notes": "Email verified via co-authored publication listing alongside Prita Meilanitasari and the program faculty page. Medium confidence."
+    },
+    {
+      "name": "Winda Narulidea",
+      "department": "Teknik Logistik",
+      "title": "Wakil Dekan",
+      "research_area": "Supply Chain Management, Supply Management, Inventory Planning",
+      "email": "winda.narulidea@uisi.ac.id",
+      "phone": null,
+      "linkedin": "https://www.linkedin.com/in/dr-winda-narulidea-1154a3b6/",
+      "google_scholar": "https://scholar.google.com/citations?hl=en&user=q5j-Z7IAAAAJ",
+      "website": "https://tekniklogistik.uisi.ac.id/profil/dosen",
+      "notes": "Currently Wakil Rektor II (Vice Rector for Facilities, Finance and HR) at UISI, formerly Teknik Logistik faculty. Email corroborated across multiple sources (ZoomInfo/RocketReach + program page). Medium-high confidence."
+    }
+  ]
 }

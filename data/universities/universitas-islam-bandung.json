@@ -5,5 +5,42 @@
   "city": "Bandung",
   "province": "Jawa Barat",
   "website": "https://www.unisba.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Yuktiana Kharisma",
+      "department": "Fakultas Kedokteran",
+      "title": "Dosen",
+      "research_area": "Patologi Anatomi, Farmakologi",
+      "email": "yuktiana@unisba.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com.my/citations?hl=en&user=7BL1L2MAAAAJ",
+      "website": "https://sipro.unisba.ac.id/dosen/D100532",
+      "notes": "Dr., M.Kes., Sp.PA. Email confirmed directly via web search of the exact address string, cross-referenced with SIPRO Unisba faculty CV system. High confidence."
+    },
+    {
+      "name": "Ani Yuningsih",
+      "department": "Ilmu Komunikasi, Fakultas Ilmu Komunikasi",
+      "title": "Ketua Jurusan/Prodi",
+      "research_area": "Communication Science, Public Relations",
+      "email": "ani.yuningsih@unisba.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://sinta.kemdiktisaintek.go.id/authors/profile/5998584",
+      "website": "https://sipro.unisba.ac.id/dosen/D900120",
+      "notes": "Dr., Dra., M.Si. Head of Communication Science study program. Email confirmed via direct search match plus SIPRO/SINTA profile corroboration. High confidence."
+    },
+    {
+      "name": "Irland Fardani",
+      "department": "Teknik Perencanaan Wilayah dan Kota (Planologi), Fakultas Teknik",
+      "title": "Dosen",
+      "research_area": "GIS, Remote Sensing, Spatial Planning",
+      "email": "irland.fardani@unisba.ac.id",
+      "phone": null,
+      "linkedin": "https://www.linkedin.com/in/irland-fardani-34967568/",
+      "google_scholar": null,
+      "website": "https://planologi.unisba.ac.id/dosen/",
+      "notes": "S.Si., M.T. Email confirmed as editorial contact for Jurnal Perencanaan Wilayah dan Kota, corroborated by direct search. High confidence."
+    }
+  ]
 }

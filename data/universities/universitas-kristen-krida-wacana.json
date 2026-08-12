@@ -5,5 +5,30 @@
   "city": "Jakarta Barat",
   "province": "DKI Jakarta",
   "website": "https://www.ukrida.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Hery Winoto Tj",
+      "department": "Manajemen, Fakultas Ekonomi dan Bisnis",
+      "title": "Lektor Kepala",
+      "research_area": "Human Resource Management, Audit, Service Quality",
+      "email": "hery.winoto@ukrida.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.co.id/citations?amp=&hl=en&user=ocALC-4AAAAJ",
+      "website": "https://ukrida.academia.edu/HeryWinotoTj",
+      "notes": "Listed as Assoc. Prof. Dr. Hery Winoto Tj., S.E., M.M., CPHR (Jurnal Manajemen Maranatha editorial profile) and confirmed as corresponding author with this email in Jurnal Manajemen Indonesia article (https://journals.telkomuniversity.ac.id/ijm/article/download/3520/1492). High confidence."
+    },
+    {
+      "name": "Esther Sri Majawati",
+      "department": "Parasitologi, Fakultas Kedokteran dan Ilmu Kesehatan",
+      "title": "Dosen",
+      "research_area": "Parasitology, Biomedicine, Tropical Medicine",
+      "email": "esther.majawati@ukrida.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?hl=en&user=eATFen8AAAAJ",
+      "website": "https://ejournal.ukrida.ac.id/index.php/Meditek",
+      "notes": "Lecturer, Department of Parasitology, Faculty of Medicine and Health Sciences UKRIDA. Email verified via publication records in Jurnal Kedokteran Meditek (https://ejournal.ukrida.ac.id/index.php/Meditek) and Google Scholar verified-email domain match. High confidence."
+    }
+  ]
 }

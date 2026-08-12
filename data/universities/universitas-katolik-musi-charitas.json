@@ -5,5 +5,18 @@
   "city": "Palembang",
   "province": "Sumatera Selatan",
   "website": "https://www.ukmc.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Fransiska Soejono, S.E., M.Sc.",
+      "department": "Manajemen, Fakultas Bisnis dan Akuntansi",
+      "title": "Dosen",
+      "research_area": "Financial Management, Corporate Governance, Financial Literacy",
+      "email": "fransiska@ukmc.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?hl=id&user=56UUf4kAAAAJ",
+      "website": "https://ukmc.academia.edu/FransiskaSoejono",
+      "notes": "Email verified from published article byline in Jurnal Dinamika Manajemen, Vol. 8 No. 2, 2017 (jdm.unnes.ac.id), listing her as Faculty of Business and Accounting, Musi Charitas Catholic University with E-mail: fransiska@ukmc.ac.id. Corroborated by Academia.edu and Google Scholar profiles. Medium-high confidence (exact current academic rank/title not confirmed)."
+    }
+  ]
 }

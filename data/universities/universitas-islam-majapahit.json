@@ -5,5 +5,18 @@
   "city": "Mojokerto",
   "province": "Jawa Timur",
   "website": "https://unim.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Imaduddin Bahtiar Efendi",
+      "department": "Teknik Industri, Fakultas Teknik",
+      "title": "Dosen",
+      "research_area": "Ergonomics, Work Systems Engineering, Occupational Safety, Industrial Psychology",
+      "email": "imaduddin@unim.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?hl=en&user=zjLKLA8AAAAJ",
+      "website": "https://ejurnal.unim.ac.id/index.php/produktiva/",
+      "notes": "Email verified as corresponding author on multiple Jurnal Produktiva (UNIM Industrial Engineering journal) articles; corroborated by direct web search. High confidence."
+    }
+  ]
 }

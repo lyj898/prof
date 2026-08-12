@@ -5,5 +5,42 @@
   "city": "Medan",
   "province": "Sumatera Utara",
   "website": "https://uhn.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Monalisa Marta Siahaan",
+      "department": "Pendidikan Pancasila dan Kewarganegaraan, Fakultas Keguruan dan Ilmu Pendidikan",
+      "title": "Dosen",
+      "research_area": "Pendidikan Kewarganegaraan",
+      "email": "monalisa.siahaan@uhn.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://sinta.kemdiktisaintek.go.id/authors/profile/6766645",
+      "notes": "Dosen FKIP, Universitas HKBP Nommensen Medan. Marked as corresponding author (*) with this exact email printed on her article in Indonesia Berdaya journal (ukinstitute.org/journals/ib/article/download/225/pdf). High confidence."
+    },
+    {
+      "name": "Kammer Sipayung",
+      "department": "Pendidikan Bahasa Inggris, Fakultas Keguruan dan Ilmu Pendidikan",
+      "title": "Dosen",
+      "research_area": "English Language Teaching, Applied Linguistics",
+      "email": "kammer.sipayung@uhn.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://ejournal.uhn.ac.id/index.php/explora",
+      "notes": "Dosen FKIP, Universitas HKBP Nommensen Medan. Email printed as author address in The Explora journal (ejournal.uhn.ac.id/index.php/explora/article/download/2478/1089/8810). High confidence."
+    },
+    {
+      "name": "Sahlan Tampubolon",
+      "department": "Pendidikan Bahasa Inggris, Fakultas Keguruan dan Ilmu Pendidikan",
+      "title": "Dosen",
+      "research_area": "English Language Teaching, Applied Linguistics",
+      "email": "sahlantampubolon@gmail.com",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?user=yxkBVFgAAAAJ&hl=en",
+      "website": "https://ejournal.uhn.ac.id/index.php/explora",
+      "notes": "Dosen FKIP, Universitas HKBP Nommensen Medan. Email printed as author address in The Explora journal (ejournal.uhn.ac.id/index.php/explora/article/download/2478/1089/8810). High confidence."
+    }
+  ]
 }

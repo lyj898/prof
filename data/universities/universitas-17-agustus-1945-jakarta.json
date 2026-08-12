@@ -5,5 +5,42 @@
   "city": "Jakarta Utara",
   "province": "DKI Jakarta",
   "website": "https://www.uta45jakarta.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "J. Rajes Khana",
+      "department": "Teknik Informatika, Fakultas Teknik & Informatika",
+      "title": "Lektor",
+      "research_area": "Information Security, Information Ethics, Computer Ethics",
+      "email": "rajes.khana@uta45jakarta.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?user=km8P_DYAAAAJ",
+      "website": "https://teknik.uta45jakarta.ac.id/profil-dosen/",
+      "notes": "Wakil Rektor I UTA'45 Jakarta. Email verified via official RAMA/Kemdiktisaintek data-integration statement letter (rama.kemdiktisaintek.go.id/assets/pernyataan/loc-Universitas_17_Agustus_1945_Jakarta_-_23-08-20191.pdf) which lists his name, position, and this exact email. High confidence."
+    },
+    {
+      "name": "Manlian Ronald A. Simanjuntak",
+      "department": "Teknik Sipil, Fakultas Teknik",
+      "title": "Guru Besar",
+      "research_area": "Manajemen Konstruksi (Construction Project Management)",
+      "email": "manlian.adventus@gmail.com",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://journal.uta45jakarta.ac.id/index.php/jkts/article/view/7177",
+      "notes": "Professor of Civil Engineering, UTA'45 Jakarta. Email verified as corresponding-author address printed on two articles in Jurnal Kajian Teknik Sipil (journal.uta45jakarta.ac.id/index.php/jkts/article/download/7177/2693 and /7248/2689). High confidence."
+    },
+    {
+      "name": "Sri Endah Susilowati",
+      "department": "Teknik Mesin, Fakultas Teknik / LPPM",
+      "title": "Lektor Kepala",
+      "research_area": "Material Teknik, Teknik Mesin",
+      "email": "sri.endah@uta45jakarta.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?user=Y6-ylpIAAAAJ",
+      "website": "https://www.uta45jakarta.ac.id/organizational-structure-lppm/",
+      "notes": "Kepala/Pjs. Kepala LPPM UTA'45 Jakarta. Email verified on official university LPPM organizational structure pages (uta45jakarta.ac.id/organizational-structure-lppm/ and /struktur-organisasi-3/), which list her by name and NIDN alongside this address. High confidence."
+    }
+  ]
 }

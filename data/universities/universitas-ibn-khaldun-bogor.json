@@ -5,5 +5,30 @@
   "city": "Bogor",
   "province": "Jawa Barat",
   "website": "https://uika-bogor.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Ritzkal",
+      "department": "Teknik Informatika, Fakultas Teknik dan Sains",
+      "title": "Lektor Kepala",
+      "research_area": "Net Computing, Artificial Intelligence, Computer Vision, Data Mining, Machine Learning",
+      "email": "ritzkal@ft.uika-bogor.ac.id",
+      "phone": "0878-7739-0007",
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?user=Ag9F9pMAAAAJ&hl=en",
+      "website": "https://ejournal.uika-bogor.ac.id/index.php/INOVA-TIF/about/contact",
+      "notes": "Dosen Teknik Informatika, Fakultas Teknik dan Sains, UIKA Bogor; holds a doctorate. Email verified as this journal's Principal Contact page and as the listed Corresponding Author email on an IIETA journal article (iieta.org/journals/mmep/paper/10.18280/mmep.111121). High confidence."
+    },
+    {
+      "name": "Puspa Eosina",
+      "department": "Teknik Informatika, Fakultas Teknik dan Sains",
+      "title": "Lektor Kepala",
+      "research_area": "Computer Science, Information Systems",
+      "email": "puspa.eosina@uika-bogor.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?user=cmVQa3YAAAAJ&hl=en",
+      "website": "https://fts.uika-bogor.ac.id/",
+      "notes": "Dr., Dosen Teknik Informatika, Fakultas Teknik dan Sains, UIKA Bogor. Email verified via MECS Press author page (mecs-press.org/authors/101833.html) and as corresponding-author email ('E-mail koresponden') on a UIKA journal article (ejournal.uika-bogor.ac.id/index.php/krea-tif/article/download/10592/4591/72226). High confidence."
+    }
+  ]
 }

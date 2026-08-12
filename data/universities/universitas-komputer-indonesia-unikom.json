@@ -5,5 +5,54 @@
   "city": "Bandung",
   "province": "Jawa Barat",
   "website": "https://www.unikom.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Eddy Soeryanto Soegoto",
+      "department": "Manajemen / Rektorat",
+      "title": "Guru Besar",
+      "research_area": "Entrepreneurship Management",
+      "email": "eddysoeyantos@unikom.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.co.id/citations?user=bfPvahkAAAAJ&hl=en",
+      "website": "https://kuliahonline.unikom.ac.id/?detail/&dosen=330",
+      "notes": "Rector and founder of UNIKOM; confirmed Guru Besar (Professor) in Entrepreneurship Management, inaugurated Dec 2019. Email verified via official UNIKOM Kuliah Online lecturer profile (https://kuliahonline.unikom.ac.id/?detail/&dosen=330). High confidence."
+    },
+    {
+      "name": "Dewi Kurniasih",
+      "department": "Ilmu Pemerintahan, Fakultas Ilmu Sosial dan Ilmu Politik",
+      "title": "Guru Besar",
+      "research_area": "Public policy, e-government, bureaucratic reform",
+      "email": "dewi.kurniasih@email.unikom.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?user=ZIiqfjEAAAAJ",
+      "website": "https://simlitabmas.unikom.ac.id/dosen/dewi-kurniasih",
+      "notes": "Dean of Faculty of Social and Political Sciences; listed as Prof. Dr. Hj. Dewi Kurniasih, S.IP., M.Si. Email verified via UNIKOM Simlitabmas faculty research profile (https://simlitabmas.unikom.ac.id/dosen/dewi-kurniasih). High confidence."
+    },
+    {
+      "name": "Manap Solihat",
+      "department": "Ilmu Komunikasi, Fakultas Ilmu Sosial dan Ilmu Politik",
+      "title": "Lektor Kepala",
+      "research_area": "Communication studies, organizational culture, intercultural communication",
+      "email": "manap.solihat@email.unikom.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?hl=id&user=qWvAoiIAAAAJ",
+      "website": "https://simlitabmas.unikom.ac.id/dosen/manap-solihat",
+      "notes": "Head of Communication Science Department (Assoc. Prof., Dr. Manap Solihat, Drs., M.Si.). Email verified via UNIKOM Simlitabmas faculty research profile (https://simlitabmas.unikom.ac.id/dosen/manap-solihat). High confidence."
+    },
+    {
+      "name": "Olih Solihin",
+      "department": "Ilmu Komunikasi, Fakultas Ilmu Sosial dan Ilmu Politik",
+      "title": "Dosen",
+      "research_area": "Communication science",
+      "email": "olih.solihin@email.unikom.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://simlitabmas.unikom.ac.id/dosen/olih-solihin",
+      "notes": "Secretary of Communication Science Department (Dr. Olih Solihin, S.Sos., M.I.Kom). Email verified via UNIKOM Simlitabmas faculty research profile (https://simlitabmas.unikom.ac.id/dosen/olih-solihin). High confidence."
+    }
+  ]
 }

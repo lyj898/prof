@@ -5,5 +5,54 @@
   "city": "Cimahi",
   "province": "Jawa Barat",
   "website": "https://www.unjani.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Dr. Eri Radityawara Hidayat., MBA., MHRMC",
+      "department": "Psikologi",
+      "title": "Dekan",
+      "research_area": null,
+      "email": "eri.hidayat@lecturer.unjani.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://fpsi.unjani.ac.id/en/lecturer/",
+      "notes": "Dean of Faculty of Psychology, UNJANI. Email verified on official Fakultas Psikologi UNJANI lecturer directory page (fpsi.unjani.ac.id/en/lecturer/), accessed August 2026. High confidence."
+    },
+    {
+      "name": "Litra Amanda Metra, S.Psi., M.Psi.",
+      "department": "Psikologi",
+      "title": "Wakil Dekan",
+      "research_area": null,
+      "email": "litra.amanda@lecture.unjani.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://fpsi.unjani.ac.id/en/lecturer/",
+      "notes": "Vice Dean I, Faculty of Psychology, UNJANI. Email verified on official lecturer directory page (fpsi.unjani.ac.id/en/lecturer/), accessed August 2026. High confidence."
+    },
+    {
+      "name": "Dr. Arief Budiarto, DESS.",
+      "department": "Psikologi",
+      "title": "Dosen",
+      "research_area": null,
+      "email": "arief.budiarto@lecture.unjani.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://fpsi.unjani.ac.id/en/lecturer/",
+      "notes": "Email verified on official Fakultas Psikologi UNJANI lecturer directory page (fpsi.unjani.ac.id/en/lecturer/), accessed August 2026. High confidence."
+    },
+    {
+      "name": "Dr. Vera Angliani Juwita, S.Psi., M.Psi.",
+      "department": "Psikologi",
+      "title": "Dosen",
+      "research_area": null,
+      "email": "vera.angliani@lecture.unjani.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://fpsi.unjani.ac.id/en/lecturer/",
+      "notes": "Email verified on official Fakultas Psikologi UNJANI lecturer directory page (fpsi.unjani.ac.id/en/lecturer/), accessed August 2026. High confidence."
+    }
+  ]
 }

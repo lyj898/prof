@@ -5,5 +5,30 @@
   "city": "Makassar",
   "province": "Sulawesi Selatan",
   "website": "https://uit.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "A. Atrianingsi",
+      "department": "Ilmu Pemerintahan, Fakultas Ilmu Sosial dan Ilmu Politik",
+      "title": "Dosen",
+      "research_area": "Komunikasi, Public Trust, E-Government",
+      "email": "atrianingsi_090510606@uit.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?user=Q9MXAeMAAAAJ&hl=en",
+      "website": null,
+      "notes": "Dosen Ilmu Pemerintahan, FISIP, Universitas Indonesia Timur Makassar. Email verified as listed author address on article in Publik (Jurnal Ilmu Administrasi) (pdfs.semanticscholar.org/1c99/12b7e6679449e2b7ccdba25ca0d3ff369608.pdf). High confidence."
+    },
+    {
+      "name": "Sitti Mirsa Sirajuddin",
+      "department": "Ilmu Pemerintahan, Fakultas Ilmu Sosial dan Ilmu Politik",
+      "title": "Dosen",
+      "research_area": "Administrasi Publik, E-Government",
+      "email": "sitti.mirsa@uit.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": null,
+      "notes": "Dosen Ilmu Pemerintahan, FISIP, Universitas Indonesia Timur Makassar. Email verified as listed author address on article in Publik (Jurnal Ilmu Administrasi) (pdfs.semanticscholar.org/1c99/12b7e6679449e2b7ccdba25ca0d3ff369608.pdf). High confidence."
+    }
+  ]
 }

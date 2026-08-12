@@ -5,5 +5,30 @@
   "city": "Sleman",
   "province": "DI Yogyakarta",
   "website": "https://unjaya.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Adri Priadana, S.Kom., M.Cs., Ph.D.",
+      "department": "Informatika",
+      "title": "Dosen",
+      "research_area": "Data Mining, Image Processing, Computer Vision, Social Media Analysis, Digital Forensics",
+      "email": "adripriadana3202@gmail.com",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.co.id/citations?user=6yVNHAkAAAAJ&hl=id",
+      "website": "https://if.unjaya.ac.id/adri-priadana/",
+      "notes": "Email verified on official Program Studi Informatika UNJAYA faculty profile page (if.unjaya.ac.id/adri-priadana/), accessed August 2026. High confidence."
+    },
+    {
+      "name": "Puji Winar Cahyo, S.Kom., M.Cs.",
+      "department": "Informatika",
+      "title": "Dosen",
+      "research_area": "Data Mining, Clustering, Social Media Analytics, NLP",
+      "email": "pwcahyo@gmail.com",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?hl=en&user=d9dCyAsAAAAJ",
+      "website": "https://if.unjaya.ac.id/puji-winar-cahyo-s-kom-m-cs/",
+      "notes": "Email verified on official Program Studi Informatika UNJAYA faculty profile page (if.unjaya.ac.id/puji-winar-cahyo-s-kom-m-cs/), accessed August 2026. High confidence."
+    }
+  ]
 }

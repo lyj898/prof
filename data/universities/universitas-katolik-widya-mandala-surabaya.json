@@ -5,5 +5,66 @@
   "city": "Surabaya",
   "province": "Jawa Timur",
   "website": "https://ukwms.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Teman Koesmono",
+      "department": "Manajemen, Fakultas Bisnis",
+      "title": "Guru Besar",
+      "research_area": "Human Resource Management and Leadership",
+      "email": "teman@ukwms.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://bisnis.ukwms.ac.id/en/dosen-staf/",
+      "notes": "Source: https://bisnis.ukwms.ac.id/en/dosen-staf/ (Faculty of Business staff directory listing name, title Prof. Dr., Drs.Ec., MM., and email). High confidence."
+    },
+    {
+      "name": "Christina Esti Susanti",
+      "department": "Manajemen, Fakultas Bisnis",
+      "title": "Dosen",
+      "research_area": "Marketing Management and Consumer Behavior",
+      "email": "esti@ukwms.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://bisnis.ukwms.ac.id/en/dosen-staf/",
+      "notes": "Source: https://bisnis.ukwms.ac.id/en/dosen-staf/ (Faculty of Business staff directory, listed as Dr., S.E., M.M., CPM(AP)). High confidence."
+    },
+    {
+      "name": "Fenika Wulani",
+      "department": "Manajemen, Fakultas Bisnis",
+      "title": "Dosen",
+      "research_area": "Human Resource Management and Leadership",
+      "email": "fenika@ukwms.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://bisnis.ukwms.ac.id/en/dosen-staf/",
+      "notes": "Source: https://bisnis.ukwms.ac.id/en/dosen-staf/ (Faculty of Business staff directory, listed as Dr., SE., M.Si.). High confidence."
+    },
+    {
+      "name": "Hendra Wijaya",
+      "department": "Akuntansi, Fakultas Bisnis",
+      "title": "Dosen",
+      "research_area": "Information Systems and Financial Accounting",
+      "email": "hendrawijaya@ukwms.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://bisnis.ukwms.ac.id/en/dosen-staf/",
+      "notes": "Source: https://bisnis.ukwms.ac.id/en/dosen-staf/ (Faculty of Business staff directory, listed as Dr., S.Akt., M.M., CPMA., CFP., QWP.). High confidence."
+    },
+    {
+      "name": "Tuty Lindawati",
+      "department": "Manajemen, Fakultas Bisnis",
+      "title": "Dosen",
+      "research_area": "Human Resource Management",
+      "email": "tuty@ukwms.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://bisnis.ukwms.ac.id/en/dosen-staf/",
+      "notes": "Source: https://bisnis.ukwms.ac.id/en/dosen-staf/ (Faculty of Business staff directory, listed as Dr., S.E., M.M.). High confidence."
+    }
+  ]
 }

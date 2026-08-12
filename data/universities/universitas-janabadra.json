@@ -5,5 +5,18 @@
   "city": "Yogyakarta",
   "province": "DI Yogyakarta",
   "website": "https://janabadra.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Mohamad Najmudin",
+      "department": "Manajemen, Fakultas Ekonomi dan Bisnis",
+      "title": "Dosen",
+      "research_area": "Marketing Management, Consumer Behavior, Marketing Strategy, Tourism Services",
+      "email": "najmudin@janabadra.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://janabadra.ac.id/struktur-pimpinan/mohamad-najmudin/",
+      "notes": "Dr., SE., MM (CMA, CPMM). Permanent lecturer in Management since 1991, currently in Master of Management program. Email verified as corresponding author on 2026 Services Marketing Quarterly and Journal of Economics Research and Social Sciences articles. High confidence."
+    }
+  ]
 }

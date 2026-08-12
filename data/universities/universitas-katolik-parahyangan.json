@@ -5,5 +5,66 @@
   "city": "Bandung",
   "province": "Jawa Barat",
   "website": "https://unpar.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Prof. Tri Basuki Joewono, Ph.D.",
+      "department": "Teknik Sipil",
+      "title": "Guru Besar",
+      "research_area": "Public Transport, Transport Behaviour, Transport Modelling, Road Safety",
+      "email": "vftribas@unpar.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.co.id/citations?hl=id&user=u4DANrkAAAAJ",
+      "website": "https://sipil.unpar.ac.id/tenaga-pengajar/tri-basuki-joewono/",
+      "notes": "Also serves as Rektor UNPAR (2023-2027). Email verified on official Teknik Sipil faculty profile page (sipil.unpar.ac.id/tenaga-pengajar/tri-basuki-joewono/), accessed August 2026. High confidence."
+    },
+    {
+      "name": "Prof. Bagus Made Arthaya",
+      "department": "Teknik Mekatronika",
+      "title": "Guru Besar",
+      "research_area": "Product Design, CAD/CAM, Robotics and Automation",
+      "email": "bagusart@unpar.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://mekatronika.unpar.ac.id/dosen/bagus-made-arthaya/",
+      "notes": "Head of Center for Control, Automation and Systems Engineering (CeCASE). Email verified on official Teknik Mekatronika faculty profile page (mekatronika.unpar.ac.id/dosen/bagus-made-arthaya/), accessed August 2026. High confidence."
+    },
+    {
+      "name": "Prof. Sukawarsini Djelantik, Dra., M.I.S., Ph.D.",
+      "department": "Hubungan Internasional",
+      "title": "Guru Besar",
+      "research_area": "International Relations",
+      "email": "sukedj@unpar.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://fisip.unpar.ac.id/email-dosen/",
+      "notes": "Email verified on official FISIP UNPAR faculty email directory page (fisip.unpar.ac.id/email-dosen/), accessed August 2026. High confidence."
+    },
+    {
+      "name": "Dr. Agus Gunawan, S.Sos., B.App.Com., MBA., M.Phil.",
+      "department": "Administrasi Bisnis",
+      "title": "Lektor Kepala",
+      "research_area": null,
+      "email": "agus_gun@unpar.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://fisip.unpar.ac.id/email-dosen/",
+      "notes": "Email verified on official FISIP UNPAR faculty email directory page (fisip.unpar.ac.id/email-dosen/), accessed August 2026. High confidence."
+    },
+    {
+      "name": "Dr. Ulber Silalahi, Drs., M.A.",
+      "department": "Administrasi Publik",
+      "title": "Lektor Kepala",
+      "research_area": null,
+      "email": "lalahi@unpar.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://fisip.unpar.ac.id/email-dosen/",
+      "notes": "Email verified on official FISIP UNPAR faculty email directory page (fisip.unpar.ac.id/email-dosen/), accessed August 2026. High confidence."
+    }
+  ]
 }

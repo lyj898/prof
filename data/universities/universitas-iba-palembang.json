@@ -5,5 +5,54 @@
   "city": "Palembang",
   "province": "Sumatera Selatan",
   "website": "https://www.iba.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Titin Vegirawati",
+      "department": "Akuntansi, Fakultas Ekonomi",
+      "title": "Dosen",
+      "research_area": "Akuntansi Syariah, Perpajakan",
+      "email": "titinvegirawati@gmail.com",
+      "phone": null,
+      "linkedin": "https://id.linkedin.com/in/titin-vegirawati-440ab99a",
+      "google_scholar": "https://scholar.google.co.id/citations?user=m8h46d4AAAAJ&hl=id",
+      "website": "https://sinta.kemdiktisaintek.go.id/authors/profile/6780379",
+      "notes": "Dosen Akuntansi and journal reviewer at Universitas IBA. Email verified as listed author address in JEMASI journal (ejournal.iba.ac.id/index.php/jemasi/article/download/726/250). High confidence."
+    },
+    {
+      "name": "Endang Kusdiah Ningsih",
+      "department": "Akuntansi/Manajemen, Fakultas Ekonomi",
+      "title": "Dosen",
+      "research_area": "Perpajakan",
+      "email": "endanghasan62@gmail.com",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://ejournal.iba.ac.id/index.php/jemasi/article/view/726",
+      "notes": "Dosen, Universitas IBA Palembang. Email verified as listed author address in JEMASI journal (ejournal.iba.ac.id/index.php/jemasi/article/download/726/250). High confidence."
+    },
+    {
+      "name": "Pandriadi",
+      "department": "Manajemen, Fakultas Ekonomi",
+      "title": "Dosen",
+      "research_area": "Manajemen Sumber Daya Manusia",
+      "email": "pandriadi_msi@yahoo.com",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://ejournal.iba.ac.id/index.php/jemasi/article/view/600",
+      "notes": "Dosen, Universitas IBA Palembang. Email verified as listed author address in JEMASI journal (ejournal.iba.ac.id/index.php/jemasi/article/download/600/192). High confidence."
+    },
+    {
+      "name": "Ikraam",
+      "department": "Ekonomi, Fakultas Ekonomi",
+      "title": "Dosen",
+      "research_area": "Ekonomi, Daya Saing Tenaga Kerja",
+      "email": "ikramekon@gmail.com",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://ejournal.iba.ac.id/index.php/jemasi/article/view/600",
+      "notes": "Dosen, Universitas IBA Palembang. Email verified as listed author address in JEMASI journal (ejournal.iba.ac.id/index.php/jemasi/article/download/600/192). High confidence."
+    }
+  ]
 }

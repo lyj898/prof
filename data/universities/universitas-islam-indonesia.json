@@ -5,5 +5,54 @@
   "city": "Sleman",
   "province": "DI Yogyakarta",
   "website": "https://www.uii.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Fathul Wahid",
+      "department": "Informatika, Fakultas Teknologi Industri",
+      "title": "Guru Besar",
+      "research_area": "eGovernment, eParticipation, ICT4D, Enterprise Systems",
+      "email": "fathul.wahid@uii.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?user=6FWua6EAAAAJ&hl=en",
+      "website": "https://informatics.uii.ac.id/profil/dosen_if/fathul-wahid/",
+      "notes": "Professor of Information Systems; former Rector of UII. Email verified directly from official department profile page. High confidence."
+    },
+    {
+      "name": "Sri Kusumadewi",
+      "department": "Informatika, Fakultas Teknologi Industri",
+      "title": "Guru Besar",
+      "research_area": "Medical Informatics, Clinical Decision Support Systems",
+      "email": "sri.kusumadewi@uii.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://informatics.uii.ac.id/profil/dosen_if/sri-kusumadewi/",
+      "notes": "Professor in Clinical Decision Support Systems; Dean-elect of Fakultas Teknologi Industri (2026-2030). Email verified directly from official department profile page. High confidence."
+    },
+    {
+      "name": "Ahmad Luthfi",
+      "department": "Informatika, Fakultas Teknologi Industri",
+      "title": "Asisten Ahli",
+      "research_area": "Digital Forensics, Computer Security, Open Government Data, e-Government",
+      "email": "ahmad.luthfi@uii.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://informatics.uii.ac.id/profil/dosen_if/ahmad-luthfi/",
+      "notes": "Ph.D. from TU Delft (2021). Email verified directly from official department profile page. High confidence."
+    },
+    {
+      "name": "Ahmad Fathan Hidayatullah",
+      "department": "Informatika, Fakultas Teknologi Industri",
+      "title": "Asisten Ahli",
+      "research_area": "Text Mining, Natural Language Processing, Data Science, Artificial Intelligence",
+      "email": "fathan@uii.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.co.id/citations?hl=en&user=24pU2eQAAAAJ",
+      "website": "https://informatics.uii.ac.id/profil/dosen_if/ahmad-fathan-hidayatullah/",
+      "notes": "Assistant Professor per ResearchGate/ORCID. Email verified via web search and department profile. High confidence."
+    }
+  ]
 }

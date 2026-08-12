@@ -5,5 +5,30 @@
   "city": "Medan",
   "province": "Sumatera Utara",
   "website": "https://www.uisu.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Saiful Anwar Matondang",
+      "department": "Fakultas Keguruan dan Ilmu Pendidikan (FKIP) / Fakultas Sastra",
+      "title": "Guru Besar",
+      "research_area": "English Literature, Anthropology, Southeast Asia Political Stability",
+      "email": "saiful.matondang@fkip.uisu.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.co.id/citations?user=upr0amcAAAAJ&hl=en",
+      "website": "https://fkip.uisu.ac.id/member/saiful-anwar-matondang/",
+      "notes": "Appointed Guru Besar (Professor) March 2022; later Head of LLDikti Region I. Email verified via direct web search of exact address string. High confidence."
+    },
+    {
+      "name": "Purwarno",
+      "department": "Fakultas Sastra",
+      "title": "Dosen",
+      "research_area": "English Literature, Novels, Drama, Poetry, Literary Criticism",
+      "email": "purwarno@sastra.uisu.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?hl=en&user=CqYvyzoAAAAJ",
+      "website": "https://jurnal.uisu.ac.id/index.php/languageliteracy/about/contact",
+      "notes": "S.S., M.A. Editor-in-Chief of Language Literacy journal, former Dean of Fakultas Sastra. Email verified directly from journal contact page. High confidence."
+    }
+  ]
 }

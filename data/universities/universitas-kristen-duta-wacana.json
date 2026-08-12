@@ -5,5 +5,66 @@
   "city": "Yogyakarta",
   "province": "DI Yogyakarta",
   "website": "https://www.ukdw.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Budi Susanto",
+      "department": "Informatika, Fakultas Teknologi Informasi",
+      "title": "Lektor Kepala",
+      "research_area": "Semantic Web, Database Systems, Software Engineering",
+      "email": "budsus@ti.ukdw.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://vlabti.ukdw.ac.id/tialfa/lecturers",
+      "notes": "Source: https://vlabti.ukdw.ac.id/tialfa/lecturers (Fakultas Teknologi Informasi UKDW lecturer directory listing title Lektor Kepala and email). High confidence."
+    },
+    {
+      "name": "Rosa Delima",
+      "department": "Informatika, Fakultas Teknologi Informasi",
+      "title": "Lektor Kepala",
+      "research_area": "Artificial Intelligence, Mathematical Logic, Database Systems",
+      "email": "rosadelima@ti.ukdw.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://vlabti.ukdw.ac.id/tialfa/lecturers",
+      "notes": "Source: https://vlabti.ukdw.ac.id/tialfa/lecturers (Fakultas Teknologi Informasi UKDW lecturer directory listing title Lektor Kepala and email). High confidence."
+    },
+    {
+      "name": "Gunawan Santosa",
+      "department": "Informatika, Fakultas Teknologi Informasi",
+      "title": "Lektor Kepala",
+      "research_area": "Graph Algorithms, Engineering Mathematics, Operations Research, Statistics",
+      "email": "gunawan@ti.ukdw.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://vlabti.ukdw.ac.id/tialfa/lecturers",
+      "notes": "Source: https://vlabti.ukdw.ac.id/tialfa/lecturers (Fakultas Teknologi Informasi UKDW lecturer directory listing title Lektor Kepala and email, Drs. Gunawan Santosa, M.Si). High confidence."
+    },
+    {
+      "name": "Joko Purwadi",
+      "department": "Informatika, Fakultas Teknologi Informasi",
+      "title": "Lektor",
+      "research_area": "WAN Technology, Artificial Intelligence",
+      "email": "jpurwadi@ti.ukdw.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://vlabti.ukdw.ac.id/tialfa/lecturers",
+      "notes": "Source: https://vlabti.ukdw.ac.id/tialfa/lecturers (Fakultas Teknologi Informasi UKDW lecturer directory listing title Lektor and email, Joko Purwadi, M.Kom). High confidence."
+    },
+    {
+      "name": "Gloria Virginia",
+      "department": "Informatika, Fakultas Teknologi Informasi",
+      "title": "Dosen",
+      "research_area": "Artificial Intelligence",
+      "email": "virginia@ti.ukdw.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://vlabti.ukdw.ac.id/tialfa/lecturers",
+      "notes": "Source: https://vlabti.ukdw.ac.id/tialfa/lecturers (Fakultas Teknologi Informasi UKDW lecturer directory, listed as Gloria Virginia, S.Kom., MAI., Ph.D). High confidence."
+    }
+  ]
 }

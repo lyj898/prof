@@ -5,5 +5,42 @@
   "city": "Baleendah",
   "province": "Jawa Barat",
   "website": "https://www.unibba.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Husaeri Priatna",
+      "department": "Akuntansi, Fakultas Ekonomi",
+      "title": "Dekan",
+      "research_area": "Akuntansi Keuangan",
+      "email": "heriecikall@gmail.com",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?hl=en&user=N7HWqhUAAAAJ",
+      "website": "https://fe.unibba.ac.id/pimpinan/",
+      "notes": "Dekan Fakultas Ekonomi UNIBBA. Email verified as corresponding-author address printed in AKURAT | Jurnal Ilmiah Akuntansi FE UNIBBA (ejournal.unibba.ac.id/index.php/akurat/article/download/1623/1274), and matches the journal's own editorial contact email. High confidence."
+    },
+    {
+      "name": "Iseu Anggraeni",
+      "department": "Akuntansi, Fakultas Ekonomi",
+      "title": "Ketua Jurusan/Prodi",
+      "research_area": "Akuntansi",
+      "email": "ise.maheza@yahoo.com",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://fe.unibba.ac.id/pimpinan/",
+      "notes": "Ketua Program Studi Akuntansi, Fakultas Ekonomi UNIBBA. Email verified as listed author address in AKURAT journal article (ejournal.unibba.ac.id/index.php/akurat/article/download/1125/918). High confidence."
+    },
+    {
+      "name": "Djodi Setiawan",
+      "department": "Akuntansi, Fakultas Ekonomi",
+      "title": "Dosen",
+      "research_area": "Akuntansi, Sistem Pengendalian Internal",
+      "email": "djodisetiawan130671@gmail.com",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://fe.unibba.ac.id/pimpinan/",
+      "notes": "Dosen Akuntansi, Fakultas Ekonomi UNIBBA. Email verified as listed author address in AKURAT journal article (ejournal.unibba.ac.id/index.php/akurat/article/download/1227/993). High confidence."
+    }
+  ]
 }

@@ -5,5 +5,30 @@
   "city": "Jakarta Timur",
   "province": "DKI Jakarta",
   "website": "https://uki.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Familia Novita Simanjuntak",
+      "department": "Pendidikan Kimia, Fakultas Keguruan dan Ilmu Pendidikan",
+      "title": "Dosen",
+      "research_area": "Chemistry Education, Science Education, Environmental Education",
+      "email": "familia.simanjuntak@uki.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?hl=id&user=aXwb8HgAAAAJ",
+      "website": "https://www.researchgate.net/profile/Familia-Simanjuntak",
+      "notes": "Email verified as correspondence address in UKI EduMatSains journal article PDF (https://ejournal.uki.ac.id/index.php/edumatsains/article/download/1629/1360) and confirmed via ResearchGate/SINTA profile listing Chemistry Education Study Program, FKIP UKI. High confidence."
+    },
+    {
+      "name": "Johannes E. Joseph",
+      "department": "Sastra Inggris, Fakultas Sastra dan Bahasa",
+      "title": "Dosen",
+      "research_area": "Translation Studies, Linguistics",
+      "email": "johannes.joseph@uki.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?hl=id&user=X7M-I3wAAAAJ",
+      "website": "https://ejournal.uki.ac.id/index.php/jet/article/download/7891/3703/31613",
+      "notes": "Email identified as corresponding author address in UKI Journal of English Teaching (JET) article PDF (https://ejournal.uki.ac.id/index.php/jet/article/download/7891/3703/31613); Google Scholar profile shows verified email at uki.ac.id, research interest in translation. Medium-high confidence."
+    }
+  ]
 }
