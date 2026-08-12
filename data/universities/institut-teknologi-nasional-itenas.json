@@ -5,5 +5,42 @@
   "city": "Bandung",
   "province": "Jawa Barat",
   "website": "https://www.itenas.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Jasman Pardede",
+      "department": "Informatika",
+      "title": "Dosen",
+      "research_area": "Software engineering, data mining",
+      "email": "jasman@itenas.ac.id",
+      "phone": null,
+      "linkedin": "https://www.linkedin.com/in/jasman-pardede-8a450212a/",
+      "google_scholar": "https://scholar.google.com/citations?hl=en&user=tAYtAPoAAAAJ",
+      "website": "https://www.itenas.ac.id/brosur-program-studi/fti/program-studi-informatika/jasman-pardede-dr-s-si-m-t/",
+      "notes": "Email verified on Itenas official faculty profile page and as corresponding author in TELKOMNIKA journal article (https://www.telkomnika.uad.ac.id/index.php/TELKOMNIKA/article/viewFile/27332/12268). High confidence."
+    },
+    {
+      "name": "Dewi Rosmala",
+      "department": "Informatika",
+      "title": "Dosen",
+      "research_area": "Sentiment analysis, information systems",
+      "email": "d_rosmala@itenas.ac.id",
+      "phone": null,
+      "linkedin": "https://www.linkedin.com/in/dewi-rosmala-43171528/",
+      "google_scholar": null,
+      "website": "https://itenas.ac.id/akademik/fti/program-studi-informatika/dewi-rosmala-s-si-m-it",
+      "notes": "Email verified on Itenas official faculty profile page (also cited as dewirosmala@itenas.ac.id on a ResearchGate publication). High confidence."
+    },
+    {
+      "name": "Encu Saefudin",
+      "department": "Teknik Mesin",
+      "title": "Dosen",
+      "research_area": "Turbin, rekayasa energi hijau",
+      "email": "encu@itenas.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://itenas.ac.id/brosur-program-studi/fti/program-studi-teknik-mesin/encu-saefudin-ir-mt/",
+      "notes": "Email verified as corresponding author in 'Machine: Jurnal Teknik Mesin' Vol 6 No 2 (journal.ubb.ac.id/index.php/machine). High confidence."
+    }
+  ]
 }

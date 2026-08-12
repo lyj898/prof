@@ -5,5 +5,54 @@
   "city": "Makassar",
   "province": "Sulawesi Selatan",
   "website": "https://www.uajm.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Fransiskus Randa",
+      "department": "Akuntansi",
+      "title": "Dosen",
+      "research_area": "Akuntansi keuangan, kinerja perusahaan, pasar modal",
+      "email": "fransiskus_randa@uajm.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?user=8NHaGLoAAAAJ",
+      "website": "https://ojs.feb.uajm.ac.id/index.php/AJAR/index",
+      "notes": "Email verified as corresponding author in AJAR journal article 'Pengaruh Inflasi dan Nilai Tukar Terhadap Return Saham...' (https://ojs.feb.uajm.ac.id/index.php/AJAR/article/view/165, DOI 10.35129/ajar.v4i01.165). High confidence."
+    },
+    {
+      "name": "Robert Jao",
+      "department": "Akuntansi",
+      "title": "Dosen",
+      "research_area": "Corporate governance, firm value, institutional ownership",
+      "email": "jao_robert@hotmail.com",
+      "phone": null,
+      "linkedin": "https://id.linkedin.com/in/robert-jao-0899b51a2",
+      "google_scholar": "https://scholar.google.com/citations?hl=en&user=JF7CCtMAAAAJ",
+      "website": "https://www.researchgate.net/profile/Robert-Jao",
+      "notes": "Email verified as author in AJAR journal article 'The Effect of Institutional Ownership, Company Size and Asset Management on Firm Value' (https://ojs.feb.uajm.ac.id/index.php/AJAR/article/view/268). High confidence."
+    },
+    {
+      "name": "Suwandi Ng",
+      "department": "Akuntansi",
+      "title": "Dosen",
+      "research_area": "Earnings management, managerial ability, cost of equity capital",
+      "email": "swnd_ng@yahoo.com",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://ojs.feb.uajm.ac.id/index.php/AJAR/index",
+      "notes": "Email verified as corresponding-listed author in AJAR journal article 'Role of Managerial Ability on the Relationship between Sustainability Report and Tax Avoidance on Firm Value' (https://ojs.feb.uajm.ac.id/index.php/AJAR/article/view/527, DOI 10.35129/ajar.v7i02.527). High confidence."
+    },
+    {
+      "name": "Ana Mardiana",
+      "department": "Akuntansi",
+      "title": "Dosen",
+      "research_area": "Tax avoidance, firm value, financial reporting",
+      "email": "ana_mardiana1902@yahoo.com",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "http://ojs.feb.uajm.ac.id/index.php/simak/editorial",
+      "notes": "Co-Managing Editor of SIMAK journal at UAJM; email verified as author in AJAR journal article (https://ojs.feb.uajm.ac.id/index.php/AJAR/article/view/527, DOI 10.35129/ajar.v7i02.527). High confidence."
+    }
+  ]
 }

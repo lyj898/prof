@@ -5,5 +5,42 @@
   "city": "Surabaya",
   "province": "Jawa Timur",
   "website": "https://www.ciputra.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Prof. Christina Eviutami Mediastika, S.T., Ph.D.",
+      "department": "Arsitektur, School of Creative Industry",
+      "title": "Guru Besar",
+      "research_area": "Architectural Acoustics, Soundscape, Building Science",
+      "email": "eviutami@ciputra.ac.id",
+      "phone": null,
+      "linkedin": "https://www.linkedin.com/in/christina-eviutami-mediastika-5230a929a/",
+      "google_scholar": "https://scholar.google.com/citations?hl=en&user=PRUg0R4AAAAJ",
+      "website": "https://www.ciputra.ac.id/ars/prof-christina-eviutami-mediastika-s-t-ph-d/",
+      "notes": "Professor of Architecture at Universitas Ciputra Surabaya; email verified via Google Scholar verified-email listing and faculty profile page. Source: https://www.ciputra.ac.id/ars/prof-christina-eviutami-mediastika-s-t-ph-d/ and https://scholar.google.com/citations?hl=en&user=PRUg0R4AAAAJ. Confidence: high."
+    },
+    {
+      "name": "Prof. Dr. Adi Suryaputra Paramita, S.Kom., M.Kom.",
+      "department": "School of Information Technology",
+      "title": "Dekan",
+      "research_area": "Information System Strategic Planning, IT Infrastructure, Cloud Computing, Web Development",
+      "email": "adi.suryaputra@ciputra.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?user=AATVcp4AAAAJ&hl=en",
+      "website": "https://www.ciputra.ac.id/lppm/adi-suryaputra-paramita-s-kom-m-kom/",
+      "notes": "Dean, School of Information Technology at Universitas Ciputra Surabaya; email verified via LPPM faculty profile page and Google Scholar. Source: https://www.ciputra.ac.id/lppm/adi-suryaputra-paramita-s-kom-m-kom/. Confidence: high."
+    },
+    {
+      "name": "Dr. Trianggoro Wiradinata, S.T., M.Eng.Sc.",
+      "department": "School of Information Technology / Apple Developer Academy",
+      "title": "Lektor Kepala",
+      "research_area": "Technology Entrepreneurship, Data Science, Enterprise Information Systems",
+      "email": "twiradinata@ciputra.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?hl=en&user=3RA-TvUAAAAJ",
+      "website": "https://www.ciputra.ac.id/lppm/dr-trianggoro-wiradinata-s-t-m-eng-sc/",
+      "notes": "Vice Rector for Student Affairs / Associate Professor and Director of Apple Developer Academy at Universitas Ciputra; email verified via LPPM faculty profile page. Source: https://www.ciputra.ac.id/lppm/dr-trianggoro-wiradinata-s-t-m-eng-sc/. Confidence: high."
+    }
+  ]
 }

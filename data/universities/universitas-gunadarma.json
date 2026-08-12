@@ -5,5 +5,42 @@
   "city": "Depok",
   "province": "Jawa Barat",
   "website": "https://www.gunadarma.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Prof. Dr. Dewi Agushinta R.",
+      "department": "Sistem Informasi, Fakultas Ilmu Komputer dan Teknologi Informasi",
+      "title": "Guru Besar",
+      "research_area": "Human-Computer Interaction, Image Processing, Information Technology",
+      "email": "dewiar@staff.gunadarma.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?hl=en&user=b1vUQYkAAAAJ",
+      "website": "http://dewiar.staff.gunadarma.ac.id/",
+      "notes": "Professor, Department of Information Systems, Universitas Gunadarma. Email confirmed via multiple independent sources (official staffsite listing, ORCID/editorial team references) as dewiar@staff.gunadarma.ac.id. High confidence."
+    },
+    {
+      "name": "Prof. Dr. Sarifuddin Madenda",
+      "department": "Informatika, Fakultas Ilmu Komputer dan Teknologi Informasi",
+      "title": "Guru Besar",
+      "research_area": "Image and video processing, multimedia data compression, content-based image/video retrieval, steganography",
+      "email": "sarif@staff.gunadarma.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?hl=en&user=v6Zf09IAAAAJ",
+      "website": "http://sarif.staff.gunadarma.ac.id/",
+      "notes": "Professor of Computer Science, Faculty of Computer Science and Information Technology, Universitas Gunadarma. Email confirmed as sarif@staff.gunadarma.ac.id via official staffsite listing referenced in indexed search results. High confidence."
+    },
+    {
+      "name": "Karmilasari, S.Kom., MMSI.",
+      "department": "Sistem Informasi, Fakultas Ilmu Komputer dan Teknologi Informasi",
+      "title": "Dosen",
+      "research_area": "Image processing, human-computer interaction, computer graphics, game technology",
+      "email": "karmila@staff.gunadarma.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?user=wiYZc0sAAAAJ&hl=en",
+      "website": "http://karmila.staff.gunadarma.ac.id/",
+      "notes": "Department of Information Systems, Faculty of Computer Science & Information Technology, Universitas Gunadarma; also Vice Head at LePTek. Email confirmed as karmila@staff.gunadarma.ac.id via official staffsite listing. High confidence."
+    }
+  ]
 }

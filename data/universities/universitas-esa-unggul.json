@@ -5,5 +5,42 @@
   "city": "Jakarta Barat",
   "province": "DKI Jakarta",
   "website": "https://esaunggul.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Dr. Drs. Dihin Septyanto, ME",
+      "department": "Manajemen",
+      "title": "Dosen",
+      "research_area": "Financial Management, Strategic Management, Business/UMKM Management",
+      "email": "dihin.septyanto@esaunggul.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://ekonomi.esaunggul.ac.id/dihin-septyanto/",
+      "notes": "Fakultas Ekonomi, Universitas Esa Unggul. Email observed in indexed content of official faculty profile page (ekonomi.esaunggul.ac.id/dihin-septyanto/); page itself blocked automated re-verification behind a bot-protection wall at time of research. Medium-high confidence."
+    },
+    {
+      "name": "Alfian, M.Pd",
+      "department": "Pendidikan (FKIP)",
+      "title": "Dosen",
+      "research_area": "Computer Assisted Language Learning (CALL), Mobile Assisted Language Learning (MALL), Curriculum Development",
+      "email": "alfian@esaunggul.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://fkip.esaunggul.ac.id/category/dosen-pengajar/",
+      "notes": "Fakultas Keguruan dan Ilmu Pendidikan, Universitas Esa Unggul. Email observed in indexed content of official FKIP lecturer directory page; page itself blocked automated re-verification behind a bot-protection wall at time of research. Medium confidence."
+    },
+    {
+      "name": "Ainur Rosyid, S.PdI, MA",
+      "department": "Pendidikan (FKIP)",
+      "title": "Dosen",
+      "research_area": "Curriculum Development, Teacher Development",
+      "email": "ainur.rosyid@esaunggul.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://fkip.esaunggul.ac.id/category/dosen-pengajar/",
+      "notes": "Fakultas Keguruan dan Ilmu Pendidikan, Universitas Esa Unggul. Email observed in indexed content of official FKIP lecturer directory page; page itself blocked automated re-verification behind a bot-protection wall at time of research. Medium confidence."
+    }
+  ]
 }

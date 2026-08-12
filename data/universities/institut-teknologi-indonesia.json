@@ -5,5 +5,66 @@
   "city": "Tangerang Selatan",
   "province": "Banten",
   "website": "https://www.iti.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Joelianingsih",
+      "department": "Teknik Kimia",
+      "title": "Guru Besar",
+      "research_area": "Energi terbarukan, biodiesel",
+      "email": "joelia.ningsih@iti.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.co.id/citations?hl=en&user=mZrt2AwAAAAJ",
+      "website": "https://www.tekim.iti.ac.id/dosen-prodi-teknik-kimia-intitut-teknologi-indonesia/",
+      "notes": "Listed as Prof. Dr. Ir. Joelianingsih, M.T., I.P.M. with email on official ITI Teknik Kimia faculty directory page. High confidence."
+    },
+    {
+      "name": "Enjarlis",
+      "department": "Teknik Kimia",
+      "title": "Guru Besar",
+      "research_area": "Teknologi proses pengolahan limbah (ozonasi & AOP)",
+      "email": "en.jarlis@iti.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.co.id/citations?hl=en&user=Tle0LSwAAAAJ",
+      "website": "https://www.tekim.iti.ac.id/dosen-prodi-teknik-kimia-intitut-teknologi-indonesia/",
+      "notes": "Listed as Prof. Dr. Ir. Enjarlis, M.T., I.P.M. with email on official ITI Teknik Kimia faculty directory page. High confidence."
+    },
+    {
+      "name": "Sidik Marsudi",
+      "department": "Teknik Kimia",
+      "title": "Dosen",
+      "research_area": "Teknologi bioproses",
+      "email": "smarsudi@iti.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.co.id/citations?hl=en&user=P21NqpoAAAAJ",
+      "website": "https://www.tekim.iti.ac.id/dosen-prodi-teknik-kimia-intitut-teknologi-indonesia/",
+      "notes": "Listed as Dr.Eng. Ir. Sidik Marsudi, M.Si, I.P.M. with email on official ITI Teknik Kimia faculty directory page. SINTA ID 6022103. High confidence."
+    },
+    {
+      "name": "Wahyudin",
+      "department": "Teknik Kimia",
+      "title": "Dosen",
+      "research_area": "Energi terbarukan dan rancang bangun",
+      "email": "wahyudin@iti.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.co.id/citations?hl=en&user=_FdqmKEAAAAJ",
+      "website": "https://www.tekim.iti.ac.id/dosen-prodi-teknik-kimia-intitut-teknologi-indonesia/",
+      "notes": "Listed as Dr. Ir. Wahyudin, S.T., M.Sc., I.P.M. with email on official ITI Teknik Kimia faculty directory page. SINTA ID 6716344. High confidence."
+    },
+    {
+      "name": "Sri Handayani",
+      "department": "Teknik Kimia",
+      "title": "Dosen",
+      "research_area": "Teknologi membran fuel cell",
+      "email": "sri.handayani@iti.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.co.id/citations?user=l29Dx2cAAAAJ&hl=en",
+      "website": "https://www.tekim.iti.ac.id/dosen-prodi-teknik-kimia-intitut-teknologi-indonesia/",
+      "notes": "Listed as Dr. Ir. Sri Handayani, M.T., I.P.M. with email on official ITI Teknik Kimia faculty directory page. SINTA ID 6015740. High confidence."
+    }
+  ]
 }

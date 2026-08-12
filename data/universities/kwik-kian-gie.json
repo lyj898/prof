@@ -5,5 +5,30 @@
   "city": "Jakarta Utara",
   "province": "DKI Jakarta",
   "website": "https://kwikkiangie.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Dr. Ir. Abdullah Rakhman, M.M.",
+      "department": "Program Studi Manajemen",
+      "title": "Ketua Jurusan/Prodi",
+      "research_area": "Manajemen bisnis",
+      "email": "abdullah.rakhman@kwikkiangie.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://kwikkiangie.ac.id/s1/mj/",
+      "notes": "Head of Management Study Program; email confirmed in full text of article PDF at jurnal.kwikkiangie.ac.id/index.php/JEP/article/download/1108/783/4555 and listed as Editor-in-Chief on Jurnal Manajemen editorial team page. High confidence."
+    },
+    {
+      "name": "Prof. Dr. Ir. Bilson Simamora, M.M.",
+      "department": "Program Studi Manajemen",
+      "title": "Guru Besar",
+      "research_area": "Perilaku konsumen, pemasaran strategis, riset pemasaran, manajemen merek",
+      "email": "bilson.simamora@kwikkiangie.ac.id",
+      "phone": "+6221 65307062",
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.co.id/citations?user=S3bpBlIAAAAJ&hl=en",
+      "website": "https://www.bilsonsimamora.com/about/",
+      "notes": "Editor-in-Chief of Jurnal Ekonomi Perusahaan (KKG). Email confirmed directly on his personal site bilsonsimamora.com/about (contact section). High confidence."
+    }
+  ]
 }

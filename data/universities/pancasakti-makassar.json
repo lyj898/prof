@@ -5,5 +5,30 @@
   "city": "Makassar",
   "province": "Sulawesi Selatan",
   "website": "https://unpacti.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Zaldi Rusnaedy S",
+      "department": "Program Studi Ilmu Pemerintahan, Fakultas Ilmu Sosial dan Ilmu Politik",
+      "title": "Dosen",
+      "research_area": "Governance, politik lokal",
+      "email": "zaldi.rusnaedy.s@unpacti.ac.id",
+      "phone": "+6285242124861",
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?user=S0JYxusAAAAJ&hl=en",
+      "website": "https://journal.unpacti.ac.id/index.php/JGLP/CONTACT",
+      "notes": "Editor-in-Chief, Journal of Governance and Local Politics (JGLP), Universitas Pancasakti Makassar. Email and phone verified directly on the journal's official Contact page. High confidence."
+    },
+    {
+      "name": "Nur Hamdani Nur",
+      "department": "Program Studi Kesehatan Masyarakat, Fakultas Kesehatan Masyarakat",
+      "title": "Dosen",
+      "research_area": "Kesehatan masyarakat",
+      "email": "hamdani.nur@unpacti.ac.id",
+      "phone": "081241263051",
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://journal.unpacti.ac.id/index.php/pjphsr/contact",
+      "notes": "Editor-in-Chief, Pancasakti Journal of Public Health Science and Research (SINTA ID 6680841). Email and phone verified directly on the journal's official Contact page (also listed for Jurnal Promotif Preventif). High confidence."
+    }
+  ]
 }

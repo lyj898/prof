@@ -5,5 +5,42 @@
   "city": "Jakarta Barat",
   "province": "DKI Jakarta",
   "website": "https://itpln.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Edy Susanto",
+      "department": "Teknik Mesin (Sekolah Pasca Sarjana)",
+      "title": "Dosen",
+      "research_area": "Solar thermal, nanopartikel, refrigerators, air flow",
+      "email": "edy.susanto@itpln.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://pasca.itpln.ac.id/dosen-teknik-mesin/",
+      "notes": "Listed as Dr. Edy Susanto, ST., MT on official ITPLN Sekolah Pasca Sarjana Teknik Mesin faculty page; email confirmed via search result snippet. High confidence."
+    },
+    {
+      "name": "Romel Hidayat",
+      "department": "Teknik Mesin (Sekolah Pasca Sarjana)",
+      "title": "Dosen",
+      "research_area": "Battery, hydrogen, solar cell, materials engineering for renewable energy",
+      "email": "romel@itpln.ac.id",
+      "phone": null,
+      "linkedin": "https://id.linkedin.com/in/romelhidayat",
+      "google_scholar": "https://scholar.google.com/citations?user=haXO-1kAAAAJ&hl=en",
+      "website": "https://pasca.itpln.ac.id/dosen-teknik-mesin/",
+      "notes": "Listed as Romel Hidayat, S.Si., M.Si., Ph.D. on official ITPLN Sekolah Pasca Sarjana Teknik Mesin faculty page; email confirmed via search result snippet. Also Senior Engineer at PT PLN. High confidence."
+    },
+    {
+      "name": "Anwar Ilmar Ramadhan",
+      "department": "Teknik Mesin (Sekolah Pasca Sarjana)",
+      "title": "Lektor Kepala",
+      "research_area": "Heat transfer, thermodynamics, thermofluid, nanofluid",
+      "email": "anwarilmar@itpln.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?user=Y5nDI6UAAAAJ&hl=en",
+      "website": "https://pasca.itpln.ac.id/dosen-teknik-mesin/",
+      "notes": "Listed as Assoc. Prof. Ir. Anwar Ilmar Ramadhan, Ph.D., IPM with email anwarilmar@itpln.ac.id on official ITPLN Sekolah Pasca Sarjana Teknik Mesin faculty page. Primary affiliation is Universitas Muhammadiyah Jakarta; also teaches at ITPLN graduate school. High confidence."
+    }
+  ]
 }

@@ -5,5 +5,18 @@
   "city": "Jakarta Pusat",
   "province": "DKI Jakarta",
   "website": "https://www.lspr.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Hersinta, Ph.D.",
+      "department": "Fakultas Ilmu Komunikasi",
+      "title": "Dosen",
+      "research_area": "Internet studies, media and disability, popular music culture",
+      "email": "hersinta@lspr.edu",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?hl=en&user=Ae6i8OAAAAAJ",
+      "website": "https://www.lspr.ac.id/hersinta-ph-d/",
+      "notes": "Member of Communicare journal editorial board (journal.lspr.edu/index.php/communicare/editorialboard). Email corroborated across ZoomInfo (pattern h***@lspr.edu) and multiple LSPR faculty listing pages. Medium-high confidence."
+    }
+  ]
 }

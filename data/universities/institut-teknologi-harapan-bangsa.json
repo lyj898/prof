@@ -5,5 +5,42 @@
   "city": "Bandung",
   "province": "Jawa Barat",
   "website": "https://www.ithb.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Ken Ratri Retno Wardani",
+      "department": "Informatika",
+      "title": "Dosen",
+      "research_area": "Digital image processing, computer vision",
+      "email": "ken_ratri@ithb.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.co.id/citations?hl=en&user=U1ewzOgAAAAJ",
+      "website": "https://web.ithb.ac.id/en/lecturers/ken-ratri-retno-wardani-s-kom-m-t/",
+      "notes": "Email verified as corresponding author in Jurnal Telematika article (https://journal.ithb.ac.id/index.php/telematika/article/view/775, doi 10.61769/telematika.v20i2.775) and confirmed via ITHB faculty profile page. High confidence."
+    },
+    {
+      "name": "Inge Martina",
+      "department": "Informatika",
+      "title": "Dosen",
+      "research_area": "Natural language processing, machine learning",
+      "email": "inge@ithb.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://journal.ithb.ac.id/index.php/telematika",
+      "notes": "Email verified as co-author in Jurnal Telematika article 'Analisis Pengaruh Karakteristik Masukan Teks...' (https://journal.ithb.ac.id/index.php/telematika/article/view/775, doi 10.61769/telematika.v20i2.775). High confidence."
+    },
+    {
+      "name": "Yosi Yonata",
+      "department": "Sistem Informasi",
+      "title": "Dosen",
+      "research_area": "Information systems, health informatics",
+      "email": "yosi@ithb.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://journal.ithb.ac.id/index.php/telematika",
+      "notes": "Email verified as co-author in Jurnal Telematika article 'Conversational Information System Dashboard for Zero New Stunting Campaign' (https://journal.ithb.ac.id/index.php/telematika/article/view/734, doi 10.61769/telematika.v20i2.734). High confidence."
+    }
+  ]
 }

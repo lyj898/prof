@@ -5,5 +5,18 @@
   "city": "Bantul",
   "province": "DI Yogyakarta",
   "website": "https://www.isi.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Andre Indrawan",
+      "department": "Musik, Fakultas Seni Pertunjukan",
+      "title": "Dosen",
+      "research_area": "Etnomusikologi, sejarah musik",
+      "email": "indrawan_andre@isi.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://journal.isi.ac.id/index.php/resital",
+      "notes": "Email verified as corresponding author in Resital: Jurnal Seni Pertunjukan article 'Anthony Seeger's Contribution to Ethnomusicology' (https://journal.isi.ac.id/index.php/resital/article/viewFile/3811/1781), Vol 20 No 3 (2019). High confidence."
+    }
+  ]
 }

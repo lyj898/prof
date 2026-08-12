@@ -5,5 +5,42 @@
   "city": "Jakarta Utara",
   "province": "DKI Jakarta",
   "website": "https://www.ubm.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Dr. Christian Haposan Pangaribuan, B.Sc., MBA.",
+      "department": "Program Studi Magister Manajemen",
+      "title": "Dosen",
+      "research_area": "Consumer Behavior, Tourism Management, Digital Marketing, Operations & Supply Chain Management",
+      "email": "cpangaribuan@bundamulia.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?user=cX5YgkIAAAAJ&hl=id",
+      "website": "https://journal.ubm.ac.id/index.php/business-applied-management/about/editorialTeamBio/86056",
+      "notes": "Editor-in-Chief listing for UBM Journal (Business Applied Management) shows this email for Program Studi Magister Manajemen, Universitas Bunda Mulia. SINTA ID 6094501. Source: https://journal.ubm.ac.id/index.php/business-applied-management/about/contact and https://journal.ubm.ac.id/index.php/digismantech/search/authors/view. Confidence: high."
+    },
+    {
+      "name": "Dr. Oktafalia Marisa Muzammil, S.E., M.M.",
+      "department": "Program Studi Manajemen",
+      "title": "Ketua Jurusan/Prodi",
+      "research_area": "Manajemen Pendidikan, Manajemen Sumber Daya Manusia",
+      "email": "omuzammil@bundamulia.ac.id",
+      "phone": null,
+      "linkedin": "https://id.linkedin.com/in/oktafalia-marisa-muzammil-45331536",
+      "google_scholar": null,
+      "website": "https://journal.ubm.ac.id/index.php/business-management/about/contact",
+      "notes": "Listed as Ketua Program Studi Manajemen (Head of Management Study Program) at Universitas Bunda Mulia; email verified via UBM Journal contact page and cross-referenced web listings. Source: https://journal.ubm.ac.id/index.php/business-management/about/contact. Confidence: high."
+    },
+    {
+      "name": "Berliana Glorya Liebe Imbing",
+      "department": "Sistem Informasi, Fakultas Teknologi dan Desain",
+      "title": "Dosen",
+      "research_area": "Sistem Informasi, Business Process Analysis, Decision Support Systems",
+      "email": "bimbing@bundamulia.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://journal.ubm.ac.id/index.php/business-applied-management/about/contact",
+      "notes": "Email confirmed via UBM Journal editorial/contact listing tied to Fakultas Teknologi dan Desain, Universitas Bunda Mulia. Source: https://journal.ubm.ac.id/index.php/business-applied-management/about/contact and https://journal.ubm.ac.id/index.php/jbase/about/editorialTeamBio/7226. Confidence: medium-high."
+    }
+  ]
 }

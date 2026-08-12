@@ -5,5 +5,18 @@
   "city": "Bogor",
   "province": "Jawa Barat",
   "website": "https://unida.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Prof. Dr. Rasmitadila, M.Pd.",
+      "department": "Pendidikan Guru Sekolah Dasar (PGSD), FAIPG",
+      "title": "Guru Besar",
+      "research_area": "Ilmu Pendidikan Dasar, Inclusive Education, Teacher-Student Instructional Interaction",
+      "email": "rasmitadila@unida.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.co.id/citations?user=KZFYlbUAAAAJ&hl=en",
+      "website": "https://unida.ac.id/faipg/lecturers/213870477-dr-rasmitadila-st-mpd",
+      "notes": "Confirmed as Professor (Guru Besar) of Ilmu Pendidikan Dasar and Wakil Rektor III at Universitas Djuanda; email confirmed as corresponding-author address on published research. Sources: https://unida.ac.id/post/unida-kembali-tambah-guru-besar-prof-dr-rasmitadila-m-pd-resmi-dikukuhkan-sebagai-profesor-bidang-ilmu-pendidikan-dasar and researchgate/journal listings showing rasmitadila@unida.ac.id. Confidence: high."
+    }
+  ]
 }

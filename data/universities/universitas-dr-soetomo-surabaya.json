@@ -5,5 +5,78 @@
   "city": "Surabaya",
   "province": "Jawa Timur",
   "website": "https://unitomo.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Prof. Dr. Redi Panuju, M.Si.",
+      "department": "Ilmu Komunikasi",
+      "title": "Guru Besar",
+      "research_area": "Media & Film",
+      "email": "redipanuju@unitomo.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://fikom.unitomo.ac.id/category/dosen-fikom/",
+      "notes": "Email decoded from Cloudflare email-protection markup on official Fakultas Ilmu Komunikasi Unitomo staff listing (fikom.unitomo.ac.id). High confidence."
+    },
+    {
+      "name": "Dr. Drs. Harliantara, M.Si.",
+      "department": "Ilmu Komunikasi",
+      "title": "Dekan",
+      "research_area": "Media & Komunikasi",
+      "email": "harliantara@unitomo.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://fikom.unitomo.ac.id/category/dosen-fikom/",
+      "notes": "Dekan Fakultas Ilmu Komunikasi. Email decoded from Cloudflare email-protection markup on official Unitomo staff listing. High confidence."
+    },
+    {
+      "name": "Dr. Nur'annafi FSM, M.I.Kom.",
+      "department": "Ilmu Komunikasi",
+      "title": "Ketua Jurusan/Prodi",
+      "research_area": "Gender, Politik & Media",
+      "email": "nurannafi@unitomo.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://fikom.unitomo.ac.id/category/dosen-fikom/",
+      "notes": "Kaprodi Magister Ilmu Komunikasi. Email decoded from Cloudflare email-protection markup on official Unitomo staff listing. High confidence."
+    },
+    {
+      "name": "Dr. Dra. Zulaikha, M.Si.",
+      "department": "Ilmu Komunikasi",
+      "title": "Ketua Jurusan/Prodi",
+      "research_area": "Government Communication",
+      "email": "zulaikha@unitomo.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://fikom.unitomo.ac.id/category/dosen-fikom/",
+      "notes": "Kaprodi Ilmu Komunikasi. Email decoded from Cloudflare email-protection markup on official Unitomo staff listing. High confidence."
+    },
+    {
+      "name": "Dr. Didik Sugeng Widiarto, M.I.Kom.",
+      "department": "Ilmu Komunikasi",
+      "title": "Wakil Dekan",
+      "research_area": "Politik & Media",
+      "email": "didik.sugeng@unitomo.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://fikom.unitomo.ac.id/category/dosen-fikom/",
+      "notes": "Wakil Dekan I Fakultas Ilmu Komunikasi. Email decoded from Cloudflare email-protection markup on official Unitomo staff listing. High confidence."
+    },
+    {
+      "name": "Dr. Iwan Djoko Prasetyo, M.Si.",
+      "department": "Ilmu Komunikasi",
+      "title": "Wakil Dekan",
+      "research_area": "Komunikasi Kesehatan",
+      "email": "iwan.joko@unitomo.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://fikom.unitomo.ac.id/category/dosen-fikom/",
+      "notes": "Wakil Dekan II Fakultas Ilmu Komunikasi. Email decoded from Cloudflare email-protection markup on official Unitomo staff listing. High confidence."
+    }
+  ]
 }

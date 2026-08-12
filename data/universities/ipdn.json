@@ -5,5 +5,30 @@
   "city": "Jatinangor",
   "province": "Jawa Barat",
   "website": "https://ipdn.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Dr. Etin Indrayani, Ir., M.Si.",
+      "department": "Program Studi Magister Terapan Studi Pemerintahan, Fakultas Manajemen Pemerintahan",
+      "title": "Lektor",
+      "research_area": "E-government, sistem informasi pemerintahan, manajemen pemerintahan digital",
+      "email": "etin.indrayani@ipdn.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://www.researchgate.net/profile/Etin-Indrayani",
+      "notes": "Email verified via PDF of published article on ejournal.ipdn.ac.id/index.php/JAPD/article/download/5314/2149 (footer contact list) and corroborated by SINTA/ResearchGate profile. High confidence."
+    },
+    {
+      "name": "Prof. Ismail Nurdin",
+      "department": "Fakultas Manajemen Pemerintahan",
+      "title": "Guru Besar",
+      "research_area": "Administrasi publik, governance, budaya organisasi dan kepemimpinan",
+      "email": "ismailnurdin@ipdn.ac.id",
+      "phone": "+6281221792345",
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.co.id/citations?user=WKjPIakAAAAJ",
+      "website": "https://ismailnurdin.id/",
+      "notes": "Email verified directly on his personal profile site ismailnurdin.id (contact section) and matches editorial-team listing on ejournal.ipdn.ac.id (TRANSFORMASI journal). High confidence."
+    }
+  ]
 }

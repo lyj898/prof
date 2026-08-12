@@ -5,5 +5,18 @@
   "city": "Makassar",
   "province": "Sulawesi Selatan",
   "website": "https://unibos.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Prof. Dr. H. Delly Mustafa, M.Si.",
+      "department": "Ilmu Administrasi Negara / Pascasarjana",
+      "title": "Guru Besar",
+      "research_area": "Administrasi Publik, Kebijakan Publik, Tata Kelola Pemerintahan",
+      "email": "delly.mustafa@universitasbosowa.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?hl=en&user=egfVs08AAAAJ",
+      "website": "https://unibos.ac.id/program-pascasarjana/magister/magister-program-studi-magister-ilmu-administrasi-negara/",
+      "notes": "Confirmed as Professor (Guru Besar) of State Administration and Head of Doctoral Program in Public Administration at Universitas Bosowa; email verified via web search results tied to universitasbosowa.ac.id domain. Sources: https://scholar.google.com/citations?hl=en&user=egfVs08AAAAJ and https://rakyatsulsel.fajar.co.id/2023/05/24/target-20-guru-besar-unibos-kembali-kukuhkan-dua-profesor/. Confidence: medium."
+    }
+  ]
 }

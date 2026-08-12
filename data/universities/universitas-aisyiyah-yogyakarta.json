@@ -5,5 +5,18 @@
   "city": "Sleman",
   "province": "DI Yogyakarta",
   "website": "https://www.unisayogya.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Cesa Septiana Pratiwi, M.Mid., Ph.D.",
+      "department": "Program Studi S2 Kebidanan, Fakultas Ilmu Kesehatan",
+      "title": "Lektor Kepala",
+      "research_area": "Perinatal mental health, maternal and child health, midwifery education",
+      "email": "cesaseptianapratiwi@unisayogya.ac.id",
+      "phone": null,
+      "linkedin": "https://id.linkedin.com/in/cesa-septiana-pratiwi-42980335",
+      "google_scholar": "https://scholar.google.com/citations?user=2PPv3msAAAAJ&hl=en",
+      "website": "https://s2kebidanan.unisayogya.ac.id/cesa-septiana-pratiwi-m-mid-ph-d/",
+      "notes": "Head of International Office and Partnerships, UNISA Yogyakarta; Associate Professor of Midwifery per LinkedIn. Email verified as corresponding-author address in Jurnal Aisyah article (aisyah.journalpress.id/index.php/jika/article/download/1937/1089). High confidence."
+    }
+  ]
 }

@@ -5,5 +5,30 @@
   "city": "Makassar",
   "province": "Sulawesi Selatan",
   "website": "https://unifa.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Fatmawaty Rachim, ST., MT.",
+      "department": "Teknik Sipil",
+      "title": "Ketua Jurusan/Prodi",
+      "research_area": "Geopolymer concrete, sustainable construction materials, construction project management, occupational safety and health",
+      "email": "fatmawatyrachim2@gmail.com",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?hl=id&user=9MX7FIkAAAAJ",
+      "website": "https://sipil.unifa.ac.id/pages/tenaga-pengajar",
+      "notes": "Ketua Program Studi Teknik Sipil, Universitas Fajar. Email confirmed as corresponding-author address on two peer-reviewed publications (IJSDP paper 10.18280/ijsdp.191108 and an ETASR paper). High confidence."
+    },
+    {
+      "name": "Dr. Mujahid, S.E., M.M., M.I.Kom.",
+      "department": "Magister Ilmu Komunikasi (Fakultas Pascasarjana)",
+      "title": "Dekan",
+      "research_area": "Ilmu Komunikasi",
+      "email": "mujahidd@unifa.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://unifa.ac.id/pages/struktur-organisasi",
+      "notes": "Dekan Fakultas Pascasarjana / Program Magister Ilmu Komunikasi, Universitas Fajar. Corresponding-author email found in Unifa repository author guideline record. Medium-high confidence."
+    }
+  ]
 }

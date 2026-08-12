@@ -5,5 +5,42 @@
   "city": "Bekasi",
   "province": "Jawa Barat",
   "website": "https://ubharajaya.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Prof. Dr. R. Lina Sinaulan, S.H., M.H.",
+      "department": "Fakultas Hukum",
+      "title": "Guru Besar",
+      "research_area": "Hukum Bisnis dan Hukum Komersial",
+      "email": "lina.sinaulan@dsn.ubharajaya.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?user=l_JhQL0AAAAJ&hl=en",
+      "website": "https://fh.ubharajaya.ac.id/dosen-tetap-fh/",
+      "notes": "Verified via Google Scholar profile and SINTA/PDDikti listings referencing dsn.ubharajaya.ac.id domain; identified as Guru Besar (Professor) at Fakultas Hukum. Source: https://scholar.google.com/citations?user=l_JhQL0AAAAJ&hl=en. Confidence: medium-high."
+    },
+    {
+      "name": "Dr. Netty Merdiaty, M.M., M.Si.",
+      "department": "Fakultas Psikologi",
+      "title": "Dekan",
+      "research_area": "Psikologi Industri dan Organisasi",
+      "email": "netty.merdiaty@dsn.ubharajaya.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?hl=en&user=CAKxYnwAAAAJ",
+      "website": "https://ubharajaya.ac.id/rektor-ubhara-jaya-lantik-dekan-fakultas-ilmu-komunikasi-dan-fakultas-psikologi-baru-perkuat-arah-strategis-perguruan-tinggi/",
+      "notes": "Confirmed as Dean of Fakultas Psikologi via university news release; email domain confirmed via Google Scholar and university repository documents. Source: https://ubharajaya.ac.id/rektor-ubhara-jaya-lantik-dekan-fakultas-ilmu-komunikasi-dan-fakultas-psikologi-baru-perkuat-arah-strategis-perguruan-tinggi/. Confidence: medium-high."
+    },
+    {
+      "name": "Dr. Didin Sjarifudin, S.T., M.T., M.M.",
+      "department": "Fakultas Teknik - Teknik Industri",
+      "title": "Dosen",
+      "research_area": "Manajemen Rekayasa, Keberlanjutan UMKM, Inovasi dan Teknologi Informasi",
+      "email": "didin.sjarifudin@dsn.ubharajaya.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?user=T9nLRAwAAAAJ&hl=en",
+      "website": "https://ft.ubharajaya.ac.id/dosen-teknik-industri/",
+      "notes": "Verified via Google Scholar profile and faculty listing at Fakultas Teknik (Teknik Industri). Source: https://ft.ubharajaya.ac.id/dosen-teknik-industri/. Confidence: medium."
+    }
+  ]
 }
