@@ -5,5 +5,18 @@
   "city": "Jakarta Timur",
   "province": "DKI Jakarta",
   "website": "https://borobudur.ac.id/",
-  "professors": []
+  "professors": [
+    {
+      "name": "Pudji Astuty",
+      "department": "Fakultas Ekonomi",
+      "title": "Dosen",
+      "research_area": "Finance, Economics, Business, MSME Competitiveness",
+      "email": "pudji_astuty@borobudur.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.co.id/citations?hl=en&user=RcP9j_EAAAAJ",
+      "website": "https://www.researchgate.net/scientific-contributions/Pudji-Astuty-2203910433",
+      "notes": "Dr. Pudji Astuty, SE., MM.; Direktur Akademi Keuangan dan Perbankan Borobudur, Faculty of Economics, Universitas Borobudur. Scopus ID 57197817515. Email found in journal/publication PDFs. Confidence: medium-high."
+    }
+  ]
 }

@@ -5,5 +5,42 @@
   "city": "Yogyakarta",
   "province": "DI Yogyakarta",
   "website": "https://atk.ac.id/",
-  "professors": []
+  "professors": [
+    {
+      "name": "Sofwan Siddiq Abdullah, S.T., M.Sc.",
+      "department": "Program Studi Teknologi Pengolahan Kulit",
+      "title": "Ketua Jurusan/Prodi",
+      "research_area": "Leather Processing Technology",
+      "email": "sofwan_s_abdullah@atk.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://politeknikatk.ac.id/pejabat",
+      "notes": "Ketua Program Studi Teknologi Pengolahan Kulit. Email confirmed as corresponding-author address in a Politeknik ATK e-journal article on leather processing. High confidence."
+    },
+    {
+      "name": "Dr. Wisnu Pambudi, M.Sc.",
+      "department": "Program Studi Teknologi Pengolahan Karet dan Plastik",
+      "title": "Ketua Jurusan/Prodi",
+      "research_area": "Organic Chemistry",
+      "email": "wisnu-pambudi@kemenperin.go.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.co.id/citations?user=S5fTUTIAAAAJ&hl=id",
+      "website": "https://politeknikatk.ac.id/pejabat",
+      "notes": "Ketua Program Studi Teknologi Pengolahan Karet dan Plastik. Email matches verified Google Scholar email domain (kemenperin.go.id, the Ministry of Industry which operates this polytechnic) and is confirmed as corresponding-author address on a hydroxychalcone synthesis paper. High confidence."
+    },
+    {
+      "name": "Dr. Muh. Wahyu Syabani, S.T., M.Eng.",
+      "department": "Program Studi Teknologi Pengolahan Karet dan Plastik / Satuan Penjaminan Mutu",
+      "title": "Dosen",
+      "research_area": "Polymers, Plastics, Rubber, Thermal Analysis",
+      "email": "mw-syabani@kemenperin.go.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.co.id/citations?user=d8a1QyMAAAAJ&hl=id",
+      "website": "https://politeknikatk.ac.id/pejabat",
+      "notes": "Kepala Satuan Penjaminan Mutu. Email confirmed as corresponding-author address on a synthetic leather (PVC) research paper; institutional domain matches the Ministry of Industry (Kemenperin), which operates this polytechnic. High confidence."
+    }
+  ]
 }

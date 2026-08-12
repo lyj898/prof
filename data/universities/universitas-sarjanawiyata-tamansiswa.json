@@ -5,5 +5,42 @@
   "city": "Yogyakarta",
   "province": "DI Yogyakarta",
   "website": "https://ustjogja.ac.id/",
-  "professors": []
+  "professors": [
+    {
+      "name": "Adria Vitalya Gemilang",
+      "department": "Pendidikan Bahasa Inggris",
+      "title": "Ketua Jurusan/Prodi",
+      "research_area": "English Education and Literature, Reflective Writing, Academic Writing",
+      "email": "adria.vitalya@ustjogja.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.co.id/citations?hl=en&user=X20JJxB1CLcC",
+      "website": "https://pbi.ustjogja.ac.id/dosen/",
+      "notes": "Head of English Education Program (PBI). Email matches verified Google Scholar email domain (ustjogja.ac.id) and faculty directory listing. High confidence."
+    },
+    {
+      "name": "Anselmus Sudirman",
+      "department": "Pendidikan Bahasa Inggris",
+      "title": "Dosen",
+      "research_area": "Academic Writing, ELT, TEFL",
+      "email": "anselmus.sudirman@ustjogja.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.co.id/citations?hl=en&user=EH3ia34AAAAJ",
+      "website": "https://pbi.ustjogja.ac.id/dosen/",
+      "notes": "Email matches verified Google Scholar email domain (ustjogja.ac.id) and faculty directory listing; also confirmed on ResearchGate profile. High confidence."
+    },
+    {
+      "name": "Dr. Moh. Rusnoto Susanto, S.Pd., M.Sn., MCE",
+      "department": "Pendidikan Seni Rupa",
+      "title": "Dosen",
+      "research_area": "Creative Industry, Visual Art (Fine Art), Cybercultures",
+      "email": "rusnoto@ustjogja.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.co.id/citations?user=iJgilxwAAAAJ&hl=en",
+      "website": "https://jurnal.ustjogja.ac.id/index.php/cilpa/REVIEWER-TEAM",
+      "notes": "Email confirmed as corresponding-author address in multiple journal publications and matches verified Google Scholar email domain (ustjogja.ac.id). High confidence."
+    }
+  ]
 }

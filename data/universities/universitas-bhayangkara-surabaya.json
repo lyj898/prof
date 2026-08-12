@@ -5,5 +5,66 @@
   "city": "Surabaya",
   "province": "Jawa Timur",
   "website": "https://www.ubhara.ac.id/",
-  "professors": []
+  "professors": [
+    {
+      "name": "Prof. Dr. Sadjijono, S.H., M.Hum",
+      "department": "Fakultas Hukum",
+      "title": "Guru Besar",
+      "research_area": "Hukum Administrasi Negara",
+      "email": "sadjijono@ubhara.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://fh.ubhara.ac.id/dosen-dan-staf/",
+      "notes": "Listed with Guru Besar title and individual email on the official UBHARA Faculty of Law lecturer directory page. Confidence: high."
+    },
+    {
+      "name": "Prof. Dr. Prasetijo Rijadi, S.H., M.Hum",
+      "department": "Fakultas Hukum",
+      "title": "Guru Besar",
+      "research_area": "Ilmu Hukum",
+      "email": "pras@ubhara.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://fh.ubhara.ac.id/dosen-dan-staf/",
+      "notes": "Listed with Guru Besar title and individual email on the official UBHARA Faculty of Law lecturer directory page. Confidence: high."
+    },
+    {
+      "name": "Prof. Dr. Ir. Saidah, M.T.",
+      "department": "Teknik Elektro, Fakultas Teknik",
+      "title": "Guru Besar",
+      "research_area": "Teknik Elektro",
+      "email": "saidah@ubhara.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://ft.ubhara.ac.id/dosen_staf",
+      "notes": "Listed as Professor with individual email on the official UBHARA Faculty of Engineering lecturer directory page. Confidence: high."
+    },
+    {
+      "name": "Dr. Dossy Iskandar Prasetyo, S.H., M.Hum",
+      "department": "Fakultas Hukum",
+      "title": "Lektor Kepala",
+      "research_area": "Ilmu Hukum",
+      "email": "dossy@ubhara.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://fh.ubhara.ac.id/dosen-dan-staf/",
+      "notes": "Listed with Lektor Kepala title and individual email on the official UBHARA Faculty of Law lecturer directory page. Confidence: high."
+    },
+    {
+      "name": "Dr. A. Djoko Sumaryanto, S.H., M.H",
+      "department": "Fakultas Hukum",
+      "title": "Lektor Kepala",
+      "research_area": "Ilmu Hukum",
+      "email": "djokosumaryanto@ubhara.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://fh.ubhara.ac.id/dosen-dan-staf/",
+      "notes": "Listed with Lektor Kepala title and individual email on the official UBHARA Faculty of Law lecturer directory page. Confidence: high."
+    }
+  ]
 }

@@ -5,5 +5,42 @@
   "city": "Bandung",
   "province": "Jawa Barat",
   "website": "https://poltekpar-nhi.ac.id/",
-  "professors": []
+  "professors": [
+    {
+      "name": "Prof. Herlan Suherlan",
+      "department": "Program Studi Pengelolaan Perhotelan",
+      "title": "Guru Besar",
+      "research_area": "Tourism Management/Administration, Applied Tourism Research",
+      "email": "hel@poltekpar-nhi.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.co.id/citations?hl=id&user=dcUWdlkAAAAJ",
+      "website": null,
+      "notes": "Google Scholar shows verified email domain poltekpar-nhi.ac.id and affiliation 'Prof. of NHI Bandung Tourism Polytechnic'; full address corroborated via journal corresponding-author citation. High confidence."
+    },
+    {
+      "name": "Dr. Cecep Ucu Rakhman",
+      "department": "Jurusan Kepariwisataan",
+      "title": "Lektor Kepala",
+      "research_area": "Cultural Tourism, Community-Based Tourism, Gastronomy Tourism",
+      "email": "cecep.u.r@poltekpar-nhi.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.co.uk/citations?hl=ja&user=olUKxrcAAAAJ",
+      "website": "https://journal.poltekpar-nhi.ac.id/index.php/jk/about/editorialTeam",
+      "notes": "Editor-in-Chief of Jurnal Kepariwisataan (Poltekpar NHI Bandung). Email confirmed as corresponding author address and matches verified Google Scholar email domain (poltekpar-nhi.ac.id). High confidence."
+    },
+    {
+      "name": "Fajar Kusnadi Kusumah Putra",
+      "department": "Jurusan Hospitaliti",
+      "title": "Dosen",
+      "research_area": "Tourism and Hospitality Management, Smart Tourism, Gastronomy",
+      "email": "fap@stp-bandung.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?user=1EdPjkkAAAAJ&hl=en",
+      "website": "https://journal.poltekpar-nhi.ac.id/index.php/nhij/about/editorialTeam",
+      "notes": "Managing Editor of NHI Hospitality International Journal. Email is a legacy address on the institution's former name (STP Bandung, prior to renaming to Poltekpar NHI Bandung) confirmed as his corresponding-author address in multiple publications. Medium-high confidence (legacy domain, individual not institution-wide verified)."
+    }
+  ]
 }

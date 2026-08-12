@@ -5,5 +5,30 @@
   "city": "Jakarta Selatan",
   "province": "DKI Jakarta",
   "website": "https://www.istn.ac.id/",
-  "professors": []
+  "professors": [
+    {
+      "name": "Agus Sofwan",
+      "department": "Teknik Elektro",
+      "title": "Lektor",
+      "research_area": "Electrical Power Engineering, Control Systems, Energy",
+      "email": "asofwan@istn.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?user=sTVMNqgAAAAJ&hl=id",
+      "website": "https://www.istn.ac.id/magister-teknik-elektro",
+      "notes": "Dr.-Ing. Ir. Agus Sofwan, M.Eng.Sc.; Kepala Program Studi/dosen tetap Magister Teknik Elektro, ISTN. Email confirmed via ISTN repository journal PDF (repository.istn.ac.id/13164) and ISTN documents. Confidence: medium-high."
+    },
+    {
+      "name": "Syahril Taufik",
+      "department": "Teknik Sipil",
+      "title": "Dosen",
+      "research_area": "Civil Engineering, Building Information Modeling",
+      "email": "syahriltaufik@istn.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://journal.istn.ac.id/index.php/sainstech/about/editorialTeam",
+      "notes": "Ir. Syahril Taufik, M.Sc.Eng., Ph.D. (Swansea University); Editor-in-Chief of SAINSTECH journal, ISTN. Email confirmed in C-Line/Jurnal Teknik Sipil ISTN Vol. XIII No.1 (journal.istn.ac.id/index.php/cline/article/download/2089/1270). Confidence: medium-high."
+    }
+  ]
 }

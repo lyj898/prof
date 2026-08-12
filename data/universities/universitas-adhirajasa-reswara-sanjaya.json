@@ -5,5 +5,78 @@
   "city": "Bandung",
   "province": "Jawa Barat",
   "website": "https://ars.ac.id/",
-  "professors": []
+  "professors": [
+    {
+      "name": "Dr. Dasrun Hidayat, S.Sos., M.I.Kom",
+      "department": "Fakultas Komunikasi dan Desain",
+      "title": "Dekan",
+      "research_area": "Communication Science, Cultural Public Relations, Interpersonal Communication",
+      "email": "dasrun@ars.ac.id",
+      "phone": null,
+      "linkedin": "https://www.linkedin.com/in/dasrun-hidayat-201a51311/",
+      "google_scholar": "https://scholar.google.com/citations?user=WCN5YggAAAAJ&hl=en",
+      "website": "https://ars.ac.id/pimpinan",
+      "notes": "Email verified as corresponding author on multiple journal publications (e.g. Nyimak: Journal of Communication, Mediator: Jurnal Komunikasi) and matches verified Google Scholar email domain (ars.ac.id). Dean of Faculty of Communication & Design. High confidence."
+    },
+    {
+      "name": "Rangga Sanjaya, S.T., M.Kom",
+      "department": "Fakultas Teknologi Informasi",
+      "title": "Lektor Kepala",
+      "research_area": "Sistem Informasi",
+      "email": "rangga@ars.ac.id",
+      "phone": "6285711887425",
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.co.id/citations?user=7hpaBlwAAAAJ&hl=id",
+      "website": "https://fti.ars.ac.id/dosen/ranggasanjaya",
+      "notes": "Source: https://fti.ars.ac.id/dosen/ranggasanjaya (official faculty profile page, Cloudflare-obfuscated email decoded). Dean of Faculty of Information Technology. High confidence."
+    },
+    {
+      "name": "Erfian Junianto, S.T., M.Kom",
+      "department": "Fakultas Teknologi Informasi, Program Studi Teknik Informatika",
+      "title": "Lektor Kepala",
+      "research_area": "Ilmu Komputer",
+      "email": "erfian.ejn@ars.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://fti.ars.ac.id/dosen/erfianjunianto",
+      "notes": "Source: https://fti.ars.ac.id/dosen/erfianjunianto (official faculty profile page, Cloudflare-obfuscated email decoded). High confidence."
+    },
+    {
+      "name": "Dr. Ricky Firmansyah, S.T., M.Kom",
+      "department": "Fakultas Teknologi Informasi, Program Studi Teknik Informatika",
+      "title": "Lektor",
+      "research_area": "Ilmu Pendidikan",
+      "email": "ricky@ars.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://fti.ars.ac.id/dosen/rickyfirmansyah",
+      "notes": "Source: https://fti.ars.ac.id/dosen/rickyfirmansyah (official faculty profile page, Cloudflare-obfuscated email decoded). High confidence."
+    },
+    {
+      "name": "Syarif Hidayatulloh, S.T., M.Kom., Ph.D",
+      "department": "Fakultas Teknologi Informasi, Program Studi Teknik Informatika",
+      "title": "Lektor",
+      "research_area": null,
+      "email": "syarif@ars.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://fti.ars.ac.id/dosen/syarifhidayatulloh",
+      "notes": "Source: https://fti.ars.ac.id/dosen/syarifhidayatulloh (official faculty profile page, Cloudflare-obfuscated email decoded). High confidence."
+    },
+    {
+      "name": "Maxsi Ary, S.Si., M.Kom., Ph.D",
+      "department": "Fakultas Teknologi Informasi, Program Studi Sistem Informasi",
+      "title": "Lektor",
+      "research_area": "Matematika",
+      "email": "maxsi@ars.ac.id",
+      "phone": "6285711887425",
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://fti.ars.ac.id/dosen/maxsiary",
+      "notes": "Source: https://fti.ars.ac.id/dosen/maxsiary (official faculty profile page, Cloudflare-obfuscated email decoded). Also serves as Wakil Rektor PPM & MBKM. High confidence."
+    }
+  ]
 }

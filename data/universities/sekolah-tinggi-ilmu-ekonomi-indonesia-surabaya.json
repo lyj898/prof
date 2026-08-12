@@ -5,5 +5,42 @@
   "city": "Surabaya",
   "province": "Jawa Timur",
   "website": "https://stiesia.ac.id/",
-  "professors": []
+  "professors": [
+    {
+      "name": "Prof. Dr. Wahidahwati, S.E., M.Si., Ak., CA",
+      "department": "Program Studi Akuntansi",
+      "title": "Guru Besar",
+      "research_area": "Akuntansi, Corporate Governance",
+      "email": "wahidahwati@stiesia.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://stiesia.ac.id/instructor/dr-wahidahwati-s-e-m-si-ak-ca/",
+      "notes": "One of three professors inaugurated as Guru Besar at STIESIA (per Harian Bhirawa news coverage). Email corroborated across STIESIA repository publication PDFs (e.g. eprint/5773, listed as corresponding-author contact) and multiple independent search results. Confidence: medium-high."
+    },
+    {
+      "name": "Prof. Dr. Lilis Ardini, S.E., M.Si., Ak., CA",
+      "department": "Program Studi Akuntansi",
+      "title": "Guru Besar",
+      "research_area": "Akuntansi",
+      "email": "lilisardini@stiesia.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://stiesia.ac.id/instructor/lilis-ardini/",
+      "notes": "One of three professors inaugurated as Guru Besar at STIESIA (per Harian Bhirawa news coverage). Email corroborated across STIESIA repository publication PDFs and journal article author listings. Confidence: medium-high."
+    },
+    {
+      "name": "Prof. Dr. Suwitho, M.Si.",
+      "department": "Program Studi Manajemen",
+      "title": "Guru Besar",
+      "research_area": "Manajemen",
+      "email": "suwitho@stiesia.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://stiesia.ac.id/",
+      "notes": "One of three professors inaugurated as Guru Besar at STIESIA (per Harian Bhirawa news coverage). Email corroborated via STIESIA repository publication records and search engine results tying the address to his name and program-head role. Confidence: medium."
+    }
+  ]
 }

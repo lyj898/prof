@@ -5,5 +5,18 @@
   "city": "Jakarta Timur",
   "province": "DKI Jakarta",
   "website": "https://unsada.ac.id/",
-  "professors": []
+  "professors": [
+    {
+      "name": "Suzuki Syofian",
+      "department": "Teknik Informatika",
+      "title": "Dosen",
+      "research_area": "Artificial Intelligence, Big Data, Data Mining, Data Warehouse, Networking",
+      "email": "suzuki_syofian@ft.unsada.ac.id",
+      "phone": null,
+      "linkedin": "https://www.linkedin.com/in/suzuki-syofian-6106a035/",
+      "google_scholar": "https://scholar.google.com/citations?user=WRQ77RIAAAAJ",
+      "website": "https://tif.unsada.ac.id/staff/",
+      "notes": "S.Kom., M.Kom.; lecturer, Teknik Informatika, Universitas Darma Persada (UNSADA). Email confirmed via UNSADA repository publication metadata. Confidence: medium-high."
+    }
+  ]
 }

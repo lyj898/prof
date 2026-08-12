@@ -5,5 +5,114 @@
   "city": "Malang",
   "province": "Jawa Timur",
   "website": "https://unikama.ac.id/",
-  "professors": []
+  "professors": [
+    {
+      "name": "Mochamad Fariz Irianto",
+      "department": "Akuntansi",
+      "title": "Ketua Jurusan/Prodi",
+      "research_area": "Accounting",
+      "email": "mochamadfarizirianto@unikama.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://psea.unikama.ac.id/id/dosen-dan-staf/",
+      "notes": "Program Director (Kaprodi) of Accounting Study Program, UNIKAMA. Email listed directly on official program staff page. High confidence."
+    },
+    {
+      "name": "Irma Tyasari",
+      "department": "Akuntansi",
+      "title": "Lektor Kepala",
+      "research_area": "Accounting, Finance",
+      "email": "irma.fe@unikama.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://psea.unikama.ac.id/id/dosen-dan-staf/",
+      "notes": "Ph.D., Ak., CA., CPA., CRA. Email listed directly on official program staff page. High confidence."
+    },
+    {
+      "name": "Sulistyo",
+      "department": "Akuntansi",
+      "title": "Dosen",
+      "research_area": "Accounting",
+      "email": "sulistyo@unikama.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://psea.unikama.ac.id/id/dosen-dan-staf/",
+      "notes": "Drs., M.Ak. Email listed directly on official program staff page. High confidence."
+    },
+    {
+      "name": "Supami Wahyu Setiyowati",
+      "department": "Akuntansi",
+      "title": "Dosen",
+      "research_area": "Accounting",
+      "email": "setiyo@unikama.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://psea.unikama.ac.id/id/dosen-dan-staf/",
+      "notes": "SE., MSA., M.M., AK, CA. Email listed directly on official program staff page. High confidence."
+    },
+    {
+      "name": "Ati Retna Sari",
+      "department": "Akuntansi",
+      "title": "Dosen",
+      "research_area": "Accounting",
+      "email": "atiretnasari@unikama.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://psea.unikama.ac.id/id/dosen-dan-staf/",
+      "notes": "SE., Ak., MSA, CA. Email listed directly on official program staff page. High confidence."
+    },
+    {
+      "name": "Retno Wulandari",
+      "department": "Akuntansi",
+      "title": "Dosen",
+      "research_area": "Accounting",
+      "email": "retnowulandari@unikama.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://psea.unikama.ac.id/id/dosen-dan-staf/",
+      "notes": "SE., MSA. Akt. Email listed directly on official program staff page. High confidence."
+    },
+    {
+      "name": "Doni Wirshandono Yogivaria",
+      "department": "Akuntansi",
+      "title": "Dosen",
+      "research_area": "Accounting",
+      "email": "doniwirshandono@unikama.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://psea.unikama.ac.id/id/dosen-dan-staf/",
+      "notes": "SE., M.Ak., AK., CA. Email listed directly on official program staff page. High confidence."
+    },
+    {
+      "name": "Susmita Dian Indiraswari",
+      "department": "Akuntansi",
+      "title": "Dosen",
+      "research_area": "Accounting",
+      "email": "susmita@unikama.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://psea.unikama.ac.id/id/dosen-dan-staf/",
+      "notes": "SE., M.Ak. Email listed directly on official program staff page. High confidence."
+    },
+    {
+      "name": "Dimas Emha Amir Fikri Anas",
+      "department": "Akuntansi",
+      "title": "Dosen",
+      "research_area": "Accounting",
+      "email": "dimas@unikama.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://psea.unikama.ac.id/id/dosen-dan-staf/",
+      "notes": "SE., Ak., MSA., CA., CPA. Email listed directly on official program staff page. High confidence."
+    }
+  ]
 }

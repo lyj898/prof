@@ -5,5 +5,30 @@
   "city": "Palembang",
   "province": "Sumatera Selatan",
   "website": "https://www.uigm.ac.id/",
-  "professors": []
+  "professors": [
+    {
+      "name": "Darius Antoni",
+      "department": "Sistem Informasi, Fakultas Ilmu Komputer dan Sains",
+      "title": "Guru Besar",
+      "research_area": "Information Systems, Digital Village, Supply Chain Management",
+      "email": "darius.antoni@uigm.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.co.id/citations?hl=en&user=DPPwFB8AAAAJ",
+      "website": "https://www.uigm.ac.id/page/darius",
+      "notes": "Full Professor (Prof.) in Information Systems at UIGM; email verified as corresponding author affiliation on published research (e.g., Information Technology for Development journal). High confidence."
+    },
+    {
+      "name": "Rendra Gustriansyah",
+      "department": "Informatika, Fakultas Ilmu Komputer dan Sains",
+      "title": "Lektor Kepala",
+      "research_area": "Machine Learning, Business Intelligence, Data Mining",
+      "email": "rendra@uigm.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?hl=en&user=21ip2z8AAAAJ",
+      "website": "https://www.uigm.ac.id/page/rendra",
+      "notes": "Associate Professor (Lektor Kepala); email verified as corresponding author on multiple journal publications hosted on ejournal.uigm.ac.id and other Indonesian journals. High confidence."
+    }
+  ]
 }

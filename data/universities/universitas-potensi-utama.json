@@ -5,5 +5,42 @@
   "city": "Medan",
   "province": "Sumatera Utara",
   "website": "http://potensi-utama.ac.id/",
-  "professors": []
+  "professors": [
+    {
+      "name": "Edy Victor Haryanto Sianturi",
+      "department": "Informatika",
+      "title": "Dosen",
+      "research_area": "Image Processing, Artificial Intelligence, Networking, Security",
+      "email": "edy@potensi-utama.ac.id",
+      "phone": null,
+      "linkedin": "https://id.linkedin.com/in/edy-victor-haryanto-05130751",
+      "google_scholar": "https://scholar.google.co.id/citations?user=3hqpNAwAAAAJ&hl=en",
+      "website": "https://sinta.kemdiktisaintek.go.id/authors/profile/95496",
+      "notes": "Email verified via journal corresponding-author listing (INFOSYS journal, e-journal.potensi-utama.ac.id) and confirmed as his institutional domain via Google Scholar/SINTA profile. High confidence."
+    },
+    {
+      "name": "Helmi Kurniawan",
+      "department": "Fakultas Teknik dan Ilmu Komputer",
+      "title": "Dosen",
+      "research_area": "Decision Support Systems, Fuzzy Logic, Multiple Attribute Decision Making",
+      "email": "helmi@potensi-utama.ac.id",
+      "phone": null,
+      "linkedin": "https://id.linkedin.com/in/helmi-kurniawan-75121396",
+      "google_scholar": "https://scholar.google.co.id/citations?user=CibNsUkAAAAJ&hl=en",
+      "website": "https://www.researchgate.net/profile/Helmi-Kurniawan",
+      "notes": "Email verified via journal corresponding-author listing (INFOSYS journal, e-journal.potensi-utama.ac.id/ojs/index.php/INFOSYS/about/contact). Medium-high confidence."
+    },
+    {
+      "name": "Lili Tanti",
+      "department": "Manajemen Informatika",
+      "title": "Dosen",
+      "research_area": "Information Systems",
+      "email": "lilitanti82@gmail.com",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "http://coris-group.org/portal/list_dosen",
+      "notes": "Listed publicly on CORIS (Cooperation Research Inter University) faculty directory with affiliation to Universitas Potensi Utama. Personal email address, not institutional; medium confidence."
+    }
+  ]
 }

@@ -5,5 +5,30 @@
   "city": "Jakarta Barat",
   "province": "DKI Jakarta",
   "website": "https://undira.ac.id/",
-  "professors": []
+  "professors": [
+    {
+      "name": "Anita Ratnasari",
+      "department": "Teknik Informatika",
+      "title": "Ketua Jurusan/Prodi",
+      "research_area": null,
+      "email": "anita.ratnasari@undira.ac.id",
+      "phone": "08129384561",
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://sites.google.com/undira.ac.id/fti-teknikinformatika/",
+      "notes": "S.Kom., M.Kom.; Ketua Program Studi Teknik Informatika, Universitas Dian Nusantara (UNDIRA). Source: official prodi Google Site page listing name, email, and phone. Confidence: high."
+    },
+    {
+      "name": "Bias Yulisa Geni",
+      "department": "Teknik Informatika",
+      "title": "Dosen",
+      "research_area": null,
+      "email": "bias.yulisa.geni@undira.ac.id",
+      "phone": "081378125801",
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://sites.google.com/undira.ac.id/fti-teknikinformatika/",
+      "notes": "S.Kom., M.Kom.; Sekretaris Program Studi Teknik Informatika, Universitas Dian Nusantara (UNDIRA). Source: official prodi Google Site page listing name, email, and phone. Confidence: high."
+    }
+  ]
 }

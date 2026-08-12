@@ -5,5 +5,30 @@
   "city": "Jakarta Selatan",
   "province": "DKI Jakarta",
   "website": "https://unindra.ac.id/",
-  "professors": []
+  "professors": [
+    {
+      "name": "Rendika Vhalery",
+      "department": "Pendidikan Ekonomi",
+      "title": "Dosen",
+      "research_area": "Financial Literacy, Economic Education",
+      "email": "rendika.vhalery@unindra.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.co.id/citations?hl=id&user=I0xqpmAAAAAJ",
+      "website": "https://www.researchgate.net/profile/Rendika-Vhalery",
+      "notes": "S.Pd., M.Pd.E; lecturer, Universitas Indraprasta PGRI (UNINDRA). Email confirmed via Google Scholar verified-email listing and ResearchGate profile. Confidence: high."
+    },
+    {
+      "name": "Hendro Prasetyono",
+      "department": "Manajemen Pendidikan",
+      "title": "Dosen",
+      "research_area": "Educational Management, Teacher Performance",
+      "email": "hendro_prasetyono@unindra.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.co.id/citations?hl=id&user=eCW2qqUAAAAJ",
+      "website": "https://www.researchgate.net/profile/Hendro-Prasetyono",
+      "notes": "Dr., M.Pd; Secretary, Division of Education and Practices, UNINDRA. Email confirmed via Google Scholar verified-email listing. Confidence: high."
+    }
+  ]
 }

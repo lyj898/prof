@@ -5,5 +5,18 @@
   "city": "Medan",
   "province": "Sumatera Utara",
   "website": "https://darmaagung.ac.id/",
-  "professors": []
+  "professors": [
+    {
+      "name": "Hotriado Harianja",
+      "department": "Akuntansi",
+      "title": "Dosen",
+      "research_area": "Corporate Finance, Financial Statement Analysis, Taxation",
+      "email": "hotriado@darmaagung.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.co.id/citations?hl=en&user=h_LWmOAAAAAJ",
+      "website": "https://sinta.kemdiktisaintek.go.id/authors/profile/6080803",
+      "notes": "Email verified as corresponding author on articles in Jurnal Darma Agung / Jurnal Neraca Agung (jurnal.darmaagung.ac.id). High confidence."
+    }
+  ]
 }

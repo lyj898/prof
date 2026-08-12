@@ -5,5 +5,30 @@
   "city": "Medan",
   "province": "Sumatera Utara",
   "website": "https://www.methodist.ac.id/",
-  "professors": []
+  "professors": [
+    {
+      "name": "Dr. Thomas Sumarsan Goh, S.E., M.M.",
+      "department": "Fakultas Ekonomi",
+      "title": "Dosen",
+      "research_area": "Akuntansi, Manajemen Keuangan, Perpajakan",
+      "email": "gohtho@gmail.com",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?amp=&hl=en&user=SRuJvmYAAAAJ",
+      "website": "https://www.researchgate.net/profile/Thomas-Goh-2",
+      "notes": "Email verified directly from the article byline PDF ('Faktor yang Mempengaruhi Return Saham...', Owner: Riset & Jurnal Akuntansi, Vol 6 No 1, Jan 2022, DOI 10.33395/owner.v6i1.612), where he is listed as affiliated with Universitas Methodist Indonesia and marked '*Corresponding Author' with email gohtho@gmail.com. Confidence: high."
+    },
+    {
+      "name": "Dr. Rasmulia Sembiring, S.E., M.M.A.",
+      "department": "Program Studi Manajemen, Fakultas Ekonomi",
+      "title": "Dosen",
+      "research_area": "Manajemen, Sumber Daya Manusia",
+      "email": "rasmuliasembiring11@gmail.com",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.co.id/citations?user=Yj0N7NUAAAAJ&hl=en",
+      "website": "https://manajemen.feumi.net/profil-dosen/",
+      "notes": "Listed as permanent faculty in the official UMI Management program (Fakultas Ekonomi) faculty directory. Email corroborated as her corresponding-author contact across multiple published articles indexed on ResearchGate/OJS. Confidence: medium."
+    }
+  ]
 }

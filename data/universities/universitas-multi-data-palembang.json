@@ -5,5 +5,30 @@
   "city": "Palembang",
   "province": "Sumatera Selatan",
   "website": "https://mdp.ac.id/",
-  "professors": []
+  "professors": [
+    {
+      "name": "Muhammad Rizky Pribadi",
+      "department": "Informatika",
+      "title": "Ketua Jurusan/Prodi",
+      "research_area": "Data Mining, Text Mining, Machine Learning, UI/UX",
+      "email": "rizky@mdp.ac.id",
+      "phone": "085368697674",
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.co.id/citations?user=y5fc61UAAAAJ&hl=en",
+      "website": "https://jurnal.mdp.ac.id/index.php/jatisi/about/contact",
+      "notes": "Program Head (Kaprodi) of Informatics; email verified as principal/corresponding contact for JATISI journal (jurnal.mdp.ac.id). High confidence."
+    },
+    {
+      "name": "Desi Pibriana",
+      "department": "Sistem Informasi",
+      "title": "Dosen",
+      "research_area": "Information Systems, Systematic Literature Review",
+      "email": "desi.pibriana@mdp.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.co.id/citations?user=E42-woQAAAAJ&hl=id",
+      "website": "https://www.researchgate.net/profile/Desi-Pibriana",
+      "notes": "Email verified via public listing associated with her research profile / ResearchGate and matches verified institutional domain shown on Google Scholar. High confidence."
+    }
+  ]
 }

@@ -5,5 +5,66 @@
   "city": "Surabaya",
   "province": "Jawa Timur",
   "website": "https://itats.ac.id/",
-  "professors": []
+  "professors": [
+    {
+      "name": "Syamsuri, S.T., M.T., Ph.D",
+      "department": "Program Studi Teknik Mesin",
+      "title": "Lektor Kepala",
+      "research_area": null,
+      "email": "syamsuri@itats.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://itats.ac.id/teknikmesin/syamsuri/",
+      "notes": "Source: https://itats.ac.id/teknikmesin/syamsuri/ (official Teknik Mesin ITATS faculty profile page, Cloudflare-obfuscated email decoded). High confidence."
+    },
+    {
+      "name": "Ahmad Yusuf Ismail, S.T., M.Sc., Ph.D.",
+      "department": "Program Studi Teknik Mesin",
+      "title": "Dosen",
+      "research_area": null,
+      "email": "yusuf@itats.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://itats.ac.id/teknikmesin/yusuf/",
+      "notes": "Source: https://itats.ac.id/teknikmesin/yusuf/ (official Teknik Mesin ITATS faculty profile page, Cloudflare-obfuscated email decoded). High confidence."
+    },
+    {
+      "name": "Sukendro Broto Sasongko, S.T., M.T., Ph.D.",
+      "department": "Program Studi Teknik Mesin",
+      "title": "Lektor",
+      "research_area": null,
+      "email": "sukendro@itats.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://itats.ac.id/teknikmesin/sukendro/",
+      "notes": "Source: https://itats.ac.id/teknikmesin/sukendro/ (official Teknik Mesin ITATS faculty profile page, Cloudflare-obfuscated email decoded). High confidence."
+    },
+    {
+      "name": "Ir. Bambang Setyono, M.T.",
+      "department": "Program Studi Teknik Mesin",
+      "title": "Lektor",
+      "research_area": null,
+      "email": "bambang@itats.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://itats.ac.id/teknikmesin/bambang/",
+      "notes": "Source: https://itats.ac.id/teknikmesin/bambang/ (official Teknik Mesin ITATS faculty profile page, Cloudflare-obfuscated email decoded). High confidence."
+    },
+    {
+      "name": "Hery Irawan, S.T., M.T.",
+      "department": "Program Studi Teknik Mesin",
+      "title": "Lektor",
+      "research_area": null,
+      "email": "hery@itats.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://itats.ac.id/teknikmesin/hery/",
+      "notes": "Source: https://itats.ac.id/teknikmesin/hery/ (official Teknik Mesin ITATS faculty profile page, Cloudflare-obfuscated email decoded). High confidence."
+    }
+  ]
 }

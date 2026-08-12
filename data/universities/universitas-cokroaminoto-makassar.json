@@ -5,5 +5,30 @@
   "city": "Makassar",
   "province": "Sulawesi Selatan",
   "website": "https://ucm-si.ac.id/",
-  "professors": []
+  "professors": [
+    {
+      "name": "Dr. Lukman Daris, S.Pi., M.Si",
+      "department": "Fakultas Perikanan",
+      "title": "Dekan",
+      "research_area": "Sosial-Ekonomi Perikanan, Sosiologi Masyarakat Pesisir",
+      "email": "daris.lukman70@gmail.com",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.co.id/citations?user=pNt0wzAAAAAJ&hl=en",
+      "website": "https://ucm-si.ac.id/2025/10/18/dilantik-jadi-rektor-ucm-dr-lukman-daris-tuai-apresiasi/",
+      "notes": "Dean of Fisheries Faculty (and, as of Oct 2025, Rector) at UCM per official UCM news article. Email verified as his corresponding-author contact in a peer-reviewed article in Agrikan: Jurnal Agribisnis Perikanan. He is also listed as Editor-in-Chief of UCM's Journal Endofit Fisheries Gertasi Indonesia. Confidence: high."
+    },
+    {
+      "name": "Muannas, S.Sos., M.I.Kom.",
+      "department": "Fakultas Ilmu Komunikasi",
+      "title": "Dosen",
+      "research_area": "Jurnalistik, Penyiaran, Komunikasi",
+      "email": "muannas@fikom-ucm.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.co.id/citations?user=io_K0AYAAAAJ&hl=id",
+      "website": "https://scholar.google.co.id/citations?user=io_K0AYAAAAJ&hl=id",
+      "notes": "Google Scholar profile lists affiliation with Universitas Cokroaminoto Makassar (Faculty of Communication) with a verified fikom-ucm.ac.id email domain; full address corroborated via independent search results tying muannas@fikom-ucm.ac.id to his name and faculty. Confidence: medium-high."
+    }
+  ]
 }

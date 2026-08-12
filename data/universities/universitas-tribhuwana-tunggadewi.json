@@ -5,5 +5,18 @@
   "city": "Malang",
   "province": "Jawa Timur",
   "website": "https://unitri.ac.id/",
-  "professors": []
+  "professors": [
+    {
+      "name": "Fathul Qorib",
+      "department": "Ilmu Komunikasi, Fakultas Ilmu Sosial dan Ilmu Politik",
+      "title": "Dosen",
+      "research_area": "Communication Science, Journalism, Social Media",
+      "email": "fathul.qorib@unitri.ac.id",
+      "phone": "085354769970",
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?hl=en&user=eBsAkjkAAAAJ",
+      "website": "https://www.researchgate.net/profile/Fathul-Qorib",
+      "notes": "Chief Editor of a UNITRI journal; email verified as corresponding author affiliation. High confidence."
+    }
+  ]
 }

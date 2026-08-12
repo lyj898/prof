@@ -5,5 +5,54 @@
   "city": "Jakarta Selatan",
   "province": "DKI Jakarta",
   "website": "https://www.uhamka.ac.id/",
-  "professors": []
+  "professors": [
+    {
+      "name": "Mia Kamayani Sulaeman",
+      "department": "Teknik Informatika",
+      "title": "Ketua Jurusan/Prodi",
+      "research_area": "Machine Learning, Natural Language Processing",
+      "email": "mia.kamayani@uhamka.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://ft.uhamka.ac.id/dosen-ti/",
+      "notes": "Ketua Program Studi Teknik Informatika (S1), UHAMKA. Source: https://ft.uhamka.ac.id/dosen-ti/ (faculty directory page listing name and email). Confidence: high."
+    },
+    {
+      "name": "Nuroji",
+      "department": "Teknik Informatika",
+      "title": "Dosen",
+      "research_area": "Sistem Pendukung Keputusan, Informatika",
+      "email": "nuroji@uhamka.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://ft.uhamka.ac.id/dosen-ti/",
+      "notes": "Dosen Teknik Informatika, UHAMKA. Source: https://ft.uhamka.ac.id/dosen-ti/ faculty directory listing. Confidence: high."
+    },
+    {
+      "name": "N. Pratiwi (Nunik Pratiwi)",
+      "department": "Teknik Informatika",
+      "title": "Dosen",
+      "research_area": "Image Processing, Computer Vision",
+      "email": "npratiwi@uhamka.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.co.id/citations?user=SkPPE9MAAAAJ&hl=id",
+      "website": "https://ft.uhamka.ac.id/dosen-ti/",
+      "notes": "Dosen Teknik Informatika, UHAMKA; S2 Ilmu Komputer Universitas Indonesia. Source: https://ft.uhamka.ac.id/dosen-ti/ faculty directory listing. Confidence: high."
+    },
+    {
+      "name": "Arafat",
+      "department": "Teknik Informatika",
+      "title": "Dosen",
+      "research_area": "IT Strategic Planning, Machine Learning",
+      "email": "arafat@uhamka.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://ft.uhamka.ac.id/dosen-ti/",
+      "notes": "Dosen Teknik Informatika, UHAMKA; Ph.D. Communication and Transportation Engineering, Wuhan University of Technology. Source: https://ft.uhamka.ac.id/dosen-ti/ faculty directory listing. Confidence: high."
+    }
+  ]
 }

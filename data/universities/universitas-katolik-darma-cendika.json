@@ -5,5 +5,66 @@
   "city": "Surabaya",
   "province": "Jawa Timur",
   "website": "https://ukdc.ac.id/",
-  "professors": []
+  "professors": [
+    {
+      "name": "Dr. Nia Yuniarsih, M.S.A.",
+      "department": "Program Studi Akuntansi, Fakultas Ekonomi dan Bisnis",
+      "title": "Ketua Jurusan/Prodi",
+      "research_area": "Akuntansi Manajemen",
+      "email": "nia.yuniarsih@ukdc.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://akuntansi.ukdc.ac.id/profil-dosen-dan-staf/",
+      "notes": "Listed as Ketua Program Studi Akuntansi with individual email on the official UKDC Accounting program faculty directory page. NIDN/SINTA profile also lists her as prodi head. Confidence: high."
+    },
+    {
+      "name": "Dr. Anita Permatasari, M.M., Ak.",
+      "department": "Program Studi Akuntansi, Fakultas Ekonomi dan Bisnis",
+      "title": "Dosen",
+      "research_area": "Akuntansi",
+      "email": "anita.permatasari@ukdc.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://akuntansi.ukdc.ac.id/profil-dosen-dan-staf/",
+      "notes": "Individual faculty email listed on the official UKDC Accounting program faculty directory page. Confidence: high."
+    },
+    {
+      "name": "Dr. Lusy, M.S.A.",
+      "department": "Program Studi Akuntansi, Fakultas Ekonomi dan Bisnis",
+      "title": "Dosen",
+      "research_area": "Akuntansi",
+      "email": "margaretha.hulda@ukdc.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://akuntansi.ukdc.ac.id/profil-dosen-dan-staf/",
+      "notes": "Individual faculty email listed on the official UKDC Accounting program faculty directory page. Confidence: high."
+    },
+    {
+      "name": "Vincentia Devina Setyawati, S.E., M.S.A.",
+      "department": "Program Studi Akuntansi, Fakultas Ekonomi dan Bisnis",
+      "title": "Dosen",
+      "research_area": "Akuntansi",
+      "email": "vincentia.devina@ukdc.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://akuntansi.ukdc.ac.id/profil-dosen-dan-staf/",
+      "notes": "Individual faculty email listed on the official UKDC Accounting program faculty directory page. Confidence: high."
+    },
+    {
+      "name": "Dr. Richard Andrew, A.Md., Ak., S.Ak., M.Ak.",
+      "department": "Program Studi Akuntansi, Fakultas Ekonomi dan Bisnis",
+      "title": "Dosen",
+      "research_area": "Akuntansi",
+      "email": "richard.andrew@ukdc.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://akuntansi.ukdc.ac.id/profil-dosen-dan-staf/",
+      "notes": "Individual faculty email listed on the official UKDC Accounting program faculty directory page. Confidence: high."
+    }
+  ]
 }

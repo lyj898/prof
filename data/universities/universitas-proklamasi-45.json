@@ -5,5 +5,66 @@
   "city": "Sleman",
   "province": "DI Yogyakarta",
   "website": "https://up45.ac.id/",
-  "professors": []
+  "professors": [
+    {
+      "name": "Dr. Andriya Risdwiyanto, S.E., M.Si., C.Ed., CDM., CEJM.",
+      "department": "Program Studi Manajemen",
+      "title": "Lektor Kepala",
+      "research_area": "Marketing, Social Marketing, Consumer Behavior, Management",
+      "email": "andriya.risdwiyanto@up45.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?hl=en&user=HaSBiKIAAAAJ",
+      "website": "https://bpm.up45.ac.id/profile/dr-andriya-risdwiyanto-s-e-m-si-c-ed/",
+      "notes": "Source: https://bpm.up45.ac.id/profile/dr-andriya-risdwiyanto-s-e-m-si-c-ed/ (official Quality Assurance Body faculty profile, Cloudflare-obfuscated email decoded); matches verified Google Scholar email domain (up45.ac.id). Recently promoted to Lektor Kepala per https://up45.ac.id/?p=5188. High confidence."
+    },
+    {
+      "name": "Dr. Dra. Bening Hadilinatih, M.Si.",
+      "department": "Program Studi Administrasi Publik",
+      "title": "Dosen",
+      "research_area": null,
+      "email": "bening@up45.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://bpm.up45.ac.id/profile/dr-dra-bening-hadilinatih-m-si/",
+      "notes": "Source: https://bpm.up45.ac.id/profile/dr-dra-bening-hadilinatih-m-si/ (official Quality Assurance Body faculty profile, Cloudflare-obfuscated email decoded). High confidence."
+    },
+    {
+      "name": "Dr. Sigit Wibowo, S.Hum., M.Hum",
+      "department": "Program Studi Hukum",
+      "title": "Dosen",
+      "research_area": null,
+      "email": "sigitwibowo@up45.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://bpm.up45.ac.id/profile/dr-sigit-wibowo-s-hum-m-hum/",
+      "notes": "Source: https://bpm.up45.ac.id/profile/dr-sigit-wibowo-s-hum-m-hum/ (official Quality Assurance Body faculty profile, Cloudflare-obfuscated email decoded). High confidence."
+    },
+    {
+      "name": "Drs. Bambang Sugeng Dwiyanto, M.M",
+      "department": "Program Studi Manajemen",
+      "title": "Dosen",
+      "research_area": null,
+      "email": "bsugengd@up45.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://bpm.up45.ac.id/profile/drs-bambang-sugeng-dwiyanto-m-m/",
+      "notes": "Source: https://bpm.up45.ac.id/profile/drs-bambang-sugeng-dwiyanto-m-m/ (official Quality Assurance Body faculty profile, Cloudflare-obfuscated email decoded). High confidence."
+    },
+    {
+      "name": "Sumpena, S.T., M.Eng",
+      "department": "Program Studi Teknik Mesin",
+      "title": "Dosen",
+      "research_area": null,
+      "email": "sumpena@up45.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://bpm.up45.ac.id/profile/sumpena-s-t-m-eng/",
+      "notes": "Source: https://bpm.up45.ac.id/profile/sumpena-s-t-m-eng/ (official Quality Assurance Body faculty profile, Cloudflare-obfuscated email decoded). High confidence."
+    }
+  ]
 }
