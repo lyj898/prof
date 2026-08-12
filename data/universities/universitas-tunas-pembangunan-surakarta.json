@@ -5,5 +5,42 @@
   "city": "Surakarta",
   "province": "Jawa Tengah",
   "website": "https://www.utp.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Prof. Dr. Ir. Achmad Fatchul Aziez, M.P.",
+      "department": "Agroteknologi, Fakultas Pertanian",
+      "title": "Guru Besar",
+      "research_area": "Fisiologi Tanaman / Ilmu Tanaman (bakteri endofit, pupuk dan pestisida organik)",
+      "email": "achmad.aziez@lecture.utp.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?user=3Z7JR1EAAAAJ&hl=en",
+      "website": "https://fp.utp.ac.id/",
+      "notes": "First professor (Guru Besar) at UTP Surakarta, Faculty of Agriculture, former Dean of Fakultas Pertanian. Email verified via multiple UTP e-journal/repository article headers (e.g. ejournal.utp.ac.id/index.php/JRUCS and repository.utp.ac.id/2039) indexed with achmad.aziez@lecture.utp.ac.id. Source: lokawarta.com professor inauguration article, fp.utp.ac.id, Google Scholar. High confidence."
+    },
+    {
+      "name": "Prof. Dr. Ir. Haryuni, M.P.",
+      "department": "Agroteknologi, Fakultas Pertanian",
+      "title": "Guru Besar",
+      "research_area": "Ilmu Penyakit Tanaman / Mikrobiologi, Perlindungan Tanaman, Bioteknologi, Kontrol Biologis",
+      "email": "haryuni@lecture.utp.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?hl=en&user=5gQk-PEAAAAJ",
+      "website": "https://fp.utp.ac.id/",
+      "notes": "Appointed Guru Besar (Plant Disease Science), Fakultas Pertanian UTP Surakarta, Feb 2025 (radarsolo.jawapos.com; wartajoglo.com 'Kukuhkan 4 Guru Besar'). Email verified via repeated appearance as corresponding/author email haryuni@lecture.utp.ac.id in UTP e-journal (JRUCS, Jurnal Ilmiah Agrineca) article PDFs indexed by search engines. High confidence."
+    },
+    {
+      "name": "Prof. Dr. Ir. Suswadi, M.Si.",
+      "department": "Agribisnis, Fakultas Pertanian",
+      "title": "Guru Besar",
+      "research_area": "Ilmu Pengembangan Masyarakat Pertanian (agricultural community development, digital literacy for farmers)",
+      "email": "suswadi@lecture.utp.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://fp.utp.ac.id/",
+      "notes": "Appointed Guru Besar (Agricultural Community Development Science), also Wakil Rektor 1 UTP (radarsolo.jawapos.com 'UTP Surakarta Kukuhkan Tiga Guru Besar'). Email verified via repository.utp.ac.id/1981 ('Pak Suswadi.pdf') and multiple UTP e-journal article PDFs (Jurnal Ilmiah Agrineca, JRUCS, JCCE) indexed with suswadi@lecture.utp.ac.id. High confidence."
+    }
+  ]
 }
