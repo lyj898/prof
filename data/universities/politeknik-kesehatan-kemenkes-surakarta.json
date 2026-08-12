@@ -5,5 +5,30 @@
   "city": "Surakarta",
   "province": "Jawa Tengah",
   "website": "https://www.poltekkes-solo.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Yuyun Setyorini",
+      "department": "Jurusan Keperawatan",
+      "title": "Dosen",
+      "research_area": "Keperawatan, terapi fisik",
+      "email": "setyorini.yuyun@gmail.com",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.co.id/citations?user=WrU5UOkAAAAJ&hl=en",
+      "website": "https://jurnalketerapianfisik.com/index.php/jpt/editorial-board",
+      "notes": "Editor-in-Chief of Jurnal Keterapian Fisik and Interest: Jurnal Ilmu Kesehatan (both published by Poltekkes Kemenkes Surakarta, Department of Nursing); individual personal email verified as principal contact on journal contact page https://jurnalketerapianfisik.com/index.php/jpt/about/contact. Note: the generic address litbangpolteksolo@gmail.com is shared across several other named contacts at this institution and was therefore excluded as not individually distinct; this entry uses Yuyun Setyorini's own distinct email instead. High confidence."
+    },
+    {
+      "name": "Sri Wahyuni",
+      "department": "Jurusan Kebidanan",
+      "title": "Dosen",
+      "research_area": "Kebidanan, kebutuhan spiritual ibu hamil",
+      "email": "sriwahyuni.polkesta@gmail.com",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://ejournal.poltekkes-smg.ac.id/ojs/index.php/jurkeb/article/download/10421/3606",
+      "notes": "Corresponding author (Department of Midwifery, Poltekkes Kemenkes Surakarta) on the article 'Spiritual Needs of Pregnant Women' published in JURNAL KEBIDANAN; individual personal email explicitly printed as corresponding-author contact in the article PDF. Medium-high confidence."
+    }
+  ]
 }

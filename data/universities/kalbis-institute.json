@@ -17,6 +17,30 @@
       "google_scholar": "https://scholar.google.co.id/citations?user=cIEQwyAAAAAJ&hl=id",
       "website": "https://sinta.kemdiktisaintek.go.id/authors/profile/5984834/?view=googlescholar",
       "notes": "Source: SINTA profile and Google Scholar; email confirmed via SINTA (mira.ziveria@kalbis.ac.id). Academic rank not confirmed, defaulted to Dosen."
+    },
+    {
+      "name": "Satya Candrasari",
+      "department": "Ilmu Komunikasi",
+      "title": "Dosen",
+      "research_area": "Komunikasi organisasi, komunikasi antar budaya, strategi komunikasi, komunikasi terapeutik",
+      "email": "satya.candrasari@kalbis.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?user=b2mdzQ0AAAAJ&hl=en",
+      "website": null,
+      "notes": "Head of Academic Operation and Lecturer of Communication Science at Kalbis Institute. Google Scholar shows verified email at kalbis.ac.id; full address confirmed via ZoomInfo listing (satya.candrasari@kalbis.ac.id) and Kalbis ABDIMAS journal PDF. High confidence."
+    },
+    {
+      "name": "Naik Henokh Parmenas, S.H., M.M.",
+      "department": "Manajemen / Rektorat",
+      "title": "Dosen",
+      "research_area": "Manajemen sumber daya manusia, employee engagement, talent management, organizational commitment",
+      "email": "parmenas@kalbis.ac.id",
+      "phone": null,
+      "linkedin": "https://www.linkedin.com/in/naik-henokh-parmenas-151518a/",
+      "google_scholar": "https://scholar.google.com/citations?hl=id&user=mbXqD44AAAAJ",
+      "website": "https://kalbis.ac.id/rectors-message/",
+      "notes": "Rector of Kalbis Institute; Google Scholar shows verified email at kalbis.ac.id. Full address (parmenas@kalbis.ac.id) confirmed as corresponding-author email on ResearchGate-indexed publications (e.g., 'Strategy to Maintain Employee Wellbeing in the COVID-19 Pandemic Time'). Title defaulted to Dosen since 'Rektor' is not one of the allowed title values. High confidence on email."
     }
   ]
 }

@@ -5,5 +5,42 @@
   "city": "Surakarta",
   "province": "Jawa Tengah",
   "website": "https://ums.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Dimas Aryo Anggoro",
+      "department": "Informatika, Fakultas Komunikasi dan Informatika",
+      "title": "Dosen",
+      "research_area": "Computer Science, Informatics",
+      "email": "dimas.a.anggoro@ums.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://journals.ums.ac.id/index.php/khif/about/contact",
+      "notes": "Editor-in-Chief of Khazanah Informatika: Jurnal Ilmu Komputer dan Informatika, UMS. Email verified as Principal Contact on journal's official contact page. High confidence, individually distinct institutional email."
+    },
+    {
+      "name": "Hasyim Asy'ari, S.T., M.T",
+      "department": "Teknik Elektro, Fakultas Teknik",
+      "title": "Lektor",
+      "research_area": "Electrical Engineering",
+      "email": "Hasyim.Asyari@ums.ac.id",
+      "phone": "0271-717417 ext. 3223",
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://journals.ums.ac.id/index.php/emitor/about/contact",
+      "notes": "Support Contact for Emitor: Jurnal Teknik Elektro, UMS. Listed as lecturer (Lektor) in Teknik Elektro dosen directory (elektro.ums.ac.id/dosen-pengajar/). Email verified on journal contact page. High confidence, individually distinct institutional email."
+    },
+    {
+      "name": "Eskasari Putri",
+      "department": "Akuntansi, Fakultas Ekonomi dan Bisnis",
+      "title": "Dosen",
+      "research_area": "Accounting, Finance",
+      "email": "ep122@ums.ac.id",
+      "phone": "085730401011",
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://journals.ums.ac.id/index.php/reaksi/about/contact",
+      "notes": "Contact person for Riset Akuntansi dan Keuangan Indonesia journal, Program Studi Akuntansi FEB UMS. Email and phone verified on journal's official contact page. High confidence, individually distinct institutional email."
+    }
+  ]
 }

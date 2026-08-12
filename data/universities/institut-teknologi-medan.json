@@ -5,5 +5,18 @@
   "city": "Medan",
   "province": "Sumatera Utara",
   "website": "https://itm.ac.id/",
-  "professors": []
+  "professors": [
+    {
+      "name": "Dr. Ir. Muhammad Irwanto, Eng. Tech., MT., IPM",
+      "department": "Teknik Elektro",
+      "title": "Lektor Kepala",
+      "research_area": "Power Electronics, Renewable Energy, Wind Energy",
+      "email": "mhd-irwanto@itm.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?user=EGyrtlcAAAAJ",
+      "website": "http://ejurnal.saintekjournalitm.com/index.php/JSaintekITM/about/contact",
+      "notes": "Editor-in-chief of Jurnal Saintek ITM; email listed on journal contact page. Source: http://ejurnal.saintekjournalitm.com/index.php/JSaintekITM/about/contact. High confidence (individually distinct institutional email, verified via journal masthead and cross-referenced Google Scholar profile)."
+    }
+  ]
 }

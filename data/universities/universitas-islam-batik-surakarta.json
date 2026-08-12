@@ -5,5 +5,42 @@
   "city": "Surakarta",
   "province": "Jawa Tengah",
   "website": "https://uniba.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Mohamad Ihsan",
+      "department": "Agroteknologi, Fakultas Pertanian",
+      "title": "Dosen",
+      "research_area": "Agroteknologi, budidaya tanaman",
+      "email": "mohammad.xzan@gmail.com",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://journal.uniba.ac.id/index.php/AGR/about/editorialTeam",
+      "notes": "Editor-in-Chief of AGRONOMIKA journal (Fakultas Pertanian, UNIBA); individual email verified on journal contact page https://journal.uniba.ac.id/index.php/AGR/about/contact and cross-referenced via SINTA profile (agroteknologi program). Medium-high confidence."
+    },
+    {
+      "name": "Umi Nur Solikah",
+      "department": "Agroteknologi, Fakultas Pertanian",
+      "title": "Dosen",
+      "research_area": "Ilmu pertanian",
+      "email": "umi_solikah@yahoo.co.id",
+      "phone": "085647013605",
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://journal.uniba.ac.id/index.php/AGR/about/editorialTeam",
+      "notes": "Support/section editor contact for AGRONOMIKA journal (Fakultas Pertanian, UNIBA); individual email verified on journal contact page https://journal.uniba.ac.id/index.php/AGR/about/contact. Medium confidence."
+    },
+    {
+      "name": "Sudarwati",
+      "department": "Pascasarjana (Program Magister Manajemen)",
+      "title": "Dosen",
+      "research_area": "Manajemen, peran ganda dosen wanita",
+      "email": "sudarwati@uniba.gmail.com",
+      "phone": "0271714751",
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://journal.uniba.ac.id/index.php/MBS/about/contact",
+      "notes": "Primary contact for MANAJEMEN BISNIS SYARIAH journal (Pascasarjana UNIBA), publishes on management/gender topics; individual email verified on journal contact page https://journal.uniba.ac.id/index.php/MBS/about/contact. Medium confidence."
+    }
+  ]
 }

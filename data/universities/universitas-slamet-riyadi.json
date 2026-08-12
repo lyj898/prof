@@ -5,5 +5,42 @@
   "city": "Surakarta",
   "province": "Jawa Tengah",
   "website": "https://unisri.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Dr. Asih Handayani, M.Si., M.Pd",
+      "department": "Manajemen Sumber Daya Manusia, Fakultas Ekonomi dan Bisnis",
+      "title": "Dosen",
+      "research_area": "Human Resource Management",
+      "email": "asihhandayani@unisri.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://ejurnal.unisri.ac.id/index.php/Manajemen/about/contact",
+      "notes": "Principal Contact for JAMASADA: Jurnal Manajemen Sumber Daya Manusia, Faculty of Economics and Business, Unisri. Email verified on journal's official contact page. High confidence, individually distinct institutional email."
+    },
+    {
+      "name": "Setia Murningsih",
+      "department": "Ekonomi dan Kewirausahaan, Fakultas Ekonomi",
+      "title": "Dosen",
+      "research_area": "Economics, Entrepreneurship",
+      "email": "setia.murningsih@unisri.ac.id",
+      "phone": "08568604757",
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://ejurnal.unisri.ac.id/index.php/Ekonomi/about/contact",
+      "notes": "Principal Contact for Jurnal Ekonomi dan Kewirausahaan, Fakultas Ekonomi, Unisri. Email and phone verified on journal's official contact page. High confidence, individually distinct institutional email."
+    },
+    {
+      "name": "Efi Nikmatu Sholihah",
+      "department": "Fakultas Pertanian",
+      "title": "Dosen",
+      "research_area": "Agricultural Innovation",
+      "email": "efinikmatus@gmail.com",
+      "phone": "085231367689",
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://ejurnal.unisri.ac.id/index.php/innofarm/about/contact",
+      "notes": "Principal Contact for Innofarm: Jurnal Inovasi Pertanian, Fakultas Pertanian, Unisri. Email and phone verified on journal's official contact page. Medium-high confidence, individually distinct personal email (not shared with support contact who is the same person)."
+    }
+  ]
 }

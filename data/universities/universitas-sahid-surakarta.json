@@ -5,5 +5,30 @@
   "city": "Surakarta",
   "province": "Jawa Tengah",
   "website": "https://www.usahidsolo.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Marwahyudi",
+      "department": "Teknik Informatika, Fakultas Sains dan Teknologi",
+      "title": "Dosen",
+      "research_area": "Teknologi informasi, pengabdian teknologi tepat guna",
+      "email": "marwahyudi@usahidsolo.ac.id",
+      "phone": "+62 878-3564-1616",
+      "linkedin": null,
+      "google_scholar": "Scopus ID 57219252057",
+      "website": "https://jurnal.usahidsolo.ac.id/index.php/TTG/about/editorialTeam",
+      "notes": "Editor-in-Chief of JURNAL PENGABDIAN TEKNOLOGI TEPAT GUNA (Universitas Sahid Surakarta); individual institutional email verified on journal contact page https://jurnal.usahidsolo.ac.id/index.php/TTG/about/contact. High confidence."
+    },
+    {
+      "name": "Erwin Kartinawati",
+      "department": "Ilmu Komunikasi",
+      "title": "Dosen",
+      "research_area": "Komunikasi digital, media sosial",
+      "email": "erwin.kartinawati@usahidsolo.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://www.atlantis-press.com/proceedings/iccollic-24/126006867",
+      "notes": "Corresponding author email listed on Atlantis Press conference paper 'Gibran Rakabuming Raka's Identity Paradox on Instagram' (ICCOLLIC 2024), affiliated with Universitas Sahid Surakarta. Individual institutional email. Medium-high confidence."
+    }
+  ]
 }

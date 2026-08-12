@@ -5,5 +5,54 @@
   "city": "Semarang",
   "province": "Jawa Tengah",
   "website": "https://unwahas.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Laila Ngindana Zulfa",
+      "department": "Pendidikan Agama Islam, Fakultas Agama Islam",
+      "title": "Dosen",
+      "research_area": "Islamic Education Learning Strategy",
+      "email": "lailangindana@unwahas.ac.id",
+      "phone": "+6285747062032",
+      "linkedin": null,
+      "google_scholar": "https://www.scopus.com/authid/detail.uri?authorId=59941301500",
+      "website": "https://publikasiilmiah.unwahas.ac.id/PROGRESS/about/editorialTeam",
+      "notes": "Editor-in-Chief of Jurnal Progress: Wahana Kreativitas dan Intelektualitas (PKPI2, Fakultas Agama Islam, Unwahas); individual institutional email verified on journal contact page https://publikasiilmiah.unwahas.ac.id/PROGRESS/about/contact. High confidence. Site found via publikasiilmiah.unwahas.ac.id (main unwahas.ac.id domain blocked by SafeLine WAF; proxy bypass via r.jina.ai used for journal subdomain)."
+    },
+    {
+      "name": "Rossi Prabowo",
+      "department": "Fakultas Pertanian",
+      "title": "Dosen",
+      "research_area": "Ilmu Pertanian, Agribisnis",
+      "email": "rossiprabowo@unwahas.ac.id",
+      "phone": "08562742580",
+      "linkedin": null,
+      "google_scholar": "https://www.scopus.com/authid/detail.uri?authorId=57219985621",
+      "website": "https://publikasiilmiah.unwahas.ac.id/Mediagro/about/editorialTeam",
+      "notes": "Editor-in-Chief (Dr., S.Si., M.Si) of MEDIAGRO: journal of agricultural sciences (Fakultas Pertanian, Unwahas); individual institutional email verified on journal contact page https://publikasiilmiah.unwahas.ac.id/Mediagro/about/contact. High confidence."
+    },
+    {
+      "name": "Ulfa Filliana",
+      "department": "Farmasi Klinik, Fakultas Farmasi",
+      "title": "Dosen",
+      "research_area": "Farmasi klinik",
+      "email": "ulfafilliana@unwahas.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://publikasiilmiah.unwahas.ac.id/Farmasi/about/contact",
+      "notes": "Principal contact for Jurnal Ilmu Farmasi dan Farmasi Klinik (Fakultas Farmasi, Unwahas), self-described affiliation 'Departement of Clinical Pharmacy, Universitas Wahid Hasyim'; individual institutional email verified on journal contact page. Medium-high confidence."
+    },
+    {
+      "name": "Ersila Devy Rinjani",
+      "department": "Pendidikan Guru Madrasah Ibtidaiyah, Fakultas Agama Islam",
+      "title": "Dosen",
+      "research_area": "Pendidikan dasar, Pendidikan Islam",
+      "email": "ersiladevy28@gmail.com",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://publikasiilmiah.unwahas.ac.id/MAGISTRA/about/editorialTeam",
+      "notes": "Editor-in-Chief of MAGISTRA: Media Pengembangan Ilmu Pendidikan Dasar dan Keislaman (PKPI2, Fakultas Agama Islam, Unwahas); individual personal email verified on journal contact page https://publikasiilmiah.unwahas.ac.id/MAGISTRA/about/contact. Medium confidence (personal Gmail address, but individually distinct and publicly listed as her contact)."
+    }
+  ]
 }

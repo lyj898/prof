@@ -5,5 +5,30 @@
   "city": "Palembang",
   "province": "Sumatera Selatan",
   "website": "https://um-ad.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Yulius Tiranda, S.Kep., Ns., M.Kep., Ph.D",
+      "department": "Program Studi Ilmu Keperawatan",
+      "title": "Lektor Kepala",
+      "research_area": "Medical Surgical Nursing, Oncology Nursing, Cancer Care, Ostomy",
+      "email": "yuliustiranda@ikestmp.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?user=gKSjdrEAAAAJ",
+      "website": null,
+      "notes": "Received SK Lektor Kepala from LLDikti Wilayah II (April 2026). Email verified in published article: Jurnal Keperawatan Merdeka (JKM) Vol.1 No.2, Nov 2021, p.209 (https://jurnal.poltekkespalembang.ac.id/index.php/jkm/article/download/1004/503). Institution recently transitioned from IKesT Muhammadiyah Palembang to UM-AD Palembang (Dec 2024); ikestmp.ac.id domain still in use. High confidence, individually distinct institutional email."
+    },
+    {
+      "name": "Zairinayati, M.Kes., Ph.D",
+      "department": "D-III Kesehatan Lingkungan / Fakultas Sains dan Teknologi",
+      "title": "Lektor Kepala",
+      "research_area": "Environmental Health, Sanitation, Waste Management",
+      "email": "zairinayati@yahoo.co.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": null,
+      "notes": "Received SK Lektor Kepala from LLDikti Wilayah II (April 2026); Dekan Fakultas Sains dan Teknologi. Email verified in published article: Jurnal Penelitian Kesehatan Suara Forikes, Vol.13 No.3, Juli 2022, p.758 (https://forikes-ejournal.com/index.php/SF/article/download/sf13335/13335). Institution recently transitioned from IKesT Muhammadiyah Palembang to UM-AD Palembang (Dec 2024). High confidence, individually distinct personal email."
+    }
+  ]
 }

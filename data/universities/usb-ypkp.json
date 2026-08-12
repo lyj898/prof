@@ -5,5 +5,30 @@
   "city": "Bandung",
   "province": "Jawa Barat",
   "website": "https://usbypkp.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Erik Nugraha",
+      "department": "Akuntansi, Fakultas Ekonomi",
+      "title": "Dosen",
+      "research_area": "Audit Quality, Accounting, Finance",
+      "email": "erik.nugraha@usbypkp.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.co.id/citations?hl=id&user=hf3Y2MQAAAAJ",
+      "website": "https://jurnal.usbypkp.ac.id/index.php/sikap/about/contact",
+      "notes": "Managing Editor of Jurnal SIKAP; email verified as author contact on published paper 'Discourses of Determinants Factor in Audit Quality' (https://eudl.eu/doi/10.4108/eai.26-3-2019.2290776). High confidence, individually distinct institutional email."
+    },
+    {
+      "name": "Dr. Adi Permana Sidik, S.I.Kom., M.I.Kom.",
+      "department": "Ilmu Komunikasi, Fakultas Ilmu Sosial dan Ilmu Politik",
+      "title": "Ketua Jurusan/Prodi",
+      "research_area": "Communication Studies, Social Media",
+      "email": "adi.permana@usbypkp.ac.id",
+      "phone": "085720033550",
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.co.id/citations?hl=id&user=1ZdSEVgAAAAJ",
+      "website": "https://jurnal.usbypkp.ac.id/index.php/buanakomunikasi/about/contact",
+      "notes": "Editor-in-Chief of Buana Komunikasi journal; Kepala Bagian Penelitian dan Pengabdian Kepada Masyarakat (LPPM). Email and phone verified on journal contact page. High confidence, individually distinct institutional email."
+    }
+  ]
 }

@@ -5,5 +5,42 @@
   "city": "Surakarta",
   "province": "Jawa Tengah",
   "website": "https://udb.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Sri Wahyuningsih Nugraheni",
+      "department": "D3 Rekam Medis dan Informasi Kesehatan",
+      "title": "Dosen",
+      "research_area": "Manajemen informasi kesehatan, rekam medis",
+      "email": "sri_wahyuning@udb.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://sinta.kemdiktisaintek.go.id/authors/profile/6119621/?view=garuda",
+      "website": "https://ojs.udb.ac.id/infokes/about/contact",
+      "notes": "Principal contact for INFOKES journal (D3 Rekam Medis dan Informatika Kesehatan, UDB); individual institutional email verified on journal contact page https://ojs.udb.ac.id/infokes/about/contact. Cross-referenced with SINTA author profile and UDB repository (division D3-RMIK). High confidence."
+    },
+    {
+      "name": "Darah Ifalahma",
+      "department": "Kebidanan",
+      "title": "Dosen",
+      "research_area": "Kebidanan, kesehatan ibu dan anak",
+      "email": "darah_ifa@udb.ac.id",
+      "phone": "082223455008",
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://ojs.udb.ac.id/index.php/ovum/about/contact",
+      "notes": "Principal contact for OVUM: Journal of Midwifery and Health Sciences (UDB); individual institutional email verified on journal contact page https://ojs.udb.ac.id/index.php/ovum/about/contact. Medium-high confidence."
+    },
+    {
+      "name": "Nurchim",
+      "department": "Tidak disebutkan (kontak pendukung jurnal, multi-jurnal)",
+      "title": "Dosen",
+      "research_area": null,
+      "email": "nurchim@udb.ac.id",
+      "phone": "085647466390",
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://ojs.udb.ac.id/index.php/DutaMedika/about/contact",
+      "notes": "Listed as support contact for both OVUM and Jurnal Keperawatan Duta Medika journals (UDB); individual institutional email verified on both journal contact pages. Department/title not specified on source pages. Medium confidence."
+    }
+  ]
 }
