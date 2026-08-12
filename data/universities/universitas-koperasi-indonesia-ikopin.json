@@ -5,5 +5,30 @@
   "city": "Jatinangor",
   "province": "Jawa Barat",
   "website": "https://ikopin.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Nurjamil, S.H.I., M.E.Sy.",
+      "department": "Program Studi Manajemen",
+      "title": "Dosen",
+      "research_area": "Hukum Ekonomi Syariah, Fintech Syariah, Wakaf",
+      "email": "nurjamil@ikopin.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?hl=en&user=YYvbDHIAAAAJ",
+      "website": null,
+      "notes": "Email verified directly from author affiliation block in journal article 'Jurnal Tabarru: Islamic Banking and Finance' Vol 3 No 2 (journal.uir.ac.id/index.php/tabarru/article/download/5763/2814/17392), listing affiliation 'Program Studi Manajemen IKOPIN'. High confidence."
+    },
+    {
+      "name": "Siti Nurhayati",
+      "department": "Program Studi Ekonomi Syariah",
+      "title": "Dosen",
+      "research_area": "Hukum Ekonomi Syariah, Perbankan Syariah, Mudharabah",
+      "email": "sitinurhayati@ikopin.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?hl=en&user=1Jqeh78AAAAJ",
+      "website": null,
+      "notes": "Email verified directly from same author affiliation block in 'Jurnal Tabarru: Islamic Banking and Finance' Vol 3 No 2 (journal.uir.ac.id/index.php/tabarru/article/download/5763/2814/17392), listing affiliation 'Program Studi Ekonomi Syariah IKOPIN'. High confidence."
+    }
+  ]
 }

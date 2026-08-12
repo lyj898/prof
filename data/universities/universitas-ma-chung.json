@@ -5,5 +5,54 @@
   "city": "Malang",
   "province": "Jawa Timur",
   "website": "https://machung.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Dr. Ir. Stefanus Yufra Menahen Taneo, M.S., M.Sc.",
+      "department": "Program Studi Manajemen, Fakultas Ekonomi dan Bisnis",
+      "title": "Guru Besar",
+      "research_area": "Manajemen Inovasi, Kewirausahaan",
+      "email": "stefanus.yufra@machung.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://machung.ac.id/pimpinan-ma-chung/",
+      "notes": "Rector of Universitas Ma Chung (2023-2027); confirmed Guru Besar per machung.ac.id news. Email verified via ResearchGate publication 'IBM TIM LITBANG YAYASAN KOSAYU' (researchgate.net/publication/354410023) listing stefanus.yufra@machung.ac.id. High confidence."
+    },
+    {
+      "name": "Dr. Kestrilia Rega Prilianti, S.Si., M.Si.",
+      "department": "Program Studi Teknik Informatika, Fakultas Teknologi dan Desain",
+      "title": "Lektor Kepala",
+      "research_area": "Artificial Intelligence, Data Science",
+      "email": "kestrilia.rega@machung.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.co.id/citations?hl=id&user=TMuBweYAAAAJ",
+      "website": "https://machung.ac.id/pimpinan-ma-chung/",
+      "notes": "Vice Rector I (Academic Affairs) at Universitas Ma Chung; lecturer in Informatics Engineering. Email verified via web search cross-referencing SINTA/Scholar profile with machung.ac.id domain. Confidence: medium-high."
+    },
+    {
+      "name": "Windra Swastika, S.Kom., M.T., Ph.D.",
+      "department": "Program Studi Teknik Informatika, Fakultas Teknologi dan Desain",
+      "title": "Lektor",
+      "research_area": "Digital Image Processing, Computer Vision, Machine Learning, Medical Imaging",
+      "email": "windra.swastika@machung.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?hl=en&user=59p2jcIAAAAJ",
+      "website": "https://sinta.kemdiktisaintek.go.id/authors/profile/257757",
+      "notes": "Email confirmed appearing across multiple ResearchGate-hosted publications and SINTA profile (ID 257757). Confidence: high."
+    },
+    {
+      "name": "Tarsisius Renald Suganda, Ph.D.",
+      "department": "Program Studi Akuntansi, Fakultas Ekonomi dan Bisnis",
+      "title": "Dekan",
+      "research_area": "Akuntansi, Keuangan, ESG (Environmental, Social, Governance)",
+      "email": "renald.suganda@machung.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.co.id/citations?user=zSMP9zgAAAAJ&hl=en",
+      "website": null,
+      "notes": "Dean, Faculty of Economics and Business, Universitas Ma Chung. Email verified via ResearchGate publication 'IBM TIM LITBANG YAYASAN KOSAYU' (researchgate.net/publication/354410023) and cited as corresponding author on multiple ResearchGate papers. High confidence."
+    }
+  ]
 }

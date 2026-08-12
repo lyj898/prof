@@ -5,5 +5,54 @@
   "city": "Jakarta Barat",
   "province": "DKI Jakarta",
   "website": "https://www.mercubuana.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Prof. Rizki Briandana, S.Sos., M.Comm., Ph.D",
+      "department": "Fakultas Ilmu Komunikasi",
+      "title": "Guru Besar",
+      "research_area": "Media and Communication, Film, Television, New Media, Environmental Communication",
+      "email": "rizki.briandana@mercubuana.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?hl=en&user=igBvn5EAAAAJ",
+      "website": "https://mercubuana.ac.id/dosen-fakultas-ilmu-komunikasi",
+      "notes": "Source: https://mercubuana.ac.id/dosen-fakultas-ilmu-komunikasi (Faculty of Communication Sciences listing); email verified via corresponding-author line in journal articles (Jurnal Studi Komunikasi, Online Journal of Communication and Media Technologies) matching phone +6221 5840816. Confidence: high."
+    },
+    {
+      "name": "Prof. Dr. Nurhayani Saragih, M.Si",
+      "department": "Fakultas Ilmu Komunikasi",
+      "title": "Guru Besar",
+      "research_area": "Ilmu Komunikasi",
+      "email": "nurhayani.saragih@mercubuana.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?user=eoIkLUEAAAAJ&hl=en",
+      "website": "https://mercubuana.ac.id/dosen-fakultas-ilmu-komunikasi",
+      "notes": "Source: https://mercubuana.ac.id/dosen-fakultas-ilmu-komunikasi (Faculty of Communication Sciences listing, title Guru Besar); email appears consistently as corresponding-author address across multiple co-authored journal articles. Confidence: medium-high."
+    },
+    {
+      "name": "Dr. Leila Mona Ganiem",
+      "department": "Fakultas Ilmu Komunikasi",
+      "title": "Lektor",
+      "research_area": "Ilmu Komunikasi",
+      "email": "leila.mona@mercubuana.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://sdm.mercubuana.ac.id/en/certified-lecturer/",
+      "notes": "Source: identified as corresponding-author email (leila.mona@mercubuana.ac.id) on a Universitas Mercu Buana-affiliated journal article, cross-referenced with UMB certified-lecturer listing showing rank Lektor since 2010. Confidence: medium."
+    },
+    {
+      "name": "Dr. Endri, S.E., M.E",
+      "department": "Fakultas Ekonomi dan Bisnis (Manajemen/Keuangan)",
+      "title": "Dosen",
+      "research_area": "Keuangan (Finance)",
+      "email": "endri@mercubuana.ac.id",
+      "phone": null,
+      "linkedin": "https://www.linkedin.com/in/endri-endri-5172b4283/",
+      "google_scholar": null,
+      "website": "https://feb.mercubuana.ac.id/en/lecturers/management-lecturer/",
+      "notes": "Source: identified as corresponding-author email (endri@mercubuana.ac.id) on Universitas Mercu Buana finance journal articles, cross-referenced with FEB UMB management lecturer directory. Confidence: medium."
+    }
+  ]
 }

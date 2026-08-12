@@ -5,5 +5,66 @@
   "city": "Palembang",
   "province": "Sumatera Selatan",
   "website": "https://www.um-palembang.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Mustopa Marli Batubara",
+      "department": "Agribisnis, Fakultas Pertanian",
+      "title": "Lektor",
+      "research_area": "Agribisnis",
+      "email": "mustopa.marli@um-palembang.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://www.um-palembang.ac.id/dosen-agribisnis/",
+      "notes": "Source: https://www.um-palembang.ac.id/dosen-agribisnis/ (Faculty of Agriculture lecturer directory listing name, degree, NIDN, and email). Confidence: high."
+    },
+    {
+      "name": "Harniatun Iswarini",
+      "department": "Agribisnis, Fakultas Pertanian",
+      "title": "Dosen",
+      "research_area": "Agribisnis",
+      "email": "harniatun_iswarini@um-palembang.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://www.um-palembang.ac.id/dosen-agribisnis/",
+      "notes": "Source: https://www.um-palembang.ac.id/dosen-agribisnis/ (Faculty of Agriculture lecturer directory listing name, degree, NIDN, and email). Confidence: high."
+    },
+    {
+      "name": "Rafeah Abubakar",
+      "department": "Agribisnis, Fakultas Pertanian",
+      "title": "Lektor",
+      "research_area": "Agribisnis",
+      "email": "rafeah_abubakar@um-palembang.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://www.um-palembang.ac.id/dosen-agribisnis/",
+      "notes": "Source: https://www.um-palembang.ac.id/dosen-agribisnis/ (Faculty of Agriculture lecturer directory listing name, degree, NIDN, and email). Confidence: high."
+    },
+    {
+      "name": "Sutarmo Iskandar",
+      "department": "Agribisnis, Fakultas Pertanian",
+      "title": "Lektor",
+      "research_area": "Agribisnis",
+      "email": "sutarmo_iskandar@um-palembang.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://www.um-palembang.ac.id/dosen-agribisnis/",
+      "notes": "Source: https://www.um-palembang.ac.id/dosen-agribisnis/ (Faculty of Agriculture lecturer directory listing name, degree, NIDN, and email). Confidence: high."
+    },
+    {
+      "name": "Innike Abdillah Fahmi",
+      "department": "Agribisnis, Fakultas Pertanian",
+      "title": "Dosen",
+      "research_area": "Agribisnis",
+      "email": "innike_fahmi@um-palembang.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://www.um-palembang.ac.id/dosen-agribisnis/",
+      "notes": "Source: https://www.um-palembang.ac.id/dosen-agribisnis/ (Faculty of Agriculture lecturer directory listing name, degree, NIDN, and email). Confidence: high."
+    }
+  ]
 }

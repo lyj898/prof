@@ -5,5 +5,18 @@
   "city": "Tangerang",
   "province": "Banten",
   "website": "https://umt.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Arjulayana",
+      "department": "Pendidikan Bahasa Inggris, FKIP",
+      "title": "Dosen",
+      "research_area": "English language teaching, speaking fluency, vocabulary instruction, neurolinguistic programming in language teaching",
+      "email": "arjulayana@umt.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "http://scholar.google.com/citations?user=BTBVGVYAAAAJ&hl=en",
+      "website": "https://fkip-umt.ac.id/personnel/dr-arjulayana-m-pd/",
+      "notes": "Dr. Arjulayana, M.Pd., FKIP UMT (Pendidikan Bahasa Inggris). Email verified as corresponding author (arjulayana@umt.ac.id) on the paper 'Neuro-Linguistics Programming Concept For Teaching Productive Skill' published in ELS Journal on Interdisciplinary Studies in Humanities. Confidence: high."
+    }
+  ]
 }

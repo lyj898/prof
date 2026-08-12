@@ -5,5 +5,42 @@
   "city": "Tangerang Selatan",
   "province": "Banten",
   "website": "https://umj.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Evi Satispi",
+      "department": "Ilmu Administrasi Publik",
+      "title": "Dekan",
+      "research_area": "Educational Technology, Education Policy, Islamic Education, Social Welfare",
+      "email": "evi.satispi@umj.ac.id",
+      "phone": "+62 217445658",
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?user=l4JYiIIAAAAJ&hl=id",
+      "website": "https://umj.ac.id/guru_besar/prof-dr-evi-satispi-s-p-m-si/",
+      "notes": "Source: https://umj.ac.id/guru_besar/prof-dr-evi-satispi-s-p-m-si/ and https://fisip.umj.ac.id/. Professor (Guru Besar), currently Dean of FISIP UMJ. Confidence: high."
+    },
+    {
+      "name": "Azhari Aziz Samudra",
+      "department": "Doktor Administrasi Publik, FISIP",
+      "title": "Guru Besar",
+      "research_area": "Public Administration, Public Policy, Fiscal Policy, Disaster Mitigation Policy",
+      "email": "azhariazis.samudra@umj.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?user=GMWPChoAAAAJ&hl=en",
+      "website": "https://umj.ac.id/guru_besar/prof-azhari/",
+      "notes": "Source: https://umj.ac.id/guru_besar/prof-azhari/ and https://fisip.umj.ac.id/prof-dr-azhari-aziz-samudra-jabat-ketua-prodi-doktor-administrasi-publik-fisip-umj/. Chair of Doctoral Program in Public Administration, FISIP UMJ. Confidence: high."
+    },
+    {
+      "name": "Budiyanto",
+      "department": "Teknik Elektro, Fakultas Teknik",
+      "title": "Guru Besar",
+      "research_area": "Electrical Engineering",
+      "email": "budiyanto@umj.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://umj.ac.id/guru_besar/prof-dr-ir-budiyanto-st-mt/",
+      "notes": "Source: https://umj.ac.id/guru_besar/prof-dr-ir-budiyanto-st-mt/ (NIDN 0318106904, inaugurated as Guru Besar 23 Nov 2021) and https://fkm.umj.ac.id/selamat-dan-sukses-pengukuhan-guru-besar-universitas-muhammadiyah-jakarta-bapak-prof-dr-budiyanto-s-t-m-t-dan-ibu-prof-dr-ir-tri-yuni-hendrawati-m-si/. Confidence: high."
+    }
+  ]
 }

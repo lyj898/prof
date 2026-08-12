@@ -5,5 +5,18 @@
   "city": "Makassar",
   "province": "Sulawesi Selatan",
   "website": "https://umi.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Prof. Dr. Suharni, S.Pd., M.Kes.",
+      "department": "Fakultas Kesehatan Masyarakat",
+      "title": "Guru Besar",
+      "research_area": "Manajemen Kesehatan dan Keselamatan Kerja (Occupational Health and Safety Management)",
+      "email": "suharni.fachrin@umi.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://fkm.umi.ac.id/dosen/prof-dr-suharni-s-pd-m-kes",
+      "notes": "Sourced from official UMI Fakultas Kesehatan Masyarakat faculty profile page (https://fkm.umi.ac.id/dosen/prof-dr-suharni-s-pd-m-kes), which directly lists the verified @umi.ac.id email. High confidence."
+    }
+  ]
 }

@@ -5,5 +5,66 @@
   "city": "Surabaya",
   "province": "Jawa Timur",
   "website": "https://www.um-surabaya.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Didin Fatihudin",
+      "department": "Manajemen, Fakultas Ekonomi dan Bisnis",
+      "title": "Guru Besar",
+      "research_area": "Finance",
+      "email": "didinfatihudin@um-surabaya.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://feb.um-surabaya.ac.id/homepage/profile_show?slug=dosen",
+      "notes": "Source: https://feb.um-surabaya.ac.id/homepage/profile_show?slug=dosen (FEB UM Surabaya lecturer directory listing name, rank 'Professor', research area, and email). Confidence: high."
+    },
+    {
+      "name": "Anna Marina",
+      "department": "Akuntansi, Fakultas Ekonomi dan Bisnis",
+      "title": "Lektor Kepala",
+      "research_area": "Managerial Accounting",
+      "email": "annamarina@um-surabaya.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://feb.um-surabaya.ac.id/homepage/profile_show?slug=dosen",
+      "notes": "Source: https://feb.um-surabaya.ac.id/homepage/profile_show?slug=dosen (FEB UM Surabaya lecturer directory listing name, rank, research area, and email). Confidence: high."
+    },
+    {
+      "name": "Sentot Imam Wahjono",
+      "department": "Manajemen, Fakultas Ekonomi dan Bisnis",
+      "title": "Lektor Kepala",
+      "research_area": "Human Resources",
+      "email": "sentotimamwahjono@um-surabaya.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://feb.um-surabaya.ac.id/homepage/profile_show?slug=dosen",
+      "notes": "Source: https://feb.um-surabaya.ac.id/homepage/profile_show?slug=dosen (FEB UM Surabaya lecturer directory listing name, rank 'Senior Lecturer', research area, and email). Confidence: high."
+    },
+    {
+      "name": "Mochamad Mochklas",
+      "department": "Manajemen, Fakultas Ekonomi dan Bisnis",
+      "title": "Lektor Kepala",
+      "research_area": "Human Resources",
+      "email": "mochamadmochklas@um-surabaya.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://feb.um-surabaya.ac.id/homepage/profile_show?slug=dosen",
+      "notes": "Source: https://feb.um-surabaya.ac.id/homepage/profile_show?slug=dosen (FEB UM Surabaya lecturer directory listing name, rank, research area, and email). Confidence: high."
+    },
+    {
+      "name": "Muhammad Anang Firmansyah",
+      "department": "Manajemen, Fakultas Ekonomi dan Bisnis",
+      "title": "Lektor",
+      "research_area": "Marketing",
+      "email": "anangfirmansyah@um-surabaya.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://feb.um-surabaya.ac.id/homepage/profile_show?slug=dosen",
+      "notes": "Source: https://feb.um-surabaya.ac.id/homepage/profile_show?slug=dosen (FEB UM Surabaya lecturer directory listing name, rank, research area, and email). Confidence: high."
+    }
+  ]
 }

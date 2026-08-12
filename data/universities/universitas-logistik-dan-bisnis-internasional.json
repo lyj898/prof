@@ -5,5 +5,18 @@
   "city": "Bandung",
   "province": "Jawa Barat",
   "website": "https://www.ulbi.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Prof. Dr. Ir. Agus Purnomo, M.T., CMILT.",
+      "department": "Program Studi Magister Manajemen Logistik",
+      "title": "Guru Besar",
+      "research_area": "Supply Chain Management, Logistics Performance, Customer Retention",
+      "email": "aguspurnomo@ulbi.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://ulbi.ac.id/team/vicerector1/",
+      "notes": "Rector / Vice Rector I and Professor of Supply Chain Management, Master of Logistics Management, ULBI. Email confirmed as corresponding author ('* Corresponding author. E-mail address aguspurnomo@ulbi.ac.id (A. Purnomo)') in growingscience.com/uscm/Vol12/uscm_2024_102.pdf. High confidence."
+    }
+  ]
 }

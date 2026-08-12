@@ -5,5 +5,30 @@
   "city": "Surabaya",
   "province": "Jawa Timur",
   "website": "https://www.petra.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Saarce Elsye Hatane",
+      "department": "Program Studi Akuntansi, Fakultas Bisnis dan Ekonomi",
+      "title": "Lektor Kepala",
+      "research_area": "Accounting, Finance, Intellectual Capital Disclosure, Financial Information Quality",
+      "email": "elsyehat@petra.ac.id",
+      "phone": null,
+      "linkedin": "https://www.linkedin.com/in/saarce-elsye-hatane-aa5b7770/",
+      "google_scholar": "https://scholar.google.co.id/citations?user=kKnF37QAAAAJ&hl=en",
+      "website": "https://sinta.kemdiktisaintek.go.id/authors/profile/26889/?view=garuda",
+      "notes": "Associate Professor in Accounting, Petra Christian University. Email confirmed as corresponding author across multiple publications (e.g. atlantis-press.com/article/125924392.pdf, ResearchGate-hosted AKRUAL Jurnal Akuntansi paper). High confidence."
+    },
+    {
+      "name": "Prof. Dr. Zeplin Jiwa Husada Tarigan, S.T., M.M.T.",
+      "department": "Program Studi Magister Manajemen, Sekolah Bisnis dan Manajemen",
+      "title": "Guru Besar",
+      "research_area": "Supply Chain Management, ERP, Ekonomi Sirkular, Quality Management System",
+      "email": "zeplin@petra.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.co.id/citations?user=0w3ZY48AAAAJ&hl=en",
+      "website": "https://management.petra.ac.id/staff/view?id=S1314-1617682535",
+      "notes": "Professor of Management, Petra Christian University; heads Supply Chain Management minor. Email confirmed as corresponding author ('* Corresponding author. E-mail address: zeplin@petra.ac.id') in growingscience.com/dsl/Vol13/dsl_2024_26.pdf. High confidence."
+    }
+  ]
 }

@@ -5,5 +5,66 @@
   "city": "Bantul",
   "province": "DI Yogyakarta",
   "website": "https://mercubuana-yogya.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Prof. Dr. Alimatus Sahrah, M.M., M.Si",
+      "department": "Fakultas Psikologi",
+      "title": "Guru Besar",
+      "research_area": "Psikologi",
+      "email": "alin@mercubuana-yogya.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://fpsi.mercubuana-yogya.ac.id/en/dosen",
+      "notes": "Source: https://fpsi.mercubuana-yogya.ac.id/en/dosen (Faculty of Psychology UMBY lecturer directory listing name, title Prof., and email). Confidence: high."
+    },
+    {
+      "name": "Dr. Moordiningsih, M.Si., Psikolog",
+      "department": "Fakultas Psikologi",
+      "title": "Dosen",
+      "research_area": "Psikologi Klinis",
+      "email": "moordiningsih@mercubuana-yogya.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://fpsi.mercubuana-yogya.ac.id/en/dosen",
+      "notes": "Source: https://fpsi.mercubuana-yogya.ac.id/en/dosen (Faculty of Psychology UMBY lecturer directory listing name and email). Confidence: high."
+    },
+    {
+      "name": "Dr. Rahma Widyana, M.Si., Psikolog",
+      "department": "Fakultas Psikologi",
+      "title": "Dosen",
+      "research_area": "Psikologi",
+      "email": "rahma@mercubuana-yogya.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://fpsi.mercubuana-yogya.ac.id/en/dosen",
+      "notes": "Source: https://fpsi.mercubuana-yogya.ac.id/en/dosen (Faculty of Psychology UMBY lecturer directory listing name and email). Confidence: high."
+    },
+    {
+      "name": "Nina Fitriana, M.Psi., Ph.D., Psikolog",
+      "department": "Fakultas Psikologi",
+      "title": "Dosen",
+      "research_area": "Psikologi",
+      "email": "nina@mercubuana-yogya.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://fpsi.mercubuana-yogya.ac.id/en/dosen",
+      "notes": "Source: https://fpsi.mercubuana-yogya.ac.id/en/dosen (Faculty of Psychology UMBY lecturer directory listing name and email). Confidence: high."
+    },
+    {
+      "name": "Reny Yuniasanti, M.Psi., Ph.D., Psikolog",
+      "department": "Fakultas Psikologi",
+      "title": "Dosen",
+      "research_area": "Psikologi",
+      "email": "reny.yuniasanti@mercubuana-yogya.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://fpsi.mercubuana-yogya.ac.id/en/dosen",
+      "notes": "Source: https://fpsi.mercubuana-yogya.ac.id/en/dosen (Faculty of Psychology UMBY lecturer directory listing name and email). Confidence: high."
+    }
+  ]
 }

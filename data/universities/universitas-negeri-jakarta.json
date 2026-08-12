@@ -5,5 +5,54 @@
   "city": "Jakarta Timur",
   "province": "DKI Jakarta",
   "website": "https://www.unj.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Prof. Dr. Ari Saptono, S.E., M.Pd.",
+      "department": "Pendidikan Ekonomi, Fakultas Ekonomi",
+      "title": "Guru Besar",
+      "research_area": "Economic Education, Research and Educational Evaluation",
+      "email": "saptono.fe@unj.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://fe.unj.ac.id/?page_id=4995",
+      "notes": "Vice Rector for General Affairs and Finance at UNJ; former Dean of Fakultas Ekonomi. Email cross-confirmed via UNJ Fakultas Ekonomi faculty page and search results. Confidence: medium-high."
+    },
+    {
+      "name": "Prof. Dr. Suherman, M.Si.",
+      "department": "S-1 Manajemen, Fakultas Ekonomi",
+      "title": "Guru Besar",
+      "research_area": "Management Science, Corporate Governance",
+      "email": "suherman@unj.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://fe.unj.ac.id/?page_id=5214",
+      "notes": "Sourced from UNJ Fakultas Ekonomi lecturer page (https://fe.unj.ac.id/?page_id=5214) and corroborating search results listing his @unj.ac.id email. High confidence."
+    },
+    {
+      "name": "Prof. Dr. Umi Widyastuti, S.E., M.E.",
+      "department": "S-2 Magister Manajemen, Fakultas Ekonomi",
+      "title": "Guru Besar",
+      "research_area": "Finance, Financial Literacy, Financial Inclusion, Consumer Financial Behaviour",
+      "email": "umiwidyastuti_feunj@unj.ac.id",
+      "phone": null,
+      "linkedin": "https://id.linkedin.com/in/umi-widyastuti-b2729a13a",
+      "google_scholar": "https://scholar.google.co.id/citations?user=t4ZyaRgAAAAJ&hl=id",
+      "website": "https://fe.unj.ac.id/?page_id=5232",
+      "notes": "Head of Department / Coordinator of S2 Magister Manajemen at UNJ. Email sourced from UNJ Fakultas Ekonomi faculty page and Google Scholar/ResearchGate profile references. High confidence."
+    },
+    {
+      "name": "Dr. Agung Wahyu Handaru, S.T., M.M.",
+      "department": "S-2 Magister Manajemen, Fakultas Ekonomi",
+      "title": "Lektor Kepala",
+      "research_area": "Management",
+      "email": "ahandaru@unj.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://fe.unj.ac.id/",
+      "notes": "Vice Dean for Academic Affairs, Fakultas Ekonomi UNJ. Email sourced from UNJ Fakultas Ekonomi contact listing. Medium-high confidence."
+    }
+  ]
 }

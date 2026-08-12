@@ -5,5 +5,42 @@
   "city": "Medan",
   "province": "Sumatera Utara",
   "website": "https://www.umsu.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Al-Khowarizmi",
+      "department": "Fakultas Ilmu Komputer dan Teknologi Informasi (FIKTI)",
+      "title": "Dekan",
+      "research_area": "Information Science, Algorithms, Artificial Neural Networks, Fuzzy Inference Systems",
+      "email": "alkhowarizmi@umsu.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?user=Ck-Hd5IAAAAJ&hl=en",
+      "website": "https://fikti.umsu.ac.id/pimpinan-fakultas/",
+      "notes": "Assoc. Prof. Dr. Al-Khowarizmi, M.Kom, Dean of FIKTI UMSU (2025-2029 term). Email verified via UMSU-hosted Journal COSITTE contact page (jcositte, https://jurnal.umsu.ac.id/index.php/jcositte/about/contact) listing him as editor with this email. Confidence: high."
+    },
+    {
+      "name": "Mahardika Abdi Prawira Tanjung",
+      "department": "Fakultas Ilmu Komputer dan Teknologi Informasi (FIKTI)",
+      "title": "Asisten Ahli",
+      "research_area": "Digital image processing, deep learning, educational technology, Convolutional Neural Networks",
+      "email": "mahardikaabdiprawira@umsu.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?user=58tS3fYAAAAJ&hl=en",
+      "website": "https://fikti.umsu.ac.id/mahardika-abdi-prawira-tanjung-s-kom-m-kom/",
+      "notes": "Source: https://fikti.umsu.ac.id/mahardika-abdi-prawira-tanjung-s-kom-m-kom/ (individual faculty profile listing email directly, plus Google Scholar, Scopus and SINTA links). Confidence: high."
+    },
+    {
+      "name": "Widia Astuty",
+      "department": "Akuntansi, Fakultas Ekonomi dan Bisnis",
+      "title": "Guru Besar",
+      "research_area": "Management Accounting, Internal Auditing, Professional Accounting Practices",
+      "email": "widiaastuty@umsu.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?user=QaeDLLQAAAAJ&hl=en",
+      "website": "https://akuntansi.umsu.ac.id/prof-dr-widia-astuty-s-e-m-si-qia-ak-ca-cpa/",
+      "notes": "Prof. Dr. Widia Astuty attained Professor (Guru Besar) rank in Accounting in December 2023. Profile confirmed at https://akuntansi.umsu.ac.id/prof-dr-widia-astuty-s-e-m-si-qia-ak-ca-cpa/; email found via search of Scopus/ResearchGate profile aggregation. Confidence: medium-high."
+    }
+  ]
 }

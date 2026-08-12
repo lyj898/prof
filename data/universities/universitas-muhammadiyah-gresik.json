@@ -5,5 +5,66 @@
   "city": "Gresik",
   "province": "Jawa Timur",
   "website": "https://umg.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Widiharti, S.Kep., Ns., M.Kep.",
+      "department": "Program Studi Keperawatan",
+      "title": "Lektor",
+      "research_area": "Manajemen Keperawatan (Nursing Management)",
+      "email": "widiharti@umg.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://keperawatan.umg.ac.id/profil-dosen/",
+      "notes": "Source: https://keperawatan.umg.ac.id/profil-dosen/ (UMG Nursing Study Program lecturer profile page listing NIDN, email, specialization, and academic rank). Confidence: high."
+    },
+    {
+      "name": "Diah Fauzia Zuhroh, S.Kep., Ns., M.Kes.",
+      "department": "Program Studi Keperawatan",
+      "title": "Lektor",
+      "research_area": "Keperawatan Anak (Children's Nursing)",
+      "email": "fauzia_diah@umg.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://keperawatan.umg.ac.id/profil-dosen/",
+      "notes": "Source: https://keperawatan.umg.ac.id/profil-dosen/ (UMG Nursing Study Program lecturer profile page listing NIDN, email, specialization, and academic rank). Confidence: high."
+    },
+    {
+      "name": "Widya Lita Fitrianur, S.Kep., Ns., M.Kep.",
+      "department": "Program Studi Keperawatan",
+      "title": "Asisten Ahli",
+      "research_area": "Keperawatan Jiwa Anak dan Remaja",
+      "email": "widyalita.fitrianur@umg.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://keperawatan.umg.ac.id/profil-dosen/",
+      "notes": "Source: https://keperawatan.umg.ac.id/profil-dosen/ (UMG Nursing Study Program lecturer profile page listing NIDN, email, specialization, and academic rank). Confidence: high."
+    },
+    {
+      "name": "Diah Jerita Eka Sari, S.Kep., Ns., M.Kep.",
+      "department": "Program Studi Keperawatan",
+      "title": "Lektor",
+      "research_area": "Keperawatan Medikal Bedah",
+      "email": "diahjes@umg.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://keperawatan.umg.ac.id/profil-dosen/",
+      "notes": "Source: https://keperawatan.umg.ac.id/profil-dosen/ (UMG Nursing Study Program lecturer profile page listing NIDN, email, specialization, and academic rank). Confidence: high."
+    },
+    {
+      "name": "Dr. Wiwik Widiyawati, S.Kep., Ns., M.M., M.Kes.",
+      "department": "Program Studi Keperawatan",
+      "title": "Lektor",
+      "research_area": "Keperawatan Jiwa (Psychiatric Nursing)",
+      "email": "wiwikwidiyawati@umg.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://keperawatan.umg.ac.id/profil-dosen/",
+      "notes": "Source: https://keperawatan.umg.ac.id/profil-dosen/ (UMG Nursing Study Program lecturer profile page listing NIDN, email, specialization, and academic rank). Confidence: high."
+    }
+  ]
 }

@@ -5,5 +5,66 @@
   "city": "Surabaya",
   "province": "Jawa Timur",
   "website": "https://unusa.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Dr. Khamida, S.Kep., Ns., M.Kep.",
+      "department": "Prodi S1 Keperawatan, Fakultas Keperawatan dan Kebidanan",
+      "title": "Lektor Kepala",
+      "research_area": "Nursing",
+      "email": "khamida@unusa.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://expert.unusa.ac.id/",
+      "notes": "Sourced from official UNUSA lecturer 'expert' directory (https://expert.unusa.ac.id/), which lists verified @unusa.ac.id emails per faculty member. High confidence."
+    },
+    {
+      "name": "Dr. Yurike Septianingrum, S.Kep., Ns., M.Kep.",
+      "department": "Prodi S1 Keperawatan, Fakultas Keperawatan dan Kebidanan",
+      "title": "Lektor",
+      "research_area": "Nursing",
+      "email": "yurikesepti1209@unusa.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://expert.unusa.ac.id/",
+      "notes": "Sourced from official UNUSA lecturer 'expert' directory (https://expert.unusa.ac.id/). High confidence."
+    },
+    {
+      "name": "Dr. Yanis Kartini, S.KM., M.Kep.",
+      "department": "Prodi S1 Keperawatan, Fakultas Keperawatan dan Kebidanan",
+      "title": "Lektor",
+      "research_area": "Nursing, Public Health",
+      "email": "yanis_youarenice@unusa.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://expert.unusa.ac.id/",
+      "notes": "Sourced from official UNUSA lecturer 'expert' directory (https://expert.unusa.ac.id/). High confidence."
+    },
+    {
+      "name": "Dr. Handayani, dr., M.Kes.",
+      "department": "Prodi S1 Pendidikan Dokter, Fakultas Kedokteran",
+      "title": "Lektor",
+      "research_area": "Medicine",
+      "email": "dr.handayani@unusa.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://expert.unusa.ac.id/",
+      "notes": "Sourced from official UNUSA lecturer 'expert' directory (https://expert.unusa.ac.id/). High confidence."
+    },
+    {
+      "name": "Hafid Algristian, dr., Sp.KJ.",
+      "department": "Prodi S1 Pendidikan Dokter, Fakultas Kedokteran",
+      "title": "Dosen",
+      "research_area": "Psychiatry",
+      "email": "dr.hafid@unusa.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://expert.unusa.ac.id/",
+      "notes": "Sourced from official UNUSA lecturer 'expert' directory (https://expert.unusa.ac.id/). High confidence."
+    }
+  ]
 }

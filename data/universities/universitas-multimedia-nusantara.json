@@ -5,5 +5,66 @@
   "city": "Tangerang",
   "province": "Banten",
   "website": "https://www.umn.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Prof. Dr. Friska Natalia, S.Kom., M.T.",
+      "department": "Informatika",
+      "title": "Guru Besar",
+      "research_area": "Computer Vision, Medical Image Processing",
+      "email": "friska.natalia@umn.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://www.umn.ac.id/daftar-dosen/",
+      "notes": "Sourced from UMN official 'Daftar Dosen' faculty directory (https://www.umn.ac.id/daftar-dosen/), which lists verified @umn.ac.id emails. High confidence."
+    },
+    {
+      "name": "Dr. Eng. Niki Prastomo, S.T., M.Sc.",
+      "department": "Teknik Fisika",
+      "title": "Lektor Kepala",
+      "research_area": "Engineering Physics",
+      "email": "niki.prastomo@umn.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://www.umn.ac.id/daftar-dosen/",
+      "notes": "Sourced from UMN official 'Daftar Dosen' faculty directory (https://www.umn.ac.id/daftar-dosen/). High confidence."
+    },
+    {
+      "name": "Prof. Dr. Florentina Kurniasari T., S.Sos., M.B.A.",
+      "department": "Manajemen Teknologi / Bisnis",
+      "title": "Guru Besar",
+      "research_area": "Technology Management",
+      "email": "florentina@umn.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://www.umn.ac.id/daftar-dosen/",
+      "notes": "Sourced from UMN official 'Daftar Dosen' faculty directory (https://www.umn.ac.id/daftar-dosen/). High confidence."
+    },
+    {
+      "name": "Fransiscus Xaverius Lilik Dwi Mardjianto, S.S., M.A.",
+      "department": "Jurnalistik / Ilmu Komunikasi",
+      "title": "Dosen",
+      "research_area": "Journalism",
+      "email": "lilik@umn.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://www.umn.ac.id/daftar-dosen/",
+      "notes": "Sourced from UMN official 'Daftar Dosen' faculty directory (https://www.umn.ac.id/daftar-dosen/). High confidence."
+    },
+    {
+      "name": "Mohammad Rizaldi, S.T., M.Ds.",
+      "department": "Desain Komunikasi Visual",
+      "title": "Dosen",
+      "research_area": "Visual Communication Design",
+      "email": "rizaldi@umn.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://www.umn.ac.id/daftar-dosen/",
+      "notes": "Sourced from UMN official 'Daftar Dosen' faculty directory (https://www.umn.ac.id/daftar-dosen/). High confidence."
+    }
+  ]
 }

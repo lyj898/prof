@@ -5,5 +5,42 @@
   "city": "Sidoarjo",
   "province": "Jawa Timur",
   "website": "https://umsida.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Irwan Alnarus Kautsar",
+      "department": "Informatika",
+      "title": "Dosen",
+      "research_area": "Educational engineering, financial technology, human-centered innovation",
+      "email": "irwan@umsida.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.co.id/citations?user=_BXpnvgAAAAJ&hl=en",
+      "website": "https://informatika.umsida.ac.id/irwan-alnarus-kautsar-s-kom-m-kom-ph-d/",
+      "notes": "Source: https://informatika.umsida.ac.id/irwan-alnarus-kautsar-s-kom-m-kom-ph-d/ (individual faculty profile listing email directly). Ph.D. from Kumamoto University, Japan. Confidence: high."
+    },
+    {
+      "name": "Poppy Febriana",
+      "department": "Ilmu Komunikasi",
+      "title": "Dekan",
+      "research_area": "New Media, Cultural Studies, Gender Studies, Marketing and Branding",
+      "email": "PoppyFebriana@umsida.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.co.id/citations?hl=id&oi=ao&user=6VHBRmEAAAAJ",
+      "website": "https://fbhis.umsida.ac.id/",
+      "notes": "Dean of Fakultas Bisnis, Hukum, dan Ilmu Sosial (FBHIS), Umsida. Email verified as corresponding author in a published paper (found via search of institutional PDF listing '@umsida.ac.id corresponding author'), e.g. Instagram Personal Branding article on https://acopen.umsida.ac.id. Confidence: medium-high."
+    },
+    {
+      "name": "Yuli Astutik",
+      "department": "Pendidikan Bahasa Inggris (PBI), Fakultas Psikologi dan Ilmu Pendidikan (FPIP)",
+      "title": "Lektor Kepala",
+      "research_area": "Teaching English to Young Learners (TEYL), ICT-integrated English language education",
+      "email": "yuliastutik@umsida.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://pbi.umsida.ac.id/dr-yuli-astutik-raih-penghargaan/",
+      "notes": "Source: https://pbi.umsida.ac.id/dr-yuli-astutik-raih-penghargaan/ and https://fpip.umsida.ac.id/dr-yuli-raih-penghargaan-publikasi-ilmiah/ confirm affiliation; email verified as corresponding author on a published paper titled 'Student Responses to Learning English Using Animated Videos at Elementary School Level'. Confidence: medium-high."
+    }
+  ]
 }

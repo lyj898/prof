@@ -5,5 +5,54 @@
   "city": "Medan",
   "province": "Sumatera Utara",
   "website": "https://www.uma.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Prof. Dr. Syafrida Hafni Sahir, SE., M.Si",
+      "department": "Fakultas Ekonomi",
+      "title": "Guru Besar",
+      "research_area": "Manajemen, Metodologi Penelitian",
+      "email": "syafridahafni@staff.uma.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://syafridahafnisahir.blog.uma.ac.id/",
+      "notes": "Source: https://syafridahafnisahir.blog.uma.ac.id/ (personal UMA blog profile listing name, title Profesor, Fakultas Ekonomi, and email). Also listed as Dean of Faculty of Economics and Business per ResearchGate. Confidence: high."
+    },
+    {
+      "name": "Prof. Ir. H. Zulkarnain Lubis, MS, Ph.D",
+      "department": "Fakultas Pertanian",
+      "title": "Guru Besar",
+      "research_area": "Ilmu Pertanian",
+      "email": "prof.zulkarnain@gmail.com",
+      "phone": "+628126042243",
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://zulkarnainlubis.blog.uma.ac.id/",
+      "notes": "Source: https://zulkarnainlubis.blog.uma.ac.id/profil/ (personal UMA blog profile page listing title Profesor Tetap since 2009, Fakultas Pertanian, and contact email/phone). Also SINTA ID 6006182. Confidence: high."
+    },
+    {
+      "name": "Dr. Ihsan Effendi, SE., M.Si",
+      "department": "Fakultas Ekonomi (Manajemen)",
+      "title": "Dekan",
+      "research_area": "Manajemen",
+      "email": "ihsaneffendi@uma.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://ihsaneffendi.blog.uma.ac.id/",
+      "notes": "Source: https://ihsaneffendi.blog.uma.ac.id/profil/ (personal UMA blog profile listing Dekan Fakultas Ekonomi, functional rank Lektor, and email). Confidence: high."
+    },
+    {
+      "name": "Prof. Dr. Sari Bulan Tambunan, S.E., M.MA",
+      "department": "Fakultas Ekonomi",
+      "title": "Guru Besar",
+      "research_area": "Akuntansi, Manajemen",
+      "email": "saribulantambunan@staff.uma.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://saribulantambunan.blog.uma.ac.id/",
+      "notes": "Source: https://saribulantambunan.blog.uma.ac.id/profil/ (personal UMA blog profile listing Fakultas Ekonomi and email); title Professor per Magister Manajemen UMA lecturer list at https://mm.uma.ac.id/daftar-dosen/. Confidence: high."
+    }
+  ]
 }

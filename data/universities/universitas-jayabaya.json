@@ -5,5 +5,18 @@
   "city": "Jakarta Timur",
   "province": "DKI Jakarta",
   "website": "https://jayabaya.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Prof. Dr. H. Yuhelson, S.H., M.H., M.Kn.",
+      "department": "Program Studi Magister Kenotariatan / Fakultas Hukum",
+      "title": "Guru Besar",
+      "research_area": "Hukum Kenotariatan, Hukum Bisnis, Regulasi Keuangan Digital/Kripto",
+      "email": "yuhelson@jayabaya.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://www.researchgate.net/scientific-contributions/Yuhelson-Yuhelson-2154402041",
+      "notes": "Confirmed as corresponding author with email yuhelson@jayabaya.ac.id in ResearchGate-indexed publication (publication/396002986). Confirmed Guru Besar (Professor) at Universitas Jayabaya as of April 2026. High confidence."
+    }
+  ]
 }

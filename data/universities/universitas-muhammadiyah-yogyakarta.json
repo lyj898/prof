@@ -5,5 +5,30 @@
   "city": "Bantul",
   "province": "DI Yogyakarta",
   "website": "https://www.umy.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Prof. Dr. Achmad Nurmandi, M.Sc.",
+      "department": "Ilmu Pemerintahan / JK School of Government",
+      "title": "Guru Besar",
+      "research_area": "Government Affairs, e-Government, Urban Governance",
+      "email": "nurmandi_achmad@umy.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://ip.umy.ac.id/daftar-dosen/achamad-nurmandi/",
+      "notes": "Rector of UMY, first Professor of Government Science at UMY. Email confirmed via corresponding-author line republished from an Emerald journal article (Digital Policy, Regulation and Governance) and cross-confirmed by search results. Confidence: medium-high."
+    },
+    {
+      "name": "Prof. Dr. Dyah Mutiarin, S.I.P., M.Si.",
+      "department": "Ilmu Pemerintahan",
+      "title": "Guru Besar",
+      "research_area": "Public Management, Public Policy, Digital Government",
+      "email": "dyahmutiarin@umy.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.com/citations?user=0RSySV0AAAAJ&hl=en",
+      "website": "https://ip.umy.ac.id/daftar-dosen/dr-dyah-mutiarin-m-si/",
+      "notes": "Vice Rector of UMY and first female professor at UMY. Email cross-confirmed by multiple independent search snippets referencing her staff/personal profile pages. Confidence: medium-high."
+    }
+  ]
 }

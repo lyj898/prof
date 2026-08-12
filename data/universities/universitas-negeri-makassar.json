@@ -5,5 +5,18 @@
   "city": "Makassar",
   "province": "Sulawesi Selatan",
   "website": "https://www.unm.ac.id",
-  "professors": []
+  "professors": [
+    {
+      "name": "Prof. Dr. Romansyah Sahabuddin, S.E., M.Si.",
+      "department": "Manajemen, Fakultas Ekonomi dan Bisnis",
+      "title": "Guru Besar",
+      "research_area": "Human Resources Management",
+      "email": "romansyah@unm.ac.id",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.fr/citations?hl=ja&user=4HZbo2YAAAAJ",
+      "website": "https://manajemen.fe.unm.ac.id/prof-dr-romansyah-sahabuddin-s-e-m-si/",
+      "notes": "Vice Director for Cooperation and Publication, Postgraduate Program (PPs) UNM. Email verified via multiple sources including a corresponding-author line republished from a UNM OJS conference paper (ojs.unm.ac.id/semnaslemlit) and independent search confirmation. High confidence."
+    }
+  ]
 }

@@ -5,5 +5,42 @@
   "city": "Bandung",
   "province": "Jawa Barat",
   "website": "https://www.maranatha.edu",
-  "professors": []
+  "professors": [
+    {
+      "name": "Dr. Riki Martusa, S.E., M.Si., Ak., CA.",
+      "department": "Program Magister Akuntansi, Fakultas Hukum dan Bisnis Digital",
+      "title": "Lektor Kepala",
+      "research_area": "Akuntansi Keuangan, ESG, Tata Kelola Perusahaan",
+      "email": "riki.martusa@eco.maranatha.edu",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://www.maranatha.edu/direktori-dosen/riki-martusa/",
+      "notes": "Email listed directly on official faculty directory profile page (maranatha.edu/direktori-dosen/riki-martusa/, accessed via r.jina.ai proxy). High confidence."
+    },
+    {
+      "name": "Dr. Radiant Victor Imbar, S.Kom., M.T.",
+      "department": "Program Sarjana Sistem Informasi, Fakultas Teknologi dan Rekayasa Cerdas",
+      "title": "Lektor Kepala",
+      "research_area": "Smart Campus Framework, Digital Transformation, Information Systems Governance, Database Systems, Cybersecurity",
+      "email": "radiant.vi@it.maranatha.edu",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": null,
+      "website": "https://www.maranatha.edu/en/direktori-dosen/radiant-victor-imbar/",
+      "notes": "Email listed directly on official faculty directory profile page (maranatha.edu/en/direktori-dosen/radiant-victor-imbar/, accessed via r.jina.ai proxy). High confidence."
+    },
+    {
+      "name": "Meliana Christianti Johan, S.Kom., M.T.",
+      "department": "Program Sarjana Sistem Informasi, Fakultas Teknologi dan Rekayasa Cerdas",
+      "title": "Lektor",
+      "research_area": "Information Systems, Digital Education, Value Co-Creation",
+      "email": "meliana.christianti@it.maranatha.edu",
+      "phone": null,
+      "linkedin": null,
+      "google_scholar": "https://scholar.google.co.id/citations?user=TO4Wh3kAAAAJ&hl=en",
+      "website": "https://www.maranatha.edu/en/direktori-dosen/meliana-christianti-johan/",
+      "notes": "Email listed directly on official faculty directory profile page (maranatha.edu/en/direktori-dosen/meliana-christianti-johan/, accessed via r.jina.ai proxy). Also active as corresponding author on Frontiers in Education publications. High confidence."
+    }
+  ]
 }
