@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from 'react';
 import type { Session } from '@supabase/supabase-js';
-import { supabase, isSupabaseConfigured } from '../lib/supabase';
+import { supabase, isSupabaseConfigured, fetchAllRows } from '../lib/supabase';
 import { PROFESSOR_TITLES, titleLabel, type UniversityWithCount, type ProfessorTitle } from '../lib/types';
 import { exportToExcel, type ProfessorExportRow } from '../lib/exportExcel';
 import Login from './Login';
@@ -108,10 +108,11 @@ function Directory({ session }: { session: Session }) {
 
   async function loadProfMeta() {
     if (!supabase) return;
-    const { data, error } = await supabase
-      .from('professors')
-      .select('university_id, title, department, email, linkedin, google_scholar');
-    if (!error && data) setProfMeta(data as typeof profMeta);
+    const { data, error } = await fetchAllRows<(typeof profMeta)[number]>(
+      'professors',
+      'university_id, title, department, email, linkedin, google_scholar',
+    );
+    if (!error) setProfMeta(data);
   }
 
   useEffect(() => {
@@ -205,10 +206,7 @@ function Directory({ session }: { session: Session }) {
     try {
       const ids = filtered.map((u) => u.id);
       const byId = new Map(filtered.map((u) => [u.id, u]));
-      const { data, error } = await supabase
-        .from('professors')
-        .select('*')
-        .in('university_id', ids);
+      const { data, error } = await fetchAllRows<any>('professors', '*', (q) => q.in('university_id', ids));
       if (error) throw error;
       const professors: ProfessorExportRow[] = (data ?? [])
         .filter((p: any) => profMatches(p))
