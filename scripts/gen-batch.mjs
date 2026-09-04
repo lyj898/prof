@@ -1,0 +1,358 @@
+#!/usr/bin/env node
+/**
+ * Generate the next hand-send batch from out/tier1.csv.
+ *
+ * Excludes everyone already contacted and every DEPARTMENT already used. Department
+ * rather than university: tier 1 is only 123 universities and badly skewed (UGM alone
+ * is 272 of 1,500 rows), so excluding whole universities locked out 90% of the list
+ * after just 50 sends. Two near-identical notes inside one department is the thing that
+ * makes a personal email look automated; a law lecturer and, weeks later, a nursing
+ * lecturer at the same large university is not a detectable pattern.
+ *
+ * Quotas keep each academic title accumulating toward the ~8-10 replies needed to
+ * separate the segments, and DISCIPLINE_CAP stops a batch going single-subject - the
+ * fit scoring weights business fields at 20, so an uncapped score-sorted batch comes
+ * out 90% management/accounting and confounds title with field.
+ *
+ *   node scripts/gen-batch.mjs --n=10 --round=4
+ */
+import { readFileSync, writeFileSync, existsSync, readdirSync } from 'node:fs';
+
+const arg = (k, d) => {
+  const hit = process.argv.find((a) => a.startsWith(`--${k}=`));
+  return hit ? hit.split('=').slice(1).join('=') : d;
+};
+const N = Number(arg('n', 10));
+const ROUND = arg('round', '4');
+
+// Title quotas. Dosen and Guru Besar are both converting; Lektor Kepala broke its
+// zero with its first responder; Lektor is still 0/7 and needs more shots to judge.
+const QUOTAS = { Dosen: 3, 'Guru Besar': 3, 'Lektor Kepala': 2, Lektor: 2 };
+
+// Max sends per subject area per batch, so no batch is single-discipline.
+const DISCIPLINE_CAP = Number(arg('cap', 3));
+
+// Universities touched in the last COOLDOWN batches are skipped entirely. Department-level
+// dedupe alone is not enough: it happily picks a second person at the same small faculty
+// the very next day, which is precisely what makes a "personal" note look automated. A
+// large university comes back into play a few batches later, which is fine - nobody
+// notices two emails a week apart in different faculties.
+const COOLDOWN = Number(arg('cooldown', 4));
+
+// Inspect a batch without writing anything. Round files double as the generator's
+// "already contacted" history, so a batch written but never sent silently burns 10
+// contacts - dry-run makes the mandatory eyeball pass cost nothing.
+const DRY_RUN = process.argv.includes('--dry-run');
+
+// Minimum score. The title quotas used to force weak tail picks into a batch when a band
+// had no good candidates left - the 2026-09-02 round 11 was about to send an e-government
+// lecturer (score 58, audience is civil servants not students) purely to fill the Lektor
+// slot. A slot that cannot be filled well is better given to the next-best candidate of
+// any title, which is safe now that all three main titles reply at similar rates and
+// Lektor is the one band still at zero.
+const FLOOR = Number(arg('floor', 0));
+
+function parseCSV(text) {
+  const rows = [];
+  let row = [], field = '', quoted = false;
+  for (let i = 0; i < text.length; i++) {
+    const c = text[i];
+    if (quoted) {
+      if (c === '"') { if (text[i + 1] === '"') { field += '"'; i++; } else quoted = false; }
+      else field += c;
+    } else if (c === '"') quoted = true;
+    else if (c === ',') { row.push(field); field = ''; }
+    else if (c === '\n') { row.push(field); rows.push(row); row = []; field = ''; }
+    else if (c !== '\r') field += c;
+  }
+  if (field || row.length) { row.push(field); rows.push(row); }
+  const header = rows.shift();
+  return rows.filter((r) => r.length === header.length)
+             .map((r) => Object.fromEntries(header.map((h, i) => [h, r[i]])));
+}
+
+// ---- everyone already emailed -------------------------------------------------
+// Discovered by globbing, NOT a hardcoded list: a hardcoded list silently goes stale
+// the moment a new round is sent, and the failure is invisible - the next batch just
+// quietly re-contacts people who were already emailed.
+// The file for THIS round is excluded: it is output, not history. Counting it would make
+// a re-run exclude its own previous picks, permanently marking as "contacted" ten people
+// who were never actually emailed - and the loss is invisible.
+const selfFile = `out/round${ROUND}-emails.json`;
+const roundFiles = readdirSync('out')
+  .filter((f) => /^round\d+-emails\.json$/.test(f))
+  .map((f) => `out/${f}`)
+  .filter((f) => f !== selfFile)
+  .sort((a, b) => Number(a.match(/\d+/)[0]) - Number(b.match(/\d+/)[0]));
+const sentFiles = ['out/test-emails.json', ...roundFiles];
+
+// Tolerate either shape. A hand-patched round file has been written as an object keyed
+// "0".."9" instead of an array before now; reading that as-is either crashes or, worse,
+// silently drops 10 already-contacted people back into the pool.
+const rowsOf = (f) => {
+  const d = JSON.parse(readFileSync(f, 'utf8'));
+  return Array.isArray(d) ? d : Object.values(d);
+};
+
+const already = new Set();
+for (const f of sentFiles) {
+  if (!existsSync(f)) continue;
+  for (const r of rowsOf(f)) {
+    if (r.email) already.add(r.email.toLowerCase());
+  }
+}
+
+// Universities from the most recent COOLDOWN batches (test-emails counts as the first).
+const recentFiles = sentFiles.slice(-COOLDOWN);
+const recentEmails = new Set();
+for (const f of recentFiles) {
+  if (!existsSync(f)) continue;
+  for (const r of rowsOf(f)) {
+    if (r.email) recentEmails.add(r.email.toLowerCase());
+  }
+}
+console.log(`exclusion sources: ${sentFiles.join(', ')}`);
+console.log(`already contacted: ${already.size}`);
+console.log(`cooldown batches:  ${recentFiles.join(', ') || '(none)'}`);
+
+// Candidates are picked from tier 1 only...
+const contacts = parseCSV(readFileSync('out/tier1.csv', 'utf8'));
+
+// ...but the department/university exclusions must be looked up across ALL tiers.
+// Re-running `npm run rank` re-scores everyone, so an already-contacted person can move
+// OUT of tier 1 (the 2026-09-02 FIT retune moved 14 of the first 100). Looking their
+// department up in tier1.csv alone then silently loses it, and the next batch can email
+// a second person in a department we contacted days ago. The PEOPLE are still safe -
+// `already` is built from the round files by address - but the spacing is not.
+const allTiers = ['out/tier1.csv', 'out/tier2.csv', 'out/tier3.csv']
+  .filter((f) => existsSync(f))
+  .flatMap((f) => parseCSV(readFileSync(f, 'utf8')));
+
+const deptKey = (c) => `${c.uni_slug}||${c.department}`;
+const usedDepts = new Set(
+  allTiers.filter((c) => already.has(c.email.toLowerCase())).map(deptKey),
+);
+const cooldownUnis = new Set(
+  allTiers.filter((c) => recentEmails.has(c.email.toLowerCase())).map((c) => c.uni_slug),
+);
+
+// Loud if any contacted address is in no tier at all - that would be a real blind spot.
+const locatable = new Set(allTiers.map((c) => c.email.toLowerCase()));
+const unlocatable = [...already].filter((e) => !locatable.has(e));
+if (unlocatable.length) {
+  console.warn(`WARNING: ${unlocatable.length} contacted address(es) found in no tier CSV - ` +
+    `their department/university cannot be excluded: ${unlocatable.slice(0, 5).join(', ')}`);
+}
+
+// ---- personalisation ----------------------------------------------------------
+const ROLE_RE = /coordinator|chairman|chairperson|chair\b|head of|\bdean\b|director|member of|board of|secretary|\bketua\b|\bdekan\b|sekretaris|anggota/i;
+
+// A bare one-word Indonesian field name reads wrong in an English sentence ("your work
+// in Manajemen"), and several source rows carry nothing else.
+const TERM_EN = new Map([
+  ['manajemen', 'management'], ['akuntansi', 'accounting'], ['hukum', 'law'],
+  ['pariwisata', 'tourism'], ['kebidanan', 'midwifery'], ['keperawatan', 'nursing'],
+  ['kedokteran', 'medicine'], ['farmasi', 'pharmacy'], ['ekonomi', 'economics'],
+  ['bisnis', 'business'], ['komunikasi', 'communications'], ['pendidikan', 'education'],
+  ['informatika', 'informatics'], ['statistika', 'statistics'], ['matematika', 'mathematics'],
+  ['sosiologi', 'sociology'], ['psikologi', 'psychology'], ['administrasi', 'administration'],
+  ['arsitektur', 'architecture'], ['kimia', 'chemistry'], ['fisika', 'physics'],
+  ['biologi', 'biology'], ['agribisnis', 'agribusiness'],
+]);
+
+function hook(area, dept) {
+  const raw = String(area ?? '').trim() ? String(area) : String(dept ?? '');
+
+  // A multi-word parenthetical in research_area is the source's own English gloss of the
+  // field (e.g. "K3 (Occupational Health and Safety Management)"). It is the best hook
+  // available, and the old code threw it away along with every other parenthetical.
+  const gloss = raw.match(/\(([^()]*\s[^()]*)\)/);
+  if (gloss && !ROLE_RE.test(gloss[1])) return gloss[1].trim().replace(/\s+/g, ' ');
+
+  const stripped = raw.replace(/\([^)]*\)/g, ' ');
+  const items = stripped.split(/[;,/]/).map((s) => s.trim().replace(/[.\s]+$/, ''))
+    .filter((s) => s.length > 2 && !ROLE_RE.test(s));
+  if (items.length === 0) return stripped.replace(/\s+/g, ' ').trim();
+  const bothClean = items.length >= 2
+    && ![items[0], items[1]].some((t) => / and | dan | serta /i.test(t) || t.includes('&'));
+  const chosen = (bothClean ? items[0] + ' and ' + items[1] : items[0])
+    .replace(/ dan /gi, ' and ').replace(/ serta /gi, ' and ');
+  return TERM_EN.get(chosen.trim().toLowerCase()) ?? chosen;
+}
+
+// Subject-line noun. Innermost department parenthetical first: a programme studi is
+// more specific than the faculty that contains it.
+const NOUNS = [
+  [/kebidanan|midwif/i, 'midwifery'], [/keperawatan|nursing/i, 'nursing'],
+  [/kesehatan masyarakat|public health/i, 'public health'],
+  [/kedokteran|medic/i, 'medicine'], [/farmasi|pharmac/i, 'pharmacy'],
+  [/akuntansi|accounting/i, 'accounting'],
+  [/hukum|\blaw\b/i, 'law'],
+  [/sistem informasi|information system/i, 'information systems'],
+  [/informatika|ilmu komputer|computer science/i, 'computer science'],
+  [/pemasaran|marketing/i, 'marketing'],
+  [/perbankan|banking|keuangan|finance|financial/i, 'finance'],
+  [/manajemen|management/i, 'management'],
+  [/ekonomi|economic/i, 'economics'], [/bisnis|business/i, 'business'],
+  [/komunikasi|communication/i, 'communications'],
+  [/psikolog/i, 'psychology'],
+  [/data scien|data mining|machine learning|artificial intelligence|deep learning|big data|natural language processing/i, 'data science'],
+  [/pendidikan|education/i, 'education'],
+  [/sistem informasi|information system/i, 'information systems'],
+  [/informatika|ilmu komputer|computer science/i, 'computer science'],
+  [/teknik sipil|civil engineering/i, 'civil engineering'],
+  [/teknik elektro|electrical/i, 'electrical engineering'],
+  [/teknik industri|industrial/i, 'industrial engineering'],
+  [/teknik mesin|mechanical/i, 'mechanical engineering'],
+  [/teknik|engineering/i, 'engineering'],
+  [/matematika|mathemat/i, 'mathematics'], [/statistik/i, 'statistics'],
+  [/agribisnis|pertanian|agricultur/i, 'agriculture'],
+  [/sosiolog/i, 'sociology'], [/administrasi/i, 'administration'],
+  [/bahasa|sastra|linguist|english|inggris|tesol|\belt\b/i, 'language'],
+  [/arsitektur|architect/i, 'architecture'],
+  [/pariwisata|tourism/i, 'tourism'], [/kimia|chemis/i, 'chemistry'],
+  [/fisika|physic/i, 'physics'], [/biolog/i, 'biology'],
+  [/hubungan internasional/i, 'international relations'],
+];
+
+// Administratively generic nouns. A department called "Program Studi Manajemen" or
+// "Manajemen Informatika" says almost nothing about what the person actually teaches, so
+// when research_area disagrees with a generic department match, research_area wins.
+// Everything else in NOUNS is specific enough that the department is the better signal.
+const GENERIC_NOUNS = new Set(['management', 'business', 'economics', 'administration']);
+
+const matchNoun = (text) => {
+  for (const [re, noun] of NOUNS) if (re.test(String(text ?? ''))) return noun;
+  return null;
+};
+
+const isSpecific = (n) => Boolean(n) && !GENERIC_NOUNS.has(n);
+
+function subjectNoun(dept, area) {
+  const parens = [...String(dept ?? '').matchAll(/\(([^()]*)\)/g)].map((m) => m[1]);
+  // Innermost parenthetical first (a programme studi beats the faculty holding it), but
+  // prefer any SPECIFIC match over a generic one wherever it sits in the department.
+  const deptHits = [...parens.reverse(), String(dept ?? '')].map(matchNoun).filter(Boolean);
+  const fromDept = deptHits.find(isSpecific) ?? deptHits[0] ?? null;
+  const fromArea = matchNoun(area);
+
+  // Prefer whichever source yields a SPECIFIC noun, checking research_area first: it is
+  // what the person actually works on, while `department` is often just the faculty.
+  // Generalised 2026-09-02 from an earlier rule that only overrode four "generic" nouns
+  // - that version still emitted "Your psychology teaching material" to a lecturer whose
+  // research is Teaching English to Young Learners, because psychology is not generic.
+  // Area is checked first but only wins when specific, which keeps the reverse case
+  // right too: "Health Management" (area) must not beat "Kesehatan Masyarakat" (dept).
+  if (isSpecific(fromArea)) return fromArea;
+  if (isSpecific(fromDept)) return fromDept;
+  return fromArea ?? fromDept;
+}
+
+// ---- selection ----------------------------------------------------------------
+// A one-word generic hook is a mailmerge tell - "I'm writing because of your work in
+// Marketing" says we know nothing about them, which is the opposite of the email's whole
+// premise. Reject those rows rather than send a weak personalisation.
+const WEAK_HOOKS = new Set([
+  'management', 'manajemen', 'marketing', 'pemasaran', 'accounting', 'akuntansi',
+  'economics', 'ekonomi', 'business', 'bisnis', 'finance', 'keuangan', 'law', 'hukum',
+  'education', 'pendidikan', 'psychology', 'psikologi', 'communications', 'komunikasi',
+  'informatics', 'informatika', 'statistics', 'statistika', 'mathematics', 'matematika',
+  'administration', 'administrasi', 'nursing', 'keperawatan', 'midwifery', 'kebidanan',
+  'ilmu pendidikan', 'ilmu manajemen', 'ilmu ekonomi', 'ilmu hukum', 'ilmu komunikasi',
+  'ilmu akuntansi', 'manajemen bisnis', 'teknik informatika', 'sistem informasi',
+]);
+const usableHook = (c) => {
+  const h = hook(c.research_area, c.department).trim();
+  return h.length > 0 && !WEAK_HOOKS.has(h.toLowerCase());
+};
+
+const pool = contacts
+  .filter((c) => !already.has(c.email.toLowerCase()))
+  .filter((c) => !usedDepts.has(deptKey(c)))
+  .filter((c) => !cooldownUnis.has(c.uni_slug))
+  .filter((c) => subjectNoun(c.department, c.research_area))   // needs a usable subject line
+  .filter(usableHook)                                          // ...and a specific hook
+  .filter((c) => Number(c.score) >= FLOOR)
+  .sort((a, b) => Number(b.score) - Number(a.score));
+
+// One person per university and per department within a single batch, plus the
+// discipline cap. Quotas are filled greedily down the score-sorted pool.
+const picked = [], perUni = new Set(), perDept = new Set();
+const perNoun = new Map(), left = { ...QUOTAS };
+for (const c of pool) {
+  const t = c.academic_title;
+  if (!(t in left) || left[t] <= 0) continue;
+  if (perUni.has(c.uni_slug) || perDept.has(deptKey(c))) continue;
+  const noun = subjectNoun(c.department, c.research_area);
+  if ((perNoun.get(noun) ?? 0) >= DISCIPLINE_CAP) continue;
+  picked.push(c);
+  perUni.add(c.uni_slug); perDept.add(deptKey(c));
+  perNoun.set(noun, (perNoun.get(noun) ?? 0) + 1);
+  left[t]--;
+  if (picked.length >= N) break;
+}
+
+// Top-up pass: fill any slots the quotas could not fill, from the best remaining
+// candidates of ANY title. Still respects one-per-university, one-per-department and the
+// discipline cap - only the title quota is relaxed.
+for (const c of pool) {
+  if (picked.length >= N) break;
+  if (perUni.has(c.uni_slug) || perDept.has(deptKey(c))) continue;
+  const noun = subjectNoun(c.department, c.research_area);
+  if ((perNoun.get(noun) ?? 0) >= DISCIPLINE_CAP) continue;
+  picked.push(c);
+  perUni.add(c.uni_slug); perDept.add(deptKey(c));
+  perNoun.set(noun, (perNoun.get(noun) ?? 0) + 1);
+}
+
+const BODY = (g, h, topic) => `Dear ${g},
+
+I'm Alex Low, CEO of Y Ventures Group Ltd, an SGX-listed company in Singapore. Nalar (nalar.tech) is our wholly owned subsidiary - a learning platform for Indonesian students.
+
+I'm writing because of your work in ${h}. We're inviting a small number of lecturers to become Nalar course authors, and I wanted to ask you directly rather than through an intermediary.
+
+It works like this: you send us the material you already have for a subject like ${topic} - slides, lecture notes, a syllabus, in whatever form it exists. Another subject you teach regularly is just as welcome if you'd rather. Our team uses AI-assisted production to turn it into a short course. You are credited as the author, you approve it before anything goes live, and you earn 15-25% of net revenue for as long as it stays published. The licence is non-exclusive, so you carry on teaching and publishing the same material exactly as you do now. There is no new writing on your side, and your material is not used to train AI models.
+
+What it offers is reach - students at universities across Indonesia rather than only your own.
+
+Would you be interested in hearing more?`;
+
+const topicOf = (h, noun) => {
+  const first = String(h).split(/ and /i)[0].trim();
+  return first && first.length <= 45 ? first : noun;
+};
+
+const out = picked.map((c, i) => {
+  const h = hook(c.research_area, c.department);
+  const noun = subjectNoun(c.department, c.research_area);
+  const topic = topicOf(h, noun);
+  return {
+    n: i + 1,
+    email: c.email,
+    greeting: c.greeting,
+    title: c.academic_title,
+    uni: c.university,
+    uni_slug: c.uni_slug,
+    score: Number(c.score),
+    subject: `Your ${noun} teaching material - an invitation from Nalar`,
+    hook: h,
+    body: BODY(c.greeting, h, topic),
+  };
+});
+
+if (DRY_RUN) {
+  console.log('DRY RUN - no files written');
+} else {
+  writeFileSync(`out/round${ROUND}-emails.json`, JSON.stringify(out, null, 1));
+  writeFileSync(`out/round${ROUND}-emails.md`,
+    `# Round ${ROUND} - ${out.length} emails\n\n` +
+    out.map((e) => `---\n\n## ${e.n}. ${e.email}\n\n_${e.title} - ${e.uni} - score ${e.score}_\n\n**Subject:** ${e.subject}\n\n${e.body}\n`).join('\n'));
+}
+
+console.log(`pool after exclusions: ${pool.length}`);
+console.log(`unfilled quota: ${JSON.stringify(left)}`);
+console.log(`\n#  ${'title'.padEnd(14)} ${'subject'.padEnd(18)} ${'hook'.padEnd(44)} email`);
+for (const e of out) {
+  const noun = e.subject.replace(/^Your /, '').replace(/ teaching.*$/, '');
+  console.log(`${String(e.n).padEnd(2)} ${e.title.padEnd(14)} ${noun.padEnd(18)} ${e.hook.slice(0, 42).padEnd(44)} ${e.email}`);
+}
