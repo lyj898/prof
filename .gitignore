@@ -23,3 +23,7 @@ npm-debug.log*
 Thumbs.db
 .vscode/
 .idea/
+
+# outreach pipeline output — contains 5,500+ personal email addresses,
+# regenerate with `npm run rank` rather than committing it
+out/
