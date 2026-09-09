@@ -160,6 +160,31 @@ const TERM_EN = new Map([
   ['biologi', 'biology'], ['agribisnis', 'agribusiness'],
 ]);
 
+// The hook is quoted straight into an English sentence ("your work in X"), so the two
+// halves have to agree with each other. "Embriologi and genetika perkembangan" and
+// "Komunikasi pemasaran digital and komunikasi strategis" both read as a machine having
+// swapped one word - the exact mailmerge tell the hook exists to avoid. An all-Indonesian
+// phrase inside the English sentence is fine (Indonesian academics code-switch
+// constantly); it just has to keep its own "dan". 22% of the remaining pool hits this.
+//
+// Detection is deliberately biased toward Indonesian: a false "Indonesian" only joins two
+// English halves with "dan", which an Indonesian reader does not blink at, while a false
+// "English" reintroduces the bug. Evidence is TERM_EN's own field names, a short function-
+// word list, and the pe-/peng-/per-/ke- ...-an derivational frame, which has no English
+// lookalikes (pendidikan, pengembangan, pemasaran, perbankan, kesehatan, keuangan).
+// String.raw, not a plain template literal: `\b` in a template literal is a backspace
+// character, so the first version of this regex compiled to something that matched
+// nothing and silently reported every phrase as English.
+const ID_WORDS = new RegExp(
+  String.raw`\b(?:` + [...TERM_EN.keys()].join('|')
+  + String.raw`|dan|serta|dengan|untuk|pada|dalam|terhadap|dari|yang|atau|berbasis`
+  + String.raw`|melalui|ilmu|sosial|bahasa|guru|sekolah|anak|usia|dini|ibu|hewan|pangan`
+  + String.raw`|tanaman|agama|islam|syariah|masyarakat|perilaku|kualitas|strategi|kerja`
+  + String.raw`|gizi|obat|desa|daerah|negara|pajak|wisata|olahraga|jasmani|rekreasi|seni`
+  + String.raw`|sastra|sejarah|rakyat)\b` + '|'
+  + String.raw`\b(?:pe|peng|pen|pem|per|ke)\w{3,}an\b`, 'i');
+const isIndonesian = (s) => ID_WORDS.test(String(s));
+
 function hook(area, dept) {
   const raw = String(area ?? '').trim() ? String(area) : String(dept ?? '');
 
@@ -173,11 +198,34 @@ function hook(area, dept) {
   const items = stripped.split(/[;,/]/).map((s) => s.trim().replace(/[.\s]+$/, ''))
     .filter((s) => s.length > 2 && !ROLE_RE.test(s));
   if (items.length === 0) return stripped.replace(/\s+/g, ' ').trim();
-  const bothClean = items.length >= 2
-    && ![items[0], items[1]].some((t) => / and | dan | serta /i.test(t) || t.includes('&'));
-  const chosen = (bothClean ? items[0] + ' and ' + items[1] : items[0])
-    .replace(/ dan /gi, ' and ').replace(/ serta /gi, ' and ');
-  return TERM_EN.get(chosen.trim().toLowerCase()) ?? chosen;
+
+  // Never join when a half already carries its own conjunction - "Economic Law" +
+  // "Banking and Finance Law" reads "economic law and banking and finance law". Fall back
+  // to the single most specific item instead of blindly items[0], which is what used to
+  // throw away "banking and finance law" and send the generic "Economic Law". The 6-word
+  // ceiling drops research-paper sentences, hand-patched out of round 6 one at a time.
+  const hasConj = (t) => / and | dan | serta /i.test(t) || t.includes('&');
+  const wordCount = (t) => t.split(/\s+/).length;
+  const mostSpecific = () => items.filter((t) => wordCount(t) <= 6)
+    .sort((a, b) => wordCount(b) - wordCount(a))[0] ?? items[0];
+
+  let chosen;
+  if (items.length >= 2 && !hasConj(items[0]) && !hasConj(items[1])) {
+    const [a, b] = items;
+    chosen = isIndonesian(a) === isIndonesian(b)
+      ? a + (isIndonesian(a) ? ' dan ' : ' and ') + b
+      : mostSpecific();     // halves in different languages: send one, never a hybrid
+  } else {
+    chosen = mostSpecific();
+  }
+
+  // An otherwise-English phrase carrying a stray Indonesian conjunction is the round-5
+  // bug and still needs the rewrite; an all-Indonesian phrase keeps its own conjunction.
+  if (!isIndonesian(chosen.replace(/ dan | serta /gi, ' '))) {
+    chosen = chosen.replace(/ dan /gi, ' and ').replace(/ serta /gi, ' and ');
+  }
+  chosen = chosen.replace(/\s+/g, ' ').trim();
+  return TERM_EN.get(chosen.toLowerCase()) ?? chosen;
 }
 
 // Subject-line noun. Innermost department parenthetical first: a programme studi is
@@ -185,13 +233,22 @@ function hook(area, dept) {
 const NOUNS = [
   [/kebidanan|midwif/i, 'midwifery'], [/keperawatan|nursing/i, 'nursing'],
   [/kesehatan masyarakat|public health/i, 'public health'],
-  [/kedokteran|medic/i, 'medicine'], [/farmasi|pharmac/i, 'pharmacy'],
+  // Before both `kedokteran` and `pendidikan`: "Program Studi Pendidikan Dokter Hewan"
+  // was scoring as education, which also let a vet surgeon take an education slot and
+  // slip past DISCIPLINE_CAP on medicine.
+  [/kedokteran hewan|dokter hewan|veterinar/i, 'veterinary medicine'],
+  // `medic` used to swallow "Medicinal Chemistry", which sent a UI pharmacy lecturer a
+  // subject line about his medicine teaching material. Medicinal chemistry only - a
+  // first attempt added `farmakologi` too and promptly relabelled IPB's "Departemen
+  // Anatomi, Fisiologi, dan Farmakologi" (a veterinary department) as pharmacy.
+  [/medicinal chem|kimia medisinal/i, 'pharmacy'],
+  [/kedokteran|\bmedicine\b|\bmedical\b/i, 'medicine'], [/farmasi|pharmac/i, 'pharmacy'],
   [/akuntansi|accounting/i, 'accounting'],
   [/hukum|\blaw\b/i, 'law'],
   [/sistem informasi|information system/i, 'information systems'],
   [/informatika|ilmu komputer|computer science/i, 'computer science'],
   [/pemasaran|marketing/i, 'marketing'],
-  [/perbankan|banking|keuangan|finance|financial/i, 'finance'],
+  [/perbankan|banking|keuangan|\bfinance\b|financial/i, 'finance'],
   [/manajemen|management/i, 'management'],
   [/ekonomi|economic/i, 'economics'], [/bisnis|business/i, 'business'],
   [/komunikasi|communication/i, 'communications'],
@@ -260,10 +317,26 @@ const WEAK_HOOKS = new Set([
   'administration', 'administrasi', 'nursing', 'keperawatan', 'midwifery', 'kebidanan',
   'ilmu pendidikan', 'ilmu manajemen', 'ilmu ekonomi', 'ilmu hukum', 'ilmu komunikasi',
   'ilmu akuntansi', 'manajemen bisnis', 'teknik informatika', 'sistem informasi',
+  // Added 2026-09-09 with the generic-pair rule below, which needs both halves listed.
+  'public health', 'kesehatan masyarakat', 'medicine', 'kedokteran', 'pharmacy', 'farmasi',
+  'computer science', 'ilmu komputer', 'data science', 'sociology', 'sosiologi',
+  'chemistry', 'kimia', 'physics', 'fisika', 'biology', 'biologi',
+  'architecture', 'arsitektur', 'tourism', 'pariwisata', 'agribusiness', 'agribisnis',
+  'veterinary medicine', 'kedokteran hewan', 'ilmu kedokteran hewan',
 ]);
+
+// A pair of generic categories is just as weak as one of them on its own: round 13 was
+// about to open with "your work in Nursing and Public Health", which the single-term set
+// could not see because neither half was the whole hook.
+const weak = (h) => {
+  const t = h.toLowerCase();
+  if (WEAK_HOOKS.has(t)) return true;
+  const halves = t.split(/ and | dan /);
+  return halves.length === 2 && halves.every((x) => WEAK_HOOKS.has(x.trim()));
+};
 const usableHook = (c) => {
   const h = hook(c.research_area, c.department).trim();
-  return h.length > 0 && !WEAK_HOOKS.has(h.toLowerCase());
+  return h.length > 0 && !weak(h);
 };
 
 const pool = contacts
