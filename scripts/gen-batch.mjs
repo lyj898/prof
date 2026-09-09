@@ -145,6 +145,13 @@ if (unlocatable.length) {
 }
 
 // ---- personalisation ----------------------------------------------------------
+// Sekolah kedinasan: the students are bonded civil servants, not a market for courses
+// sold to students, so the material has no audience on Nalar. Round 11 rejected an
+// e-government lecturer by hand for exactly this reason; round 14 surfaced IPDN again.
+// Poltekkes is deliberately NOT here - its students are ordinary health students who
+// sit the national competency exams, which makes them a target, not an exclusion.
+const KEDINASAN = /pemerintahan dalam negeri|\bipdn\b|pkn stan|akademi kepolisian|akademi militer|intelijen negara|ilmu pemasyarakatan|politeknik imigrasi/i;
+
 const ROLE_RE = /coordinator|chairman|chairperson|chair\b|head of|\bdean\b|director|member of|board of|secretary|\bketua\b|\bdekan\b|sekretaris|anggota/i;
 
 // A bare one-word Indonesian field name reads wrong in an English sentence ("your work
@@ -182,7 +189,13 @@ const ID_WORDS = new RegExp(
   + String.raw`|tanaman|agama|islam|syariah|masyarakat|perilaku|kualitas|strategi|kerja`
   + String.raw`|gizi|obat|desa|daerah|negara|pajak|wisata|olahraga|jasmani|rekreasi|seni`
   + String.raw`|sastra|sejarah|rakyat)\b` + '|'
-  + String.raw`\b(?:pe|peng|pen|pem|per|ke)\w{3,}an\b`, 'i');
+  + String.raw`\b(?:pe|peng|pen|pem|per|ke)\w{3,}an\b` + '|'
+  // Indonesian spellings of Latin/Greek cognates. English uses -ology, -ation,
+  // -ity, -omy, -graphy, so these endings never collide: patologi, farmakologi,
+  // informasi, komunikasi, kualitas, akuntansi, anatomi, matematika, geografi.
+  // Round 14 joined "Patologi Anatomi" to "Farmakologi" with an English "and"
+  // because the word list alone read both halves as English.
+  + String.raw`\b\w{3,}(?:ologi|asi|itas|ansi|ika|omi|grafi|isme)\b`, 'i');
 const isIndonesian = (s) => ID_WORDS.test(String(s));
 
 function hook(area, dept) {
@@ -249,11 +262,19 @@ const NOUNS = [
   [/informatika|ilmu komputer|computer science/i, 'computer science'],
   [/pemasaran|marketing/i, 'marketing'],
   [/perbankan|banking|keuangan|\bfinance\b|financial/i, 'finance'],
+  // Ahead of `manajemen`, which is generic and so never wins on its own but does
+  // block a better match: "Pendidikan Islam Anak Usia Dini dan pengembangan
+  // manajemen ..." came out as management teaching material.
+  [/tarbiyah|keguruan|\bpaud\b|anak usia dini/i, 'education'],
   [/manajemen|management/i, 'management'],
   [/ekonomi|economic/i, 'economics'], [/bisnis|business/i, 'business'],
   [/komunikasi|communication/i, 'communications'],
   [/psikolog/i, 'psychology'],
   [/data scien|data mining|machine learning|artificial intelligence|deep learning|big data|natural language processing/i, 'data science'],
+  // Language before education: "English Language Education" is a language
+  // lecturer's material, not an education lecturer's, and `pendidikan` used to win
+  // purely on ordering. Same family as the psychology-over-TEYL bug.
+  [/bahasa|sastra|linguist|english|inggris|tesol|\belt\b/i, 'language'],
   [/pendidikan|education/i, 'education'],
   [/sistem informasi|information system/i, 'information systems'],
   [/informatika|ilmu komputer|computer science/i, 'computer science'],
@@ -265,7 +286,6 @@ const NOUNS = [
   [/matematika|mathemat/i, 'mathematics'], [/statistik/i, 'statistics'],
   [/agribisnis|pertanian|agricultur/i, 'agriculture'],
   [/sosiolog/i, 'sociology'], [/administrasi/i, 'administration'],
-  [/bahasa|sastra|linguist|english|inggris|tesol|\belt\b/i, 'language'],
   [/arsitektur|architect/i, 'architecture'],
   [/pariwisata|tourism/i, 'tourism'], [/kimia|chemis/i, 'chemistry'],
   [/fisika|physic/i, 'physics'], [/biolog/i, 'biology'],
@@ -345,6 +365,7 @@ const pool = contacts
   .filter((c) => !cooldownUnis.has(c.uni_slug))
   .filter((c) => subjectNoun(c.department, c.research_area))   // needs a usable subject line
   .filter(usableHook)                                          // ...and a specific hook
+  .filter((c) => !KEDINASAN.test(String(c.university)))
   .filter((c) => Number(c.score) >= FLOOR)
   .sort((a, b) => Number(b.score) - Number(a.score));
 
