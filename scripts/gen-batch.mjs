@@ -198,6 +198,51 @@ const ID_WORDS = new RegExp(
   + String.raw`\b\w{3,}(?:ologi|asi|itas|ansi|ika|omi|grafi|isme)\b`, 'i');
 const isIndonesian = (s) => ID_WORDS.test(String(s));
 
+// A one-word generic hook is a mailmerge tell - "I'm writing because of your work in
+// Marketing" says we know nothing about them, which is the opposite of the email's whole
+// premise. Reject those rows rather than send a weak personalisation.
+const WEAK_HOOKS = new Set([
+  'management', 'manajemen', 'marketing', 'pemasaran', 'accounting', 'akuntansi',
+  'economics', 'ekonomi', 'business', 'bisnis', 'finance', 'keuangan', 'law', 'hukum',
+  'education', 'pendidikan', 'psychology', 'psikologi', 'communications', 'komunikasi',
+  'informatics', 'informatika', 'statistics', 'statistika', 'mathematics', 'matematika',
+  'administration', 'administrasi', 'nursing', 'keperawatan', 'midwifery', 'kebidanan',
+  'ilmu pendidikan', 'ilmu manajemen', 'ilmu ekonomi', 'ilmu hukum', 'ilmu komunikasi',
+  'ilmu akuntansi', 'manajemen bisnis', 'teknik informatika', 'sistem informasi',
+  // Added 2026-09-09 with the generic-pair rule below, which needs both halves listed.
+  'public health', 'kesehatan masyarakat', 'medicine', 'kedokteran', 'pharmacy', 'farmasi',
+  'computer science', 'ilmu komputer', 'data science', 'sociology', 'sosiologi',
+  'chemistry', 'kimia', 'physics', 'fisika', 'biology', 'biologi',
+  'architecture', 'arsitektur', 'tourism', 'pariwisata', 'agribusiness', 'agribisnis',
+  'veterinary medicine', 'kedokteran hewan', 'ilmu kedokteran hewan',
+  // Added 2026-09-09 for the both-halves-generic rule in hook(). These are all real
+  // fields, but as a HOOK each says only which department someone sits in.
+  'machine learning', 'artificial intelligence', 'kecerdasan buatan', 'deep learning',
+  'database', 'databases', 'basis data', 'big data', 'data mining', 'cloud computing',
+  'internet of things', 'information systems', 'information technology',
+  'teknologi informasi', 'software engineering', 'rekayasa perangkat lunak',
+  'programming', 'pemrograman', 'linguistics', 'linguistik', 'literature', 'sastra',
+  'geography', 'geografi', 'history', 'sejarah', 'agriculture', 'pertanian',
+  // Generic business-management pairs were the last family standing: round 15 opened
+  // with "Human Resource Management and Audit", "Financial Management and Strategic
+  // Management" and "Finance and Financial Literacy", and each of those three rows
+  // had a specific area sitting further down its own list (service quality, UMKM
+  // management, financial inclusion). Costs 2 rows of pool and rejects nobody.
+  'financial management', 'manajemen keuangan', 'strategic management',
+  'manajemen strategis', 'human resource management',
+  'manajemen sumber daya manusia', 'financial literacy', 'audit', 'auditing',
+]);
+
+// A pair of generic categories is just as weak as one of them on its own: round 13 was
+// about to open with "your work in Nursing and Public Health", which the single-term set
+// could not see because neither half was the whole hook.
+const weak = (h) => {
+  const t = h.toLowerCase();
+  if (WEAK_HOOKS.has(t)) return true;
+  const halves = t.split(/ and | dan /);
+  return halves.length === 2 && halves.every((x) => WEAK_HOOKS.has(x.trim()));
+};
+
 function hook(area, dept) {
   const raw = String(area ?? '').trim() ? String(area) : String(dept ?? '');
 
@@ -222,12 +267,21 @@ function hook(area, dept) {
   const mostSpecific = () => items.filter((t) => wordCount(t) <= 6)
     .sort((a, b) => wordCount(b) - wordCount(a))[0] ?? items[0];
 
+  // When both halves of the join are generic categories, so is the join - and a specific
+  // area is often sitting third in the source list. "Artificial Intelligence and
+  // Database" was hand-patched to "Natural Language Processing", "Data Science and
+  // Machine Learning" to "Anomaly Detection", both from the same row's own list.
+  const generic = (t) => WEAK_HOOKS.has(t.toLowerCase());
+  const firstSpecific = () => items.find((t) => !generic(t) && wordCount(t) <= 6);
+
+  // Halves in different languages are never joined: send one, never a hybrid.
+  const canJoin = items.length >= 2 && !hasConj(items[0]) && !hasConj(items[1])
+    && isIndonesian(items[0]) === isIndonesian(items[1]);
   let chosen;
-  if (items.length >= 2 && !hasConj(items[0]) && !hasConj(items[1])) {
+  if (canJoin) {
     const [a, b] = items;
-    chosen = isIndonesian(a) === isIndonesian(b)
-      ? a + (isIndonesian(a) ? ' dan ' : ' and ') + b
-      : mostSpecific();     // halves in different languages: send one, never a hybrid
+    chosen = (generic(a) && generic(b) && firstSpecific())
+      || a + (isIndonesian(a) ? ' dan ' : ' and ') + b;
   } else {
     chosen = mostSpecific();
   }
@@ -326,34 +380,6 @@ function subjectNoun(dept, area) {
 }
 
 // ---- selection ----------------------------------------------------------------
-// A one-word generic hook is a mailmerge tell - "I'm writing because of your work in
-// Marketing" says we know nothing about them, which is the opposite of the email's whole
-// premise. Reject those rows rather than send a weak personalisation.
-const WEAK_HOOKS = new Set([
-  'management', 'manajemen', 'marketing', 'pemasaran', 'accounting', 'akuntansi',
-  'economics', 'ekonomi', 'business', 'bisnis', 'finance', 'keuangan', 'law', 'hukum',
-  'education', 'pendidikan', 'psychology', 'psikologi', 'communications', 'komunikasi',
-  'informatics', 'informatika', 'statistics', 'statistika', 'mathematics', 'matematika',
-  'administration', 'administrasi', 'nursing', 'keperawatan', 'midwifery', 'kebidanan',
-  'ilmu pendidikan', 'ilmu manajemen', 'ilmu ekonomi', 'ilmu hukum', 'ilmu komunikasi',
-  'ilmu akuntansi', 'manajemen bisnis', 'teknik informatika', 'sistem informasi',
-  // Added 2026-09-09 with the generic-pair rule below, which needs both halves listed.
-  'public health', 'kesehatan masyarakat', 'medicine', 'kedokteran', 'pharmacy', 'farmasi',
-  'computer science', 'ilmu komputer', 'data science', 'sociology', 'sosiologi',
-  'chemistry', 'kimia', 'physics', 'fisika', 'biology', 'biologi',
-  'architecture', 'arsitektur', 'tourism', 'pariwisata', 'agribusiness', 'agribisnis',
-  'veterinary medicine', 'kedokteran hewan', 'ilmu kedokteran hewan',
-]);
-
-// A pair of generic categories is just as weak as one of them on its own: round 13 was
-// about to open with "your work in Nursing and Public Health", which the single-term set
-// could not see because neither half was the whole hook.
-const weak = (h) => {
-  const t = h.toLowerCase();
-  if (WEAK_HOOKS.has(t)) return true;
-  const halves = t.split(/ and | dan /);
-  return halves.length === 2 && halves.every((x) => WEAK_HOOKS.has(x.trim()));
-};
 const usableHook = (c) => {
   const h = hook(c.research_area, c.department).trim();
   return h.length > 0 && !weak(h);
