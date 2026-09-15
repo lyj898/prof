@@ -12,7 +12,8 @@
     "db:push": "supabase db push",
     "seed": "node --env-file=.env.local scripts/seed.mjs",
     "rank": "node scripts/rank-outreach.mjs",
-    "suppression": "node scripts/build-suppression.mjs"
+    "suppression": "node scripts/build-suppression.mjs",
+    "channel": "node scripts/build-channel-list.mjs"
   },
   "dependencies": {
     "@astrojs/react": "^4.2.0",
