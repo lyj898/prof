@@ -121,7 +121,11 @@ Apabila ya, apakah kami dapat mengirimkan rinciannya setelah skema ini final?
 Apabila tidak, kabar tersebut pun sangat berguna bagi kami, dan kami tidak akan menulis lagi.`;
 
 const LANG = arg('lang', 'both');   // both | split
-const DIVIDER = '- - -';
+// Outlook autoformats a line that starts with "- " into a bullet list, and it ate "- - -"
+// entirely on the first live send - the two halves ended up separated by a bare "-" that
+// reads as a typo. Any punctuation-only divider is a trap here: ---, ***, ___ and === all
+// become horizontal rules. Plain words in parentheses survive.
+const DIVIDER = '(English version follows)';
 
 const out = picked.map((r, i) => {
   const prog = programme(r.department);
