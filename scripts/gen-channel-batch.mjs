@@ -7,10 +7,14 @@
  *
  *   node scripts/gen-channel-batch.mjs --n=20 --batch=1
  *
- * Half the batch goes out in English and half in Bahasa. Ten against ten proves nothing
- * statistically and is not meant to - it is there to catch gross problems early, above all
- * a native speaker telling us the Indonesian reads wrong, which is worth more than silence
- * from twenty English emails.
+ * Default is BILINGUAL: Bahasa first, English below a rule. A bilingual email reads as
+ * institutional circular register rather than a personal note - wrong for the lecturer
+ * campaign, right here, because the recipient is being asked to FORWARD it and what they
+ * pass on should be readable by everyone downstream without them translating anything.
+ * Bahasa leads because it is the recipient's language; the English half carries the
+ * SGX/foreign-company framing that is part of the credibility.
+ *
+ * --lang=split keeps the old A/B behaviour if a single-language test is ever wanted.
  */
 import { readFileSync, writeFileSync, existsSync } from 'node:fs';
 
@@ -83,12 +87,16 @@ for (const r of pool) {
 // Prof./Dr. on file is addressed by office instead, which is warmer AND avoids the gender
 // question entirely. English tolerates a bare name, so EN keeps it.
 const hasCredential = (g) => /^(Prof\.|Dr\.)/i.test(String(g ?? '').trim());
-const openEN = (r, prog) => hasCredential(r.greeting) ? r.greeting
-  : (r.greeting || `Ketua Program Studi ${prog}`);
+// In a bilingual mail both halves must address the SAME person the same way, or it reads
+// as two emails stapled together. With a credential that is automatic; without one Bahasa
+// falls back to the office, so English mirrors it instead of reverting to a bare name.
+const openEN = (r, prog, bilingual) => hasCredential(r.greeting) ? r.greeting
+  : bilingual ? `Head of ${prog}`
+  : (r.greeting || `Head of ${prog}`);
 const openBM = (r, prog) => hasCredential(r.greeting) ? r.greeting
   : `Ketua Program Studi ${prog}`;
 
-const EN = (r, prog) => `Dear ${openEN(r, prog)},
+const EN = (r, prog, bilingual) => `Dear ${openEN(r, prog, bilingual)},
 
 I'm Alex Low, CEO of Y Ventures Group Ltd, an SGX-listed company in Singapore. Nalar (nalar.tech) is our wholly owned subsidiary - a learning platform for Indonesian students.
 
@@ -112,16 +120,21 @@ Apabila ya, apakah kami dapat mengirimkan rinciannya setelah skema ini final?
 
 Apabila tidak, kabar tersebut pun sangat berguna bagi kami, dan kami tidak akan menulis lagi.`;
 
+const LANG = arg('lang', 'both');   // both | split
+const DIVIDER = '- - -';
+
 const out = picked.map((r, i) => {
   const prog = programme(r.department);
-  const lang = i % 2 === 0 ? 'EN' : 'BM';
+  const lang = LANG === 'split' ? (i % 2 === 0 ? 'EN' : 'BM') : 'BOTH';
   return {
     n: i + 1, lang, email: r.email, greeting: r.greeting, name: r.name, role: r.role,
     university: r.university, programme: prog,
+    // One subject line, so it stays in the recipient's language even when the body is both.
     subject: lang === 'EN'
       ? `Nalar for your ${prog} students - and a question about how to structure it`
       : `Nalar untuk mahasiswa ${prog} - dan satu pertanyaan mengenai skemanya`,
-    body: lang === 'EN' ? EN(r, prog) : BM(r, prog),
+    body: lang === 'BOTH' ? BM(r, prog) + '\n\n' + DIVIDER + '\n\n' + EN(r, prog, true)
+      : lang === 'EN' ? EN(r, prog) : BM(r, prog),
   };
 });
 
@@ -135,6 +148,12 @@ for (const e of out) {
   if (!/nalar\.tech/.test(e.body)) fail.push(`credibility anchor missing: ${e.email}`);
   if (/<|>|undefined|\bnull\b/.test(e.subject + e.body)) fail.push(`template leak: ${e.email}`);
   if (/\bRp\b|%/.test(e.body)) fail.push(`a number leaked into the probe: ${e.email}`);
+  if (e.lang === 'BOTH') {
+    if (!e.body.includes(DIVIDER)) fail.push(`divider missing: ${e.email}`);
+    if (!e.body.startsWith('Yth.')) fail.push(`bilingual mail must open in Bahasa: ${e.email}`);
+    if (!e.body.includes('Dear ')) fail.push(`English half missing: ${e.email}`);
+    if ((e.body.match(/nalar\.tech/g) || []).length !== 2) fail.push(`a half lost the anchor: ${e.email}`);
+  }
 }
 if (fail.length) { console.error('FAILED:\n  ' + fail.join('\n  ')); process.exit(1); }
 
