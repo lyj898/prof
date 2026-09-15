@@ -111,8 +111,30 @@ for (const f of recentFiles) {
     if (r.email) recentEmails.add(r.email.toLowerCase());
   }
 }
+const fromRounds = new Set(already);
+
+// out/suppression.txt is the cross-campaign do-not-contact list (one address per line,
+// built by scripts/build-suppression.mjs). The round files only know about THIS campaign;
+// the UKMPPD buyer test reached 76 institutional addresses from a different session, and
+// anything contacted by hand belongs here too. Reading it means a future campaign cannot
+// re-contact someone just because it was run from a different script.
+const SUPPRESSION = 'out/suppression.txt';
+let suppressed = 0;
+if (existsSync(SUPPRESSION)) {
+  for (const line of readFileSync(SUPPRESSION, 'utf8').split('\n')) {
+    const e = line.trim().toLowerCase();
+    if (!e || e.startsWith('#')) continue;
+    if (!already.has(e)) suppressed++;
+    already.add(e);
+  }
+} else {
+  console.warn(`WARNING: ${SUPPRESSION} is missing - only this campaign's round files are ` +
+    'being excluded. Rebuild it with `npm run suppression` before sending.');
+}
+
 console.log(`exclusion sources: ${sentFiles.join(', ')}`);
-console.log(`already contacted: ${already.size}`);
+console.log(`already contacted: ${already.size}` +
+  (suppressed ? ` (${suppressed} of them only from ${SUPPRESSION})` : ''));
 console.log(`cooldown batches:  ${recentFiles.join(', ') || '(none)'}`);
 
 // Candidates are picked from tier 1 only...
@@ -138,7 +160,11 @@ const cooldownUnis = new Set(
 
 // Loud if any contacted address is in no tier at all - that would be a real blind spot.
 const locatable = new Set(allTiers.map((c) => c.email.toLowerCase()));
-const unlocatable = [...already].filter((e) => !locatable.has(e));
+// Only round-file addresses matter here: those are lecturers who SHOULD be in a tier, so
+// missing means their department cannot be excluded. Suppression-list entries are
+// expected to sit outside the pool (the UKMPPD ones are institutional role accounts the
+// ranker drops on purpose), and warning about all 76 every run buries the real ones.
+const unlocatable = [...fromRounds].filter((e) => !locatable.has(e));
 if (unlocatable.length) {
   console.warn(`WARNING: ${unlocatable.length} contacted address(es) found in no tier CSV - ` +
     `their department/university cannot be excluded: ${unlocatable.slice(0, 5).join(', ')}`);
