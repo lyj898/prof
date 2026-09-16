@@ -69,8 +69,23 @@ const rows = parseCSV(readFileSync('out/channel-targets.csv', 'utf8'));
 const sent = existsSync(LEDGER) ? JSON.parse(readFileSync(LEDGER, 'utf8')) : {};
 const already = new Set(Object.values(sent).map((v) => String(v.to).toLowerCase()));
 
+// Universities used in the last COOLDOWN batches are skipped. One-per-university within a
+// batch is not enough on its own: batch 2 came out with NINE universities that had been
+// emailed the day before - a second near-identical bilingual note to a different Kaprodi at
+// the same place, one day apart, is exactly what makes a personal email read as a mailmerge.
+// The lecturer campaign learned this the same way and added the same guard.
+const COOLDOWN = Number(arg('cooldown', 2));
+const recentBatches = new Set();
+for (const v of Object.values(sent)) if (v && v.batch) recentBatches.add(String(v.batch));
+const cooling = new Set();
+for (const [uni, v] of Object.entries(sent)) {
+  if (!v || !v.batch) continue;
+  if (Number(BATCH) - Number(v.batch) < COOLDOWN) cooling.add(uni);
+}
+
 const pool = rows
   .filter((r) => !already.has(r.email.toLowerCase()))
+  .filter((r) => !cooling.has(r.university))
   .filter((r) => r.priority === '1')                  // Kaprodi first
   .filter((r) => programme(r.department).length > 2);
 
@@ -167,6 +182,7 @@ if (!DRY) {
     `## ${e.n}. ${e.greeting} — ${e.university} [${e.lang}]\n**To:** ${e.email}\n**Subject:** ${e.subject}\n\n${e.body}\n`).join('\n---\n\n'));
 }
 console.log(`${DRY ? 'DRY RUN - ' : ''}batch ${BATCH}: ${out.length} contacts, ${new Set(out.map((e) => e.university)).size} universities`);
-console.log(`pool of uncontacted Kaprodi: ${pool.length}\n`);
+console.log(`pool of uncontacted Kaprodi: ${pool.length} (${cooling.size} universities cooling down)
+`);
 console.log('#  lang  university                                   programme');
 for (const e of out) console.log(`${String(e.n).padStart(2)}  ${e.lang}    ${e.university.slice(0, 42).padEnd(44)}${e.programme}`);
