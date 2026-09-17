@@ -84,7 +84,10 @@ const rows = parseCSV(readFileSync('out/channel-targets.csv', 'utf8'));
 // Anyone already sent to in THIS campaign. Its own ledger - the lecturer campaign's round
 // files do not contain this audience, and the suppression list was applied at list-build.
 const sent = existsSync(LEDGER) ? JSON.parse(readFileSync(LEDGER, 'utf8')) : {};
-const already = new Set(Object.values(sent).map((v) => String(v.to).toLowerCase()));
+// The ledger is keyed BY EMAIL. It used to be keyed by university, which silently
+// overwrote seven batch-1 records the moment the cooldown let batch 3 mail a second
+// Kaprodi at the same institution - the exact case the cooldown was added to allow.
+const already = new Set(Object.keys(sent).filter((k) => k !== '_note').map((k) => k.toLowerCase()));
 
 // Universities used in the last COOLDOWN batches are skipped. One-per-university within a
 // batch is not enough on its own: batch 2 came out with NINE universities that had been
@@ -92,12 +95,10 @@ const already = new Set(Object.values(sent).map((v) => String(v.to).toLowerCase(
 // the same place, one day apart, is exactly what makes a personal email read as a mailmerge.
 // The lecturer campaign learned this the same way and added the same guard.
 const COOLDOWN = Number(arg('cooldown', 2));
-const recentBatches = new Set();
-for (const v of Object.values(sent)) if (v && v.batch) recentBatches.add(String(v.batch));
 const cooling = new Set();
-for (const [uni, v] of Object.entries(sent)) {
-  if (!v || !v.batch) continue;
-  if (Number(BATCH) - Number(v.batch) < COOLDOWN) cooling.add(uni);
+for (const [k, v] of Object.entries(sent)) {
+  if (k === '_note' || !v || !v.batch || !v.university) continue;
+  if (Number(BATCH) - Number(v.batch) < COOLDOWN) cooling.add(v.university);
 }
 
 const pool = rows
