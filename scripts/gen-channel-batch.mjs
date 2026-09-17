@@ -73,11 +73,55 @@ function programme(department) {
   // Sistem Informasi" is one programme's own name and must survive whole.
   const dash = out.split(/\s+-\s+/);
   if (dash.length === 2 && FACULTY.test(d)) out = dash[1].trim();
-  out = out.split(/\s*\/\s*/)[0].trim();
+  // The slash usually separates alternatives, so the first half wins - except when that
+  // half is only a degree level. "Sarjana Terapan/D4 Akuntansi" is one programme named
+  // twice, and taking the first half yields "Sarjana Terapan", which names no subject at
+  // all and would have been sent as the recipient's programme.
+  const DEGREE_ONLY = /^(sarjana terapan|sarjana|magister|doktor|profesi|[SD][1-4])$/i;
+  const halves = out.split(/\s*\/\s*/).map((x) => x.trim()).filter(Boolean);
+  out = halves.length >= 2 && DEGREE_ONLY.test(halves[0]) ? halves[1] : halves[0];
   out = out.replace(/^program\s+(doktor|magister|sarjana|studi)\s+/i, '');
   return out.replace(/\s+/g, ' ').trim();
 }
 
+
+// A Kaprodi runs a programme; a Dekan and Wakil Dekan run a FACULTY. Addressing either of
+// them as "Ketua Program Studi" names the wrong office to the one reader certain to notice,
+// so the unit and every office word below are chosen from the role, not hard-coded.
+// Prefer a faculty's own acronym when it has one - "Wakil Dekan FIABIKOM" is how that
+// faculty is actually referred to, and the spelled-out name runs to nine words.
+function faculty(department) {
+  const d = String(department ?? '').trim();
+  // ALL-CAPS only. A looser [A-Z][A-Za-z]+ matched "(Muamalah)" - a specialisation
+  // name, not an acronym - and made a Dekan of Fakultas Syariah "Dekan Muamalah".
+  const acronym = d.match(/\(([A-Z][A-Z0-9]{1,11})\)\s*$/);
+  if (acronym) return acronym[1];
+  const named = d.match(/(fakultas|sekolah tinggi|sekolah)\s+([^,(\/]+)/i);
+  if (named) return (named[1] + ' ' + named[2]).replace(/\s+/g, ' ').trim();
+  // A bare "Psikologi" is the programme's name; the office being addressed is the faculty,
+  // so say so. ALL-CAPS acronyms are already faculty names and are left alone.
+  const bare = d.split(/[,(\/]/)[0].replace(/\s+/g, ' ').trim();
+  return /^[A-Z][A-Z0-9]{1,11}$/.test(bare) ? bare : `Fakultas ${bare}`;
+}
+
+// The `title` field's "Dekan"/"Wakil Dekan" is not trustworthy on its own. Batch 4 turned
+// up a Wakil Direktur at a polytechnic (which has no Dekan at all) and a man who is now
+// Wakil Rektor II and only FORMERLY in that faculty - both labelled "Wakil Dekan". Neither
+// can be addressed correctly, and neither is the faculty-level channel this campaign is
+// aimed at, so a note that names a different office disqualifies the row.
+const WRONG_OFFICE = /wakil rektor|wakil direktur|rektor|direktur/i;
+const officeContradicted = (r) => /dekan/i.test(String(r.role))
+  && WRONG_OFFICE.test(String(r.notes ?? ''));
+
+const ROLE = {
+  Kaprodi:       { unit: (r) => programme(r.department), bm: 'Ketua Program Studi', unitBM: 'program studi', unitEN: 'programme',
+                   en: 'Head of',      enRole: 'the head of' },
+  'Wakil Dekan': { unit: (r) => faculty(r.department),   bm: 'Wakil Dekan',         unitBM: 'fakultas',      unitEN: 'faculty',
+                   en: 'Vice Dean of', enRole: 'a vice dean of' },
+  Dekan:         { unit: (r) => faculty(r.department),   bm: 'Dekan',               unitBM: 'fakultas',      unitEN: 'faculty',
+                   en: 'Dean of',      enRole: 'dean of' },
+};
+const roleOf = (r) => ROLE[r.role] || ROLE.Kaprodi;
 
 const rows = parseCSV(readFileSync('out/channel-targets.csv', 'utf8'));
 
@@ -95,6 +139,7 @@ const already = new Set(Object.keys(sent).filter((k) => k !== '_note').map((k) =
 // the same place, one day apart, is exactly what makes a personal email read as a mailmerge.
 // The lecturer campaign learned this the same way and added the same guard.
 const COOLDOWN = Number(arg('cooldown', 2));
+const MAXPRIORITY = Number(arg('maxpriority', 4));
 const cooling = new Set();
 for (const [k, v] of Object.entries(sent)) {
   if (k === '_note' || !v || !v.batch || !v.university) continue;
@@ -104,8 +149,14 @@ for (const [k, v] of Object.entries(sent)) {
 const pool = rows
   .filter((r) => !already.has(r.email.toLowerCase()))
   .filter((r) => !cooling.has(r.university))
-  .filter((r) => r.priority === '1')                  // Kaprodi first
-  .filter((r) => programme(r.department).length > 2);
+  // Priority is a FALLTHROUGH, not a filter. out/channel-targets.csv is already sorted by
+  // it, so taking rows in file order spends Kaprodi first, then Wakil Dekan Kemahasiswaan,
+  // then other Wakil Dekan, and only reaches Dekan when the better tiers cannot fill the
+  // batch. Batch 4 is where that starts to bite: 22 Kaprodi remain but they sit at only 8
+  // universities, and one-per-university is what actually binds. --maxpriority caps it.
+  .filter((r) => Number(r.priority) <= MAXPRIORITY)
+  .filter((r) => !officeContradicted(r))
+  .filter((r) => roleOf(r).unit(r).length > 2);
 
 // One per university, so no institution gets two of these in the same batch.
 const picked = []; const unis = new Set();
@@ -124,10 +175,10 @@ const hasCredential = (g) => /^(Prof\.|Dr\.)/i.test(String(g ?? '').trim());
 // as two emails stapled together. With a credential that is automatic; without one Bahasa
 // falls back to the office, so English mirrors it instead of reverting to a bare name.
 const openEN = (r, prog, bilingual) => hasCredential(r.greeting) ? r.greeting
-  : bilingual ? `Head of ${prog}`
-  : (r.greeting || `Head of ${prog}`);
+  : bilingual ? `${roleOf(r).en} ${prog}`
+  : (r.greeting || `${roleOf(r).en} ${prog}`);
 const openBM = (r, prog) => hasCredential(r.greeting) ? r.greeting
-  : `Ketua Program Studi ${prog}`;
+  : `${roleOf(r).bm} ${prog}`;
 
 const EN = (r, prog, bilingual) => `Dear ${openEN(r, prog, bilingual)},
 
@@ -135,7 +186,7 @@ I'm Alex Low, CEO of Y Ventures Group Ltd, an SGX-listed company in Singapore. N
 
 We're opening Nalar to student subscriptions, and we're designing two things alongside it: a price a student can actually afford month to month, and a revenue share for lecturers who recommend it to their classes - paid monthly against a proper invoice, so it is documented rather than informal.
 
-I'm writing to you as the head of ${prog} because I'd rather set those terms with input from someone who runs a programme than decide them in Singapore and hope. Before I send numbers, I wanted to ask whether this is a direction your programme would have any use for at all.
+I'm writing to you as ${roleOf(r).enRole} ${prog} because I'd rather set those terms with input from someone who runs a ${roleOf(r).unitEN} than decide them in Singapore and hope. Before I send numbers, I wanted to ask whether this is a direction your ${roleOf(r).unitEN} would have any use for at all.
 
 If it is, may I send you the details when they're settled?
 
@@ -147,7 +198,7 @@ Perkenalkan, saya Alex Low, CEO Y Ventures Group Ltd, perusahaan yang tercatat d
 
 Kami sedang membuka Nalar untuk langganan mahasiswa, dan bersamaan dengan itu kami sedang menyusun dua hal: harga yang benar-benar terjangkau bagi mahasiswa setiap bulan, serta bagi hasil bagi dosen yang merekomendasikannya kepada kelas mereka - dibayarkan setiap bulan disertai invoice resmi, sehingga tercatat dan tidak bersifat informal.
 
-Saya menulis langsung kepada Ketua Program Studi ${prog} karena kami lebih ingin menyusun skema ini dengan masukan dari pihak yang menjalankan program studi, daripada menetapkannya sendiri dari Singapura. Sebelum kami mengirimkan angka-angkanya, saya ingin menanyakan lebih dahulu apakah arah seperti ini memang ada manfaatnya bagi program studi tersebut.
+Saya menulis langsung kepada ${roleOf(r).bm} ${prog} karena kami lebih ingin menyusun skema ini dengan masukan dari pihak yang menjalankan ${roleOf(r).unitBM}, daripada menetapkannya sendiri dari Singapura. Sebelum kami mengirimkan angka-angkanya, saya ingin menanyakan lebih dahulu apakah arah seperti ini memang ada manfaatnya bagi ${roleOf(r).unitBM} tersebut.
 
 Apabila ya, apakah kami dapat mengirimkan rinciannya setelah skema ini final?
 
@@ -161,7 +212,7 @@ const LANG = arg('lang', 'both');   // both | split
 const DIVIDER = '(English version follows)';
 
 const out = picked.map((r, i) => {
-  const prog = programme(r.department);
+  const prog = roleOf(r).unit(r);   // programme for a Kaprodi, faculty for a Dekan
   const lang = LANG === 'split' ? (i % 2 === 0 ? 'EN' : 'BM') : 'BOTH';
   return {
     n: i + 1, lang, email: r.email, greeting: r.greeting, name: r.name, role: r.role,
