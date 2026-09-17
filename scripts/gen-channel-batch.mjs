@@ -46,21 +46,38 @@ function parseCSV(text) {
 // "Program Studi Desain Komunikasi Visual, Fakultas Seni Rupa dan Desain (FSRD)" is a
 // programme inside a faculty; we want the programme, since that is what the recipient runs
 // and what makes the opening line theirs rather than generic.
+// A faculty is not a programme. "FKIP (S2 Pendidikan Bahasa Inggris)" and "Fakultas
+// Kedokteran (Orthopaedi dan Traumatologi)" put the real programme inside the bracket, and
+// "Fakultas Bahasa dan Seni - Pendidikan Bahasa Inggris" puts it after a dash - all three
+// came out addressed to the faculty, which a Kaprodi would read as a form letter.
+// Two patterns, not one: the words are matched case-insensitively (the data says
+// "Fakultas"), but the acronym arm must stay case-SENSITIVE or every lowercase word
+// three to six letters long would read as a faculty code.
+const FACULTY_WORD = /^(fakultas|sekolah tinggi|sekolah|pascasarjana|program pascasarjana)(\s|$)/i;
+const FACULTY_ACRONYM = /^[A-Z]{3,6}(\s|$)/;
+const FACULTY = { test: (x) => FACULTY_WORD.test(String(x).trim()) || FACULTY_ACRONYM.test(String(x).trim()) };
+
 function programme(department) {
   const d = String(department ?? '').trim();
-  // The programme is often INSIDE the parenthetical - "Fakultas Teknik (Program Studi
-  // Teknik Metalurgi)" - so the capture runs to the closing paren and has to lose it.
-  const m = d.match(/(?:program studi|prodi|departemen|jurusan)\s+([^,(]+)/i);
-  let out = m ? m[1] : d.split(/[,(]/)[0].replace(/^fakultas\s+/i, '');
+  const named = d.match(/(?:program studi|prodi|departemen|jurusan)\s+([^,(]+)/i);
+  let out;
+  if (named) {
+    out = named[1];
+  } else {
+    const paren = d.match(/^([^(]+)\(([^)]+)\)/);
+    out = paren && FACULTY.test(paren[1].trim()) ? paren[2] : d.split(/[,(]/)[0];
+    out = out.replace(/^fakultas\s+/i, '');
+  }
   out = out.trim().replace(/\)+$/, '').trim();
-  // "Pendidikan Teknologi Informasi / Sistem Informasi" is two names for one programme;
-  // a salutation can only carry one, so take the first.
+  // Only split the dash when the source really did lead with a faculty - "Ilmu Komputer -
+  // Sistem Informasi" is one programme's own name and must survive whole.
+  const dash = out.split(/\s+-\s+/);
+  if (dash.length === 2 && FACULTY.test(d)) out = dash[1].trim();
   out = out.split(/\s*\/\s*/)[0].trim();
-  // "Ketua Program Studi Program Doktor Manajemen Rekayasa" stutters; the degree level
-  // is already implied by the office being addressed.
   out = out.replace(/^program\s+(doktor|magister|sarjana|studi)\s+/i, '');
-  return out.replace(/\s+/g, ' ');
+  return out.replace(/\s+/g, ' ').trim();
 }
+
 
 const rows = parseCSV(readFileSync('out/channel-targets.csv', 'utf8'));
 
