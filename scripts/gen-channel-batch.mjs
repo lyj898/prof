@@ -90,7 +90,19 @@ function programme(department) {
 // so the unit and every office word below are chosen from the role, not hard-coded.
 // Prefer a faculty's own acronym when it has one - "Wakil Dekan FIABIKOM" is how that
 // faculty is actually referred to, and the spelled-out name runs to nine words.
-function faculty(department) {
+// `notes` is often more accurate than `department` for a dean: Untag Surabaya's Wakil Dekan
+// has department "Manajemen" (her programme) but her note says "Wakil Dekan Fakultas
+// Ekonomi dan Bisnis". Prefixing "Fakultas" to the department invented a faculty that does
+// not exist, so a faculty named in the notes wins.
+//
+// It has to be anchored on the office word. A bare /Fakultas [A-Z].../ also matches the
+// PROVENANCE half of a note - "Verified via Fakultas Hukum UB profile page" - and would
+// have addressed five people in the current list as "Wakil Dekan Fakultas Psikologi UNJ
+// Magister Sains official lecturer directory page". Only "<Wakil >Dekan Fakultas X"
+// counts: the note stating the office they actually hold.
+function faculty(department, notes) {
+  const fromNotes = String(notes ?? '').match(/(?:Wakil\s+)?Dekan\s+(Fakultas [A-Z][^.,;(]*)/);
+  if (fromNotes) return fromNotes[1].trim().replace(/\s+/g, ' ');
   const d = String(department ?? '').trim();
   // ALL-CAPS only. A looser [A-Z][A-Za-z]+ matched "(Muamalah)" - a specialisation
   // name, not an acronym - and made a Dekan of Fakultas Syariah "Dekan Muamalah".
@@ -109,16 +121,16 @@ function faculty(department) {
 // Wakil Rektor II and only FORMERLY in that faculty - both labelled "Wakil Dekan". Neither
 // can be addressed correctly, and neither is the faculty-level channel this campaign is
 // aimed at, so a note that names a different office disqualifies the row.
-const WRONG_OFFICE = /wakil rektor|wakil direktur|rektor|direktur/i;
+const WRONG_OFFICE = /wakil rektor|wakil direktur|\brektor\b|\bdirektur\b/i;
 const officeContradicted = (r) => /dekan/i.test(String(r.role))
   && WRONG_OFFICE.test(String(r.notes ?? ''));
 
 const ROLE = {
   Kaprodi:       { unit: (r) => programme(r.department), bm: 'Ketua Program Studi', unitBM: 'program studi', unitEN: 'programme',
                    en: 'Head of',      enRole: 'the head of' },
-  'Wakil Dekan': { unit: (r) => faculty(r.department),   bm: 'Wakil Dekan',         unitBM: 'fakultas',      unitEN: 'faculty',
+  'Wakil Dekan': { unit: (r) => faculty(r.department, r.notes), bm: 'Wakil Dekan',         unitBM: 'fakultas',      unitEN: 'faculty',
                    en: 'Vice Dean of', enRole: 'a vice dean of' },
-  Dekan:         { unit: (r) => faculty(r.department),   bm: 'Dekan',               unitBM: 'fakultas',      unitEN: 'faculty',
+  Dekan:         { unit: (r) => faculty(r.department, r.notes), bm: 'Dekan',               unitBM: 'fakultas',      unitEN: 'faculty',
                    en: 'Dean of',      enRole: 'dean of' },
 };
 const roleOf = (r) => ROLE[r.role] || ROLE.Kaprodi;
