@@ -100,10 +100,27 @@ function programme(department) {
 // have addressed five people in the current list as "Wakil Dekan Fakultas Psikologi UNJ
 // Magister Sains official lecturer directory page". Only "<Wakil >Dekan Fakultas X"
 // counts: the note stating the office they actually hold.
+// A note reads "Dekan Fakultas Ekonomi UNIBBA" - the university's own acronym, which we do
+// not want inside the faculty name. Only strip it when a faculty name survives: "Fakultas
+// MIPA" is ALL-CAPS too and stripping it would leave the bare word "Fakultas".
+function trimAcronym(name) {
+  const parts = name.split(' ');
+  if (parts.length >= 3 && /^[A-Z][A-Z0-9]{1,9}$/.test(parts[parts.length - 1])) {
+    return parts.slice(0, -1).join(' ');
+  }
+  return name;
+}
+
 function faculty(department, notes) {
-  const fromNotes = String(notes ?? '').match(/(?:Wakil\s+)?Dekan\s+(Fakultas [A-Z][^.,;(]*)/);
-  if (fromNotes) return fromNotes[1].trim().replace(/\s+/g, ' ');
+  const fromNotes = String(notes ?? '').match(/(?:Wakil\s+)?Dekan\s+(Fakultas [A-Z][^.,;(\/]*)/);
+  if (fromNotes) return trimAcronym(fromNotes[1].trim().replace(/\s+/g, ' '));
   const d = String(department ?? '').trim();
+  // BINUS and Ciputra name their faculties in English - "School of Accounting". Prefixing
+  // "Fakultas" to that produced "Dekan Fakultas School of Accounting"; the name is already
+  // complete, so hand it back untouched.
+  if (/^(school|faculty|college|graduate school|business school)\s+of\s+/i.test(d)) {
+    return d.replace(/\s+/g, ' ');
+  }
   // ALL-CAPS only. A looser [A-Z][A-Za-z]+ matched "(Muamalah)" - a specialisation
   // name, not an acronym - and made a Dekan of Fakultas Syariah "Dekan Muamalah".
   const acronym = d.match(/\(([A-Z][A-Z0-9]{1,11})\)\s*$/);
@@ -122,8 +139,13 @@ function faculty(department, notes) {
 // can be addressed correctly, and neither is the faculty-level channel this campaign is
 // aimed at, so a note that names a different office disqualifies the row.
 const WRONG_OFFICE = /wakil rektor|wakil direktur|\brektor\b|\bdirektur\b/i;
+// ITS's Riyanarto Sarno was ranked a Dekan off a note reading "Former Dean of Faculty of
+// Information Technology (2006-2010)" - sixteen years stale. A past office is not a channel
+// to students, and addressing him as the sitting Dekan would be an obvious error.
+const FORMER_OFFICE = /\b(former|formerly|mantan|ex-)\s+(dean|dekan|rector|rektor|director|direktur)\b/i;
 const officeContradicted = (r) => /dekan/i.test(String(r.role))
-  && WRONG_OFFICE.test(String(r.notes ?? ''));
+  && (FORMER_OFFICE.test(String(r.notes ?? ''))
+   || WRONG_OFFICE.test(String(r.notes ?? '')));
 
 const ROLE = {
   Kaprodi:       { unit: (r) => programme(r.department), bm: 'Ketua Program Studi', unitBM: 'program studi', unitEN: 'programme',

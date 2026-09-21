@@ -56,14 +56,30 @@ const PRIORITY = (role, port) =>
     : role === 'Wakil Dekan' ? 3 : 4;
 
 // Credential-based, never gendered - no Bapak/Ibu. Same rule as the lecturer campaign.
-const CRED = /^(Prof\.?\s*Dr\.?|Prof\.?|Dr\.?(?:\s*Ir\.?)?|drh\.|dr\.)\s*/i;
+//
+// Indonesian names stack titles: "Prof. Drs. Ec. Ir. Riyanarto Sarno, M.Sc., Ph.D.".
+// A single unanchored `Dr\.?` matched the "Dr" INSIDE "Drs." and left the greeting as
+// "Prof. s. Ec. Ir. Riyanarto Sarno" - three of these were live in the list. So strip
+// leading title tokens one at a time instead of matching one alternation.
+//
+// `Drs.`/`Dra.` (Doktorandus/Doktoranda) are NOT doctorates - they are the pre-1993
+// undergraduate title. Promoting one to "Dr." would be a plain error in front of the one
+// reader certain to catch it, so they are stripped WITHOUT conferring a rank, and the
+// person is addressed by office instead.
+//
+// H./Hj. are Haji/Hajjah - religious, and Hj. is gendered. Stripped, never used.
+const TITLE = /^(prof|drs|dra|drh|dr|ir|ec|hj|h|kh|apt|ns)\.?\s+/i;
+const RANKED = { prof: 'Prof.', dr: 'Dr.', drh: 'Dr.' };
 const greetingOf = (name) => {
-  const clean = String(name).replace(/,.*$/, '').trim();
-  const m = clean.match(CRED);
-  const bare = clean.replace(CRED, '').trim();
-  if (!m) return bare;
-  const t = /prof/i.test(m[0]) ? 'Prof.' : 'Dr.';
-  return `${t} ${bare}`;
+  let clean = String(name).replace(/,.*$/, '').trim();
+  let rank = null;
+  for (let m; (m = clean.match(TITLE)); ) {
+    const tok = m[1].toLowerCase();
+    if (tok === 'prof') rank = 'Prof.';
+    else if (!rank && RANKED[tok]) rank = RANKED[tok];
+    clean = clean.slice(m[0].length).trim();
+  }
+  return rank ? `${rank} ${clean}` : clean;
 };
 
 const seen = new Map();
